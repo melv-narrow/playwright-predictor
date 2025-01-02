@@ -1,0 +1,19 @@
+{
+  "name": "playwright-ai",
+  "version": "1.0.0",
+  "description": "AI-powered test automation framework for Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^20.8.9",
+    "prettier": "^3.0.3",
+    "ts-node": "^10.9.1"
+  }
+}

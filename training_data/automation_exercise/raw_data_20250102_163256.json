@@ -1,0 +1,470 @@
+[
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"/\"><img src=\"/static/images/home/logo.png\" alt=\"Website for automation practice\"></a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "/"
+    },
+    "inner_text": "",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 61.818180084228516,
+      "y": 56.065338134765625,
+      "width": 262.9971580505371,
+      "height": 17.272727966308594
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"/\"><i class=\"fa fa-home\"></i> Home</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "/"
+    },
+    "inner_text": " Home",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 471.81817626953125,
+      "y": 29.999998092651367,
+      "width": 56.73297119140625,
+      "height": 20.000001907348633
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(1) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"/products\"><i class=\"material-icons card_travel\" style=\"font-size: 16px;\">\ue8f8</i> Products</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "/products"
+    },
+    "inner_text": "\ue8f8 Products",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 558.5510864257812,
+      "y": 29.999998092651367,
+      "width": 78.11083984375,
+      "height": 20.000001907348633
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"/view_cart\"><i class=\"fa fa-shopping-cart\"></i> Cart</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "/view_cart"
+    },
+    "inner_text": " Cart",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 666.6619262695312,
+      "y": 29.999998092651367,
+      "width": 45.553955078125,
+      "height": 20.000001907348633
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(3) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"/login\" style=\"color: orange;\"><i class=\"fa fa-lock\"></i> Signup / Login</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "/login",
+      "style": "color: orange;"
+    },
+    "inner_text": " Signup / Login",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 742.2158813476562,
+      "y": 29.999998092651367,
+      "width": 104.4886474609375,
+      "height": 20.000001907348633
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(4) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"/test_cases\"><i class=\"fa fa-list\"></i> Test Cases</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "/test_cases"
+    },
+    "inner_text": " Test Cases",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 876.7045288085938,
+      "y": 29.999998092651367,
+      "width": 88.3948974609375,
+      "height": 20.000001907348633
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(5) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"/api_list\"><i class=\"fa fa-list\"></i> API Testing</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "/api_list"
+    },
+    "inner_text": " API Testing",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 995.0994262695312,
+      "y": 29.999998092651367,
+      "width": 90.38348388671875,
+      "height": 20.000001907348633
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(6) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"https://www.youtube.com/c/AutomationExercise\"><i class=\"fa fa-youtube-play\"></i> Video Tutorials</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "https://www.youtube.com/c/AutomationExercise"
+    },
+    "inner_text": " Video Tutorials",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 471.81817626953125,
+      "y": 59.999996185302734,
+      "width": 111.94598388671875,
+      "height": 20.000003814697266
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(7) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a href=\"/contact_us\"><i class=\"fa fa-envelope\"></i> Contact us</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "/contact_us"
+    },
+    "inner_text": " Contact us",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 613.76416015625,
+      "y": 59.999996185302734,
+      "width": 87.3721923828125,
+      "height": 20.000003814697266
+    },
+    "selector": "#header > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > ul:nth-child(1) > li:nth-child(8) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<a id=\"scrollUp\" href=\"#top\" style=\"display: none; position: fixed; z-index: 2147483647;\"><i class=\"fa fa-angle-up\"></i></a>",
+    "tag_name": "a",
+    "attributes": {
+      "id": "scrollUp",
+      "href": "#top",
+      "style": "display: none; position: fixed; z-index: 2147483647;"
+    },
+    "inner_text": "",
+    "is_visible": false,
+    "bounding_box": null,
+    "selector": "#scrollUp",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<button type=\"submit\" data-qa=\"login-button\" class=\"btn btn-default\">Login</button>",
+    "tag_name": "button",
+    "attributes": {
+      "type": "submit",
+      "data-qa": "login-button",
+      "class": "btn btn-default"
+    },
+    "inner_text": "Login",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 159.31817626953125,
+      "y": 417.897705078125,
+      "width": 84.50283813476562,
+      "height": 31.9886474609375
+    },
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(2) > button:nth-child(4)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<button type=\"submit\" data-qa=\"signup-button\" class=\"btn btn-default\">Signup</button>",
+    "tag_name": "button",
+    "attributes": {
+      "type": "submit",
+      "data-qa": "signup-button",
+      "class": "btn btn-default"
+    },
+    "inner_text": "Signup",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 646.8181762695312,
+      "y": 404.9005432128906,
+      "width": 92.8551025390625,
+      "height": 31.9886474609375
+    },
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2) > button:nth-child(5)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<button type=\"submit\" id=\"subscribe\" class=\"btn btn-default\"><i class=\"fa fa-arrow-circle-o-right\"></i></button>",
+    "tag_name": "button",
+    "attributes": {
+      "type": "submit",
+      "id": "subscribe",
+      "class": "btn btn-default"
+    },
+    "inner_text": "",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 369.772705078125,
+      "y": 709.7158813476562,
+      "width": 51.122161865234375,
+      "height": 35.79547119140625
+    },
+    "selector": "#subscribe",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<form action=\"/login\" method=\"POST\">\n\t\t\t\t\t\t\t<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN\">\n\t\t\t\t\t\t\t<input type=\"email\" data-qa=\"login-email\" placeholder=\"Email Address\" name=\"email\" value=\"\" required=\"\">\n\t\t\t\t\t\t\t<input type=\"password\" data-qa=\"login-password\" placeholder=\"Password\" name=\"password\" value=\"\" required=\"\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<button type=\"submit\" data-qa=\"login-button\" class=\"btn btn-default\">Login</button>\n\t\t\t\t\t\t</form>",
+    "tag_name": "form",
+    "attributes": {
+      "action": "/login",
+      "method": "POST"
+    },
+    "inner_text": "Login",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 159.31817626953125,
+      "y": 304.9005432128906,
+      "width": 360,
+      "height": 144.98580932617188
+    },
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(2)",
+    "suggested_action": "submit"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<form action=\"/signup\" method=\"POST\">\n\t\t\t\t\t\t\t<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN\">\n\t\t\t\t\t\t\t<input type=\"text\" data-qa=\"signup-name\" placeholder=\"Name\" name=\"name\" value=\"\" required=\"\">\n\t\t\t\t\t\t\t<input type=\"email\" data-qa=\"signup-email\" placeholder=\"Email Address\" name=\"email\" value=\"\" required=\"\">\n\t\t\t\t\t\t\t<input type=\"hidden\" name=\"form_type\" value=\"signup\">\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t<button type=\"submit\" data-qa=\"signup-button\" class=\"btn btn-default\">Signup</button>\n\t\t\t\t\t\t</form>",
+    "tag_name": "form",
+    "attributes": {
+      "action": "/signup",
+      "method": "POST"
+    },
+    "inner_text": "Signup",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 646.8181762695312,
+      "y": 304.9005432128906,
+      "width": 360,
+      "height": 131.9886474609375
+    },
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2)",
+    "suggested_action": "submit"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<form class=\"searchform\" method=\"POST\">\n\t\t\t\t\t\t\t\t<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN\">\n\t\t\t\t\t\t\t\t<input type=\"email\" id=\"susbscribe_email\" required=\"\" placeholder=\"Your email address\">\n\t\t\t\t\t\t\t\t<button type=\"submit\" id=\"subscribe\" class=\"btn btn-default\"><i class=\"fa fa-arrow-circle-o-right\"></i></button>\n\t\t\t\t\t\t\t\t<p>Get the most recent updates from <br>our site and be updated your self...</p>\n\t\t\t\t\t\t\t</form>",
+    "tag_name": "form",
+    "attributes": {
+      "class": "searchform",
+      "method": "POST"
+    },
+    "inner_text": " \n\nGet the most recent updates from\nour site and be updated your self...",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 159.31817626953125,
+      "y": 710.3692626953125,
+      "width": 262.5,
+      "height": 100.78125
+    },
+    "selector": "#footer > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > form:nth-child(2)",
+    "suggested_action": "submit"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "hidden",
+      "name": "csrfmiddlewaretoken",
+      "value": "U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN"
+    },
+    "inner_text": "",
+    "is_visible": false,
+    "bounding_box": null,
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(2) > input:nth-child(1)",
+    "suggested_action": "type"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"email\" data-qa=\"login-email\" placeholder=\"Email Address\" name=\"email\" value=\"\" required=\"\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "email",
+      "data-qa": "login-email",
+      "placeholder": "Email Address",
+      "name": "email",
+      "value": "",
+      "required": ""
+    },
+    "inner_text": "",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 159.31817626953125,
+      "y": 304.9005432128906,
+      "width": 360,
+      "height": 40
+    },
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(2) > input:nth-child(2)",
+    "suggested_action": "type"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"password\" data-qa=\"login-password\" placeholder=\"Password\" name=\"password\" value=\"\" required=\"\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "password",
+      "data-qa": "login-password",
+      "placeholder": "Password",
+      "name": "password",
+      "value": "",
+      "required": ""
+    },
+    "inner_text": "",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 159.31817626953125,
+      "y": 354.9005432128906,
+      "width": 360,
+      "height": 40
+    },
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(2) > input:nth-child(3)",
+    "suggested_action": "type"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "hidden",
+      "name": "csrfmiddlewaretoken",
+      "value": "U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN"
+    },
+    "inner_text": "",
+    "is_visible": false,
+    "bounding_box": null,
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2) > input:nth-child(1)",
+    "suggested_action": "type"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"text\" data-qa=\"signup-name\" placeholder=\"Name\" name=\"name\" value=\"\" required=\"\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "text",
+      "data-qa": "signup-name",
+      "placeholder": "Name",
+      "name": "name",
+      "value": "",
+      "required": ""
+    },
+    "inner_text": "",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 646.8181762695312,
+      "y": 304.9005432128906,
+      "width": 360,
+      "height": 40
+    },
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2) > input:nth-child(2)",
+    "suggested_action": "type"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"email\" data-qa=\"signup-email\" placeholder=\"Email Address\" name=\"email\" value=\"\" required=\"\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "email",
+      "data-qa": "signup-email",
+      "placeholder": "Email Address",
+      "name": "email",
+      "value": "",
+      "required": ""
+    },
+    "inner_text": "",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 646.8181762695312,
+      "y": 354.9005432128906,
+      "width": 360,
+      "height": 40
+    },
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2) > input:nth-child(3)",
+    "suggested_action": "type"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"hidden\" name=\"form_type\" value=\"signup\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "hidden",
+      "name": "form_type",
+      "value": "signup"
+    },
+    "inner_text": "",
+    "is_visible": false,
+    "bounding_box": null,
+    "selector": "#form > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > form:nth-child(2) > input:nth-child(4)",
+    "suggested_action": "type"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"hidden\" name=\"csrfmiddlewaretoken\" value=\"U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "hidden",
+      "name": "csrfmiddlewaretoken",
+      "value": "U5lCdWOSC02AIJVMFxMv9KEEKqQiVEmyVSxm8nEeZfLsaJhgyxZU67d3T5BFSADN"
+    },
+    "inner_text": "",
+    "is_visible": false,
+    "bounding_box": null,
+    "selector": "#footer > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > form:nth-child(2) > input:nth-child(1)",
+    "suggested_action": "type"
+  },
+  {
+    "url": "https://www.automationexercise.com/login",
+    "html": "<input type=\"email\" id=\"susbscribe_email\" required=\"\" placeholder=\"Your email address\">",
+    "tag_name": "input",
+    "attributes": {
+      "type": "email",
+      "id": "susbscribe_email",
+      "required": "",
+      "placeholder": "Your email address"
+    },
+    "inner_text": "",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 159.31817626953125,
+      "y": 710.3692626953125,
+      "width": 211.98861694335938,
+      "height": 35.78125
+    },
+    "selector": "#susbscribe_email",
+    "suggested_action": "type"
+  }
+]

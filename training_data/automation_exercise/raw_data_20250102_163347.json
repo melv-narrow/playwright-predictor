@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://www.automationexercise.com/contact_us",
+    "html": "<a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&amp;utm_campaign=www.automationexercise.com\" target=\"_blank\" rel=\"noopener noreferrer\">cloudflare.com</a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=www.automationexercise.com",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "inner_text": "cloudflare.com",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 186.10794067382812,
+      "y": 272.8125,
+      "width": 104.09091186523438,
+      "height": 20.909088134765625
+    },
+    "selector": "#cf-error-details > header:nth-child(1) > div:nth-child(2) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/contact_us",
+    "html": "<a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&amp;utm_campaign=www.automationexercise.com\" target=\"_blank\" rel=\"noopener noreferrer\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=www.automationexercise.com",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "inner_text": "",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 471.81817626953125,
+      "y": 418.6079406738281,
+      "width": 320,
+      "height": 80
+    },
+    "selector": "#cf-cloudflare-status > div:nth-child(1) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/contact_us",
+    "html": "<a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&amp;utm_campaign=www.automationexercise.com\" target=\"_blank\" rel=\"noopener noreferrer\">\n    Cloudflare\n    </a>",
+    "tag_name": "a",
+    "attributes": {
+      "href": "https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=www.automationexercise.com",
+      "target": "_blank",
+      "rel": "noopener noreferrer"
+    },
+    "inner_text": "Cloudflare",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 580.5397338867188,
+      "y": 570.5965576171875,
+      "width": 102.5426025390625,
+      "height": 31.81817626953125
+    },
+    "selector": "#cf-cloudflare-status > h3:nth-child(3) > a:nth-child(1)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/contact_us",
+    "html": "<a rel=\"noopener noreferrer\" href=\"https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520\">Additional troubleshooting resources</a>",
+    "tag_name": "a",
+    "attributes": {
+      "rel": "noopener noreferrer",
+      "href": "https://support.cloudflare.com/hc/en-us/articles/200171936-Error-520"
+    },
+    "inner_text": "Additional troubleshooting resources",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 766.9459838867188,
+      "y": 1027.3294677734375,
+      "width": 262.24432373046875,
+      "height": 20.9091796875
+    },
+    "selector": "#cf-error-details > div:nth-child(3) > div:nth-child(1) > div:nth-child(2) > p:nth-child(5) > a:nth-child(2)",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/contact_us",
+    "html": "<a rel=\"noopener noreferrer\" href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&amp;utm_campaign=www.automationexercise.com\" id=\"brand_link\" target=\"_blank\">Cloudflare</a>",
+    "tag_name": "a",
+    "attributes": {
+      "rel": "noopener noreferrer",
+      "href": "https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_520&utm_campaign=www.automationexercise.com",
+      "id": "brand_link",
+      "target": "_blank"
+    },
+    "inner_text": "Cloudflare",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 865.48291015625,
+      "y": 1124.38916015625,
+      "width": 58.977294921875,
+      "height": 17.272705078125
+    },
+    "selector": "#brand_link",
+    "suggested_action": "click"
+  },
+  {
+    "url": "https://www.automationexercise.com/contact_us",
+    "html": "<button type=\"button\" id=\"cf-footer-ip-reveal\" class=\"cf-footer-ip-reveal-btn\">Click to reveal</button>",
+    "tag_name": "button",
+    "attributes": {
+      "type": "button",
+      "id": "cf-footer-ip-reveal",
+      "class": "cf-footer-ip-reveal-btn"
+    },
+    "inner_text": "Click to reveal",
+    "is_visible": true,
+    "bounding_box": {
+      "x": 618.0681762695312,
+      "y": 1124.38916015625,
+      "width": 80.07098388671875,
+      "height": 17.272705078125
+    },
+    "selector": "#cf-footer-ip-reveal",
+    "suggested_action": "click"
+  }
+]

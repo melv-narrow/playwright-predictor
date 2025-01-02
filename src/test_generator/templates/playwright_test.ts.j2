@@ -1,0 +1,43 @@
+import { test, expect } from '@playwright/test';
+
+/**
+ * Auto-generated test suite for {{ url }}
+ * Generated on: {{ now() }}
+ */
+
+test.describe('{{ url | replace("https://", "") | replace("http://", "") }} Tests', () => {
+  test.beforeEach(async ({ page }) => {
+    await page.goto('{{ url }}', {
+      waitUntil: 'networkidle',
+      timeout: {{ config.timeout }}
+    });
+  });
+
+  {% for test_case in test_cases %}
+  test('should {{ test_case.action }} {{ test_case.text_content or test_case.selector }}', async ({ page }) => {
+    {% if config.retry_attempts > 1 %}
+    test.retry({{ config.retry_attempts }});
+    {% endif %}
+
+    const element = page.locator('{{ test_case.selector }}');
+    
+    {% if test_case.action == 'click' %}
+    await element.click();
+    {% elif test_case.action == 'input' %}
+    await element.fill('Test Input');
+    {% elif test_case.action == 'select' %}
+    await element.selectOption({ index: 0 });
+    {% elif test_case.action == 'assert' %}
+    {% for assertion in test_case.assertions %}
+    {% if assertion.type == 'text' %}
+    await expect(element).toHaveText('{{ assertion.value }}');
+    {% elif assertion.type == 'visible' %}
+    await expect(element).toBeVisible();
+    {% elif assertion.type == 'attribute' %}
+    await expect(element).toHaveAttribute('{{ assertion.attribute }}', '{{ assertion.value }}');
+    {% endif %}
+    {% endfor %}
+    {% endif %}
+  });
+  {% endfor %}
+});

@@ -1,0 +1,73 @@
+# Configuration for AutomationExercise.com data collection
+
+# Model settings
+model:
+  name: "microsoft/codebert-base"
+  max_length: 512
+  num_classes: 5
+  confidence_threshold: 0.8
+
+# Scraper settings specific to automationexercise.com
+scraper:
+  headless: false  # Set to false for visual feedback
+  viewport:
+    width: 1280
+    height: 800
+  timeout: 30000
+  wait_for_load: true
+  max_depth: 1
+  excluded_patterns:
+    - "logout"
+    - "delete"
+    - "remove"
+    - "cart/delete"
+  important_selectors:
+    - "a.btn"
+    - "button.btn"
+    - "input[type='text']"
+    - "input[type='email']"
+    - "input[type='password']"
+    - ".product-image-wrapper"
+    - ".login-form"
+    - ".signup-form"
+    - "#contact-us-form"
+    - ".cart_quantity_delete"
+    - ".cart_quantity_up"
+    - ".cart_quantity_down"
+
+# Test generation settings
+test_generation:
+  framework: "playwright"
+  language: "typescript"
+  test_template: "page-object"
+  assertion_confidence: 0.9
+  max_actions_per_test: 10
+  generate_comments: true
+  retry_attempts: 3
+  timeout: 30000
+  common_test_cases:
+    - "Login with valid credentials"
+    - "Login with invalid credentials"
+    - "Register new user"
+    - "Add product to cart"
+    - "Remove product from cart"
+    - "Search for product"
+    - "Submit contact form"
+    - "Place order"
+    - "View product details"
+
+# Output settings
+output:
+  base_dir: "./training_data/automation_exercise"
+  screenshots_dir: "./screenshots/automation_exercise"
+  reports_dir: "./reports/automation_exercise"
+  log_level: "INFO"
+
+# Browser settings
+browser:
+  type: "chromium"
+  devices:
+    - "Desktop Chrome"
+    - "iPhone 12"
+  record_video: false
+  record_har: true

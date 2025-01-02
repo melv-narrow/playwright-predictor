@@ -1,0 +1,49 @@
+# AI Test Generator Configuration
+
+# Model settings
+model:
+  name: "microsoft/codebert-base"
+  max_length: 512
+  num_classes: 5
+  confidence_threshold: 0.8
+
+# Scraper settings
+scraper:
+  headless: true
+  viewport:
+    width: 1280
+    height: 720
+  timeout: 30000
+  wait_for_load: true
+  max_depth: 3
+  excluded_patterns:
+    - "logout"
+    - "delete"
+    - "remove"
+
+# Test generation settings
+test_generation:
+  framework: "playwright"
+  language: "typescript"
+  test_template: "page-object"
+  assertion_confidence: 0.9
+  max_actions_per_test: 10
+  generate_comments: true
+  retry_attempts: 3
+  timeout: 30000
+
+# Output settings
+output:
+  base_dir: "./generated_tests"
+  screenshots_dir: "./screenshots"
+  reports_dir: "./reports"
+  log_level: "INFO"
+
+# Browser settings
+browser:
+  type: "chromium"
+  devices:
+    - "Desktop Chrome"
+    - "iPhone 12"
+  record_video: false
+  record_har: true
