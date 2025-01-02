@@ -5,7 +5,7 @@
 /playwright/.cache/
 .windsurfrules
 venv/
-ai-development-prompt.md
+.ai-development-prompt
 
 # Python
 __pycache__/
