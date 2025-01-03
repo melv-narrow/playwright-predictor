@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest.describe('two tests', () => {  \n  test('one', async ({ page }) => {  \n    // ...  \n  });  \n  \n  test('two', async ({ page }) => {  \n    // ...  \n  });  \n});",
+  "context": "Group tests\u200b | You can group tests to give them a logical name or to scope before/after hooks to the group.",
+  "source_url": "https://playwright.dev/docs/test-annotations",
+  "pattern": "assertion"
+}

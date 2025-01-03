@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('skip this test', async ({ page, browserName }) => {  \n  test.skip(browserName === 'firefox', 'Still working on it');  \n});",
+  "context": "Conditionally skip a test\u200b | You can skip certain test based on the condition.",
+  "source_url": "https://playwright.dev/docs/test-annotations",
+  "pattern": "general"
+}

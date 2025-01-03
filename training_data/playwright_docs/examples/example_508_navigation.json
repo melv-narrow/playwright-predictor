@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByRole('link', { name: 'Get started' }).click();",
+  "context": "In most cases, it'll be written in one line:",
+  "source_url": "https://playwright.dev/docs/writing-tests",
+  "pattern": "navigation"
+}

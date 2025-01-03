@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const { chromium } = require('playwright');  \n  \n(async () => {  \n  const pathToExtension = require('path').join(__dirname, 'my-extension');  \n  const userDataDir = '/tmp/test-user-data-dir';  \n  const browserContext = await chromium.launchPersistentContext(userDataDir, {  \n    headless: false,  \n    args: [  \n      `--disable-extensions-except=${pathToExtension}`,  \n      `--load-extension=${pathToExtension}`  \n    ]  \n  });  \n  let [backgroundPage] = browserContext.backgroundPages();  \n  if (!backgroundPage)  \n    backgroundPage = await browserContext.waitForEvent('backgroundpage');  \n  \n  // Test the background page as you would any other page.  \n  await browserContext.close();  \n})();",
+  "context": "Extensions only work in Chrome / Chromium launched with a persistent context. Use custom browser args at your own risk, as some of them may break Playwright functionality. | The following is code for getting a handle to the [background page](https://developer.chrome.com/extensions/background_pages) of a [Manifest v2](https://developer.chrome.com/docs/extensions/mv2/) extension whose source is located in `./my-extension`:",
+  "source_url": "https://playwright.dev/docs/chrome-extensions",
+  "pattern": "wait_strategy"
+}

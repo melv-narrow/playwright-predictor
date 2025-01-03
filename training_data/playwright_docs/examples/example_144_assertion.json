@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const newEmail = page.getByRole('button', { name: 'New' });  \nconst dialog = page.getByText('Confirm security settings');  \nawait expect(newEmail.or(dialog).first()).toBeVisible();  \nif (await dialog.isVisible())  \n  await page.getByRole('button', { name: 'Dismiss' }).click();  \nawait newEmail.click();",
+  "context": "note | If both \"New email\" button and security dialog appear on screen, the \"or\" locator will match both of them, possibly throwing the \"strict mode violation\" error. In this case, you can use [locator.first()](/docs/api/class-locator#locator-first) to only match one of them.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

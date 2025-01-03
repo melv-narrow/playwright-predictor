@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // Folder for test artifacts such as screenshots, videos, traces, etc.  \n  outputDir: 'test-results',  \n  \n  // path to the global setup files.  \n  globalSetup: require.resolve('./global-setup'),  \n  \n  // path to the global teardown files.  \n  globalTeardown: require.resolve('./global-teardown'),  \n  \n  // Each test is given 30 seconds.  \n  timeout: 30000,  \n  \n});",
+  "context": "Advanced Configuration\u200b | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-configuration",
+  "pattern": "general"
+}

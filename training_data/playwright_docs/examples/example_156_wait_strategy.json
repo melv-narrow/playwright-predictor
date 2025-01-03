@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const rows = page.getByRole('listitem');  \nconst texts = await rows.evaluateAll(  \n    list => list.map(element => element.textContent));",
+  "context": "Evaluate in the page\u200b | The code inside [locator.evaluateAll()](/docs/api/class-locator#locator-evaluate-all) runs in the page, you can call any DOM apis there.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "wait_strategy"
+}

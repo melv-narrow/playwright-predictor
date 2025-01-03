@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('_vue=book-item').click();",
+  "context": "Vue locator allows finding elements by their component name and property values. The syntax is very similar to [CSS attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) and supports all CSS attribute selector operators. | In Vue locator, component names are transcribed with **kebab-case**.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

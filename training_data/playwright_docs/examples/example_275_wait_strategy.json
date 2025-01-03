@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const context = await browser.newContext({  \n  recordHar: {  \n    path: 'github.har.zip',  \n  }  \n});",
+  "context": "Using `.zip` path for `recordHar` context option automatically zips the resulting HAR:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

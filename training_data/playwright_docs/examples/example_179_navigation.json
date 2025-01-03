@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Use a RegExp. Note no await.  \nconst responsePromise = page.waitForResponse(/\\.jpeg$/);  \nawait page.getByText('Update').click();  \nconst response = await responsePromise;  \n  \n// Use a predicate taking a Response object. Note no await.  \nconst responsePromise = page.waitForResponse(response => response.url().includes(token));  \nawait page.getByText('Update').click();  \nconst response = await responsePromise;",
+  "context": "Variations\u200b | Wait for [Response](/docs/api/class-response \"Response\")s with [page.waitForResponse()](/docs/api/class-page#page-wait-for-response)",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "navigation"
+}

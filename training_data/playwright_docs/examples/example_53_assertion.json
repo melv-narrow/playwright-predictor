@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "<div id=\"current-time\" data-testid=\"current-time\"></div>  \n<script>  \n  const renderTime = () => {  \n    document.getElementById('current-time').textContent =  \n        new Date().toLocaleString();  \n  };  \n  setInterval(renderTime, 1000);  \n</script>  \n\n\n\n// Initialize clock with some time before the test time and let the page load  \n// naturally. `Date.now` will progress as the timers fire.  \nawait page.clock.install({ time: new Date('2024-02-02T08:00:00') });  \nawait page.goto('http://localhost:3333');  \n  \n// Pretend that the user closed the laptop lid and opened it again at 10am,  \n// Pause the time once reached that point.  \nawait page.clock.pauseAt(new Date('2024-02-02T10:00:00'));  \n  \n// Assert the page state.  \nawait expect(page.getByTestId('current-time')).toHaveText('2/2/2024, 10:00:00 AM');  \n  \n// Close the laptop lid again and open it at 10:30am.  \nawait page.clock.fastForward('30:00');  \nawait expect(page.getByTestId('current-time')).toHaveText('2/2/2024, 10:30:00 AM');",
+  "context": "Consistent time and timers\u200b | Sometimes your timers depend on `Date.now` and are confused when the `Date.now` value does not change over time. In this case, you can install the clock and fast forward to the time of interest when testing.",
+  "source_url": "https://playwright.dev/docs/clock",
+  "pattern": "assertion"
+}

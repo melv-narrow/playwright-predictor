@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByText('orange').click();",
+  "context": "Locate an item by its text content and click it.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

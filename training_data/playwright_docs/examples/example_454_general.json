@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // 'github' for GitHub Actions CI to generate annotations, plus a concise 'dot'  \n  // default 'list' when running locally  \n  reporter: process.env.CI ? 'github' : 'list',  \n});",
+  "context": "Note that all other reporters work on GitHub Actions as well, but do not provide annotations. Also, it is not recommended to use this annotation type if running your tests with a matrix strategy as the stack trace failures will multiply and obscure the GitHub file view. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-reporters",
+  "pattern": "general"
+}

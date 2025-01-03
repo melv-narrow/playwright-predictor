@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page  \n    .getByRole('listitem')  \n    .filter({ hasNot: page.getByText('Product 2') }))  \n    .toHaveCount(1);",
+  "context": "Filter by not having child/descendant\u200b | We can also filter by **not having** a matching element inside.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

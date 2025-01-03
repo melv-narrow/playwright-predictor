@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Fill the input by targeting the label.  \nawait page.getByText('Password').fill('secret');",
+  "context": "[locator.selectOption()](/docs/api/class-locator#locator-select-option) will select an option from the select box.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "form_interaction"
+}

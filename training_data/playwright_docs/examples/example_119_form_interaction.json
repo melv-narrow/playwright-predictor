@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByLabel('Password').fill('secret');",
+  "context": "You can fill the input after locating it by the label text:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "form_interaction"
+}

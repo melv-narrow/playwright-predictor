@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page  \n    .frameLocator('#my-frame')  \n    .getByRole('button', { name: 'Sign in' });  \n  \nawait locator.click();",
+  "context": "Note that all methods that create a locator, such as [page.getByLabel()](/docs/api/class-page#page-get-by-label), are also available on the [Locator](/docs/api/class-locator \"Locator\") and [FrameLocator](/docs/api/class-framelocator \"FrameLocator\") classes, so you can chain them and iteratively narrow down your locator.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

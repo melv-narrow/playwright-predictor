@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// <input id=name>  \nawait page.locator('#name').press('Shift+A');  \n  \n// <input id=name>  \nawait page.locator('#name').press('Shift+ArrowLeft');",
+  "context": "Simple version produces a single character. This character is case-sensitive, so `\"a\"` and `\"A\"` will produce different results.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "wait_strategy"
+}

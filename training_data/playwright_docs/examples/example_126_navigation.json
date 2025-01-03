@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByTestId('directions').click();",
+  "context": "You can locate the element by its test id:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

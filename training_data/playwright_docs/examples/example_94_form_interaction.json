@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Text input  \nawait page.getByRole('textbox').fill('Peter');  \n  \n// Date input  \nawait page.getByLabel('Birth date').fill('2020-02-02');  \n  \n// Time input  \nawait page.getByLabel('Appointment time').fill('13:15');  \n  \n// Local datetime input  \nawait page.getByLabel('Local time').fill('2020-03-02T05:15');",
+  "context": "Text input\u200b | Using [locator.fill()](/docs/api/class-locator#locator-fill) is the easiest way to fill out the form fields. It focuses the element and triggers an `input` event with the entered text. It works for `<input>`, `<textarea>` and `[contenteditable]` elements.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "form_interaction"
+}

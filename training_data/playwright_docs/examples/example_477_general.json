@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    actionTimeout: 10 * 1000,  \n    navigationTimeout: 30 * 1000,  \n  },  \n});",
+  "context": "Set action and navigation timeouts in the config\u200b | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-timeouts",
+  "pattern": "general"
+}

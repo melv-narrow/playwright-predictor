@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  expect: {  \n    // Maximum time expect() should wait for the condition to be met.  \n    timeout: 5000,  \n  \n    toHaveScreenshot: {  \n      // An acceptable amount of pixels that could be different, unset by default.  \n      maxDiffPixels: 10,  \n    },  \n  \n    toMatchSnapshot: {  \n      // An acceptable ratio of pixels that are different to the  \n      // total amount of pixels, between 0 and 1.  \n      maxDiffPixelRatio: 0.1,  \n    },  \n  },  \n  \n});",
+  "context": "Configuration for the expect assertion library. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-configuration",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "Error: should be logged in  \n  \n    Call log:  \n      - expect.toBeVisible with timeout 5000ms  \n      - waiting for \"getByText('Name')\"  \n  \n  \n      2 |  \n      3 | test('example test', async({ page }) => {  \n    > 4 |   await expect(page.getByText('Name'), 'should be logged in').toBeVisible();  \n        |                                                                  ^  \n      5 | });  \n      6 |",
+  "context": "When expect fails, the error would look like this:",
+  "source_url": "https://playwright.dev/docs/test-assertions",
+  "pattern": "assertion"
+}

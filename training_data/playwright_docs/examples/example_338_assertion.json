@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('this will work', async ({ mount }) => {  \n  const component = await mount(<ProcessViewer process={{ name: 'playwright' }}/>);  \n});  \n  \ntest('this will not work', async ({ mount }) => {  \n  // `process` is a Node object, we can't pass it to the browser and expect it to work.  \n  const component = await mount(<ProcessViewer process={process}/>);  \n});",
+  "context": "You can't pass complex live objects to your component. Only plain JavaScript objects and built-in types like strings, numbers, dates etc. can be passed.",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "assertion"
+}

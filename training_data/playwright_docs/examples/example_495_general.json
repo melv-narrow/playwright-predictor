@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // Rest of your config...  \n  \n  // Run your local dev server before starting the tests  \n  webServer: {  \n    command: 'npm run start',  \n    url: 'http://127.0.0.1:3000',  \n    reuseExistingServer: !process.env.CI,  \n  },  \n  use: {  \n    baseURL: 'http://127.0.0.1:3000',  \n  },  \n});",
+  "context": "When using [page.goto()](/docs/api/class-page#page-goto), [page.route()](/docs/api/class-page#page-route), [page.waitForURL()](/docs/api/class-page#page-wait-for-url), [page.waitForRequest()](/docs/api/class-page#page-wait-for-request), or [page.waitForResponse()](/docs/api/class-page#page-wait-for-response) it takes the base URL in consideration by using the [`URL()`](https://developer.mozilla.org/en-US/docs/Web/API/URL/URL) constructor for building the corresponding URL. For Example, by setting the baseURL to `http://127.0.0.1:3000` and navigating to `/login` in your tests, Playwright will run the test using `http://127.0.0.1:3000/login`. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-webserver",
+  "pattern": "general"
+}

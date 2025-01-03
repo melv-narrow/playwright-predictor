@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.getByRole('heading', { name: 'Sign up' })).toBeVisible();  \n  \nawait page.getByRole('checkbox', { name: 'Subscribe' }).check();  \n  \nawait page.getByRole('button', { name: /submit/i }).click();",
+  "context": "You can locate each element by its implicit role:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

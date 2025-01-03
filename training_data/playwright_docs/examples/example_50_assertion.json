@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base, chromium, type BrowserContext } from '@playwright/test';  \nimport path from 'path';  \n  \nexport const test = base.extend<{  \n  context: BrowserContext;  \n  extensionId: string;  \n}>({  \n  context: async ({ }, use) => {  \n    const pathToExtension = path.join(__dirname, 'my-extension');  \n    const context = await chromium.launchPersistentContext('', {  \n      headless: false,  \n      args: [  \n        `--disable-extensions-except=${pathToExtension}`,  \n        `--load-extension=${pathToExtension}`,  \n      ],  \n    });  \n    await use(context);  \n    await context.close();  \n  },  \n  extensionId: async ({ context }, use) => {  \n    /*  \n    // for manifest v2:  \n    let [background] = context.backgroundPages()  \n    if (!background)  \n      background = await context.waitForEvent('backgroundpage')  \n    */  \n  \n    // for manifest v3:  \n    let [background] = context.serviceWorkers();  \n    if (!background)  \n      background = await context.waitForEvent('serviceworker');  \n  \n    const extensionId = background.url().split('/')[2];  \n    await use(extensionId);  \n  },  \n});  \nexport const expect = test.expect;",
+  "context": "First, add fixtures that will load the extension: | fixtures.ts",
+  "source_url": "https://playwright.dev/docs/chrome-extensions",
+  "pattern": "assertion"
+}

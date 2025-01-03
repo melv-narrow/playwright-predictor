@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('my test', async ({ page }, testInfo) => {  \n  if (testInfo.retry)  \n    await cleanSomeCachesOnTheServer();  \n  // ...  \n});",
+  "context": "You can detect retries at runtime with [testInfo.retry](/docs/api/class-testinfo#test-info-retry), which is accessible to any test, hook or fixture. Here is an example that clears some server-side state before a retry.",
+  "source_url": "https://playwright.dev/docs/test-retries",
+  "pattern": "assertion"
+}

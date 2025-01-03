@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page  \n    .getByPlaceholder('name@example.com')  \n    .fill('playwright@microsoft.com');",
+  "context": "You can fill the input after locating it by the placeholder text:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "form_interaction"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page  \n    .getByRole('listitem')  \n    .filter({ hasText: /Product 2/ })  \n    .getByRole('button', { name: 'Add to cart' })  \n    .click();",
+  "context": "Use a regular expression:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

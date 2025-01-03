@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Make a few checks that will not stop the test when failed...  \nawait expect.soft(page.locator('#status')).toHaveText('Success');  \nawait expect.soft(page.locator('#eta')).toHaveText('1 day');  \n  \n// ... and continue the test to check more things.  \nawait page.locator('#next-page').click();  \nawait expect.soft(page.locator('#title')).toHaveText('Make another order');",
+  "context": "Playwright Test v1.19 now supports _soft assertions_. Failed soft assertions | **do not** terminate test execution, but mark the test as failed.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

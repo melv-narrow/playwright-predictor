@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \nimport { TodoPage } from './todo-page';  \nimport { SettingsPage } from './settings-page';  \n  \n// Declare the types of your fixtures.  \ntype MyFixtures = {  \n  todoPage: TodoPage;  \n  settingsPage: SettingsPage;  \n};  \n  \n// Extend base test by providing \"todoPage\" and \"settingsPage\".  \n// This new \"test\" can be used in multiple test files, and each of them will get the fixtures.  \nexport const test = base.extend<MyFixtures>({  \n  todoPage: async ({ page }, use) => {  \n    // Set up the fixture.  \n    const todoPage = new TodoPage(page);  \n    await todoPage.goto();  \n    await todoPage.addToDo('item1');  \n    await todoPage.addToDo('item2');  \n  \n    // Use the fixture value in the test.  \n    await use(todoPage);  \n  \n    // Clean up the fixture.  \n    await todoPage.removeAll();  \n  },  \n  \n  settingsPage: async ({ page }, use) => {  \n    await use(new SettingsPage(page));  \n  },  \n});  \nexport { expect } from '@playwright/test';",
+  "context": "my-test.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "fixture"
+}

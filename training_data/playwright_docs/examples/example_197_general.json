@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const parent = page.getByText('Hello').locator('xpath=..');",
+  "context": "Alternatively, if you cannot find a suitable locator for the parent element, use `xpath=..`. Note that this method is not as reliable, because any changes to the DOM structure will break your tests. Prefer [locator.filter()](/docs/api/class-locator#locator-filter) when possible.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "general"
+}

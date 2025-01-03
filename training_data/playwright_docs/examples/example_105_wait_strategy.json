@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByLabel('Password').focus();",
+  "context": "Focus element\u200b | For the dynamic pages that handle focus events, you can focus the given element with [locator.focus()](/docs/api/class-locator#locator-focus).",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    /* Test against branded browsers. */  \n    {  \n      name: 'Google Chrome',  \n      use: { ...devices['Desktop Chrome'], channel: 'chrome' }, // or 'chrome-beta'  \n    },  \n    {  \n      name: 'Microsoft Edge',  \n      use: { ...devices['Desktop Edge'], channel: 'msedge' }, // or \"msedge-beta\" or 'msedge-dev'  \n    },  \n  ],  \n});",
+  "context": "warning | Google Chrome and Microsoft Edge have switched to a [new headless mode](https://developer.chrome.com/docs/chromium/headless) implementation that is closer to a regular headed mode. This differs from [chromium headless shell](https://developer.chrome.com/blog/chrome-headless-shell) that is used in Playwright by default when running headless, so expect different behavior in some cases. See [issue #33566](https://github.com/microsoft/playwright/issues/33566) fore details.",
+  "source_url": "https://playwright.dev/docs/browsers",
+  "pattern": "general"
+}

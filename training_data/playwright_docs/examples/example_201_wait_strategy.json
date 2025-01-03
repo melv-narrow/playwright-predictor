@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Waits for either confirmation dialog or load spinner.  \nawait page.locator(  \n    `//span[contains(@class, 'spinner__loading')]|//div[@id='confirmation']`  \n).waitFor();",
+  "context": "XPath union\u200b | Pipe operator (`|`) can be used to specify multiple selectors in XPath. It will match all elements that can be selected by one of the selectors in that list.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "wait_strategy"
+}

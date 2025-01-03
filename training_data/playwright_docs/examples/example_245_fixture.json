@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from './fixtures';  \n  \ntest('passes', async ({ page, database }) => {  \n  await expect(database).toHaveDatabaseUser('admin');  \n  await expect(page).toPassA11yAudit();  \n});",
+  "context": "test.spec.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "fixture"
+}

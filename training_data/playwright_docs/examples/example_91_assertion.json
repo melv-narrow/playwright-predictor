@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Get the element handle  \nconst elementHandle = page.waitForSelector('#box');  \n  \n// Assert bounding box for the element  \nconst boundingBox = await elementHandle.boundingBox();  \nexpect(boundingBox.width).toBe(100);  \n  \n// Assert attribute for the element  \nconst classNames = await elementHandle.getAttribute('class');  \nexpect(classNames.includes('highlighted')).toBeTruthy();",
+  "context": "The use of [ElementHandle](/docs/api/class-elementhandle \"ElementHandle\") is discouraged, use [Locator](/docs/api/class-locator \"Locator\") objects and web-first assertions instead. | When [ElementHandle](/docs/api/class-elementhandle \"ElementHandle\") is required, it is recommended to fetch it with the [page.waitForSelector()](/docs/api/class-page#page-wait-for-selector) or [frame.waitForSelector()](/docs/api/class-frame#frame-wait-for-selector) methods. These APIs wait for the element to be attached and visible.",
+  "source_url": "https://playwright.dev/docs/handles",
+  "pattern": "assertion"
+}

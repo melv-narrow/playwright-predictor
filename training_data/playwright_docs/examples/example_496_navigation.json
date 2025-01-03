@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest('test', async ({ page }) => {  \n  // This will navigate to http://127.0.0.1:3000/login  \n  await page.goto('./login');  \n});",
+  "context": "Now you can use a relative path when navigating the page: | test.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-webserver",
+  "pattern": "navigation"
+}

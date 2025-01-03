@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page.getByText('This interstitial covers the button');  \nawait page.addLocatorHandler(locator, async overlay => {  \n  await overlay.locator('#close').click();  \n}, { times: 3, noWaitAfter: true });  \n// Run your tests that can be interrupted by the overlay.  \n// ...  \nawait page.removeLocatorHandler(locator);",
+  "context": "New [page.removeLocatorHandler()](/docs/api/class-page#page-remove-locator-handler) method for removing previously added locator handlers.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

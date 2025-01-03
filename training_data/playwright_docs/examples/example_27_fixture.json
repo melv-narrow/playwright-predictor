@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Important: import our fixtures.  \nimport { test, expect } from '../playwright/fixtures';  \n  \ntest('test', async ({ page }) => {  \n  // page is authenticated  \n});",
+  "context": "Now, each test file should import `test` from our fixtures file instead of `@playwright/test`. No changes are needed in the config. | tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "fixture"
+}

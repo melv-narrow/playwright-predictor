@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest('test', async ({ page }) => {  \n  await page.goto('/');  \n  // You are signed in!  \n});",
+  "context": "Tests start already authenticated because we specify `storageState` that was populated by global setup.",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "navigation"
+}

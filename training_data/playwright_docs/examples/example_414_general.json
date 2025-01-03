@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest.describe.configure({ mode: 'parallel' });  \n  \ntest('runs in parallel 1', async ({ page }) => { /* ... */ });  \ntest('runs in parallel 2', async ({ page }) => { /* ... */ });",
+  "context": "By default, tests in a single file are run in order. If you have many independent tests in a single file, you might want to run them in parallel with [test.describe.configure()](/docs/api/class-test#test-describe-configure). | Note that parallel tests are executed in separate worker processes and cannot share any state or global variables. Each test executes all relevant hooks just for itself, including `beforeAll` and `afterAll`.",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "general"
+}

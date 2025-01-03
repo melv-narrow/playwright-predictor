@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import * as debug from 'debug';  \nimport * as fs from 'fs';  \nimport { test as base } from '@playwright/test';  \n  \nexport const test = base.extend<{ saveLogs: void }>({  \n  saveLogs: [async ({}, use, testInfo) => {  \n    // Collecting logs during the test.  \n    const logs = [];  \n    debug.log = (...args) => logs.push(args.map(String).join(''));  \n    debug.enable('myserver');  \n  \n    await use();  \n  \n    // After the test we can check whether the test passed or failed.  \n    if (testInfo.status !== testInfo.expectedStatus) {  \n      // outputPath() API guarantees a unique file name.  \n      const logFile = testInfo.outputPath('logs.txt');  \n      await fs.promises.writeFile(logFile, logs.join('\\n'), 'utf8');  \n      testInfo.attachments.push({ name: 'logs', contentType: 'text/plain', path: logFile });  \n    }  \n  }, { auto: true }],  \n});  \nexport { expect } from '@playwright/test';",
+  "context": "Here is an example fixture that automatically attaches debug logs when the test fails, so we can later review the logs in the reporter. Note how it uses [TestInfo](/docs/api/class-testinfo \"TestInfo\") object that is available in each test/fixture to retrieve metadata about the test being run. | my-test.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "assertion"
+}

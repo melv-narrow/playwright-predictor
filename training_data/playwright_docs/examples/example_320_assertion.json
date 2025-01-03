@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "expect(value).not.toEqual(0);  \nawait expect(locator).not.toContainText('some text');",
+  "context": "Negating matchers\u200b | In general, we can expect the opposite to be true by adding a `.not` to the front of the matchers:",
+  "source_url": "https://playwright.dev/docs/test-assertions",
+  "pattern": "assertion"
+}

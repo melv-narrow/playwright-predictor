@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // Concise 'dot' for CI, default 'list' when running locally  \n  reporter: process.env.CI ? 'dot' : 'list',  \n});",
+  "context": "You can use different reporters locally and on CI. For example, using concise `'dot'` reporter avoids too much output. This is the default on CI. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-reporters",
+  "pattern": "general"
+}

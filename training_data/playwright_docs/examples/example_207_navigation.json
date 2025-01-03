@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('text=/Log\\\\s*in/i').click();",
+  "context": "`/Log\\s*in/i` \\- body can be a [JavaScript-like regex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp) wrapped in `/` symbols. For example, `text=/Log\\s*in/i` matches `<button>Login</button>` and `<button>log IN</button>`.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

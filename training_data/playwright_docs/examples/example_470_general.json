@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  timeout: 120_000,  \n});",
+  "context": "Set test timeout in the config\u200b | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-timeouts",
+  "pattern": "general"
+}

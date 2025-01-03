@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Click first button  \nawait page.locator('button').locator('nth=0').click();  \n  \n// Click last button  \nawait page.locator('button').locator('nth=-1').click();",
+  "context": "N-th element locator\u200b | You can narrow down query to the n-th match using the `nth=` locator passing a zero-based index.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

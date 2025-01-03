@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// \ud83d\udc4d  \nawait expect(page.getByText('welcome')).toBeVisible();",
+  "context": "Use web first assertions such as `toBeVisible()` instead.",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "assertion"
+}

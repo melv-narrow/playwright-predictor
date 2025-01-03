@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.goto('https://playwright.dev/');",
+  "context": "Navigation\u200b | Most of the tests will start with navigating page to the URL. After that, test will be able to interact with the page elements.",
+  "source_url": "https://playwright.dev/docs/writing-tests",
+  "pattern": "navigation"
+}

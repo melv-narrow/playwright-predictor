@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.getByTitle('Issues count')).toHaveText('25 issues');",
+  "context": "You can check the issues count after locating it by the title text:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('menu', async ({ page }) => {  \n  // Your test that depends on the database  \n});",
+  "context": "tests/menu.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "assertion"
+}

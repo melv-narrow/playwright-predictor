@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.route('**/api/settings', async route => {  \n  // Fetch original settings.  \n  const response = await route.fetch();  \n  \n  // Force settings theme to a predefined value.  \n  const json = await response.json();  \n  json.theme = 'Solorized';  \n  \n  // Fulfill with modified data.  \n  await route.fulfill({ json });  \n});",
+  "context": "New APIs\u200b | New method [route.fetch()](/docs/api/class-route#route-fetch) and new option `json` for [route.fulfill()](/docs/api/class-route#route-fulfill):",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "form_interaction"
+}

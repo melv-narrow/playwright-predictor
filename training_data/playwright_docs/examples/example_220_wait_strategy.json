@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.routeWebSocket('/ws', ws => {  \n  ws.onMessage(message => {  \n    if (message === 'request')  \n      ws.send('response');  \n  });  \n});",
+  "context": "WebSocket routing\u200b | New methods [page.routeWebSocket()](/docs/api/class-page#page-route-web-socket) and [browserContext.routeWebSocket()](/docs/api/class-browsercontext#browser-context-route-web-socket) allow to intercept, modify and mock WebSocket connections initiated in the page. Below is a simple example that mocks WebSocket communication by responding to a `\"request\"` with a `\"response\"`.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

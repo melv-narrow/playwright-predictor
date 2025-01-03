@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Fill an input to the right of \"Username\".  \nawait page.locator('input:right-of(:text(\"Username\"))').fill('value');  \n  \n// Click a button near the promo card.  \nawait page.locator('button:near(.promo-card)').click();  \n  \n// Click the radio input in the list closest to the \"Label 3\".  \nawait page.locator('[type=radio]:left-of(:text(\"Label 3\"))').first().click();",
+  "context": "Note that resulting matches are sorted by their distance to the anchor element, so you can use [locator.first()](/docs/api/class-locator#locator-first) to pick the closest one. This is only useful if you have something like a list of similar elements, where the closest is obviously the right one. However, using [locator.first()](/docs/api/class-locator#locator-first) in other cases most likely won't work as expected - it will not target the element you are searching for, but some other element that happens to be the closest like a random empty `<div>`, or an element that is scrolled out and is not currently visible.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

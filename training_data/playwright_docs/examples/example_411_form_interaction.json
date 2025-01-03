@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import type { FullConfig } from '@playwright/test';  \n  \nasync function globalSetup(config: FullConfig) {  \n  process.env.FOO = 'some data';  \n  // Or a more complicated data structure as JSON:  \n  process.env.BAR = JSON.stringify({ some: 'data' });  \n}  \n  \nexport default globalSetup;",
+  "context": "You can make arbitrary data available in your tests from your global setup file by setting them as environment variables via `process.env`. | global-setup.ts",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "form_interaction"
+}

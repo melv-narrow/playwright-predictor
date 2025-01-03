@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \nexport default function createTests() {  \n  test('feature-a example test', async ({ page }) => {  \n    // ... test goes here  \n  });  \n}",
+  "context": "You can put your tests in helper functions in multiple files. Consider the following example where tests are not defined directly in the file, but rather in a wrapper function. | feature-a.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "assertion"
+}

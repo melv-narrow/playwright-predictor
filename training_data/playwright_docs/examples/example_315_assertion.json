@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('test login page', {  \n  annotation: {  \n    type: 'issue',  \n    description: 'https://github.com/microsoft/playwright/issues/23180',  \n  },  \n}, async ({ page }) => {  \n  // ...  \n});",
+  "context": "If you would like to annotate your tests with something more substantial than a tag, you can do that when declaring a test. Annotations have a `type` and a `description` for more context and available in reporter API. Playwright's built-in HTML reporter shows all annotations, except those where `type` starts with `_` symbol. | For example, to annotate a test with an issue url:",
+  "source_url": "https://playwright.dev/docs/test-annotations",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const path = await page.video().path();",
+  "context": "For multi-page scenarios, you can access the video file associated with the page via the [page.video()](/docs/api/class-page#page-video).",
+  "source_url": "https://playwright.dev/docs/videos",
+  "pattern": "wait_strategy"
+}

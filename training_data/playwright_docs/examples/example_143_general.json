@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const button = page.getByRole('button').and(page.getByTitle('Subscribe'));",
+  "context": "Matching two locators simultaneously\u200b | Method [locator.and()](/docs/api/class-locator#locator-and) narrows down an existing locator by matching an additional locator. For example, you can combine [page.getByRole()](/docs/api/class-page#page-get-by-role) and [page.getByTitle()](/docs/api/class-page#page-get-by-title) to match by both role and title.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "general"
+}

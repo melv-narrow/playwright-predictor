@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Start waiting for popup before clicking. Note no await.  \nconst popupPromise = page.waitForEvent('popup');  \nawait page.getByText('open the popup').click();  \nconst popup = await popupPromise;  \nawait popup.goto('https://wikipedia.org');",
+  "context": "Wait for popup window:",
+  "source_url": "https://playwright.dev/docs/events",
+  "pattern": "navigation"
+}

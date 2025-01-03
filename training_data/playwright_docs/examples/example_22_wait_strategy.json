@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const snapshot = await page.locator('body').ariaSnapshot();  \nconsole.log(snapshot);",
+  "context": "The [locator.ariaSnapshot()](/docs/api/class-locator#locator-aria-snapshot) method allows you to programmatically create a YAML representation of accessible elements within a locator\u2019s scope, especially helpful for generating snapshots dynamically during test execution. | **Example** :",
+  "source_url": "https://playwright.dev/docs/aria-snapshots",
+  "pattern": "wait_strategy"
+}

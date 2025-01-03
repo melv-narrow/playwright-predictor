@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByTestId('orange').click();",
+  "context": "Locate an item by its test id of \"orange\" and then click it.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

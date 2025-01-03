@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import type { Page, Locator } from '@playwright/test';  \n  \nexport class TodoPage {  \n  private readonly inputBox: Locator;  \n  private readonly todoItems: Locator;  \n  \n  constructor(public readonly page: Page) {  \n    this.inputBox = this.page.locator('input.new-todo');  \n    this.todoItems = this.page.getByTestId('todo-item');  \n  }  \n  \n  async goto() {  \n    await this.page.goto('https://demo.playwright.dev/todomvc/');  \n  }  \n  \n  async addToDo(text: string) {  \n    await this.inputBox.fill(text);  \n    await this.inputBox.press('Enter');  \n  }  \n  \n  async remove(text: string) {  \n    const todo = this.todoItems.filter({ hasText: text });  \n    await todo.hover();  \n    await todo.getByLabel('Delete').click();  \n  }  \n  \n  async removeAll() {  \n    while ((await this.todoItems.count()) > 0) {  \n      await this.todoItems.first().hover();  \n      await this.todoItems.getByLabel('Delete').first().click();  \n    }  \n  }  \n}",
+  "context": "Click to expand the code for the `TodoPage` and `SettingsPage` | todo-page.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "page_object"
+}

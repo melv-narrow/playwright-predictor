@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('x-details', { hasText: 'Details' }).click();  \n\n\n\n<x-details role=button aria-expanded=true aria-controls=inner-details>  \n  <div>Title</div>  \n  #shadow-root  \n    <div id=inner-details>Details</div>  \n</x-details>",
+  "context": "To click `<x-details>`:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

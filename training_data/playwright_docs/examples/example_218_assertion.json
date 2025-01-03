@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.goto('https://playwright.dev');  \nawait expect(page.locator('body')).toMatchAriaSnapshot(`  \n  - banner:  \n    - heading /Playwright enables reliable/ [level=1]  \n    - link \"Get started\"  \n    - link \"Star microsoft/playwright on GitHub\"  \n  - main:  \n    - img \"Browsers (Chromium, Firefox, WebKit)\"  \n    - heading \"Any browser \u2022 Any platform \u2022 One API\"  \n`);",
+  "context": "Aria snapshots\u200b | New assertion [expect(locator).toMatchAriaSnapshot()](/docs/api/class-locatorassertions#locator-assertions-to-match-aria-snapshot) verifies page structure by comparing to an expected accessibility tree, represented as YAML.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

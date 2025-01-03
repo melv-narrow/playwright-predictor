@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const requestContext = await request.newContext({  \n  httpCredentials: {  \n    username: 'user',  \n    password: 'passwd'  \n  }  \n});  \nawait requestContext.get(`https://api.example.com/login`);  \n// Save storage state into the file.  \nawait requestContext.storageState({ path: 'state.json' });  \n  \n// Create a new context with the saved storage state.  \nconst context = await browser.newContext({ storageState: 'state.json' });",
+  "context": "Web apps use cookie-based or token-based authentication, where authenticated state is stored as [cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies). Playwright provides [apiRequestContext.storageState()](/docs/api/class-apirequestcontext#api-request-context-storage-state) method that can be used to retrieve storage state from an authenticated context and then create new contexts with that state. | Storage state is interchangeable between [BrowserContext](/docs/api/class-browsercontext \"BrowserContext\") and [APIRequestContext](/docs/api/class-apirequestcontext \"APIRequestContext\"). You can use it to log in via API calls and then create a new context with cookies already there. The following code snippet retrieves state from an authenticated [APIRequestContext](/docs/api/class-apirequestcontext \"APIRequestContext\") and creates a new [BrowserContext](/docs/api/class-browsercontext \"BrowserContext\") with that state.",
+  "source_url": "https://playwright.dev/docs/api-testing",
+  "pattern": "wait_strategy"
+}

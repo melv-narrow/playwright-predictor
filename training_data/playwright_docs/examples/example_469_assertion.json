@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('example test', async ({ page }) => {  \n  await page.goto('https://playwright.dev');  \n  expect(await page.textContent('.hero__title')).toMatchSnapshot('hero.txt');  \n});",
+  "context": "Here we compare text content against the reference. | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-snapshots",
+  "pattern": "assertion"
+}

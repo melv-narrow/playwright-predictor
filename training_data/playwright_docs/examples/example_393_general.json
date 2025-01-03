@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { mergeTests } from '@playwright/test';  \nimport { test as dbTest } from 'database-test-utils';  \nimport { test as a11yTest } from 'a11y-test-utils';  \n  \nexport const test = mergeTests(dbTest, a11yTest);",
+  "context": "You can merge test fixtures from multiple files or modules: | fixtures.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "general"
+}

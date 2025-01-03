@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Single selection matching the value or label  \nawait page.getByLabel('Choose a color').selectOption('blue');  \n  \n// Single selection matching the label  \nawait page.getByLabel('Choose a color').selectOption({ label: 'Blue' });  \n  \n// Multiple selected items  \nawait page.getByLabel('Choose multiple colors').selectOption(['red', 'green', 'blue']);",
+  "context": "Select options\u200b | Selects one or multiple options in the `<select>` element with [locator.selectOption()](/docs/api/class-locator#locator-select-option). You can specify option `value`, or `label` to select. Multiple options can be selected.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "form_interaction"
+}

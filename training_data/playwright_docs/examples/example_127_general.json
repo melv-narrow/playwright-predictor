@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    testIdAttribute: 'data-pw'  \n  }  \n});",
+  "context": "Set the test id to use a custom data attribute for your tests. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "general"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.locator('.status')).toHaveText('Submitted');",
+  "context": "`expect` now supports lots of new web-first assertions. | Consider the following example:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

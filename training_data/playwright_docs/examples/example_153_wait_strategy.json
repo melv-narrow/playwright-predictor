@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const rowLocator = page.getByRole('listitem');  \n  \nawait rowLocator  \n    .filter({ hasText: 'Mary' })  \n    .filter({ has: page.getByRole('button', { name: 'Say goodbye' }) })  \n    .screenshot({ path: 'screenshot.png' });",
+  "context": "To take a screenshot of the row with \"Mary\" and \"Say goodbye\":",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "wait_strategy"
+}

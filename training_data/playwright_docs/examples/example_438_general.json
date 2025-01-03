@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  timeout: 60000, // Timeout is shared between all tests.  \n  projects: [  \n    {  \n      name: 'staging',  \n      use: {  \n        baseURL: 'staging.example.com',  \n      },  \n      retries: 2,  \n    },  \n    {  \n      name: 'production',  \n      use: {  \n        baseURL: 'production.example.com',  \n      },  \n      retries: 0,  \n    },  \n  ],  \n});",
+  "context": "By setting up projects we can also run a group of tests with different timeouts or retries or run a group of tests against different environments. For example we can run our tests against a staging environment with 2 retries as well as against a production environment with 0 retries. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-projects",
+  "pattern": "general"
+}

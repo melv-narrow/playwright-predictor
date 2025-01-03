@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    // Maximum time each action such as `click()` can take. Defaults to 0 (no limit).  \n    actionTimeout: 0,  \n  \n    // Name of the browser that runs tests. For example `chromium`, `firefox`, `webkit`.  \n    browserName: 'chromium',  \n  \n    // Toggles bypassing Content-Security-Policy.  \n    bypassCSP: true,  \n  \n    // Channel to use, for example \"chrome\", \"chrome-beta\", \"msedge\", \"msedge-beta\".  \n    channel: 'chrome',  \n  \n    // Run browser in headless mode.  \n    headless: false,  \n  \n    // Change the default data-testid attribute.  \n    testIdAttribute: 'pw-test-id',  \n  },  \n});",
+  "context": "Other Options\u200b | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "navigation"
+}

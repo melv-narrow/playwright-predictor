@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \nimport { TodoPage } from './todo-page';  \n  \n// Extend basic test by providing a \"todoPage\" fixture.  \nconst test = base.extend<{ todoPage: TodoPage }>({  \n  todoPage: async ({ page }, use) => {  \n    const todoPage = new TodoPage(page);  \n    await todoPage.goto();  \n    await todoPage.addToDo('item1');  \n    await todoPage.addToDo('item2');  \n    await use(todoPage);  \n    await todoPage.removeAll();  \n  },  \n});  \n  \ntest('should add an item', async ({ todoPage }) => {  \n  await todoPage.addToDo('my item');  \n  // ...  \n});  \n  \ntest('should remove an item', async ({ todoPage }) => {  \n  await todoPage.remove('item1');  \n  // ...  \n});",
+  "context": "example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "fixture"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    locale: 'en-GB'  \n  },  \n});",
+  "context": "You can configure Playwright globally, per project, or per test. For example, you can set the locale to be used globally by adding `locale` to the `use` option of the Playwright config, and then override it for a specific project using the `project` option in the config. You can also override it for a specific test by adding `test.use({})` in the test file and passing in the options. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "general"
+}

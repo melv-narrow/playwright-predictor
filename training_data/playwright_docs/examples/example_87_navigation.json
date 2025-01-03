@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "page.on('request', request => console.log(`Request sent: ${request.url()}`));  \nconst listener = request => console.log(`Request finished: ${request.url()}`);  \npage.on('requestfinished', listener);  \nawait page.goto('https://wikipedia.org');  \n  \npage.off('requestfinished', listener);  \nawait page.goto('https://www.openstreetmap.org/');",
+  "context": "Adding/removing event listener\u200b | Sometimes, events happen in random time and instead of waiting for them, they need to be handled. Playwright supports traditional language mechanisms for subscribing and unsubscribing from the events:",
+  "source_url": "https://playwright.dev/docs/events",
+  "pattern": "navigation"
+}

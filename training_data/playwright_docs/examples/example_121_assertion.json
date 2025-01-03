@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.getByText('Welcome, John')).toBeVisible();",
+  "context": "You can locate the element by the text it contains:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

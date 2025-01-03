@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const rowLocator = page.locator('tr');  \nawait rowLocator  \n    .filter({ hasNotText: 'text in column 1' })  \n    .filter({ hasNot: page.getByRole('button', { name: 'column 2 button' }) })  \n    .screenshot();",
+  "context": "Use new options [hasNot](/docs/api/class-locator#locator-filter-option-has-not) and [hasNotText](/docs/api/class-locator#locator-filter-option-has-not-text) in [locator.filter()](/docs/api/class-locator#locator-filter) to find elements that **do not match** certain conditions.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Get all new pages (including popups) in the context  \ncontext.on('page', async page => {  \n  await page.waitForLoadState();  \n  console.log(await page.title());  \n});",
+  "context": "If the action that triggers the new page is unknown, the following pattern can be used.",
+  "source_url": "https://playwright.dev/docs/pages",
+  "pattern": "wait_strategy"
+}

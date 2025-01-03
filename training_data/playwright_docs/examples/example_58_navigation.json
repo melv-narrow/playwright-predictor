@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "page.on('dialog', dialog => dialog.accept());  \nawait page.getByRole('button').click();",
+  "context": "alert(), confirm(), prompt() dialogs\u200b | By default, dialogs are auto-dismissed by Playwright, so you don't have to handle them. However, you can register a dialog handler before the action that triggers the dialog to either [dialog.accept()](/docs/api/class-dialog#dialog-accept) or [dialog.dismiss()](/docs/api/class-dialog#dialog-dismiss) it.",
+  "source_url": "https://playwright.dev/docs/dialogs",
+  "pattern": "navigation"
+}

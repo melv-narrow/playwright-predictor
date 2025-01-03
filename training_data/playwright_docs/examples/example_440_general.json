@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    {  \n      name: 'setup',  \n      testMatch: '**/*.setup.ts',  \n    },  \n    {  \n      name: 'chromium',  \n      use: { ...devices['Desktop Chrome'] },  \n      dependencies: ['setup'],  \n    },  \n    {  \n      name: 'firefox',  \n      use: { ...devices['Desktop Firefox'] },  \n      dependencies: ['setup'],  \n    },  \n    {  \n      name: 'webkit',  \n      use: { ...devices['Desktop Safari'] },  \n      dependencies: ['setup'],  \n    },  \n  ],  \n});",
+  "context": "In this example the chromium, firefox and webkit projects depend on the setup project. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-projects",
+  "pattern": "general"
+}

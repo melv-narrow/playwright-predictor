@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('should not have any accessibility violations outside of elements with known issues', async ({  \n  page,  \n}) => {  \n  await page.goto('https://your-site.com/page-with-known-issues');  \n  \n  const accessibilityScanResults = await new AxeBuilder({ page })  \n      .exclude('#element-with-known-issue')  \n      .analyze();  \n  \n  expect(accessibilityScanResults.violations).toEqual([]);  \n});",
+  "context": "Here is an example of excluding one element from being scanned in one specific test:",
+  "source_url": "https://playwright.dev/docs/accessibility-testing",
+  "pattern": "assertion"
+}

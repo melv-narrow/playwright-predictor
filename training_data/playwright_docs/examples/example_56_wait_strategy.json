@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.pause();",
+  "context": "Run a test from a specific breakpoint\u200b | To speed up the debugging process you can add a [page.pause()](/docs/api/class-page#page-pause) method to your test. This way you won't have to step through each action of your test to get to the point where you want to debug.",
+  "source_url": "https://playwright.dev/docs/debug",
+  "pattern": "wait_strategy"
+}

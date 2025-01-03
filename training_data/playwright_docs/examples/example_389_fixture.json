@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \nimport { TodoPage } from './todo-page';  \n  \n// Declare your options to type-check your configuration.  \nexport type MyOptions = {  \n  defaultItem: string;  \n};  \ntype MyFixtures = {  \n  todoPage: TodoPage;  \n};  \n  \n// Specify both option and fixture types.  \nexport const test = base.extend<MyOptions & MyFixtures>({  \n  // Define an option and provide a default value.  \n  // We can later override it in the config.  \n  defaultItem: ['Something nice', { option: true }],  \n  \n  // Our \"todoPage\" fixture depends on the option.  \n  todoPage: async ({ page, defaultItem }, use) => {  \n    const todoPage = new TodoPage(page);  \n    await todoPage.goto();  \n    await todoPage.addToDo(defaultItem);  \n    await use(todoPage);  \n    await todoPage.removeAll();  \n  },  \n});  \nexport { expect } from '@playwright/test';",
+  "context": "my-test.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "fixture"
+}

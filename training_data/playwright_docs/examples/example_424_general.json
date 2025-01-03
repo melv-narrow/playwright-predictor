@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  workers: 1,  \n  testMatch: 'test.list.ts',  \n});",
+  "context": "Now **disable parallel execution** by setting workers to one, and specify your test list file. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "general"
+}

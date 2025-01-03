@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    userAgent: 'some custom ua',  \n    viewport: { width: 100, height: 100 },  \n  },  \n});",
+  "context": "If using the built-in `browser` fixture, calling [browser.newContext()](/docs/api/class-browser#browser-new-context) will create a context with options inherited from the config: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "general"
+}

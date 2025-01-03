@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  use: {  \n    video: 'on-first-retry',  \n  },  \n});  \n\n\n\nconst context = await browser.newContext({ recordVideo: { dir: 'videos/' } });  \n// Make sure to await close, so that videos are saved.  \nawait context.close();",
+  "context": "playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/videos",
+  "pattern": "wait_strategy"
+}

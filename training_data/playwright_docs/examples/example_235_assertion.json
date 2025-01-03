@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const frameLocator = page.frameLocator('iframe[name=\"embedded\"]');  \n// ...  \nconst locator = frameLocator.owner();  \nawait expect(locator).toBeVisible();",
+  "context": "New method [frameLocator.owner()](/docs/api/class-framelocator#frame-locator-owner) converts a [FrameLocator](/docs/api/class-framelocator \"FrameLocator\") object to a [Locator](/docs/api/class-locator \"Locator\"). This can be useful when you have a [FrameLocator](/docs/api/class-framelocator \"FrameLocator\") object obtained somewhere, and later on would like to interact with the `iframe` element.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

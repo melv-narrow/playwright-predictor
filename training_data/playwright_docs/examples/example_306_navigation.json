@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const browser = await chromium.launch();  \nconst context = await browser.newContext();  \n  \n// Start tracing before creating / navigating a page.  \nawait context.tracing.start({ screenshots: true, snapshots: true });  \n  \nconst page = await context.newPage();  \nawait page.goto('https://playwright.dev');  \n  \n// Stop tracing and export it into a zip archive.  \nawait context.tracing.stop({ path: 'trace.zip' });",
+  "context": "Traces are recorded using the new [browserContext.tracing](/docs/api/class-browsercontext#browser-context-tracing) API:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

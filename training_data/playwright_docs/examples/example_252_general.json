@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { chromium, firefox, webkit } from '@playwright/test';  \n/* ... */",
+  "context": "`npx playwright test` no longer works if you install both `playwright` and `@playwright/test`. There's no need to install both, since you can always import browser automation APIs from `@playwright/test` directly: | automation.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

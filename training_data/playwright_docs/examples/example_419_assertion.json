@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as baseTest, expect } from '@playwright/test';  \n// Import project utils for managing users in the test database.  \nimport { createUserInTestDatabase, deleteUserFromTestDatabase } from './my-db-utils';  \n  \nexport * from '@playwright/test';  \nexport const test = baseTest.extend<{}, { dbUserName: string }>({  \n  // Returns db user name unique for the worker.  \n  dbUserName: [async ({ }, use) => {  \n    // Use workerIndex as a unique identifier for each worker.  \n    const userName = `user-${test.info().workerIndex}`;  \n    // Initialize user in the database.  \n    await createUserInTestDatabase(userName);  \n    await use(userName);  \n    // Clean up after the tests are done.  \n    await deleteUserFromTestDatabase(userName);  \n  }, { scope: 'worker' }],  \n});",
+  "context": "Create `playwright/fixtures.ts` file that will [create `dbUserName` fixture](/docs/test-fixtures#creating-a-fixture) and initialize a new user in the test database. Use [testInfo.workerIndex](/docs/api/class-testinfo#test-info-worker-index) to differentiate between workers. | playwright/fixtures.ts",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "assertion"
+}

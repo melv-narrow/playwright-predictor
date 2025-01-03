@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test(\"mocks a fruit and doesn't call api\", async ({ page }) => {  \n  // Mock the api call before navigating  \n  await page.route('*/**/api/v1/fruits', async route => {  \n    const json = [{ name: 'Strawberry', id: 21 }];  \n    await route.fulfill({ json });  \n  });  \n  // Go to the page  \n  await page.goto('https://demo.playwright.dev/api-mocking');  \n  \n  // Assert that the Strawberry fruit is visible  \n  await expect(page.getByText('Strawberry')).toBeVisible();  \n});",
+  "context": "Mock API requests\u200b | The following code will intercept all the calls to `*/**/api/v1/fruits` and will return a custom response instead. No requests to the API will be made. The test goes to the URL that uses the mocked route and asserts that mock data is present on the page.",
+  "source_url": "https://playwright.dev/docs/mock",
+  "pattern": "assertion"
+}

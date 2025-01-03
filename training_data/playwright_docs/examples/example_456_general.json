@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  reporter: './my-awesome-reporter.ts',  \n});",
+  "context": "Now use this reporter with [testConfig.reporter](/docs/api/class-testconfig#test-config-reporter). | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-reporters",
+  "pattern": "general"
+}

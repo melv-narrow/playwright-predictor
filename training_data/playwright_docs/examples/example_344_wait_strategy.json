@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/experimental-ct-vue';  \n  \ntest('props', async ({ mount }) => {  \n  const component = await mount(Component, { props: { msg: 'greetings' } });  \n});",
+  "context": "component.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "wait_strategy"
+}

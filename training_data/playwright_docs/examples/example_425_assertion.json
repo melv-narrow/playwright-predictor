@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "[  \n  { name: 'Alice', expected: 'Hello, Alice!' },  \n  { name: 'Bob', expected: 'Hello, Bob!' },  \n  { name: 'Charlie', expected: 'Hello, Charlie!' },  \n].forEach(({ name, expected }) => {  \n  // You can also do it with test.describe() or with multiple tests as long the test name is unique.  \n  test(`testing with ${name}`, async ({ page }) => {  \n    await page.goto(`https://example.com/greet?name=${name}`);  \n    await expect(page.getByRole('heading')).toHaveText(expected);  \n  });  \n});",
+  "context": "Parameterized Tests\u200b | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "assertion"
+}

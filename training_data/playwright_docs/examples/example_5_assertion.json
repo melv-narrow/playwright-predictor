@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// This is less fragile than snapshotting the entire violations array.  \nexpect(violationFingerprints(accessibilityScanResults)).toMatchSnapshot();  \n  \n// my-test-utils.js  \nfunction violationFingerprints(accessibilityScanResults) {  \n  const violationFingerprints = accessibilityScanResults.violations.map(violation => ({  \n    rule: violation.id,  \n    // These are CSS selectors which uniquely identify each element with  \n    // a violation of the rule in question.  \n    targets: violation.nodes.map(node => node.target),  \n  }));  \n  \n  return JSON.stringify(violationFingerprints, null, 2);  \n}",
+  "context": "Instead, create a _fingerprint_ of the violation(s) in question that contains only enough information to uniquely identify the issue, and use a snapshot of the fingerprint:",
+  "source_url": "https://playwright.dev/docs/accessibility-testing",
+  "pattern": "assertion"
+}

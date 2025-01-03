@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest.use({  \n  viewport: { width: 1600, height: 1200 },  \n});  \n  \ntest('my test', async ({ page }) => {  \n  // ...  \n});  \n\n\n\n// Create context with given viewport  \nconst context = await browser.newContext({  \n  viewport: { width: 1280, height: 1024 }  \n});  \n  \n// Resize viewport for individual page  \nawait page.setViewportSize({ width: 1600, height: 1200 });  \n  \n// Emulate high-DPI  \nconst context = await browser.newContext({  \n  viewport: { width: 2560, height: 1440 },  \n  deviceScaleFactor: 2,  \n});",
+  "context": "tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "assertion"
+}

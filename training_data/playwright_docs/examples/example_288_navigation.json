@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('li', { hasText: 'my item' }).locator('button').click();",
+  "context": "[`expect(locator).toBeChecked({ checked })`](/docs/api/class-locatorassertions#locator-assertions-to-be-checked) | Each locator can now be optionally filtered by the text it contains:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

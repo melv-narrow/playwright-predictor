@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nimport type { MyOptions } from './my-test';  \n  \nexport default defineConfig<MyOptions>({  \n  projects: [  \n    {  \n      name: 'shopping',  \n      use: { defaultItem: 'Buy milk' },  \n    },  \n    {  \n      name: 'wellbeing',  \n      use: { defaultItem: 'Exercise!' },  \n    },  \n  ]  \n});",
+  "context": "We can now use `todoPage` fixture as usual, and set the `defaultItem` option in the config file. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "form_interaction"
+}

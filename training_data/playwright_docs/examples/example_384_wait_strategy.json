@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \n  \nexport const test = base.extend({  \n  storageState: async ({}, use) => {  \n    const cookie = await getAuthCookie();  \n    await use({ cookies: [cookie] });  \n  },  \n});",
+  "context": "Fixtures can also be overridden where the base fixture is completely replaced with something different. For example, we could override the [testOptions.storageState](/docs/api/class-testoptions#test-options-storage-state) fixture to provide our own data.",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "wait_strategy"
+}

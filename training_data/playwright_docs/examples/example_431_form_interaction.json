@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nimport type { TestOptions } from './my-test';  \n  \nexport default defineConfig<TestOptions>({  \n  projects: [  \n    {  \n      name: 'alice',  \n      use: { person: 'Alice' },  \n    },  \n    {  \n      name: 'bob',  \n      use: { person: 'Bob' },  \n    },  \n  ]  \n});",
+  "context": "playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "form_interaction"
+}

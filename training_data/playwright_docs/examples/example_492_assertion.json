@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest.use({ locale: 'fr-FR' });  \n  \ntest('example', async ({ page }) => {  \n  // ...  \n});",
+  "context": "You can override options for a specific test file by using the `test.use()` method and passing in the options. For example to run tests with the French locale for a specific test:",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "assertion"
+}

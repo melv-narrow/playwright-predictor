@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Check the checkbox  \nawait page.getByLabel('I agree to the terms above').check();  \n  \n// Assert the checked state  \nexpect(page.getByLabel('Subscribe to newsletter')).toBeChecked();  \n  \n// Select the radio button  \nawait page.getByLabel('XL').check();",
+  "context": "Checkboxes and radio buttons\u200b | Using [locator.setChecked()](/docs/api/class-locator#locator-set-checked) is the easiest way to check and uncheck a checkbox or a radio button. This method can be used with `input[type=checkbox]`, `input[type=radio]` and `[role=checkbox]` elements.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "assertion"
+}

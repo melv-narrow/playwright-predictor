@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const button = page.getByRole('button').and(page.getByTitle('Subscribe'));",
+  "context": "New [locator.and()](/docs/api/class-locator#locator-and) to create a locator that matches both locators.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

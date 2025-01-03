@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// CORRECT: THIS SNIPPET WORKS SINCE v1.18.  \n  \n// fixtures.js  \nconst test = base.extend({  \n  // Fixtures marked as \"option: true\" will get a value specified in the config,  \n  // or fallback to the default value.  \n  myParameter: ['default', { option: true }],  \n});  \n  \n// playwright.config.js  \nmodule.exports = {  \n  use: {  \n    myParameter: 'value',  \n  },  \n};",
+  "context": "The proper way to make a fixture parametrized in the config file is to specify `option: true` when defining the fixture. For example,",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "fixture"
+}

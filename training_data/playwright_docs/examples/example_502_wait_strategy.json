@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await this.webView.EnsureCoreWebView2Async(await CoreWebView2Environment.CreateAsync(null, null, new CoreWebView2EnvironmentOptions()  \n{  \n  AdditionalBrowserArguments = \"--remote-debugging-port=9222\",  \n})).ConfigureAwait(false);",
+  "context": "Overview\u200b | A WebView2 control can be instructed to listen to incoming CDP connections by setting either the `WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS` environment variable with `--remote-debugging-port=9222` or calling [EnsureCoreWebView2Async](https://docs.microsoft.com/en-us/dotnet/api/microsoft.web.webview2.wpf.webview2.ensurecorewebview2async?view=webview2-dotnet-1.0.1343.22) with the `--remote-debugging-port=9222` argument. This will start the WebView2 process with the Chrome DevTools Protocol enabled which allows the automation by Playwright. 9222 is an example port in this case, but any other unused port can be used as well.",
+  "source_url": "https://playwright.dev/docs/webview2",
+  "pattern": "wait_strategy"
+}

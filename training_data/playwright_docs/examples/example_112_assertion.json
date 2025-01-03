@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const { chromium } = require('playwright');  \n  \n(async () => {  \n  const browser = await chromium.launch();  \n  // Create pages, interact with UI elements, assert values  \n  await browser.close();  \n})();",
+  "context": "See [managing browsers](/docs/browsers#managing-browser-binaries) for more options. | Once installed, you can import Playwright in a Node.js script, and launch any of the 3 browsers (`chromium`, `firefox` and `webkit`).",
+  "source_url": "https://playwright.dev/docs/library",
+  "pattern": "assertion"
+}

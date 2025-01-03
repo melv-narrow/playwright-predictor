@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "for (const row of await page.getByRole('listitem').all())  \n  console.log(await row.textContent());",
+  "context": "Do something with each element in the list\u200b | Iterate elements:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // runs all tests in all files of a specific project in parallel  \n  projects: [  \n    {  \n      name: 'chromium',  \n      use: { ...devices['Desktop Chrome'] },  \n      fullyParallel: true,  \n    },  \n  ]  \n});",
+  "context": "You can also opt in for fully-parallel mode for just a few projects: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "general"
+}

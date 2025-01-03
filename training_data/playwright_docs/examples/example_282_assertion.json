@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Poll the method until it returns an expected result.  \nawait expect.poll(async () => {  \n  const response = await page.request.get('https://api.example.com');  \n  return response.status();  \n}).toBe(200);",
+  "context": "New `caret` option in [page.screenshot()](/docs/api/class-page#page-screenshot) to control text caret. Defaults to `\"hide\"`. | New method `expect.poll` to wait for an arbitrary condition:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

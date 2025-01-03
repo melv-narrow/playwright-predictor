@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page).toHaveScreenshot('landing.png');",
+  "context": "The snapshot name `example-test-1-chromium-darwin.png` consists of a few parts: | `example-test-1.png` \\- an auto-generated name of the snapshot. Alternatively you can specify snapshot name as the first argument of the `toHaveScreenshot()` method:",
+  "source_url": "https://playwright.dev/docs/test-snapshots",
+  "pattern": "assertion"
+}

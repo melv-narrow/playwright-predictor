@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const button = page.getByRole('button');  \n  \n// Make sure at least some part of element intersects viewport.  \nawait expect(button).toBeInViewport();  \n  \n// Make sure element is fully outside of viewport.  \nawait expect(button).not.toBeInViewport();  \n  \n// Make sure that at least half of the element intersects viewport.  \nawait expect(button).toBeInViewport({ ratio: 0.5 });",
+  "context": "New assertion [expect(locator).toBeInViewport()](/docs/api/class-locatorassertions#locator-assertions-to-be-in-viewport) ensures that locator points to an element that intersects viewport, according to the [intersection observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API).",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

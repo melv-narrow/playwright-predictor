@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.routeWebSocket('wss://example.com/ws', ws => {  \n  const server = ws.connectToServer();  \n  ws.onMessage(message => {  \n    if (message === 'request')  \n      server.send('request2');  \n    else  \n      server.send(message);  \n  });  \n});",
+  "context": "Alternatively, you may want to connect to the actual server, but intercept messages in-between and modify or block them. Here is an example that modifies some of the messages sent by the page to the server, and leaves the rest unmodified.",
+  "source_url": "https://playwright.dev/docs/mock",
+  "pattern": "wait_strategy"
+}

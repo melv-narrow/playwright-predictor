@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('basic test', async ({ page }) => {  \n  await page.goto('https://playwright.dev/');  \n  const name = await page.innerText('.navbar__title');  \n  expect(name).toBe('Playwright');  \n});",
+  "context": "Simple test `tests/foo.spec.ts`:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

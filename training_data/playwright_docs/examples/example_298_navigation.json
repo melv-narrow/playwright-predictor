@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page.locator('button');  \nawait locator.click();",
+  "context": "The difference between the [Locator](/docs/api/class-locator) and [ElementHandle](/docs/api/class-elementhandle) is that the latter points to a particular element, while [Locator](/docs/api/class-locator) captures the logic of how to retrieve that element. | Also, locators are **\"strict\" by default**!",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

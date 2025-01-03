@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from './fixtures';  \nimport { expect } from '@playwright/test';  \n  \ntest('basic', async ({ }) => {  \n  // ...  \n});",
+  "context": "And then import the fixtures in all your tests: | mytest.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "fixture"
+}

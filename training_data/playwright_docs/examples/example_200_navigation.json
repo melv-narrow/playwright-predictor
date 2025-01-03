@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('xpath=//button').click();",
+  "context": "We recommend prioritizing [user-visible locators](/docs/locators#quick-guide) like text or accessible role instead of using XPath that is tied to the implementation and easily break when the page changes. | XPath locators are equivalent to calling [`Document.evaluate`](https://developer.mozilla.org/en/docs/Web/API/Document/evaluate).",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

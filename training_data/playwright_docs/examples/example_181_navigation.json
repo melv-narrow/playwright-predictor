@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await browserContext.route('**/api/login', route => route.fulfill({  \n  status: 200,  \n  body: 'accept',  \n}));  \nawait page.goto('https://example.com');",
+  "context": "Variations\u200b | Set up route on the entire browser context with [browserContext.route()](/docs/api/class-browsercontext#browser-context-route) or page with [page.route()](/docs/api/class-page#page-route). It will apply to popup windows and opened links.",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "navigation"
+}

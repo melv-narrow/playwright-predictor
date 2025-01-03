@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('#item-to-be-dragged').hover();  \nawait page.mouse.down();  \nawait page.locator('#item-to-drop-at').hover();  \nawait page.mouse.up();",
+  "context": "Dragging manually\u200b | If you want precise control over the drag operation, use lower-level methods like [locator.hover()](/docs/api/class-locator#locator-hover), [mouse.down()](/docs/api/class-mouse#mouse-down), [mouse.move()](/docs/api/class-mouse#mouse-move) and [mouse.up()](/docs/api/class-mouse#mouse-up).",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "wait_strategy"
+}

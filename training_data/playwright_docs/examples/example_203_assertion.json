@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Fill the input by targeting the label.  \nawait expect(page.locator('label')).toHaveText('Password');",
+  "context": "However, other methods will target the label itself, for example [expect(locator).toHaveText()](/docs/api/class-locatorassertions#locator-assertions-to-have-text) will assert the text content of the label, not the input field.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "assertion"
+}

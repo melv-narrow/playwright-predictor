@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// \ud83d\udc4e  \nexpect(await page.getByText('welcome').isVisible()).toBe(true);",
+  "context": "Don't use manual assertions\u200b | Don't use manual assertions that are not awaiting the expect. In the code below the await is inside the expect rather than before it. When using assertions such as `isVisible()` the test won't wait a single second, it will just check the locator is there and return immediately.",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "assertion"
+}

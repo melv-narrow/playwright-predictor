@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator(  \n    '#tsf > div:nth-child(2) > div.A8SBwf > div.RNNXgb > div > div.a4bIc > input'  \n).click();  \n  \nawait page  \n    .locator('//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input')  \n    .click();",
+  "context": "XPath and CSS selectors can be tied to the DOM structure or implementation. These selectors can break when the DOM structure changes. Long CSS or XPath chains below are an example of a **bad practice** that leads to unstable tests:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

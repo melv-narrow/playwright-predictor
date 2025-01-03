@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const base = require('@playwright/test');  \n  \nexports.test = base.test.extend({  \n  // Define an option and provide a default value.  \n  // We can later override it in the config.  \n  person: ['John', { option: true }],  \n});",
+  "context": "my-test.js",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "general"
+}

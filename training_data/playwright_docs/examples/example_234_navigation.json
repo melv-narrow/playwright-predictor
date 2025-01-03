@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page.locator('iframe[name=\"embedded\"]');  \n// ...  \nconst frameLocator = locator.contentFrame();  \nawait frameLocator.getByRole('button').click();",
+  "context": "New method [locator.contentFrame()](/docs/api/class-locator#locator-content-frame) converts a [Locator](/docs/api/class-locator \"Locator\") object to a [FrameLocator](/docs/api/class-framelocator \"FrameLocator\"). This can be useful when you have a [Locator](/docs/api/class-locator \"Locator\") object obtained somewhere, and later on would like to interact with the content inside the frame.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

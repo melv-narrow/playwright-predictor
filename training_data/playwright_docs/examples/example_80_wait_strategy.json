@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const status = await page.evaluate(async () => {  \n  const response = await fetch(location.href);  \n  return response.status;  \n});",
+  "context": "If the result is a Promise or if the function is asynchronous evaluate will automatically wait until it's resolved:",
+  "source_url": "https://playwright.dev/docs/evaluating",
+  "pattern": "wait_strategy"
+}

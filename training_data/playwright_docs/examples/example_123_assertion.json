@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.getByText(/welcome, [A-Za-z]+$/i)).toBeVisible();",
+  "context": "Match with a regular expression:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

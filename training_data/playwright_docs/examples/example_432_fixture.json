@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \n  \nexport type TestOptions = {  \n  person: string;  \n};  \n  \nexport const test = base.extend<TestOptions>({  \n  // Define an option and provide a default value.  \n  // We can later override it in the config.  \n  person: ['John', { option: true }],  \n  \n  // Override default \"page\" fixture.  \n  page: async ({ page, person }, use) => {  \n    await page.goto('/chat');  \n    // We use \"person\" parameter as a \"name\" for the chat room.  \n    await page.getByLabel('User Name').fill(person);  \n    await page.getByText('Enter chat room').click();  \n    // Each test will get a \"page\" that already has the person name.  \n    await use(page);  \n  },  \n});",
+  "context": "my-test.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "fixture"
+}

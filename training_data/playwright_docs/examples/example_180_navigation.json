@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.route('**/api/fetch_data', route => route.fulfill({  \n  status: 200,  \n  body: testData,  \n}));  \nawait page.goto('https://example.com');",
+  "context": "Handle requests\u200b",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "navigation"
+}

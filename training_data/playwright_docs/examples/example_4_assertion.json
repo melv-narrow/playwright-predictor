@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('should not have any accessibility violations outside of rules with known issues', async ({  \n  page,  \n}) => {  \n  await page.goto('https://your-site.com/page-with-known-issues');  \n  \n  const accessibilityScanResults = await new AxeBuilder({ page })  \n      .disableRules(['duplicate-id'])  \n      .analyze();  \n  \n  expect(accessibilityScanResults.violations).toEqual([]);  \n});",
+  "context": "If your application contains many different preexisting violations of a specific rule, you can use [`AxeBuilder.disableRules()`](https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/README.md#axebuilderdisablerulesrules-stringarray) to temporarily disable individual rules until you're able to fix the issues. | You can find the rule IDs to pass to `disableRules()` in the `id` property of the violations you want to suppress. A [complete list of axe's rules](https://github.com/dequelabs/axe-core/blob/master/doc/rule-descriptions.md) can be found in `axe-core`'s documentation.",
+  "source_url": "https://playwright.dev/docs/accessibility-testing",
+  "pattern": "assertion"
+}

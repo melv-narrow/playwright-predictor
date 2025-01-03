@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByText('Details').click();  \n\n\n\n<x-details role=button aria-expanded=true aria-controls=inner-details>  \n  <div>Title</div>  \n  #shadow-root  \n    <div id=inner-details>Details</div>  \n</x-details>",
+  "context": "You can locate in the same way as if the shadow root was not present at all. | To click `<div>Details</div>`:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

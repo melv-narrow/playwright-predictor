@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Important: import our fixtures.  \nimport { test, expect } from '../playwright/fixtures';  \n  \ntest('test', async ({ dbUserName }) => {  \n  // Use the user name in the test.  \n});",
+  "context": "Now, each test file should import `test` from our fixtures file instead of `@playwright/test`. | tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "fixture"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base, expect } from '@playwright/test';  \n  \nconst test = base.extend<{ slowFixture: string }>({  \n  slowFixture: [async ({}, use) => {  \n    // ... perform a slow operation ...  \n    await use('hello');  \n  }, { timeout: 60000 }]  \n});  \n  \ntest('example test', async ({ slowFixture }) => {  \n  // ...  \n});",
+  "context": "Fixture timeout\u200b | By default, fixture shares timeout with the test. However, for slow fixtures, especially worker-scoped ones, it is convenient to have a separate timeout. This way you can keep the overall test timeout small, and give the slow fixture more time.",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "fixture"
+}

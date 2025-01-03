@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('text=Log in').click();",
+  "context": "We recommend the modern [text locator](/docs/locators#get-by-text) instead. | Legacy text locator matches elements that contain passed text.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

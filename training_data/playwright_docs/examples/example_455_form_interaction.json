@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import type {  \n  FullConfig, FullResult, Reporter, Suite, TestCase, TestResult  \n} from '@playwright/test/reporter';  \n  \nclass MyReporter implements Reporter {  \n  onBegin(config: FullConfig, suite: Suite) {  \n    console.log(`Starting the run with ${suite.allTests().length} tests`);  \n  }  \n  \n  onTestBegin(test: TestCase, result: TestResult) {  \n    console.log(`Starting test ${test.title}`);  \n  }  \n  \n  onTestEnd(test: TestCase, result: TestResult) {  \n    console.log(`Finished test ${test.title}: ${result.status}`);  \n  }  \n  \n  onEnd(result: FullResult) {  \n    console.log(`Finished the run: ${result.status}`);  \n  }  \n}  \n  \nexport default MyReporter;",
+  "context": "You can create a custom reporter by implementing a class with some of the reporter methods. Learn more about the [Reporter](/docs/api/class-reporter \"Reporter\") API. | my-awesome-reporter.ts",
+  "source_url": "https://playwright.dev/docs/test-reporters",
+  "pattern": "form_interaction"
+}

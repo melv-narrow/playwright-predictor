@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  testDir: './tests',  \n  // ...  \n  projects: [  \n    {  \n      name: 'setup db',  \n      testMatch: /global\\.setup\\.ts/,  \n    },  \n    // {  \n    //   other project  \n    // }  \n  ]  \n});",
+  "context": "First we add a new project with the name 'setup db'. We then give it a [testProject.testMatch](/docs/api/class-testproject#test-project-test-match) property in order to match the file called `global.setup.ts`: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "general"
+}

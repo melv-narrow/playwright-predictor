@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest.beforeEach(async ({ context }) => {  \n  // Block any css requests for each test in this file.  \n  await context.route(/.css$/, route => route.abort());  \n});  \n  \ntest('loads page without css', async ({ page }) => {  \n  await page.goto('https://playwright.dev');  \n  // ... test goes here  \n});",
+  "context": "You don't have to configure anything to mock network requests. Just define a custom [Route](/docs/api/class-route \"Route\") that mocks network for a browser context. | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "assertion"
+}

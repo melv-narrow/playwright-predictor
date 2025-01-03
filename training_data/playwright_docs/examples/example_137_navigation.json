@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "<ul>  \n  <li>  \n    <h3>Product 1</h3>  \n    <button>Add to cart</button>  \n  </li>  \n  <li>  \n    <h3>Product 2</h3>  \n    <button>Add to cart</button>  \n  </li>  \n</ul>  \n\n\n\nawait page  \n    .getByRole('listitem')  \n    .filter({ has: page.getByRole('heading', { name: 'Product 2' }) })  \n    .getByRole('button', { name: 'Add to cart' })  \n    .click();",
+  "context": "Add to cart",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

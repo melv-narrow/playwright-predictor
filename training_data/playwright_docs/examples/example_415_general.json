@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  fullyParallel: true,  \n});",
+  "context": "Alternatively, you can opt-in all tests into this fully-parallel mode in the configuration file: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "general"
+}

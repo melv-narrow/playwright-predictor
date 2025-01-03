@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    launchOptions: {  \n      slowMo: 50,  \n    },  \n  },  \n});",
+  "context": "Any options accepted by [browserType.launch()](/docs/api/class-browsertype#browser-type-launch) or [browser.newContext()](/docs/api/class-browser#browser-new-context) can be put into `launchOptions` or `contextOptions` respectively in the `use` section. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "general"
+}

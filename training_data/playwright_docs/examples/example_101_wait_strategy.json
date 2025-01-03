@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Hit Enter  \nawait page.getByText('Submit').press('Enter');  \n  \n// Dispatch Control+Right  \nawait page.getByRole('textbox').press('Control+ArrowRight');  \n  \n// Press $ sign on keyboard  \nawait page.getByRole('textbox').press('$');",
+  "context": "This method will emit all the necessary keyboard events, with all the `keydown`, `keyup`, `keypress` events in place. You can even specify the optional `delay` between the key presses to simulate real user behavior. | Keys and shortcuts\u200b",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "wait_strategy"
+}

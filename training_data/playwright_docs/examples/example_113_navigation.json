@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const { webkit } = require('playwright');  \n  \n(async () => {  \n  const browser = await webkit.launch();  \n  const page = await browser.newPage();  \n  await page.goto('https://playwright.dev/');  \n  await page.screenshot({ path: `example.png` });  \n  await browser.close();  \n})();",
+  "context": "First script\u200b | In our first script, we will navigate to `https://playwright.dev/` and take a screenshot in WebKit.",
+  "source_url": "https://playwright.dev/docs/library",
+  "pattern": "navigation"
+}

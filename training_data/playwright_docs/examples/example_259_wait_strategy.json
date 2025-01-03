@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Check all checkboxes!  \nconst checkboxes = page.getByRole('checkbox');  \nfor (const checkbox of await checkboxes.all())  \n  await checkbox.check();",
+  "context": "New method [locator.all()](/docs/api/class-locator#locator-all) to iterate over all matching elements:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

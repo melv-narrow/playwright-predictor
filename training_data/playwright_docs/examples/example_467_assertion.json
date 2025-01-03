@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('example test', async ({ page }) => {  \n  await page.goto('https://playwright.dev');  \n  await expect(page).toHaveScreenshot({ stylePath: path.join(__dirname, 'screenshot.css') });  \n});",
+  "context": "example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-snapshots",
+  "pattern": "assertion"
+}

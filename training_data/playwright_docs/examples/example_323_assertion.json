@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.getByText('Name'), 'should be logged in').toBeVisible();",
+  "context": "Custom expect message\u200b | You can specify a custom expect message as a second argument to the `expect` function, for example:",
+  "source_url": "https://playwright.dev/docs/test-assertions",
+  "pattern": "assertion"
+}

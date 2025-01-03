@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \nimport jimp from 'jimp'; // image processing library  \n  \ntest('response interception', async ({ page }) => {  \n  await page.route('**/*.jpeg', async route => {  \n    const response = await page._request.fetch(route.request());  \n    const image = await jimp.read(await response.body());  \n    await image.blur(5);  \n    await route.fulfill({  \n      response,  \n      body: await image.getBufferAsync('image/jpeg'),  \n    });  \n  });  \n  const response = await page.goto('https://playwright.dev');  \n  expect(response.status()).toBe(200);  \n});",
+  "context": "It is now possible to do response interception by combining [API Testing](/docs/api-testing) with [request interception](/docs/network#modify-requests). | For example, we can blur all the images on the page:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

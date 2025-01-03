@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('article:has(div.promo)').textContent();",
+  "context": "The `:has()` pseudo-class is an [experimental CSS pseudo-class](https://developer.mozilla.org/en-US/docs/Web/CSS/:has). It returns an element if any of the selectors passed as parameters relative to the `:scope` of the given element match at least one element. | Following snippet returns text content of an `<article>` element that has a `<div class=promo>` inside.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "wait_strategy"
+}

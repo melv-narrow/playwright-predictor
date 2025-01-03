@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "[  \n  { name: 'Alice', expected: 'Hello, Alice!' },  \n  { name: 'Bob', expected: 'Hello, Bob!' },  \n  { name: 'Charlie', expected: 'Hello, Charlie!' },  \n].forEach(({ name, expected }) => {  \n  test.describe(() => {  \n    test.beforeEach(async ({ page }) => {  \n      await page.goto(`https://example.com/greet?name=${name}`);  \n    });  \n    test(`testing with ${expected}`, async ({ page }) => {  \n      await expect(page.getByRole('heading')).toHaveText(expected);  \n    });  \n  });  \n});",
+  "context": "If you want to have hooks for each test, you can put them inside a `describe()` \\- so they are executed for each iteration / each individual test: | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "assertion"
+}

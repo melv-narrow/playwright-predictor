@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const { webkit, devices } = require('playwright');  \nconst iPhone = devices['iPhone 6'];  \n  \n(async () => {  \n  const browser = await webkit.launch();  \n  const context = await browser.newContext({  \n    ...iPhone  \n  });  \n  const page = await context.newPage();  \n  await page.goto('http://example.com');  \n  // other actions...  \n  await browser.close();  \n})();",
+  "context": "Added before v1.9 playwright.devices | Returns a dictionary of devices to be used with [browser.newContext()](/docs/api/class-browser#browser-new-context) or [browser.newPage()](/docs/api/class-browser#browser-new-page).",
+  "source_url": "https://playwright.dev/docs/api/class-playwright",
+  "pattern": "navigation"
+}

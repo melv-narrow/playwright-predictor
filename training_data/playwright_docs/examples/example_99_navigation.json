@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByRole('button').dispatchEvent('click');",
+  "context": "Programmatic click\u200b | If you are not interested in testing your app under the real conditions and want to simulate the click by any means possible, you can trigger the [`HTMLElement.click()`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click) behavior via simply dispatching a click event on the element with [locator.dispatchEvent()](/docs/api/class-locator#locator-dispatch-event):",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "navigation"
+}

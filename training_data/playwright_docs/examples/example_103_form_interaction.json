@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Select one file  \nawait page.getByLabel('Upload file').setInputFiles(path.join(__dirname, 'myfile.pdf'));  \n  \n// Select multiple files  \nawait page.getByLabel('Upload files').setInputFiles([  \n  path.join(__dirname, 'file1.txt'),  \n  path.join(__dirname, 'file2.txt'),  \n]);  \n  \n// Select a directory  \nawait page.getByLabel('Upload directory').setInputFiles(path.join(__dirname, 'mydir'));  \n  \n// Remove all the selected files  \nawait page.getByLabel('Upload file').setInputFiles([]);  \n  \n// Upload buffer from memory  \nawait page.getByLabel('Upload file').setInputFiles({  \n  name: 'file.txt',  \n  mimeType: 'text/plain',  \n  buffer: Buffer.from('this is test')  \n});",
+  "context": "Upload files\u200b | You can select input files for upload using the [locator.setInputFiles()](/docs/api/class-locator#locator-set-input-files) method. It expects first argument to point to an [input element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) with the type `\"file\"`. Multiple files can be passed in the array. If some of the file paths are relative, they are resolved relative to the current working directory. Empty array clears the selected files.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "form_interaction"
+}

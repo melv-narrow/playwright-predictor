@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect.poll(async () => {  \n  const response = await page.request.get('https://api.example.com');  \n  return response.status();  \n}, {  \n  // Custom expect message for reporting, optional.  \n  message: 'make sure API eventually succeeds',  \n  // Poll for 10 seconds; defaults to 5 seconds. Pass 0 to disable timeout.  \n  timeout: 10000,  \n}).toBe(200);",
+  "context": "You can convert any synchronous `expect` to an asynchronous polling one using `expect.poll`. | The following method will poll given function until it returns HTTP status 200:",
+  "source_url": "https://playwright.dev/docs/test-assertions",
+  "pattern": "assertion"
+}

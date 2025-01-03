@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  use: {  \n    proxy: {  \n      server: 'http://myproxy.com:3128',  \n      username: 'usr',  \n      password: 'pwd'  \n    }  \n  }  \n});  \n\n\n\nconst browser = await chromium.launch({  \n  proxy: {  \n    server: 'http://myproxy.com:3128',  \n    username: 'usr',  \n    password: 'pwd'  \n  }  \n});",
+  "context": "playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "wait_strategy"
+}

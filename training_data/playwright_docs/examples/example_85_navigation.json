@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Start waiting for request before goto. Note no await.  \nconst requestPromise = page.waitForRequest('**/*logo*.png');  \nawait page.goto('https://wikipedia.org');  \nconst request = await requestPromise;  \nconsole.log(request.url());",
+  "context": "Most of the time, scripts will need to wait for a particular event to happen. Below are some of the typical event awaiting patterns. | Wait for a request with the specified url using [page.waitForRequest()](/docs/api/class-page#page-wait-for-request):",
+  "source_url": "https://playwright.dev/docs/events",
+  "pattern": "navigation"
+}

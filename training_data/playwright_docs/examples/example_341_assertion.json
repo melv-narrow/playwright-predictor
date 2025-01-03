@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/experimental-ct-react';  \nimport { InputMediaForTest } from './input-media.story.tsx';  \n  \ntest('changes the image', async ({ mount }) => {  \n  let mediaSelected: string | null = null;  \n  \n  const component = await mount(  \n    <InputMediaForTest  \n      onMediaChange={mediaName => {  \n        mediaSelected = mediaName;  \n      }}  \n    />  \n  );  \n  await component  \n    .getByTestId('imageInput')  \n    .setInputFiles('src/assets/logo.png');  \n  \n  await expect(component.getByAltText(/selected image/i)).toBeVisible();  \n  await expect.poll(() => mediaSelected).toBe('logo.png');  \n});",
+  "context": "Then test the component via testing the story: | input-media.spec.tsx",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "assertion"
+}

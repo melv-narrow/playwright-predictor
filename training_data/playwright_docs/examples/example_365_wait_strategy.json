@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { http, HttpResponse } from 'msw';  \n  \ntest('example test', async ({ mount, router }) => {  \n  await router.use(http.get('/data', async ({ request }) => {  \n    return HttpResponse.json({ value: 'mocked' });  \n  }));  \n  \n  // test as usual, your handler is active  \n  // ...  \n});",
+  "context": "You can also introduce a one-off handler for a specific test.",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "wait_strategy"
+}

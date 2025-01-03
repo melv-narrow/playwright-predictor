@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  use: {  \n    video: {  \n      mode: 'on-first-retry',  \n      size: { width: 640, height: 480 }  \n    }  \n  },  \n});  \n\n\n\nconst context = await browser.newContext({  \n  recordVideo: {  \n    dir: 'videos/',  \n    size: { width: 640, height: 480 },  \n  }  \n});",
+  "context": "playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/videos",
+  "pattern": "wait_strategy"
+}

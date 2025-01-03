@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.getByText('Welcome, John', { exact: true })).toBeVisible();",
+  "context": "Set an exact match:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('should work', async ({ page }) => {  \n  const pageTitle = await test.step('get title', async () => {  \n    await page.goto('https://playwright.dev');  \n    return await page.title();  \n  });  \n  console.log(pageTitle);  \n});",
+  "context": "Test Runner\u200b | [test.step()](/docs/api/class-test#test-step) now returns the value of the step function:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

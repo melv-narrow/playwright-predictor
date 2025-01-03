@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Scroll the footer into view, forcing an \"infinite list\" to load more content  \nawait page.getByText('Footer text').scrollIntoViewIfNeeded();",
+  "context": "However, in rare cases you might need to manually scroll. For example, you might want to force an \"infinite list\" to load more elements, or position the page for a specific screenshot. In such a case, the most reliable way is to find an element that you want to make visible at the bottom, and scroll it into view.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "wait_strategy"
+}

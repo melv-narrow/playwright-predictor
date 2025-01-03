@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('test full report', {  \n  annotation: [  \n    { type: 'issue', description: 'https://github.com/microsoft/playwright/issues/23180' },  \n    { type: 'docs', description: 'https://playwright.dev/docs/test-annotations#tag-tests' },  \n  ],  \n}, async ({ page }) => {  \n  // ...  \n});",
+  "context": "[New syntax](/docs/test-annotations#annotate-tests) for test annotations:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "form_interaction"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "class PlaywrightDevPage {  \n  /**  \n   * @param {import('playwright').Page} page  \n   */  \n  constructor(page) {  \n    this.page = page;  \n    this.getStartedLink = page.locator('a', { hasText: 'Get started' });  \n    this.gettingStartedHeader = page.locator('h1', { hasText: 'Installation' });  \n    this.pomLink = page.locator('li', {  \n      hasText: 'Playwright Test',  \n    }).locator('a', {  \n      hasText: 'Page Object Model',  \n    });  \n    this.tocList = page.locator('article div.markdown ul > li > a');  \n  }  \n  async getStarted() {  \n    await this.getStartedLink.first().click();  \n    await expect(this.gettingStartedHeader).toBeVisible();  \n  }  \n  \n  async pageObjectModel() {  \n    await this.getStarted();  \n    await this.pomLink.click();  \n  }  \n}  \nmodule.exports = { PlaywrightDevPage };",
+  "context": "models/PlaywrightDevPage.js",
+  "source_url": "https://playwright.dev/docs/pom",
+  "pattern": "page_object"
+}

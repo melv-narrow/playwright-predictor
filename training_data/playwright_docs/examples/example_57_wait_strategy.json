@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.pause();",
+  "context": "This will also set the default timeouts of Playwright to 0 (= no timeout). | To debug your tests using the browser developer tools, start by setting a breakpoint in your test to pause the execution using the [page.pause()](/docs/api/class-page#page-pause) method.",
+  "source_url": "https://playwright.dev/docs/debug",
+  "pattern": "wait_strategy"
+}

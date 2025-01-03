@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.route('**/api/fetch_data_third_party_dependency', route => route.fulfill({  \n  status: 200,  \n  body: testData,  \n}));  \nawait page.goto('https://example.com');",
+  "context": "Only test what you control. Don't try to test links to external sites or third party servers that you do not control. Not only is it time consuming and can slow down your tests but also you cannot control the content of the page you are linking to, or if there are cookie banners or overlay pages or anything else that might cause your test to fail. | Instead, use the [Playwright Network API](/docs/network#handle-requests) and guarantee the response needed.",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "navigation"
+}

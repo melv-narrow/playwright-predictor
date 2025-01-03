@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test.describe.serial('group', () => {  \n  test('runs first', async ({ page }) => { /* ... */ });  \n  test('runs second', async ({ page }) => { /* ... */ });  \n});",
+  "context": "\u26d3 Serial mode with [`describe.serial`](/docs/api/class-test#test-describe-serial)\u200b | Declares a group of tests that should always be run serially. If one of the tests fails, all subsequent tests are skipped. All tests in a group are retried together.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

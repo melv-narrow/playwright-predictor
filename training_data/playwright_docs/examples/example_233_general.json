@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('example', async ({ page }) => {  \n  console.log(test.info().tags);  \n});",
+  "context": "New property [testInfo.tags](/docs/api/class-testinfo#test-info-tags) exposes test tags during test execution.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/experimental-ct-svelte';  \n  \ntest('slot', async ({ mount }) => {  \n  const component = await mount(Component, { slots: { default: 'Slot' } });  \n});",
+  "context": "component.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "wait_strategy"
+}

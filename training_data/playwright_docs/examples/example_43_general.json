@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    {  \n      name: 'chromium',  \n      use: { ...devices['Desktop Chrome'] },  \n    },  \n    {  \n      name: 'firefox',  \n      use: { ...devices['Desktop Firefox'] },  \n    },  \n    {  \n      name: 'webkit',  \n      use: { ...devices['Desktop Safari'] },  \n    },  \n  ],  \n});",
+  "context": "Playwright makes it easy to test your site across all [browsers](/docs/test-projects#configure-projects-for-multiple-browsers) no matter what platform you are on. Testing across all browsers ensures your app works for all users. In your config file you can set up projects adding the name and which browser or device to use. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "general"
+}

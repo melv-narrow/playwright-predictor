@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Create a page.  \nconst page = await context.newPage();  \n  \n// Navigate explicitly, similar to entering a URL in the browser.  \nawait page.goto('http://example.com');  \n// Fill an input.  \nawait page.locator('#search').fill('query');  \n  \n// Navigate implicitly by clicking a link.  \nawait page.locator('#submit').click();  \n// Expect a new url.  \nconsole.log(page.url());",
+  "context": "Pages\u200b | Each [BrowserContext](/docs/api/class-browsercontext \"BrowserContext\") can have multiple pages. A [Page](/docs/api/class-page \"Page\") refers to a single tab or a popup window within a browser context. It should be used to navigate to URLs and interact with the page content.",
+  "source_url": "https://playwright.dev/docs/pages",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const child = page.getByText('Hello');  \nconst parent = page.getByRole('listitem').filter({ has: child });",
+  "context": "If you'd like to target the parent `<li>` of a label with text `\"Hello\"`, using [locator.filter()](/docs/api/class-locator#locator-filter) works best:",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "general"
+}

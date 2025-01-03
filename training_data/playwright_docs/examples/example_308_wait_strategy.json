@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.screenshot({ path: 'screenshot.png' });",
+  "context": "Introduction\u200b | Here is a quick way to capture a screenshot and save it into a file:",
+  "source_url": "https://playwright.dev/docs/screenshots",
+  "pattern": "wait_strategy"
+}

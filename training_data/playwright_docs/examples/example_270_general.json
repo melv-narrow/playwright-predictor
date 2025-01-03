@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test.describe(() => {  \n  test.use({ colorScheme: 'dark' });  \n  \n  test('one', async ({ page }) => {  \n    // ...  \n  });  \n  \n  test('two', async ({ page }) => {  \n    // ...  \n  });  \n});",
+  "context": "\ud83d\udd75\ufe0f Anonymous Describe\u200b | It is now possible to call [test.describe()](/docs/api/class-test#test-describe) to create suites without a title. This is useful for giving a group of tests a common option with [test.use()](/docs/api/class-test#test-use).",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

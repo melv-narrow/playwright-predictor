@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Navigate and click element  \n// Click will auto-wait for the element  \nawait page.goto('https://example.com');  \nawait page.getByText('Example Domain').click();",
+  "context": "Modern pages perform numerous activities after the `load` event was fired. They fetch data lazily, populate UI, load expensive resources, scripts and styles after the `load` event was fired. There is no way to tell that the page is `loaded`, it depends on the page, framework, etc. So when can you start interacting with it? | In Playwright you can interact with the page at any moment. It will automatically wait for the target elements to become [actionable](/docs/actionability).",
+  "source_url": "https://playwright.dev/docs/navigations",
+  "pattern": "navigation"
+}

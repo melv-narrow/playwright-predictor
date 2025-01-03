@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { handlers } from '@src/mocks/handlers';  \n  \ntest.beforeEach(async ({ router }) => {  \n  // install common handlers before each test  \n  await router.use(...handlers);  \n});  \n  \ntest('example test', async ({ mount }) => {  \n  // test as usual, your handlers are active  \n  // ...  \n});",
+  "context": "Here is an example of reusing your existing MSW handlers in the test.",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // Rest of your config...  \n  \n  // Run your local dev server before starting the tests  \n  webServer: {  \n    command: 'npm run start',  \n    url: 'http://127.0.0.1:3000',  \n    reuseExistingServer: !process.env.CI,  \n    timeout: 120 * 1000,  \n  },  \n});",
+  "context": "Webservers can sometimes take longer to boot up. In this case, you can increase the timeout to wait for the server to start. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-webserver",
+  "pattern": "general"
+}

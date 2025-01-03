@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Create new array in page.  \nconst myArrayHandle = await page.evaluateHandle(() => {  \n  window.myArray = [1];  \n  return myArray;  \n});  \n  \n// Get the length of the array.  \nconst length = await page.evaluate(a => a.length, myArrayHandle);  \n  \n// Add one more element to the array using the handle  \nawait page.evaluate(arg => arg.myArray.push(arg.newElement), {  \n  myArray: myArrayHandle,  \n  newElement: 2  \n});  \n  \n// Release the object when it's no longer needed.  \nawait myArrayHandle.dispose();",
+  "context": "Handles as parameters\u200b | Handles can be passed into the [page.evaluate()](/docs/api/class-page#page-evaluate) and similar methods. The following snippet creates a new array in the page, initializes it with data and returns a handle to this array into Playwright. It then uses the handle in subsequent evaluations:",
+  "source_url": "https://playwright.dev/docs/handles",
+  "pattern": "wait_strategy"
+}

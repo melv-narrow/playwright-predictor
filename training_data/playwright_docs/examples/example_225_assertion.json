@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { expect as baseExpect } from '@playwright/test';  \n  \nexport const expect = baseExpect.extend({  \n  async toHaveAmount(locator: Locator, expected: number, options?: { timeout?: number }) {  \n    // When no timeout option is specified, use the config timeout.  \n    const timeout = options?.timeout ?? this.timeout;  \n    // ... implement the assertion ...  \n  },  \n});",
+  "context": "New options [testConfig.respectGitIgnore](/docs/api/class-testconfig#test-config-respect-git-ignore) and [testProject.respectGitIgnore](/docs/api/class-testproject#test-project-respect-git-ignore) control whether files matching `.gitignore` patterns are excluded when searching for tests. | New property `timeout` is now available for custom expect matchers. This property takes into account `playwright.config.ts` and `expect.configure()`.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

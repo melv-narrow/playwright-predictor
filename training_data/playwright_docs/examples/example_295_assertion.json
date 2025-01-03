@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('context fetch', async ({ page }) => {  \n  const completeness = page.locator('text=Success');  \n  await completeness.waitFor();  \n  expect(await page.screenshot()).toMatchSnapshot('screen.png');  \n});",
+  "context": "Wait for a locator to resolve to a single element with a given state. Defaults to the `state: 'visible'`. | Comes especially handy when working with lists:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

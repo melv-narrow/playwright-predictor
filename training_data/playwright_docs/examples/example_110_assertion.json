@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { chromium, devices } from 'playwright';  \nimport assert from 'node:assert';  \n  \n(async () => {  \n  // Setup  \n  const browser = await chromium.launch();  \n  const context = await browser.newContext(devices['iPhone 11']);  \n  const page = await context.newPage();  \n  \n  // The actual interesting bit  \n  await context.route('**.jpg', route => route.abort());  \n  await page.goto('https://example.com/');  \n  \n  assert(await page.title() === 'Example Domain'); // \ud83d\udc4e not a Web First assertion  \n  \n  // Teardown  \n  await context.close();  \n  await browser.close();  \n})();  \n\n\n\nconst assert = require('node:assert');  \nconst { chromium, devices } = require('playwright');  \n  \n(async () => {  \n  // Setup  \n  const browser = await chromium.launch();  \n  const context = await browser.newContext(devices['iPhone 11']);  \n  const page = await context.newPage();  \n  \n  // The actual interesting bit  \n  await context.route('**.jpg', route => route.abort());  \n  await page.goto('https://example.com/');  \n  \n  assert(await page.title() === 'Example Domain'); // \ud83d\udc4e not a Web First assertion  \n  \n  // Teardown  \n  await context.close();  \n  await browser.close();  \n})();",
+  "context": "JavaScript",
+  "source_url": "https://playwright.dev/docs/library",
+  "pattern": "assertion"
+}

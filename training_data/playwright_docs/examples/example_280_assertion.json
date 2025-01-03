@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "* disables animations\n* uses CSS scale option\n\n    await page.goto('https://playwright.dev');  \nawait expect(page).toHaveScreenshot();",
+  "context": "The new assertions has screenshot-specific defaults, such as:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

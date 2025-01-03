@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page).toHaveTitle(/Playwright/);",
+  "context": "Playwright also includes async matchers that will wait until the expected condition is met. Using these matchers allows making the tests non-flaky and resilient. For example, this code will wait until the page gets the title containing \"Playwright\":",
+  "source_url": "https://playwright.dev/docs/writing-tests",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const { chromium, firefox, webkit } = require('playwright');  \n  \n(async () => {  \n  const browser = await chromium.launch();  // Or 'firefox' or 'webkit'.  \n  const page = await browser.newPage();  \n  await page.goto('http://example.com');  \n  // other actions...  \n  await browser.close();  \n})();",
+  "context": "Playwright Library | Playwright module provides a method to launch a browser instance. The following is a typical example of using Playwright to drive automation:",
+  "source_url": "https://playwright.dev/docs/api/class-playwright",
+  "pattern": "navigation"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('test customer login', {  \n  tag: ['@fast', '@login'],  \n}, async ({ page }) => {  \n  // ...  \n});",
+  "context": "[New syntax](/docs/test-annotations#tag-tests) for adding tags to the tests (@-tokens in the test title are still supported):",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

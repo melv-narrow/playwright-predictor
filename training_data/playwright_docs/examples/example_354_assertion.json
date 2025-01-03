@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/experimental-ct-react';  \nimport type { HooksConfig } from '../playwright';  \nimport { ProductsPage } from './pages/ProductsPage';  \n  \ntest('configure routing through hooks config', async ({ page, mount }) => {  \n  const component = await mount<HooksConfig>(<ProductsPage />, {  \n    hooksConfig: { enableRouting: true },  \n  });  \n  await expect(component.getByRole('link')).toHaveAttribute('href', '/products/42');  \n});",
+  "context": "src/pages/ProductsPage.spec.tsx",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "assertion"
+}

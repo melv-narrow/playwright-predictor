@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const buffer = await page.screenshot();  \nconsole.log(buffer.toString('base64'));",
+  "context": "Capture into buffer\u200b | Rather than writing into a file, you can get a buffer with the image and post-process it or pass it to a third party pixel diff facility.",
+  "source_url": "https://playwright.dev/docs/screenshots",
+  "pattern": "wait_strategy"
+}

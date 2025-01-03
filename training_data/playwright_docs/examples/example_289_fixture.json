@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// WRONG: THIS SNIPPET DOES NOT WORK SINCE v1.18.  \n  \n// fixtures.js  \nconst test = base.extend({  \n  myParameter: 'default',  \n});  \n  \n// playwright.config.js  \nmodule.exports = {  \n  use: {  \n    myParameter: 'value',  \n  },  \n};",
+  "context": "Custom config options are a convenient way to parametrize projects with different values. Learn more in [this guide](/docs/test-parameterize#parameterized-projects). | Previously, any fixture introduced through [test.extend()](/docs/api/class-test#test-extend) could be overridden in the [testProject.use](/docs/api/class-testproject#test-project-use) config section. For example,",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "fixture"
+}

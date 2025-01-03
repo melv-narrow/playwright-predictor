@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.addInitScript(() => {  \n  const mockBattery = {  \n    level: 0.75,  \n    charging: true,  \n    chargingTime: 1800,  \n    dischargingTime: Infinity,  \n    addEventListener: () => { }  \n  };  \n  // Override the method to always return mock battery info.  \n  window.navigator.getBattery = async () => mockBattery;  \n});",
+  "context": "Creating mocks\u200b | Since the page may be calling the API very early while loading it's important to setup all the mocks before the page started loading. The easiest way to achieve that is to call [page.addInitScript()](/docs/api/class-page#page-add-init-script):",
+  "source_url": "https://playwright.dev/docs/mock-browser-apis",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "* [page.waitForURL()](/docs/api/class-page#page-wait-for-url) to await navigations to URL\n* [video.delete()](/docs/api/class-video#video-delete) and [video.saveAs()](/docs/api/class-video#video-save-as) to manage screen recording",
+  "context": "support for **async predicates** across the API in methods such as [page.waitForRequest()](/docs/api/class-page#page-wait-for-request) and others | new **emulation devices** : Galaxy S8, Galaxy S9+, Galaxy Tab S4, Pixel 3, Pixel 4 | new methods:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "page_object"
+}

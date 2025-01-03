@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('_react=SubmitButton[enabled=true]').click();  \nawait page.locator('_vue=submit-button[enabled=true]').click();",
+  "context": "\ud83e\udde9 Experimental [**React**](/docs/other-locators#react-locator) and [**Vue**](/docs/other-locators#vue-locator) selector engines\u200b | React and Vue selectors allow selecting elements by its component name and/or property values. The syntax is very similar to [attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors) and supports all attribute selector operators.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

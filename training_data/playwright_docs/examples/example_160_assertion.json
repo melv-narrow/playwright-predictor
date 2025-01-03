@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Configure mock API before each test.  \ntest.beforeEach(async ({ page }) => {  \n  await page.addInitScript(() => {  \n    const mockBattery = {  \n      level: 0.90,  \n      charging: true,  \n      chargingTime: 1800, // seconds  \n      dischargingTime: Infinity,  \n      addEventListener: () => { }  \n    };  \n    // Override the method to always return mock battery info.  \n    window.navigator.getBattery = async () => mockBattery;  \n  });  \n});  \n  \ntest('show battery status', async ({ page }) => {  \n  await page.goto('/');  \n  await expect(page.locator('.battery-percentage')).toHaveText('90%');  \n  await expect(page.locator('.battery-status')).toHaveText('Adapter');  \n  await expect(page.locator('.battery-fully')).toHaveText('00:30');  \n});",
+  "context": "Once this is done you can navigate the page and check its UI state:",
+  "source_url": "https://playwright.dev/docs/mock-browser-apis",
+  "pattern": "assertion"
+}

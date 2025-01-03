@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nimport dotenv from 'dotenv';  \nimport path from 'path';  \n  \n// Read from \".env\" file.  \ndotenv.config({ path: path.resolve(__dirname, '.env') });  \n  \n// Alternatively, read from \"../my.env\" file.  \ndotenv.config({ path: path.resolve(__dirname, '..', 'my.env') });  \n  \nexport default defineConfig({  \n  use: {  \n    baseURL: process.env.STAGING === '1' ? 'http://staging.example.test/' : 'http://example.test/',  \n  }  \n});",
+  "context": "To make environment variables easier to manage, consider something like `.env` files. Here is an example that uses [`dotenv`](https://www.npmjs.com/package/dotenv) package to read environment variables directly in the configuration file. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "general"
+}

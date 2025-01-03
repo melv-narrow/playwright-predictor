@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Before  \n  \nimport { type PlaywrightTestConfig, devices } from '@playwright/experimental-ct-react';  \nconst config: PlaywrightTestConfig = {  \n  // ... config goes here ...  \n};  \nexport default config;",
+  "context": "Note: **component tests only** , does not affect end-to-end tests. | `playwright-ct.config` configuration file for [component testing](/docs/test-components) now requires calling `defineConfig`.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "form_interaction"
+}

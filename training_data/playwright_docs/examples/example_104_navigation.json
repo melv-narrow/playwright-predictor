@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Start waiting for file chooser before clicking. Note no await.  \nconst fileChooserPromise = page.waitForEvent('filechooser');  \nawait page.getByLabel('Upload file').click();  \nconst fileChooser = await fileChooserPromise;  \nawait fileChooser.setFiles(path.join(__dirname, 'myfile.pdf'));",
+  "context": "If you don't have input element in hand (it is created dynamically), you can handle the [page.on('filechooser')](/docs/api/class-page#page-event-file-chooser) event or use a corresponding waiting method upon your action:",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "navigation"
+}

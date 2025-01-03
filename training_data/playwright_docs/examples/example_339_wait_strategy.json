@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('this will not work', async ({ mount }) => {  \n  // () => 'red' callback lives in Node. If `ColorPicker` component in the browser calls the parameter function  \n  // `colorGetter` it won't get result synchronously. It'll be able to get it via await, but that is not how  \n  // components are typically built.  \n  const component = await mount(<ColorPicker colorGetter={() => 'red'}/>);  \n});",
+  "context": "You can't pass data to your component synchronously in a callback:",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "wait_strategy"
+}

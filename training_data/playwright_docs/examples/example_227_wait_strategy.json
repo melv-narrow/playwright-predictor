@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Press the common keyboard shortcut Control+S or Meta+S to trigger a \"Save\" operation.  \nawait page.keyboard.press('ControlOrMeta+S');",
+  "context": "Multiple methods like [locator.click()](/docs/api/class-locator#locator-click) or [locator.press()](/docs/api/class-locator#locator-press) now support a `ControlOrMeta` modifier key. This key maps to `Meta` on macOS and maps to `Control` on Windows and Linux.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

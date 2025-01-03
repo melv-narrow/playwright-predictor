@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.goto('https://playwright.dev', {  \n  waitUntil: 'domcontentloaded',  \n});",
+  "context": "Behavior Change\u200b | A bunch of Playwright APIs already support the `waitUntil: 'domcontentloaded'` option. For example:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Wait until all three buttons are visible  \nawait page.locator(':nth-match(:text(\"Buy\"), 3)').waitFor();",
+  "context": "`:nth-match()` is also useful to wait until a specified number of elements appear, using [locator.waitFor()](/docs/api/class-locator#locator-wait-for).",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "wait_strategy"
+}

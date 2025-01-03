@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const data = 'some data';  \nconst result = await page.evaluate(() => {  \n  // WRONG: there is no \"data\" in the web page.  \n  window.myApp.use(data);  \n});",
+  "context": "Evaluated scripts run in the browser environment, while your test runs in a testing environments. This means you cannot use variables from your test in the page and vice versa. Instead, you should pass them explicitly as an argument. | The following snippet is **WRONG** because it uses the variable directly:",
+  "source_url": "https://playwright.dev/docs/evaluating",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as teardown } from '@playwright/test';  \n  \nteardown('delete database', async ({ }) => {  \n  console.log('deleting test database...');  \n  // Delete the database  \n});",
+  "context": "Then we create a `global.teardown.ts` file in the tests directory of your project. This will be used to delete the data from the database after all tests have run. | tests/global.teardown.ts",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "general"
+}

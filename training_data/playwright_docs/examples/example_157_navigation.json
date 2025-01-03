@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByRole('button').click();",
+  "context": "Locators are strict. This means that all operations on locators that imply some target DOM element will throw an exception if more than one element matches. For example, the following call throws if there are several buttons in the DOM: | Throws an error if more than one\u200b",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

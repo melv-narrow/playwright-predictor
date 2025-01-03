@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('loads page without images', async ({ page }) => {  \n  // Block png and jpeg images.  \n  await page.route(/(png|jpeg)$/, route => route.abort());  \n  \n  await page.goto('https://playwright.dev');  \n  // ... test goes here  \n});",
+  "context": "Alternatively, you can use [page.route()](/docs/api/class-page#page-route) to mock network in a single page. | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "assertion"
+}

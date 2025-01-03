@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Click the third \"Buy\" button  \nawait page.locator(':nth-match(:text(\"Buy\"), 3)').click();",
+  "context": "In this case, `:nth-match(:text(\"Buy\"), 3)` will select the third button from the snippet above. Note that index is one-based.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

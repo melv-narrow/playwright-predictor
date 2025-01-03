@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('gets the json from HAR and checks the new fruit has been added', async ({ page }) => {  \n  // Replay API requests from HAR.  \n  // Either use a matching response from the HAR,  \n  // or abort the request if nothing matches.  \n  await page.routeFromHAR('./hars/fruit.har', {  \n    url: '*/**/api/v1/fruits',  \n    update: false,  \n  });  \n  \n  // Go to the page  \n  await page.goto('https://demo.playwright.dev/api-mocking');  \n  \n  // Assert that the Playwright fruit is visible  \n  await expect(page.getByText('Playwright', { exact: true })).toBeVisible();  \n});",
+  "context": "Replaying from HAR\u200b | Now that you have the HAR file recorded and modified the mock data, it can be used to serve matching responses in the test. For this, just turn off or simply remove the `update` option. This will run the test against the HAR file instead of hitting the API.",
+  "source_url": "https://playwright.dev/docs/mock",
+  "pattern": "assertion"
+}

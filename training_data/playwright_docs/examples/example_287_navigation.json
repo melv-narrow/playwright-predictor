@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('article', {  \n  has: page.locator('.highlight'),  \n}).click();",
+  "context": "Other Updates\u200b | Locator now supports a `has` option that makes sure it contains another locator inside:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

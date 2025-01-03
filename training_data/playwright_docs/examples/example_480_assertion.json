@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \nimport { username, password } from '@myhelper/credentials';  \n  \ntest('example', async ({ page }) => {  \n  await page.getByLabel('User Name').fill(username);  \n  await page.getByLabel('Password').fill(password);  \n});",
+  "context": "You can now import using the mapped paths: | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-typescript",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \n  \nexport type TestOptions = {  \n  person: string;  \n};  \n  \nexport const test = base.extend<TestOptions>({  \n  // Define an option and provide a default value.  \n  // We can later override it in the config.  \n  person: ['John', { option: true }],  \n});",
+  "context": "my-test.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "form_interaction"
+}

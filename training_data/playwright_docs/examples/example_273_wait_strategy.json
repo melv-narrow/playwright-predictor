@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const context = await browser.newContext({  \n  recordHar: { path: 'github.har.zip' }  \n});  \n// ... do stuff ...  \nawait context.close();",
+  "context": "Alternatively, you can record HAR programmatically:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

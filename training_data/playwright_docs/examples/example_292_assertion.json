@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('context fetch', async ({ page }) => {  \n  // Do a GET request on behalf of page  \n  const response = await page.request.get('http://example.com/foo.json');  \n  // ...  \n});",
+  "context": "To do a request on behalf of Playwright's Page, use **new[page.request](/docs/api/class-page#page-request) API**:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

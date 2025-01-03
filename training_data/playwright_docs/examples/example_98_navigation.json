@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByRole('button').click({ force: true });",
+  "context": "Forcing the click\u200b | Sometimes, apps use non-trivial logic where hovering the element overlays it with another element that intercepts the click. This behavior is indistinguishable from a bug where element gets covered and the click is dispatched elsewhere. If you know this is taking place, you can bypass the [actionability](/docs/actionability) checks and force the click:",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "navigation"
+}

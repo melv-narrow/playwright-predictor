@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.screenshot({ path: 'screenshot.png', fullPage: true });",
+  "context": "Full page screenshots\u200b | Full page screenshot is a screenshot of a full scrollable page, as if you had a very tall screen and the page could fit it entirely.",
+  "source_url": "https://playwright.dev/docs/screenshots",
+  "pattern": "wait_strategy"
+}

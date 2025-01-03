@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "expect(await page.screenshot()).toMatchSnapshot({  \n  maxDiffPixels: 27, // allow no more than 27 different pixels.  \n});",
+  "context": "New `maxDiffPixels` and `maxDiffPixelRatio` options for fine-grained screenshot comparison using `expect().toMatchSnapshot()`:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

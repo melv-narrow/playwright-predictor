@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const handle = await page.$('text=Submit');  \n// ...  \nawait handle.hover();  \nawait handle.click();",
+  "context": "The difference between the [Locator](/docs/api/class-locator \"Locator\") and [ElementHandle](/docs/api/class-elementhandle \"ElementHandle\") is that the latter points to a particular element, while Locator captures the logic of how to retrieve that element. | In the example below, handle points to a particular DOM element on page. If that element changes text or is used by React to render an entirely different component, handle is still pointing to that very stale DOM element. This can lead to unexpected behaviors.",
+  "source_url": "https://playwright.dev/docs/handles",
+  "pattern": "navigation"
+}

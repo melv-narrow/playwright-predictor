@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Make a few checks that will not stop the test when failed...  \nawait expect.soft(page.getByTestId('status')).toHaveText('Success');  \nawait expect.soft(page.getByTestId('eta')).toHaveText('1 day');  \n  \n// Avoid running further if there were soft assertion failures.  \nexpect(test.info().errors).toHaveLength(0);",
+  "context": "At any point during test execution, you can check whether there were any soft assertion failures:",
+  "source_url": "https://playwright.dev/docs/test-assertions",
+  "pattern": "assertion"
+}

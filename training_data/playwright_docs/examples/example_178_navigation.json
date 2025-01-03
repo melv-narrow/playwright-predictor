@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Use a glob URL pattern. Note no await.  \nconst responsePromise = page.waitForResponse('**/api/fetch_data');  \nawait page.getByText('Update').click();  \nconst response = await responsePromise;",
+  "context": "Or wait for a network response after the button click with [page.waitForResponse()](/docs/api/class-page#page-wait-for-response):",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "navigation"
+}

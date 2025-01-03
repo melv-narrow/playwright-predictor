@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest.beforeEach(async ({ context }) => {  \n  // Runs before each test and signs in each page.  \n  await context.grantPermissions(['notifications'], { origin: 'https://skype.com' });  \n});  \n  \ntest('first', async ({ page }) => {  \n  // page has notifications permission for https://skype.com.  \n});  \n\n\n\nawait context.grantPermissions(['notifications'], { origin: 'https://skype.com' });",
+  "context": "tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "wait_strategy"
+}

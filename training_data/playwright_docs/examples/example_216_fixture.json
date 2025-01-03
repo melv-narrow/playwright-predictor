@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \nimport { PlaywrightDevPage } from './playwright-dev-page';  \n  \ntest('getting started should contain table of contents', async ({ page }) => {  \n  const playwrightDev = new PlaywrightDevPage(page);  \n  await playwrightDev.goto();  \n  await playwrightDev.getStarted();  \n  await expect(playwrightDev.tocList).toHaveText([  \n    `How to install Playwright`,  \n    `What's Installed`,  \n    `How to run the example test`,  \n    `How to open the HTML test report`,  \n    `Write tests using web first assertions, page fixtures and locators`,  \n    `Run single test, multiple tests, headed mode`,  \n    `Generate tests with Codegen`,  \n    `See a trace of your tests`  \n  ]);  \n});  \n  \ntest('should show Page Object Model article', async ({ page }) => {  \n  const playwrightDev = new PlaywrightDevPage(page);  \n  await playwrightDev.goto();  \n  await playwrightDev.pageObjectModel();  \n  await expect(page.locator('article')).toContainText('Page Object Model is a common pattern');  \n});",
+  "context": "example.spec.ts",
+  "source_url": "https://playwright.dev/docs/pom",
+  "pattern": "fixture"
+}

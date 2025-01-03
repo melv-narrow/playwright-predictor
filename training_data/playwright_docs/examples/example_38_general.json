@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const product = page.getByRole('listitem').filter({ hasText: 'Product 2' });",
+  "context": "Use chaining and filtering\u200b | Locators can be [chained](/docs/locators#matching-inside-a-locator) to narrow down the search to a particular part of the page.",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "general"
+}

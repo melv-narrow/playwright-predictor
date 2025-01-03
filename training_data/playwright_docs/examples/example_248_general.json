@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    {  \n      name: 'setup',  \n      testMatch: /global.setup\\.ts/,  \n      teardown: 'teardown',  \n    },  \n    {  \n      name: 'teardown',  \n      testMatch: /global.teardown\\.ts/,  \n    },  \n    {  \n      name: 'chromium',  \n      use: devices['Desktop Chrome'],  \n      dependencies: ['setup'],  \n    },  \n    {  \n      name: 'firefox',  \n      use: devices['Desktop Firefox'],  \n      dependencies: ['setup'],  \n    },  \n    {  \n      name: 'webkit',  \n      use: devices['Desktop Safari'],  \n      dependencies: ['setup'],  \n    },  \n  ],  \n});",
+  "context": "A common pattern would be a `setup` dependency with a corresponding `teardown`: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest.use({  \n  geolocation: { longitude: 41.890221, latitude: 12.492348 },  \n  permissions: ['geolocation'],  \n});  \n  \ntest('my test with geolocation', async ({ page, context }) => {  \n  // overwrite the location for this test  \n  await context.setGeolocation({ longitude: 48.858455, latitude: 2.294474 });  \n});  \n\n\n\nawait context.setGeolocation({ longitude: 48.858455, latitude: 2.294474 });",
+  "context": "tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "assertion"
+}

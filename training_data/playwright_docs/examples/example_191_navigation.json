@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Clicks a <button> that has either a \"Log in\" or \"Sign in\" text.  \nawait page.locator('button:has-text(\"Log in\"), button:has-text(\"Sign in\")').click();",
+  "context": "CSS: elements matching one of the conditions\u200b | Comma-separated list of CSS selectors will match all elements that can be selected by one of the selectors in that list.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

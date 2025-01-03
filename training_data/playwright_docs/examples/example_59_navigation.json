@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "page.on('dialog', dialog => console.log(dialog.message()));  \nawait page.getByRole('button').click(); // Will hang here",
+  "context": "warning | WRONG!",
+  "source_url": "https://playwright.dev/docs/dialogs",
+  "pattern": "navigation"
+}

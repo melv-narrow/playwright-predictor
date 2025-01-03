@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "electronApp.on('console', async msg => {  \n  const values = [];  \n  for (const arg of msg.args())  \n    values.push(await arg.jsonValue());  \n  console.log(...values);  \n});  \nawait electronApp.evaluate(() => console.log('hello', 5, { foo: 'bar' }));",
+  "context": "[electronApplication.on('console')](/docs/api/class-electronapplication#electron-application-event-console) event is emitted when Electron main process calls console API methods.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/experimental-ct-react';  \n  \ntest('children', async ({ mount }) => {  \n  const component = await mount(<Component>Child</Component>);  \n});",
+  "context": "component.spec.tsx",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "wait_strategy"
+}

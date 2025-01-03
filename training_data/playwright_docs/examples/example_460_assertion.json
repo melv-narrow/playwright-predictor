@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest.describe(() => {  \n  // All tests in this describe group will get 2 retry attempts.  \n  test.describe.configure({ retries: 2 });  \n  \n  test('test 1', async ({ page }) => {  \n    // ...  \n  });  \n  \n  test('test 2', async ({ page }) => {  \n    // ...  \n  });  \n});",
+  "context": "You can specify retries for a specific group of tests or a single file with [test.describe.configure()](/docs/api/class-test#test-describe-configure).",
+  "source_url": "https://playwright.dev/docs/test-retries",
+  "pattern": "assertion"
+}

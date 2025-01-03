@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const banana = await page.getByRole('listitem').nth(1);",
+  "context": "Get by nth item\u200b | If you have a list of identical elements, and the only way to distinguish between them is the order, you can choose a specific element from a list with [locator.first()](/docs/api/class-locator#locator-first), [locator.last()](/docs/api/class-locator#locator-last) or [locator.nth()](/docs/api/class-locator#locator-nth).",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "wait_strategy"
+}

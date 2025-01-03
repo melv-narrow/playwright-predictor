@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import type { Page } from '@playwright/test';  \n  \nexport class SettingsPage {  \n  constructor(public readonly page: Page) {  \n  }  \n  \n  async switchToDarkMode() {  \n    // ...  \n  }  \n}",
+  "context": "SettingsPage is similar: | settings-page.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "page_object"
+}

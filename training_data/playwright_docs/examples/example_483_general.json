@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    // Emulates `'prefers-colors-scheme'` media feature.  \n    colorScheme: 'dark',  \n  \n    // Context geolocation.  \n    geolocation: { longitude: 12.492507, latitude: 41.889938 },  \n  \n    // Emulates the user locale.  \n    locale: 'en-GB',  \n  \n    // Grants specified permissions to the browser context.  \n    permissions: ['geolocation'],  \n  \n    // Emulates the user timezone.  \n    timezoneId: 'Europe/Paris',  \n  \n    // Viewport used for all pages in the context.  \n    viewport: { width: 1280, height: 720 },  \n  },  \n});",
+  "context": "With Playwright you can emulate a real device such as a mobile phone or tablet. See our [guide on projects](/docs/test-projects) for more info on emulating devices. You can also emulate the `\"geolocation\"`, `\"locale\"` and `\"timezone\"` for all tests or for a specific test as well as set the `\"permissions\"` to show notifications or change the `\"colorScheme\"`. See our [Emulation](/docs/emulation) guide to learn more. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "general"
+}

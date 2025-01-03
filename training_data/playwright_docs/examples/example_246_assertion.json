@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "async function login(page) {  \n  await test.step('login', async () => {  \n    // ...  \n  }, { box: true });  // Note the \"box\" option here.  \n}  \n\n\n\nError: Timed out 5000ms waiting for expect(locator).toBeVisible()  \n  ... error details omitted ...  \n  \n  14 |   await page.goto('https://github.com/login');  \n> 15 |   await login(page);  \n     |         ^  \n  16 | });",
+  "context": "Hide implementation details: box test steps\u200b | You can mark a [test.step()](/docs/api/class-test#test-step) as \"boxed\" so that errors inside it point to the step call site.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

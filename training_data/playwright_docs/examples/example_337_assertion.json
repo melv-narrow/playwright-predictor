@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/experimental-ct-svelte';  \nimport App from './App.svelte';  \n  \ntest('should work', async ({ mount }) => {  \n  const component = await mount(App);  \n  await expect(component).toContainText('Learn Svelte');  \n});",
+  "context": "app.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "assertion"
+}

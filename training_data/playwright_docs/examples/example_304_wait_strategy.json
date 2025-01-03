@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  webServer: {  \n    command: 'npm run start', // command to launch  \n    url: 'http://127.0.0.1:3000', // url to await for  \n    timeout: 120 * 1000,  \n    reuseExistingServer: !process.env.CI,  \n  },  \n});",
+  "context": "To launch a server during the tests, use the [`webServer`](/docs/test-webserver) option in the configuration file. The server will wait for a given url to be available before running the tests, and the url will be passed over to Playwright as a [`baseURL`](/docs/api/class-testoptions#test-options-base-url) when creating a context. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "try {  \n  await page.locator('.foo').waitFor();  \n} catch (e) {  \n  if (e instanceof playwright.errors.TimeoutError) {  \n    // Do something if this is a timeout.  \n  }  \n}",
+  "context": "For certain types of errors Playwright uses specific error classes. These classes are available via `playwright.errors`. | An example of handling a timeout error:",
+  "source_url": "https://playwright.dev/docs/api/class-playwright",
+  "pattern": "wait_strategy"
+}

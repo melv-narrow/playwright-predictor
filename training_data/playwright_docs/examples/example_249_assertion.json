@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const slowExpect = expect.configure({ timeout: 10000 });  \nawait slowExpect(locator).toHaveText('Submit');  \n  \n// Always do soft assertions.  \nconst softExpect = expect.configure({ soft: true });",
+  "context": "New method [`expect.configure`](/docs/test-assertions#expectconfigure) to create pre-configured expect instance with its own defaults such as `timeout` and `soft`.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

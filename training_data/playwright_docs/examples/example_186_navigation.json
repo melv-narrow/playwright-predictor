@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Wrong, will match many elements including <body>  \nawait page.locator(':has-text(\"Playwright\")').click();  \n// Correct, only matches the <article> element  \nawait page.locator('article:has-text(\"Playwright\")').click();",
+  "context": "For example, `article:has-text(\"Playwright\")` matches `<article><div>Playwright</div></article>`. | Note that `:has-text()` should be used together with other CSS specifiers, otherwise it will match all the elements containing specified text, including the `<body>`.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('button').click();",
+  "context": "This will find both buttons and throw a [strictness](/docs/locators#strictness) violation error:",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

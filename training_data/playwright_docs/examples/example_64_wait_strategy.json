@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    {  \n      name: 'chromium',  \n      use: {  \n        ...devices['Desktop Chrome'],  \n        // It is important to define the `viewport` property after destructuring `devices`,  \n        // since devices also define the `viewport` for that device.  \n        viewport: { width: 1280, height: 720 },  \n      },  \n    },  \n  ]  \n});  \n\n\n\n// Create context with given viewport  \nconst context = await browser.newContext({  \n  viewport: { width: 1280, height: 1024 }  \n});",
+  "context": "playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "wait_strategy"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByRole('button', { name: 'Sign in' }).click();",
+  "context": "Locate the element by its role of `button` with name \"Sign in\".",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

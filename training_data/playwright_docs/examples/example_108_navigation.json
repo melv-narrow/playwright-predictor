@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Scrolls automatically so that button is visible  \nawait page.getByRole('button').click();",
+  "context": "Scrolling\u200b | Most of the time, Playwright will automatically scroll for you before doing any actions. Therefore, you do not need to scroll explicitly.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "navigation"
+}

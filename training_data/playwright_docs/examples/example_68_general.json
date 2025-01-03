@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    // Emulates the user locale.  \n    locale: 'en-GB',  \n  \n    // Emulates the user timezone.  \n    timezoneId: 'Europe/Paris',  \n  },  \n});",
+  "context": "Emulate the user Locale and Timezone which can be set globally for all tests in the config and then overridden for particular tests. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "general"
+}

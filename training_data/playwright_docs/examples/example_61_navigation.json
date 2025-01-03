@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.goto('<url>');  \n  \nawait page.evaluate('(() => {window.waitForPrintDialog = new Promise(f => window.print = f);})()');  \nawait page.getByText('Print it!').click();  \n  \nawait page.waitForFunction('window.waitForPrintDialog');",
+  "context": "Print dialogs\u200b | In order to assert that a print dialog via [`window.print`](https://developer.mozilla.org/en-US/docs/Web/API/Window/print) was triggered, you can use the following snippet:",
+  "source_url": "https://playwright.dev/docs/dialogs",
+  "pattern": "navigation"
+}

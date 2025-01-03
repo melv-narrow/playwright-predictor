@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('text=Log in').click();",
+  "context": "Legacy text locator has a few variations: | `text=Log in` \\- default matching is case-insensitive, trims whitespace and searches for a substring. For example, `text=Log` matches `<button>Log in</button>`.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

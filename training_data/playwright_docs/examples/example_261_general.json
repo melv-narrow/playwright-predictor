@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  use: {  \n    screenshot: {  \n      mode: 'only-on-failure',  \n      fullPage: true,  \n    }  \n  }  \n});",
+  "context": "Automatically capture **full page screenshot** on test failure: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

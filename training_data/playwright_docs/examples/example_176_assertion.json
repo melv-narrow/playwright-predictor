@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('should use custom proxy on a new context', async ({ browser }) => {  \n  const context = await browser.newContext({  \n    proxy: {  \n      server: 'http://myproxy.com:3128',  \n    }  \n  });  \n  const page = await context.newPage();  \n  \n  await context.close();  \n});  \n\n\n\nconst browser = await chromium.launch();  \nconst context = await browser.newContext({  \n  proxy: { server: 'http://myproxy.com:3128' }  \n});",
+  "context": "example.spec.ts",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "assertion"
+}

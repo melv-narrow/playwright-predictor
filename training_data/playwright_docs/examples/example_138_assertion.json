@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page  \n    .getByRole('listitem')  \n    .filter({ has: page.getByRole('heading', { name: 'Product 2' }) }))  \n    .toHaveCount(1);",
+  "context": "We can also assert the product card to make sure there is only one:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

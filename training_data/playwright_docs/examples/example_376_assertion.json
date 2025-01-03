@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const { test } = require('@playwright/test');  \nconst { TodoPage } = require('./todo-page');  \n  \ntest.describe('todo tests', () => {  \n  let todoPage;  \n  \n  test.beforeEach(async ({ page }) => {  \n    todoPage = new TodoPage(page);  \n    await todoPage.goto();  \n    await todoPage.addToDo('item1');  \n    await todoPage.addToDo('item2');  \n  });  \n  \n  test.afterEach(async () => {  \n    await todoPage.removeAll();  \n  });  \n  \n  test('should add an item', async () => {  \n    await todoPage.addToDo('my item');  \n    // ...  \n  });  \n  \n  test('should remove an item', async () => {  \n    await todoPage.remove('item1');  \n    // ...  \n  });  \n});",
+  "context": "todo.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "assertion"
+}

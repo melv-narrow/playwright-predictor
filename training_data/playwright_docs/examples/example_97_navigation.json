@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Generic click  \nawait page.getByRole('button').click();  \n  \n// Double click  \nawait page.getByText('Item').dblclick();  \n  \n// Right click  \nawait page.getByText('Item').click({ button: 'right' });  \n  \n// Shift + click  \nawait page.getByText('Item').click({ modifiers: ['Shift'] });  \n  \n// Ctrl + click or Windows and Linux  \n// Meta + click on macOS  \nawait page.getByText('Item').click({ modifiers: ['ControlOrMeta'] });  \n  \n// Hover over element  \nawait page.getByText('Item').hover();  \n  \n// Click the top left corner  \nawait page.getByText('Item').click({ position: { x: 0, y: 0 } });",
+  "context": "Mouse click\u200b | Performs a simple human click.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "navigation"
+}

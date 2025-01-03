@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page.frameLocator('#my-iframe').locator('text=Submit');  \nawait locator.click();",
+  "context": "Playwright 1.17 introduces [frame locators](/docs/api/class-framelocator) \\- a locator to the iframe on the page. Frame locators capture the logic sufficient to retrieve the `iframe` and then locate elements in that iframe. Frame locators are strict by default, will wait for `iframe` to appear and can be used in Web-First assertions. | Frame locators can be created with either [page.frameLocator()](/docs/api/class-page#page-frame-locator) or [locator.frameLocator()](/docs/api/class-locator#locator-frame-locator) method.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

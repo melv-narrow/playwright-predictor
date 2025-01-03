@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    // Context geolocation  \n    geolocation: { longitude: 12.492507, latitude: 41.889938 },  \n    permissions: ['geolocation'],  \n  },  \n});",
+  "context": "Grant `\"geolocation\"` permissions and set geolocation to a specific area. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "general"
+}

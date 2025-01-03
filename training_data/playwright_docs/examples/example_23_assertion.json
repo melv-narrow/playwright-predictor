@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as setup, expect } from '@playwright/test';  \nimport path from 'path';  \n  \nconst authFile = path.join(__dirname, '../playwright/.auth/user.json');  \n  \nsetup('authenticate', async ({ page }) => {  \n  // Perform authentication steps. Replace these actions with your own.  \n  await page.goto('https://github.com/login');  \n  await page.getByLabel('Username or email address').fill('username');  \n  await page.getByLabel('Password').fill('password');  \n  await page.getByRole('button', { name: 'Sign in' }).click();  \n  // Wait until the page receives the cookies.  \n  //  \n  // Sometimes login flow sets cookies in the process of several redirects.  \n  // Wait for the final URL to ensure that the cookies are actually set.  \n  await page.waitForURL('https://github.com/');  \n  // Alternatively, you can wait until the page reaches a state where all cookies are set.  \n  await expect(page.getByRole('button', { name: 'View profile and more' })).toBeVisible();  \n  \n  // End of authentication steps.  \n  \n  await page.context().storageState({ path: authFile });  \n});",
+  "context": "Create `tests/auth.setup.ts` that will prepare authenticated browser state for all other tests. | tests/auth.setup.ts",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "assertion"
+}

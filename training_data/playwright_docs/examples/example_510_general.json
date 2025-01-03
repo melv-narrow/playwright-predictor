@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest('example test', async ({ page }) => {  \n  // \"page\" belongs to an isolated BrowserContext, created for this specific test.  \n});  \n  \ntest('another test', async ({ page }) => {  \n  // \"page\" in this second test is completely isolated from the first test.  \n});",
+  "context": "Playwright Test is based on the concept of [test fixtures](/docs/test-fixtures) such as the [built in page fixture](/docs/test-fixtures#built-in-fixtures), which is passed into your test. Pages are [isolated between tests due to the Browser Context](/docs/browser-contexts), which is equivalent to a brand new browser profile, where every test gets a fresh environment, even when multiple tests run in a single Browser. | tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/writing-tests",
+  "pattern": "general"
+}

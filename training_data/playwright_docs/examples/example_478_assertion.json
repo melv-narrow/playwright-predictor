@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('basic test', async ({ page }) => {  \n  await page.goto('https://playwright.dev', { timeout: 30000 });  \n  await page.getByText('Get Started').click({ timeout: 10000 });  \n});",
+  "context": "Set timeout for a single action\u200b | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-timeouts",
+  "pattern": "assertion"
+}

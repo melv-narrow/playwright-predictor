@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import React from 'react';  \nimport InputMedia from './import-media';  \n  \ntype InputMediaForTestProps = {  \n  onMediaChange(mediaName: string): void;  \n};  \n  \nexport function InputMediaForTest(props: InputMediaForTestProps) {  \n  // Instead of sending a complex `media` object to the test, send the media name.  \n  return <InputMedia onChange={media => props.onMediaChange(media.name)} />;  \n}  \n// Export more stories here.",
+  "context": "Create a story file for your component: | input-media.story.tsx",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "form_interaction"
+}

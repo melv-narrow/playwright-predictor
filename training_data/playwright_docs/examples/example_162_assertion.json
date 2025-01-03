@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('log battery calls', async ({ page }) => {  \n  const log = [];  \n  // Expose function for pushing messages to the Node.js script.  \n  await page.exposeFunction('logCall', msg => log.push(msg));  \n  await page.addInitScript(() => {  \n    const mockBattery = {  \n      level: 0.75,  \n      charging: true,  \n      chargingTime: 1800,  \n      dischargingTime: Infinity,  \n      // Log addEventListener calls.  \n      addEventListener: (name, cb) => logCall(`addEventListener:${name}`)  \n    };  \n    // Override the method to always return mock battery info.  \n    window.navigator.getBattery = async () => {  \n      logCall('getBattery');  \n      return mockBattery;  \n    };  \n  });  \n  \n  await page.goto('/');  \n  await expect(page.locator('.battery-percentage')).toHaveText('75%');  \n  \n  // Compare actual calls with golden.  \n  expect(log).toEqual([  \n    'getBattery',  \n    'addEventListener:chargingchange',  \n    'addEventListener:levelchange'  \n  ]);  \n});",
+  "context": "Verifying API calls\u200b | Sometimes it is useful to check if the page made all expected APIs calls. You can record all API method invocations and then compare them with golden result. [page.exposeFunction()](/docs/api/class-page#page-expose-function) may come in handy for passing message from the page back to the test code:",
+  "source_url": "https://playwright.dev/docs/mock-browser-apis",
+  "pattern": "assertion"
+}

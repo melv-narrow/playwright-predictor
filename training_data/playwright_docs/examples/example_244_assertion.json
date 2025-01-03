@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { mergeTests, mergeExpects } from '@playwright/test';  \nimport { test as dbTest, expect as dbExpect } from 'database-test-utils';  \nimport { test as a11yTest, expect as a11yExpect } from 'a11y-test-utils';  \n  \nexport const test = mergeTests(dbTest, a11yTest);  \nexport const expect = mergeExpects(dbExpect, a11yExpect);",
+  "context": "You can now merge custom expect matchers from multiple files or modules: | fixtures.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

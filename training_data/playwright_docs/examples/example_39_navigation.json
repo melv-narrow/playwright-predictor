@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page  \n    .getByRole('listitem')  \n    .filter({ hasText: 'Product 2' })  \n    .getByRole('button', { name: 'Add to cart' })  \n    .click();",
+  "context": "You can also [filter locators](/docs/locators#filtering-locators) by text or by another locator.",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "navigation"
+}

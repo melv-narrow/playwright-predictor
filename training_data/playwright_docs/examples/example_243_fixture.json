@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from './fixtures';  \n  \ntest('passes', async ({ database, page, a11y }) => {  \n  // use database and a11y fixtures.  \n});",
+  "context": "test.spec.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "fixture"
+}

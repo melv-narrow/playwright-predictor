@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    {  \n      name: 'chromium',  \n      use: { ...devices['Desktop Chrome'], channel: 'chromium' },  \n    },  \n  ],  \n});",
+  "context": "> New Headless on the other hand is the real Chrome browser, and is thus more authentic, reliable, and offers more features. This makes it more suitable for high-accuracy end-to-end web app testing or browser extension testing. | See [issue #33566](https://github.com/microsoft/playwright/issues/33566) for details.",
+  "source_url": "https://playwright.dev/docs/browsers",
+  "pattern": "general"
+}

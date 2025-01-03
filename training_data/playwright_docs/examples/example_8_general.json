@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  use: {  \n    // All requests we send go to this API endpoint.  \n    baseURL: 'https://api.github.com',  \n    extraHTTPHeaders: {  \n      // We set this header per GitHub guidelines.  \n      'Accept': 'application/vnd.github.v3+json',  \n      // Add authorization token to all requests.  \n      // Assuming personal access token available in the environment.  \n      'Authorization': `token ${process.env.API_TOKEN}`,  \n    },  \n  }  \n});",
+  "context": "GitHub API requires authorization, so we'll configure the token once for all tests. While at it, we'll also set the `baseURL` to simplify the tests. You can either put them in the configuration file, or in the test file with `test.use()`. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/api-testing",
+  "pattern": "general"
+}

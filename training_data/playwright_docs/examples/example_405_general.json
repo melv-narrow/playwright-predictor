@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  testDir: './tests',  \n  // ...  \n  projects: [  \n    {  \n      name: 'setup db',  \n      testMatch: /global\\.setup\\.ts/,  \n      teardown: 'cleanup db',  \n    },  \n    {  \n      name: 'cleanup db',  \n      testMatch: /global\\.teardown\\.ts/,  \n    },  \n    {  \n      name: 'chromium',  \n      use: { ...devices['Desktop Chrome'] },  \n      dependencies: ['setup db'],  \n    },  \n  ]  \n});",
+  "context": "First we add the [testProject.teardown](/docs/api/class-testproject#test-project-teardown) property to our setup project with the name 'cleanup db' which is the name we gave to our teardown project in the previous step: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "general"
+}

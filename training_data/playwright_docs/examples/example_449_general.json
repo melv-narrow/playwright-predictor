@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  reporter: [['html', { outputFolder: 'my-report' }]],  \n});",
+  "context": "In configuration file, pass options directly: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-reporters",
+  "pattern": "general"
+}

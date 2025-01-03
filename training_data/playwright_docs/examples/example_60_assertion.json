@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "page.on('dialog', async dialog => {  \n  assert(dialog.type() === 'beforeunload');  \n  await dialog.dismiss();  \n});  \nawait page.close({ runBeforeUnload: true });",
+  "context": "When [page.close()](/docs/api/class-page#page-close) is invoked with the truthy [runBeforeUnload](/docs/api/class-page#page-close-option-run-before-unload) value, the page runs its unload handlers. This is the only case when [page.close()](/docs/api/class-page#page-close) does not wait for the page to actually close, because it might be that the page stays open in the end of the operation. | You can register a dialog handler to handle the `beforeunload` dialog yourself:",
+  "source_url": "https://playwright.dev/docs/dialogs",
+  "pattern": "assertion"
+}

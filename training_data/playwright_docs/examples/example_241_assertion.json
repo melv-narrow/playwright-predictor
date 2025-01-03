@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { expect as baseExpect } from '@playwright/test';  \nexport const expect = baseExpect.extend({  \n  async toHaveAmount(locator: Locator, expected: number, options?: { timeout?: number }) {  \n    // ... see documentation for how to write matchers.  \n  },  \n});  \n  \ntest('pass', async ({ page }) => {  \n  await expect(page.getByTestId('cart')).toHaveAmount(5);  \n});",
+  "context": "You can extend Playwright assertions by providing custom matchers. These matchers will be available on the expect object. | test.spec.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

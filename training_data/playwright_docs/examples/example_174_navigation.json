@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  use: {  \n    httpCredentials: {  \n      username: 'bill',  \n      password: 'pa55w0rd',  \n    }  \n  }  \n});  \n\n\n\nconst context = await browser.newContext({  \n  httpCredentials: {  \n    username: 'bill',  \n    password: 'pa55w0rd',  \n  },  \n});  \nconst page = await context.newPage();  \nawait page.goto('https://example.com');",
+  "context": "playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "navigation"
+}

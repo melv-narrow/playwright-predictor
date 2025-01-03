@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page.getByRole('button');  \nawait expect(locator).toHaveAccessibleName('Submit');",
+  "context": "**Accessibility assertions** | [expect(locator).toHaveAccessibleName()](/docs/api/class-locatorassertions#locator-assertions-to-have-accessible-name) checks if the element has the specified accessible name:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

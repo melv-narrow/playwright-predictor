@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    // Whether to automatically download all the attachments.  \n    acceptDownloads: false,  \n  \n    // An object containing additional HTTP headers to be sent with every request.  \n    extraHTTPHeaders: {  \n      'X-My-Header': 'value',  \n    },  \n  \n    // Credentials for HTTP authentication.  \n    httpCredentials: {  \n      username: 'user',  \n      password: 'pass',  \n    },  \n  \n    // Whether to ignore HTTPS errors during navigation.  \n    ignoreHTTPSErrors: true,  \n  \n    // Whether to emulate network being offline.  \n    offline: true,  \n  \n    // Proxy settings used for all pages in the test.  \n    proxy: {  \n      server: 'http://myproxy.com:3128',  \n      bypass: 'localhost',  \n    },  \n  },  \n});",
+  "context": "Available options to configure networking: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "general"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const data = 'some data';  \n// Pass |data| as a parameter.  \nconst result = await page.evaluate(data => {  \n  window.myApp.use(data);  \n}, data);",
+  "context": "The following snippet is **CORRECT** because it passes the value explicitly as an argument:",
+  "source_url": "https://playwright.dev/docs/evaluating",
+  "pattern": "wait_strategy"
+}

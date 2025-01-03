@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest.beforeEach(async ({ page }) => {  \n  // Runs before each test and signs in each page.  \n  await page.goto('https://github.com/login');  \n  await page.getByLabel('Username or email address').fill('username');  \n  await page.getByLabel('Password').fill('password');  \n  await page.getByRole('button', { name: 'Sign in' }).click();  \n});  \n  \ntest('first', async ({ page }) => {  \n  // page is signed in.  \n});  \n  \ntest('second', async ({ page }) => {  \n  // page is signed in.  \n});",
+  "context": "Each test should be completely isolated from another test and should run independently with its own local storage, session storage, data, cookies etc. [Test isolation](/docs/browser-contexts) improves reproducibility, makes debugging easier and prevents cascading test failures. | In order to avoid repetition for a particular part of your test you can use [before and after hooks](/docs/api/class-test). Within your test file add a before hook to run a part of your test before each test such as going to a particular URL or logging in to a part of your app. This keeps your tests isolated as no test relies on another. However it is also ok to have a little duplication when tests are simple enough especially if it keeps your tests clearer and easier to read and maintain.",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "navigation"
+}

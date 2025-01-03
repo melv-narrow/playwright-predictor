@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/experimental-ct-react';  \nimport App from './App';  \n  \n// Let's test component in a dark scheme!  \ntest.use({ colorScheme: 'dark' });  \n  \ntest('should render', async ({ mount }) => {  \n  const component = await mount(<App></App>);  \n  \n  // As with any Playwright test, assert locator text.  \n  await expect(component).toContainText('React');  \n  // Or do a screenshot \ud83d\ude80  \n  await expect(component).toHaveScreenshot();  \n  // Or use any Playwright method  \n  await component.click();  \n});",
+  "context": "Here is what a typical component test looks like: | App.spec.tsx",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

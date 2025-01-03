@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Navigate the page  \nawait page.goto('https://example.com');",
+  "context": "Basic navigation\u200b | Simplest form of a navigation is opening a URL:",
+  "source_url": "https://playwright.dev/docs/navigations",
+  "pattern": "navigation"
+}

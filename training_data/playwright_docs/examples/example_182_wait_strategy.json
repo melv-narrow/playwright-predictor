@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Delete header  \nawait page.route('**/*', async route => {  \n  const headers = route.request().headers();  \n  delete headers['X-Secret'];  \n  await route.continue({ headers });  \n});  \n  \n// Continue requests as POST.  \nawait page.route('**/*', route => route.continue({ method: 'POST' }));",
+  "context": "Modify requests\u200b",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "wait_strategy"
+}

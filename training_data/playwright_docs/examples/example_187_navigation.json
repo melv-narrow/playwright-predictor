@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('#nav-bar :text(\"Home\")').click();",
+  "context": "`#nav-bar :text(\"Home\")` \\- the `:text()` pseudo-class matches the smallest element containing specified text. Matching is case-insensitive, trims whitespace and searches for a substring. | For example, this will find an element with text \"Home\" somewhere inside the `#nav-bar` element:",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

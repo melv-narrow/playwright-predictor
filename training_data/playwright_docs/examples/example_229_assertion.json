@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page.getByRole('button');  \nawait expect(locator).toHaveAccessibleDescription('Upload a photo');",
+  "context": "[expect(locator).toHaveAccessibleDescription()](/docs/api/class-locatorassertions#locator-assertions-to-have-accessible-description) checks if the element has the specified accessible description:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByText('Click me').click();  \nawait page.waitForURL('**/login');",
+  "context": "Waiting for navigation\u200b | Clicking an element could trigger multiple navigations. In these cases, it is recommended to explicitly [page.waitForURL()](/docs/api/class-page#page-wait-for-url) to a specific url.",
+  "source_url": "https://playwright.dev/docs/navigations",
+  "pattern": "navigation"
+}

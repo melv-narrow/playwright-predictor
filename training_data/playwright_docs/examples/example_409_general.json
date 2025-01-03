@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  globalSetup: require.resolve('./global-setup'),  \n  use: {  \n    baseURL: 'http://localhost:3000/',  \n    storageState: 'state.json',  \n  },  \n});",
+  "context": "Specify `globalSetup`, `baseURL` and `storageState` in the configuration file. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "general"
+}

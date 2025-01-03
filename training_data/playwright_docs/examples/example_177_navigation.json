@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Subscribe to 'request' and 'response' events.  \npage.on('request', request => console.log('>>', request.method(), request.url()));  \npage.on('response', response => console.log('<<', response.status(), response.url()));  \n  \nawait page.goto('https://example.com');",
+  "context": "Network events\u200b | You can monitor all the [Request](/docs/api/class-request \"Request\")s and [Response](/docs/api/class-response \"Response\")s:",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "navigation"
+}

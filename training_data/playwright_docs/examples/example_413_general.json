@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // Limit the number of workers on CI, use default locally  \n  workers: process.env.CI ? 2 : undefined,  \n});",
+  "context": "In the configuration file: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "general"
+}

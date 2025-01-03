@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.locator('body')).toMatchAriaSnapshot(`  \n  - heading \"title\"  \n`);",
+  "context": "You can match it using the following snapshot template:",
+  "source_url": "https://playwright.dev/docs/aria-snapshots",
+  "pattern": "assertion"
+}

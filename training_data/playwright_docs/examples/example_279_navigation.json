@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const buttons = page.locator('role=button');  \n// ...  \nconst submitButton = buttons.filter({ hasText: 'Submit' });  \nawait submitButton.click();",
+  "context": "Read more in [our documentation](/docs/locators#locate-by-role). | New [locator.filter()](/docs/api/class-locator#locator-filter) API to filter an existing locator",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

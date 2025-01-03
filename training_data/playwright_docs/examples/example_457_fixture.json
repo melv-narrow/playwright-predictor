@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest.describe('suite', () => {  \n  test.beforeAll(async () => { /* ... */ });  \n  test('first good', async ({ page }) => { /* ... */ });  \n  test('second flaky', async ({ page }) => { /* ... */ });  \n  test('third good', async ({ page }) => { /* ... */ });  \n  test.afterAll(async () => { /* ... */ });  \n});",
+  "context": "Playwright Test runs tests in worker processes. These processes are OS processes, running independently, orchestrated by the test runner. All workers have identical environments and each starts its own browser. | Consider the following snippet:",
+  "source_url": "https://playwright.dev/docs/test-retries",
+  "pattern": "fixture"
+}

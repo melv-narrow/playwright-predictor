@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    {  \n      name: 'chromium',  \n      use: {  \n        ...devices['Desktop Chrome'],  \n        // It is important to define the `isMobile` property after destructuring `devices`,  \n        // since devices also define the `isMobile` for that device.  \n        isMobile: false,  \n      },  \n    },  \n  ]  \n});",
+  "context": "Whether the meta viewport tag is taken into account and touch events are enabled. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "general"
+}

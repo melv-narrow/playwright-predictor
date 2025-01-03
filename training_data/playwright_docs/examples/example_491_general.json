@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    {  \n      name: 'chromium',  \n      use: {  \n        ...devices['Desktop Chrome'],  \n        locale: 'de-DE',  \n      },  \n    },  \n  ],  \n});",
+  "context": "You can override options for a specific project using the `project` option in the Playwright config.",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "general"
+}

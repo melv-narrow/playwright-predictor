@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page.getByTestId('save-button');  \nawait expect(locator).toHaveRole('button');",
+  "context": "[expect(locator).toHaveRole()](/docs/api/class-locatorassertions#locator-assertions-to-have-role) checks if the element has the specified ARIA role:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

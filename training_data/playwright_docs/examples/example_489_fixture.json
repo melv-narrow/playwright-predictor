@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('should inherit use options on context when using built-in browser fixture', async ({  \n  browser,  \n}) => {  \n  const context = await browser.newContext();  \n  const page = await context.newPage();  \n  expect(await page.evaluate(() => navigator.userAgent)).toBe('some custom ua');  \n  expect(await page.evaluate(() => window.innerWidth)).toBe(100);  \n  await context.close();  \n});",
+  "context": "An example test illustrating the initial context options are set:",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "fixture"
+}

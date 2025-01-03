@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \n  \nexport { expect } from '@playwright/test';  \n  \n// Must be a function that evaluates to a selector engine instance.  \nconst createTagNameEngine = () => ({  \n  // Returns the first element matching given selector in the root's subtree.  \n  query(root, selector) {  \n    return root.querySelector(selector);  \n  },  \n  \n  // Returns all elements matching given selector in the root's subtree.  \n  queryAll(root, selector) {  \n    return Array.from(root.querySelectorAll(selector));  \n  }  \n});  \n  \nexport const test = base.extend<{}, { selectorRegistration: void }>({  \n  // Register selectors once per worker.  \n  selectorRegistration: [async ({ playwright }, use) => {  \n    // Register the engine. Selectors will be prefixed with \"tag=\".  \n    await playwright.selectors.register('tag', createTagNameEngine);  \n    await use();  \n  }, { scope: 'worker', auto: true }],  \n});",
+  "context": "An example of registering selector engine that queries elements based on a tag name: | baseTest.ts",
+  "source_url": "https://playwright.dev/docs/extensibility",
+  "pattern": "assertion"
+}

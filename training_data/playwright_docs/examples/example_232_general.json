@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    trace: 'retain-on-first-failure',  \n  },  \n});",
+  "context": "New mode `retain-on-first-failure` for [testOptions.trace](/docs/api/class-testoptions#test-options-trace). In this mode, trace is recorded for the first run of each test, but not for retires. When test run fails, the trace file is retained, otherwise it is removed.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

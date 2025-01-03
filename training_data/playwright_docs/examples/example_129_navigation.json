@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('css=button').click();  \nawait page.locator('xpath=//button').click();  \n  \nawait page.locator('button').click();  \nawait page.locator('//button').click();",
+  "context": "Locate by CSS or XPath\u200b | If you absolutely must use CSS or XPath locators, you can use [page.locator()](/docs/api/class-page#page-locator) to create a locator that takes a selector describing how to find an element in the page. Playwright supports CSS and XPath selectors, and auto-detects them if you omit `css=` or `xpath=` prefix.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

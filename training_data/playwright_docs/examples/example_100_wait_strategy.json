@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Press keys one by one  \nawait page.locator('#area').pressSequentially('Hello World!');",
+  "context": "Most of the time, you should input text with [locator.fill()](/docs/api/class-locator#locator-fill). See the Text input section above. You only need to type characters if there is special keyboard handling on the page. | Type into the field character by character, as if it was a user with a real keyboard with [locator.pressSequentially()](/docs/api/class-locator#locator-press-sequentially).",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "wait_strategy"
+}

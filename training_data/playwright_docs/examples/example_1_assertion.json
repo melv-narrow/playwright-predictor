@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('navigation menu should not have automatically detectable accessibility violations', async ({  \n  page,  \n}) => {  \n  await page.goto('https://your-site.com/');  \n  \n  await page.getByRole('button', { name: 'Navigation Menu' }).click();  \n  \n  // It is important to waitFor() the page to be in the desired  \n  // state *before* running analyze(). Otherwise, axe might not  \n  // find all the elements your test expects it to scan.  \n  await page.locator('#navigation-menu-flyout').waitFor();  \n  \n  const accessibilityScanResults = await new AxeBuilder({ page })  \n      .include('#navigation-menu-flyout')  \n      .analyze();  \n  \n  expect(accessibilityScanResults.violations).toEqual([]);  \n});",
+  "context": "For example, you can use [`AxeBuilder.include()`](https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/README.md#axebuilderincludeselector-string--string) to constrain an accessibility scan to only run against one specific part of a page. | `AxeBuilder.analyze()` will scan the page _in its current state_ when you call it. To scan parts of a page that are revealed based on UI interactions, use [Locators](/docs/locators) to interact with the page before invoking `analyze()`:",
+  "source_url": "https://playwright.dev/docs/accessibility-testing",
+  "pattern": "assertion"
+}

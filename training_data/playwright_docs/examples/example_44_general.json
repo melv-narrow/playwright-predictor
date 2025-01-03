@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest.describe.configure({ mode: 'parallel' });  \n  \ntest('runs in parallel 1', async ({ page }) => { /* ... */ });  \ntest('runs in parallel 2', async ({ page }) => { /* ... */ });",
+  "context": "Use parallelism and sharding\u200b | Playwright runs tests in [parallel](/docs/test-parallel) by default. Tests in a single file are run in order, in the same worker process. If you have many independent tests in a single file, you might want to run them in parallel",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "general"
+}

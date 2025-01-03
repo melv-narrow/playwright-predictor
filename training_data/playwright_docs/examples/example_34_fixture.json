@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Import test with our new fixtures.  \nimport { test, expect } from '../playwright/fixtures';  \n  \n// Use adminPage and userPage fixtures in the test.  \ntest('admin and user', async ({ adminPage, userPage }) => {  \n  // ... interact with both adminPage and userPage ...  \n  await expect(adminPage.greeting).toHaveText('Welcome, Admin');  \n  await expect(userPage.greeting).toHaveText('Welcome, User');  \n});",
+  "context": "tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "fixture"
+}

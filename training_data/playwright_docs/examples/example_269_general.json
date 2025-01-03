@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  webServer: [  \n    {  \n      command: 'npm run start',  \n      url: 'http://127.0.0.1:3000',  \n      timeout: 120 * 1000,  \n      reuseExistingServer: !process.env.CI,  \n    },  \n    {  \n      command: 'npm run backend',  \n      url: 'http://127.0.0.1:3333',  \n      timeout: 120 * 1000,  \n      reuseExistingServer: !process.env.CI,  \n    }  \n  ],  \n  use: {  \n    baseURL: 'http://localhost:3000/',  \n  },  \n});",
+  "context": "Launch multiple web servers, databases, or other processes by passing an array of configurations: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('button:visible').click();",
+  "context": "This will only find a second button, because it is visible, and then click it.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \n  \nexport const test = base.extend<{}, { forEachWorker: void }>({  \n  forEachWorker: [async ({}, use) => {  \n    // This code runs before all the tests in the worker process.  \n    console.log(`Starting test worker ${test.info().workerIndex}`);  \n    await use();  \n    // This code runs after all the tests in the worker process.  \n    console.log(`Stopping test worker ${test.info().workerIndex}`);  \n  }, { scope: 'worker', auto: true }],  // automatically starts for every worker.  \n});",
+  "context": "[test.beforeAll()](/docs/api/class-test#test-before-all) and [test.afterAll()](/docs/api/class-test#test-after-all) hooks run before/after all tests declared in the same file and same [test.describe()](/docs/api/class-test#test-describe) block (if any), once per worker process. If you want to declare hooks that run before/after all tests in every file, you can declare them as auto fixtures with `scope: 'worker'` as follows: | fixtures.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "wait_strategy"
+}

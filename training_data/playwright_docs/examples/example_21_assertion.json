@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(locator).toMatchAriaSnapshot('');",
+  "context": "Empty template for snapshot generation\u200b | Passing an empty string as the template in an assertion generates a snapshot on-the-fly:",
+  "source_url": "https://playwright.dev/docs/aria-snapshots",
+  "pattern": "assertion"
+}

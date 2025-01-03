@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.locator('text=Name'), 'should be logged in').toBeVisible();",
+  "context": "Read more in [our documentation](/docs/test-assertions#soft-assertions) | You can now specify a **custom expect message** as a second argument to the `expect` and `expect.soft` functions, for example:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

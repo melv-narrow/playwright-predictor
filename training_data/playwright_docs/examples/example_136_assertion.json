@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// 5 in-stock items  \nawait expect(page.getByRole('listitem').filter({ hasNotText: 'Out of stock' })).toHaveCount(5);",
+  "context": "Filter by not having text\u200b | Alternatively, filter by **not having** text:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test.describe('chromium only', () => {  \n  test.skip(({ browserName }) => browserName !== 'chromium', 'Chromium only!');  \n  \n  test.beforeAll(async () => {  \n    // This hook is only run in Chromium.  \n  });  \n  \n  test('test 1', async ({ page }) => {  \n    // This test is only run in Chromium.  \n  });  \n  \n  test('test 2', async ({ page }) => {  \n    // This test is only run in Chromium.  \n  });  \n});",
+  "context": "For example, you can run a group of tests just in Chromium by passing a callback. | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-annotations",
+  "pattern": "fixture"
+}

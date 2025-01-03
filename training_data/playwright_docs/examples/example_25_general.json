@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest('test', async ({ page }) => {  \n  // page is authenticated  \n});",
+  "context": "Tests start already authenticated because we specified `storageState` in the config. | tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "general"
+}

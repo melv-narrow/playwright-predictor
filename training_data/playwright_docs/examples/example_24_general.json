@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/test';  \n  \nexport default defineConfig({  \n  projects: [  \n    // Setup project  \n    { name: 'setup', testMatch: /.*\\.setup\\.ts/ },  \n  \n    {  \n      name: 'chromium',  \n      use: {  \n        ...devices['Desktop Chrome'],  \n        // Use prepared auth state.  \n        storageState: 'playwright/.auth/user.json',  \n      },  \n      dependencies: ['setup'],  \n    },  \n  \n    {  \n      name: 'firefox',  \n      use: {  \n        ...devices['Desktop Firefox'],  \n        // Use prepared auth state.  \n        storageState: 'playwright/.auth/user.json',  \n      },  \n      dependencies: ['setup'],  \n    },  \n  ],  \n});",
+  "context": "Create a new `setup` project in the config and declare it as a [dependency](/docs/test-projects#dependencies) for all your testing projects. This project will always run and authenticate before all the tests. All testing projects should use the authenticated state as `storageState`. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "general"
+}

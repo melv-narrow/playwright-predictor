@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const context = await browser.newContext({  \n  recordHar: {  \n    path: 'github.har',  \n    mode: 'minimal',  \n  }  \n});",
+  "context": "If you intend to edit HAR by hand, consider using the `\"minimal\"` HAR recording mode that only records information that is essential for replaying:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

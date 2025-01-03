@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Get session storage and store as env variable  \nconst sessionStorage = await page.evaluate(() => JSON.stringify(sessionStorage));  \nfs.writeFileSync('playwright/.auth/session.json', sessionStorage, 'utf-8');  \n  \n// Set session storage in a new context  \nconst sessionStorage = JSON.parse(fs.readFileSync('playwright/.auth/session.json', 'utf-8'));  \nawait context.addInitScript(storage => {  \n  if (window.location.hostname === 'example.com') {  \n    for (const [key, value] of Object.entries(storage))  \n      window.sessionStorage.setItem(key, value);  \n  }  \n}, sessionStorage);",
+  "context": "Session storage\u200b | Reusing authenticated state covers [cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies) and [local storage](https://developer.mozilla.org/en-US/docs/Web/API/Storage) based authentication. Rarely, [session storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage) is used for storing information associated with the signed-in state. Session storage is specific to a particular domain and is not persisted across page loads. Playwright does not provide API to persist session storage, but the following snippet can be used to save/load session storage.",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "wait_strategy"
+}

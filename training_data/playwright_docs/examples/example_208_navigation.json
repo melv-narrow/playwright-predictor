@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Fill an input with the id \"username\"  \nawait page.locator('id=username').fill('value');  \n  \n// Click an element with data-test-id \"submit\"  \nawait page.locator('data-test-id=submit').click();",
+  "context": "`data-test`",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

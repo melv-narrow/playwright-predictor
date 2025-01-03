@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// \ud83d\udc4d  \nawait expect(page.getByText('welcome')).toBeVisible();  \n  \n// \ud83d\udc4e  \nexpect(await page.getByText('welcome').isVisible()).toBe(true);",
+  "context": "Use web first assertions\u200b | Assertions are a way to verify that the expected result and the actual result matched or not. By using [web first assertions](/docs/test-assertions) Playwright will wait until the expected condition is met. For example, when testing an alert message, a test would click a button that makes a message appear and check that the alert message is there. If the alert message takes half a second to appear, assertions such as `toBeVisible()` will wait and retry if needed.",
+  "source_url": "https://playwright.dev/docs/best-practices",
+  "pattern": "assertion"
+}

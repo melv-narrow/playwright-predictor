@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest.use({  \n  colorScheme: 'dark' // or 'light'  \n});  \n  \ntest('my test with dark mode', async ({ page }) => {  \n  // ...  \n});  \n\n\n\n// Create context with dark mode  \nconst context = await browser.newContext({  \n  colorScheme: 'dark' // or 'light'  \n});  \n  \n// Create page with dark mode  \nconst page = await browser.newPage({  \n  colorScheme: 'dark' // or 'light'  \n});  \n  \n// Change color scheme for the page  \nawait page.emulateMedia({ colorScheme: 'dark' });  \n  \n// Change media for page  \nawait page.emulateMedia({ media: 'print' });",
+  "context": "tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "assertion"
+}

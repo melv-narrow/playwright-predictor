@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from './my-test';  \n  \ntest.beforeEach(async ({ settingsPage }) => {  \n  await settingsPage.switchToDarkMode();  \n});  \n  \ntest('basic test', async ({ todoPage, page }) => {  \n  await todoPage.addToDo('something nice');  \n  await expect(page.getByTestId('todo-title')).toContainText(['something nice']);  \n});",
+  "context": "Just mention fixture in your test function argument, and test runner will take care of it. Fixtures are also available in hooks and other fixtures. If you use TypeScript, fixtures will have the right type. | Below we use the `todoPage` and `settingsPage` fixtures defined above.",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "assertion"
+}

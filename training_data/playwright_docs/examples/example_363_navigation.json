@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Or alternatively, using the `jsx` style  \nimport { test } from '@playwright/experimental-ct-vue';  \n  \ntest('update', async ({ mount }) => {  \n  const component = await mount(<Component/>);  \n  await component.update(  \n      <Component msg=\"greetings\" v-on:click={() => {}}>Child</Component>  \n  );  \n});",
+  "context": "component.spec.tsx",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "navigation"
+}

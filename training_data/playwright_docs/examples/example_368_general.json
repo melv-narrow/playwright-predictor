@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/experimental-ct-vue';  \n  \nimport { resolve } from 'path';  \nimport vue from '@vitejs/plugin-vue';  \nimport AutoImport from 'unplugin-auto-import/vite';  \nimport Components from 'unplugin-vue-components/vite';  \n  \nexport default defineConfig({  \n  testDir: './tests/component',  \n  use: {  \n    trace: 'on-first-retry',  \n    ctViteConfig: {  \n      plugins: [  \n        vue(),  \n        AutoImport({  \n          imports: [  \n            'vue',  \n            'vue-router',  \n            '@vueuse/head',  \n            'pinia',  \n            {  \n              '@/store': ['useStore'],  \n            },  \n          ],  \n          dts: 'src/auto-imports.d.ts',  \n          eslintrc: {  \n            enabled: true,  \n          },  \n        }),  \n        Components({  \n          dirs: ['src/components'],  \n          extensions: ['vue'],  \n        }),  \n      ],  \n      resolve: {  \n        alias: {  \n          '@': resolve(__dirname, './src'),  \n        },  \n      },  \n    },  \n  },  \n});",
+  "context": "You can specify plugins via Vite config for testing settings. Note that once you start specifying plugins, you are responsible for specifying the framework plugin as well, `vue()` in this case:",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "general"
+}

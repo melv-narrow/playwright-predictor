@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('event should work', async ({ mount }) => {  \n  let clicked = false;  \n  \n  // Mount a component. Returns locator pointing to the component.  \n  const component = await mount(  \n    <Button title=\"Submit\" onClick={() => { clicked = true }}></Button>  \n  );  \n  \n  // As with any Playwright test, assert locator text.  \n  await expect(component).toContainText('Submit');  \n  \n  // Perform locator click. This will trigger the event.  \n  await component.click();  \n  \n  // Assert that respective events have been fired.  \n  expect(clicked).toBeTruthy();  \n});",
+  "context": "Example\u200b | Here is what a typical component test looks like:",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "assertion"
+}

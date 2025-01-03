@@ -1,0 +1,23 @@
+{
+  "total_samples": 2351,
+  "train_samples": 1692,
+  "val_samples": 188,
+  "test_samples": 471,
+  "patterns": [
+    "assertion",
+    "page_object",
+    "wait_strategy",
+    "fixture",
+    "general",
+    "navigation",
+    "form_interaction"
+  ],
+  "types": [
+    "basic",
+    "website_test",
+    "fixture",
+    "completion",
+    "modification",
+    "navigation"
+  ]
+}

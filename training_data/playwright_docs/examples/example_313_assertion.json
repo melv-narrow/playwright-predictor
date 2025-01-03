@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('test login page', {  \n  tag: '@fast',  \n}, async ({ page }) => {  \n  // ...  \n});  \n  \ntest('test full report @slow', async ({ page }) => {  \n  // ...  \n});",
+  "context": "Sometimes you want to tag your tests as `@fast` or `@slow`, and then filter by tag in the test report. Or you might want to only run tests that have a certain tag. | To tag a test, either provide an additional details object when declaring a test, or add `@`-token to the test title. Note that tags must start with `@` symbol.",
+  "source_url": "https://playwright.dev/docs/test-annotations",
+  "pattern": "assertion"
+}

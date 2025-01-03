@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Start waiting for popup before clicking. Note no await.  \nconst popupPromise = page.waitForEvent('popup');  \nawait page.getByText('open the popup').click();  \nconst popup = await popupPromise;  \n// Interact with the new popup normally.  \nawait popup.getByRole('button').click();  \nconsole.log(await popup.title());",
+  "context": "If the page opens a pop-up (e.g. pages opened by `target=\"_blank\"` links), you can get a reference to it by listening to the `popup` event on the page. | This event is emitted in addition to the `browserContext.on('page')` event, but only for popups relevant to this page.",
+  "source_url": "https://playwright.dev/docs/pages",
+  "pattern": "navigation"
+}

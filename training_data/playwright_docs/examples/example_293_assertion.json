@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('context fetch', async ({ request }) => {  \n  // Do a GET request on behalf of page  \n  const response = await request.get('http://example.com/foo.json');  \n  // ...  \n});",
+  "context": "To do a stand-alone request from node.js to an API endpoint, use **new[`request` fixture](/docs/api/class-fixtures#fixtures-request)**:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

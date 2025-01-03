@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig, devices } from '@playwright/test'; // import devices  \n  \nexport default defineConfig({  \n  projects: [  \n    {  \n      name: 'chromium',  \n      use: {  \n        ...devices['Desktop Chrome'],  \n      },  \n    },  \n    {  \n      name: 'Mobile Safari',  \n      use: {  \n        ...devices['iPhone 13'],  \n      },  \n    },  \n  ],  \n});  \n\n\n\nconst { chromium, devices } = require('playwright');  \nconst browser = await chromium.launch();  \n  \nconst iphone13 = devices['iPhone 13'];  \nconst context = await browser.newContext({  \n  ...iphone13,  \n});",
+  "context": "playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "wait_strategy"
+}

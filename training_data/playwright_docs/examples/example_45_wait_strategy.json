@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest('example test', async ({ page, context }) => {  \n  // \"context\" is an isolated BrowserContext, created for this specific test.  \n  // \"page\" belongs to this context.  \n});  \n  \ntest('another test', async ({ page, context }) => {  \n  // \"context\" and \"page\" in this second test are completely  \n  // isolated from the first test.  \n});  \n\n\n\nconst browser = await chromium.launch();  \nconst context = await browser.newContext();  \nconst page = await context.newPage();",
+  "context": "Library",
+  "source_url": "https://playwright.dev/docs/browser-contexts",
+  "pattern": "wait_strategy"
+}

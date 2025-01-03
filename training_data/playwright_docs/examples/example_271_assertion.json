@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/experimental-ct-vue';  \nimport { Component } from './mycomponent';  \n  \ntest('should work', async ({ mount }) => {  \n  const component = await mount(Component, {  \n    hooksConfig: {  \n      /* anything to configure your app */  \n    }  \n  });  \n});",
+  "context": "For example, this could be used to setup App router in Vue.js: | src/component.spec.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

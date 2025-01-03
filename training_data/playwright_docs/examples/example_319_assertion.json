@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.getByTestId('status')).toHaveText('Submitted');",
+  "context": "Playwright also includes web-specific [async matchers](/docs/api/class-locatorassertions) that will wait until the expected condition is met. Consider the following example:",
+  "source_url": "https://playwright.dev/docs/test-assertions",
+  "pattern": "assertion"
+}

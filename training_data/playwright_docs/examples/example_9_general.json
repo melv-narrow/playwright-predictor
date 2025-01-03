@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  use: {  \n    proxy: {  \n      server: 'http://my-proxy:8080',  \n      username: 'user',  \n      password: 'secret'  \n    },  \n  }  \n});",
+  "context": "If your tests need to run behind a proxy, you can specify this in the config and the `request` fixture will pick it up automatically: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/api-testing",
+  "pattern": "general"
+}

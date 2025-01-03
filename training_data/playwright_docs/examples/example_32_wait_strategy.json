@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest('admin and user', async ({ browser }) => {  \n  // adminContext and all pages inside, including adminPage, are signed in as \"admin\".  \n  const adminContext = await browser.newContext({ storageState: 'playwright/.auth/admin.json' });  \n  const adminPage = await adminContext.newPage();  \n  \n  // userContext and all pages inside, including userPage, are signed in as \"user\".  \n  const userContext = await browser.newContext({ storageState: 'playwright/.auth/user.json' });  \n  const userPage = await userContext.newPage();  \n  \n  // ... interact with both adminPage and userPage ...  \n  \n  await adminContext.close();  \n  await userContext.close();  \n});",
+  "context": "Use multiple [BrowserContext](/docs/api/class-browsercontext \"BrowserContext\")s and [Page](/docs/api/class-page \"Page\")s with different storage states in the same test. | tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "wait_strategy"
+}

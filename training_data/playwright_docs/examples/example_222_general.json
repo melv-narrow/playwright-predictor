@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // ...  \n  use: {  \n    clientCertificates: [{  \n      origin: 'https://example.com',  \n      certPath: './cert.pem',  \n      keyPath: './key.pem',  \n      passphrase: 'mysecretpassword',  \n    }],  \n  },  \n  // ...  \n});",
+  "context": "Playwright now allows you to supply client-side certificates, so that server can verify them, as specified by TLS Client Authentication. | The following snippet sets up a client certificate for `https://example.com`:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

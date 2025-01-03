@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('test', async ({ page }) => {  \n  await test.step('Log in', async () => {  \n    // ...  \n  });  \n  await test.step('news feed', async () => {  \n    // ...  \n  });  \n});",
+  "context": "\ud83d\udc3e Steps API with [`test.step`](/docs/api/class-test#test-step)\u200b | Split long tests into multiple steps using `test.step()` API:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

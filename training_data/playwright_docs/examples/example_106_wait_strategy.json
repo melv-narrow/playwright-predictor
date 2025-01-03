@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('#item-to-be-dragged').dragTo(page.locator('#item-to-drop-at'));",
+  "context": "Release left mouse button.",
+  "source_url": "https://playwright.dev/docs/input",
+  "pattern": "wait_strategy"
+}

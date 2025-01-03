@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByRole('button').count();",
+  "context": "On the other hand, Playwright understands when you perform a multiple-element operation, so the following call works perfectly fine when the locator resolves to multiple elements. | Works fine with multiple elements\u200b",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "wait_strategy"
+}

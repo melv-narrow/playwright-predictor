@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // Limit the number of failures on CI to save resources  \n  maxFailures: process.env.CI ? 10 : undefined,  \n});",
+  "context": "Setting in the configuration file: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-parallel",
+  "pattern": "general"
+}

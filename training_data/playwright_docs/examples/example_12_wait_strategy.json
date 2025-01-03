@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { request } from '@playwright/test';  \nconst REPO = 'test-repo-1';  \nconst USER = 'github-username';  \n  \n(async () => {  \n  // Create a context that will issue http requests.  \n  const context = await request.newContext({  \n    baseURL: 'https://api.github.com',  \n  });  \n  \n  // Create a repository.  \n  await context.post('/user/repos', {  \n    headers: {  \n      'Accept': 'application/vnd.github.v3+json',  \n      // Add GitHub personal access token.  \n      'Authorization': `token ${process.env.API_TOKEN}`,  \n    },  \n    data: {  \n      name: REPO  \n    }  \n  });  \n  \n  // Delete a repository.  \n  await context.delete(`/repos/${USER}/${REPO}`, {  \n    headers: {  \n      'Accept': 'application/vnd.github.v3+json',  \n      // Add GitHub personal access token.  \n      'Authorization': `token ${process.env.API_TOKEN}`,  \n    }  \n  });  \n})();",
+  "context": "Using request context\u200b | Behind the scenes, [`request` fixture](/docs/api/class-fixtures#fixtures-request) will actually call [apiRequest.newContext()](/docs/api/class-apirequest#api-request-new-context). You can always do that manually if you'd like more control. Below is a standalone script that does the same as `beforeAll` and `afterAll` from above.",
+  "source_url": "https://playwright.dev/docs/api-testing",
+  "pattern": "wait_strategy"
+}

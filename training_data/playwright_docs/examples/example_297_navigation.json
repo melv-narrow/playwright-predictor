@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// This will throw if you have more than one button!  \nawait page.click('button', { strict: true });",
+  "context": "Selector ambiguity is a common problem in automation testing. **\"strict\" mode** ensures that your selector points to a single element and throws otherwise. | Pass `strict: true` into your action calls to opt in.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

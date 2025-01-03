@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.route('**/*.{png,jpg,jpeg}', route => route.abort());  \n  \n// Abort based on the request type  \nawait page.route('**/*', route => {  \n  return route.request().resourceType() === 'image' ? route.abort() : route.continue();  \n});",
+  "context": "Abort requests\u200b | You can abort requests using [page.route()](/docs/api/class-page#page-route) and [route.abort()](/docs/api/class-route#route-abort).",
+  "source_url": "https://playwright.dev/docs/network",
+  "pattern": "form_interaction"
+}

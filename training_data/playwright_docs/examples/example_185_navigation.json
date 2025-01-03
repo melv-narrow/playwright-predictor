@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.locator('css=button').click();",
+  "context": "We recommend prioritizing [user-visible locators](/docs/locators#quick-guide) like text or accessible role instead of using CSS that is tied to the implementation and could break when the page changes. | Playwright can locate an element by CSS selector.",
+  "source_url": "https://playwright.dev/docs/other-locators",
+  "pattern": "navigation"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// \u2716 WRONG  \nawait expect(page  \n    .getByRole('listitem')  \n    .filter({ has: page.getByRole('list').getByText('Product 2') }))  \n    .toHaveCount(1);",
+  "context": "The filtering locator **must be relative** to the original locator and is queried starting with the original locator match, not the document root. Therefore, the following will not work, because the filtering locator starts matching from the `<ul>` list element that is outside of the `<li>` list item matched by the original locator:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const jsHandle = await page.evaluateHandle('window');  \n//  Use jsHandle for evaluations.",
+  "context": "Here is the easiest way to obtain a [JSHandle](/docs/api/class-jshandle \"JSHandle\").",
+  "source_url": "https://playwright.dev/docs/handles",
+  "pattern": "wait_strategy"
+}

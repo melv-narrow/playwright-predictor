@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('\u2026', async ({ mount, page, context }) => {  \n  // \u2026  \n});",
+  "context": "Frequently asked questions\u200b | What's the difference between `@playwright/test` and `@playwright/experimental-ct-{react,svelte,vue}`?\u200b",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "general"
+}

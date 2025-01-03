@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect.poll(async () => {  \n  const response = await page.request.get('https://api.example.com');  \n  return response.status();  \n}, {  \n  // Probe, wait 1s, probe, wait 2s, probe, wait 10s, probe, wait 10s, probe  \n  // ... Defaults to [100, 250, 500, 1000].  \n  intervals: [1_000, 2_000, 10_000],  \n  timeout: 60_000  \n}).toBe(200);",
+  "context": "You can also specify custom polling intervals:",
+  "source_url": "https://playwright.dev/docs/test-assertions",
+  "pattern": "assertion"
+}

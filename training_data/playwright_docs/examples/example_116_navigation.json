@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const locator = page.getByRole('button', { name: 'Sign in' });  \n  \nawait locator.hover();  \nawait locator.click();",
+  "context": "Use the [code generator](/docs/codegen) to generate a locator, and then edit it as you'd like. | Every time a locator is used for an action, an up-to-date DOM element is located in the page. In the snippet below, the underlying DOM element will be located twice, once prior to every action. This means that if the DOM changes in between the calls due to re-render, the new element corresponding to the locator will be used.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const product = page.getByRole('listitem').filter({ hasText: 'Product 2' });  \n  \nawait product.getByRole('button', { name: 'Add to cart' }).click();  \n  \nawait expect(product).toHaveCount(1);",
+  "context": "You can chain methods that create a locator, like [page.getByText()](/docs/api/class-page#page-get-by-text) or [locator.getByRole()](/docs/api/class-locator#locator-get-by-role), to narrow down the search to a particular part of the page. | In this example we first create a locator called product by locating its role of `listitem`. We then filter by text. We can use the product locator again to get by role of button and click it and then use an assertion to make sure there is only one product with the text \"Product 2\".",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

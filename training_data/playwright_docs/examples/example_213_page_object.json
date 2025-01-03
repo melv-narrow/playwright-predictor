@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { expect, type Locator, type Page } from '@playwright/test';  \n  \nexport class PlaywrightDevPage {  \n  readonly page: Page;  \n  readonly getStartedLink: Locator;  \n  readonly gettingStartedHeader: Locator;  \n  readonly pomLink: Locator;  \n  readonly tocList: Locator;  \n  \n  constructor(page: Page) {  \n    this.page = page;  \n    this.getStartedLink = page.locator('a', { hasText: 'Get started' });  \n    this.gettingStartedHeader = page.locator('h1', { hasText: 'Installation' });  \n    this.pomLink = page.locator('li', {  \n      hasText: 'Guides',  \n    }).locator('a', {  \n      hasText: 'Page Object Model',  \n    });  \n    this.tocList = page.locator('article div.markdown ul > li > a');  \n  }  \n  \n  async goto() {  \n    await this.page.goto('https://playwright.dev');  \n  }  \n  \n  async getStarted() {  \n    await this.getStartedLink.first().click();  \n    await expect(this.gettingStartedHeader).toBeVisible();  \n  }  \n  \n  async pageObjectModel() {  \n    await this.getStarted();  \n    await this.pomLink.click();  \n  }  \n}",
+  "context": "playwright-dev-page.ts",
+  "source_url": "https://playwright.dev/docs/pom",
+  "pattern": "page_object"
+}

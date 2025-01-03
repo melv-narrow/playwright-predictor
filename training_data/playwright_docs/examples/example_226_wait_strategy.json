@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByLabel('Upload directory').setInputFiles(path.join(__dirname, 'mydir'));",
+  "context": "Miscellaneous\u200b | Method [locator.setInputFiles()](/docs/api/class-locator#locator-set-input-files) now supports uploading a directory for `<input type=file webkitdirectory>` elements.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "wait_strategy"
+}

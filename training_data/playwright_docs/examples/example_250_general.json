@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // Run your local dev server before starting the tests  \n  webServer: {  \n    command: 'npm run start',  \n    url: 'http://127.0.0.1:3000',  \n    reuseExistingServer: !process.env.CI,  \n    stdout: 'pipe',  \n    stderr: 'pipe',  \n  },  \n});",
+  "context": "New options `stderr` and `stdout` in [testConfig.webServer](/docs/api/class-testconfig#test-config-web-server) to configure output handling: | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test.describe.parallel('group', () => {  \n  test('runs in parallel 1', async ({ page }) => {  \n  });  \n  test('runs in parallel 2', async ({ page }) => {  \n  });  \n});",
+  "context": "\ud83c\udfad Playwright Test\u200b | \ud83e\udd1d `test.parallel()` run tests in the same file in parallel\u200b",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

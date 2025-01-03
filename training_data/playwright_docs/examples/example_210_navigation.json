@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Start waiting for new page before clicking. Note no await.  \nconst pagePromise = context.waitForEvent('page');  \nawait page.getByText('open new tab').click();  \nconst newPage = await pagePromise;  \n// Interact with the new page normally.  \nawait newPage.getByRole('button').click();  \nconsole.log(await newPage.title());",
+  "context": "Handling new pages\u200b | The `page` event on browser contexts can be used to get new pages that are created in the context. This can be used to handle new pages opened by `target=\"_blank\"` links.",
+  "source_url": "https://playwright.dev/docs/pages",
+  "pattern": "navigation"
+}

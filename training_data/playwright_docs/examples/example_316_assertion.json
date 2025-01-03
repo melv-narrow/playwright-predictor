@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest.describe('report tests', {  \n  annotation: { type: 'category', description: 'report' },  \n}, () => {  \n  test('test report header', async ({ page }) => {  \n    // ...  \n  });  \n  \n  test('test full report', {  \n    annotation: [  \n      { type: 'issue', description: 'https://github.com/microsoft/playwright/issues/23180' },  \n      { type: 'performance', description: 'very slow test!' },  \n    ],  \n  }, async ({ page }) => {  \n    // ...  \n  });  \n});",
+  "context": "You can also annotate all tests in a group or provide multiple annotations:",
+  "source_url": "https://playwright.dev/docs/test-annotations",
+  "pattern": "assertion"
+}

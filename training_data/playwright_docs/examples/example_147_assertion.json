@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.getByRole('listitem')).toHaveCount(3);",
+  "context": "Use the count assertion to ensure that the list has 3 items.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

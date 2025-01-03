@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \n  \nexport const test = base.extend({  \n  innerFixture: [async ({}, use, testInfo) => {  \n    // ...  \n  }, { title: 'my fixture' }],  \n});",
+  "context": "Custom fixture title\u200b | Instead of the usual fixture name, you can give fixtures a custom title that will be shown in test reports and error messages.",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "fixture"
+}

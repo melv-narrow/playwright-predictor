@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \n  \nexport const test = base.extend({  \n  page: async ({ baseURL, page }, use) => {  \n    await page.goto(baseURL);  \n    await use(page);  \n  },  \n});",
+  "context": "Overriding fixtures\u200b | In addition to creating your own fixtures, you can also override existing fixtures to fit your needs. Consider the following example which overrides the `page` fixture by automatically navigating to some `baseURL`:",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "navigation"
+}

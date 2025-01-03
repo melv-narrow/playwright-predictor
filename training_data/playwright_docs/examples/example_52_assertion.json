@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "<div id=\"current-time\" data-testid=\"current-time\"></div>  \n<script>  \n  const renderTime = () => {  \n    document.getElementById('current-time').textContent =  \n        new Date().toLocaleString();  \n  };  \n  setInterval(renderTime, 1000);  \n</script>  \n\n\n\nawait page.clock.setFixedTime(new Date('2024-02-02T10:00:00'));  \nawait page.goto('http://localhost:3333');  \nawait expect(page.getByTestId('current-time')).toHaveText('2/2/2024, 10:00:00 AM');  \n  \nawait page.clock.setFixedTime(new Date('2024-02-02T10:30:00'));  \n// We know that the page has a timer that updates the time every second.  \nawait expect(page.getByTestId('current-time')).toHaveText('2/2/2024, 10:30:00 AM');",
+  "context": "Test with predefined time\u200b | Often you only need to fake `Date.now` while keeping the timers going. That way the time flows naturally, but `Date.now` always returns a fixed value.",
+  "source_url": "https://playwright.dev/docs/clock",
+  "pattern": "assertion"
+}

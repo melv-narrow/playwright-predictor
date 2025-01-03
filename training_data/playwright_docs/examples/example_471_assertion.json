@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('slow test', async ({ page }) => {  \n  test.slow(); // Easy way to triple the default timeout  \n  // ...  \n});  \n  \ntest('very slow test', async ({ page }) => {  \n  test.setTimeout(120_000);  \n  // ...  \n});",
+  "context": "Set timeout for a single test\u200b | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-timeouts",
+  "pattern": "assertion"
+}

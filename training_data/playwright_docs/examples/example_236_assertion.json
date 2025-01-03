@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Setup the handler.  \nawait page.addLocatorHandler(  \n    page.getByRole('heading', { name: 'Hej! You are in control of your cookies.' }),  \n    async () => {  \n      await page.getByRole('button', { name: 'Accept all' }).click();  \n    });  \n// Write the test as usual.  \nawait page.goto('https://www.ikea.com/');  \nawait page.getByRole('link', { name: 'Collection of blue and white' }).click();  \nawait expect(page.getByRole('heading', { name: 'Light and easy' })).toBeVisible();",
+  "context": "New method [page.addLocatorHandler()](/docs/api/class-page#page-add-locator-handler) registers a callback that will be invoked when specified element becomes visible and may block Playwright actions. The callback can get rid of the overlay. Here is an example that closes a cookie dialog when it appears:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

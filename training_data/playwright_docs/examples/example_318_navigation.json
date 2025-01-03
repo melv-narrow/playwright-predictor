@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test.beforeEach(async ({ page, isMobile }) => {  \n  test.fixme(isMobile, 'Settings page does not work in mobile yet');  \n  \n  await page.goto('http://localhost:3000/settings');  \n});  \n  \ntest('user profile', async ({ page }) => {  \n  await page.getByText('My Profile').click();  \n  // ...  \n});",
+  "context": "To avoid running `beforeEach` hooks, you can put annotations in the hook itself. | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-annotations",
+  "pattern": "navigation"
+}

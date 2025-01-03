@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// select the first button among all buttons  \nawait button.click('button >> nth=0');  \n// or if you are using locators, you can use first(), nth() and last()  \nawait page.locator('button').first().click();  \n  \n// click a visible button  \nawait button.click('button >> visible=true');",
+  "context": "[`visible`](/docs/other-locators#css-matching-only-visible-elements) selector engine is equivalent to the `:visible` pseudo class, but could be combined with other selector engines.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "navigation"
+}

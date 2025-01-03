@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Remove a header from all requests.  \ntest.beforeEach(async ({ page }) => {  \n  await page.route('**/*', async route => {  \n    const headers = await route.request().allHeaders();  \n    delete headers['if-none-match'];  \n    await route.fallback({ headers });  \n  });  \n});  \n  \ntest('should work', async ({ page }) => {  \n  await page.route('**/*', async route => {  \n    if (route.request().resourceType() === 'image')  \n      await route.abort();  \n    else  \n      await route.fallback();  \n  });  \n});",
+  "context": "You can now use [route.fallback()](/docs/api/class-route#route-fallback) to defer routing to other handlers. | Consider the following example:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

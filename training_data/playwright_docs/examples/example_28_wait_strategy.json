@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as setup } from '@playwright/test';  \n  \nconst authFile = 'playwright/.auth/user.json';  \n  \nsetup('authenticate', async ({ request }) => {  \n  // Send authentication request. Replace with your own.  \n  await request.post('https://github.com/login', {  \n    form: {  \n      'user': 'user',  \n      'password': 'password'  \n    }  \n  });  \n  await request.storageState({ path: authFile });  \n});",
+  "context": "In the setup project: | tests/auth.setup.ts",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "wait_strategy"
+}

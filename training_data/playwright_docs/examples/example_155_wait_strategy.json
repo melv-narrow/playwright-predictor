@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const rows = page.getByRole('listitem');  \nconst count = await rows.count();  \nfor (let i = 0; i < count; ++i)  \n  console.log(await rows.nth(i).textContent());",
+  "context": "Iterate using regular for loop:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "wait_strategy"
+}

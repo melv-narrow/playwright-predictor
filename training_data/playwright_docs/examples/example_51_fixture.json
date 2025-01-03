@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from './fixtures';  \n  \ntest('example test', async ({ page }) => {  \n  await page.goto('https://example.com');  \n  await expect(page.locator('body')).toHaveText('Changed by my-extension');  \n});  \n  \ntest('popup page', async ({ page, extensionId }) => {  \n  await page.goto(`chrome-extension://${extensionId}/popup.html`);  \n  await expect(page.locator('body')).toHaveText('my-extension popup');  \n});",
+  "context": "Then use these fixtures in a test:",
+  "source_url": "https://playwright.dev/docs/chrome-extensions",
+  "pattern": "fixture"
+}

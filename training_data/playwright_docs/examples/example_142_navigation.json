@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "const saveButton = page.getByRole('button', { name: 'Save' });  \n// ...  \nconst dialog = page.getByTestId('settings-dialog');  \nawait dialog.locator(saveButton).click();",
+  "context": "You can also chain two locators together, for example to find a \"Save\" button inside a particular dialog:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

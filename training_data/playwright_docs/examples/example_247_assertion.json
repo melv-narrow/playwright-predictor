@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.goto('https://playwright.dev');  \nawait expect(page).toHaveScreenshot({  \n  mask: [page.locator('img')],  \n  maskColor: '#00FF00', // green  \n});",
+  "context": "UI mode and trace viewer mark network requests handled with [page.route()](/docs/api/class-page#page-route) and [browserContext.route()](/docs/api/class-browsercontext#browser-context-route) handlers, as well as those issued via the [API testing](/docs/api-testing): | New option `maskColor` for methods [page.screenshot()](/docs/api/class-page#page-screenshot), [locator.screenshot()](/docs/api/class-locator#locator-screenshot), [expect(page).toHaveScreenshot()](/docs/api/class-pageassertions#page-assertions-to-have-screenshot-1) and [expect(locator).toHaveScreenshot()](/docs/api/class-locatorassertions#locator-assertions-to-have-screenshot-1) to change default masking color:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

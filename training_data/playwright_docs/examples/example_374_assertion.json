@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('basic test', async ({ page }) => {  \n  await page.goto('https://playwright.dev/');  \n  \n  await expect(page).toHaveTitle(/Playwright/);  \n});",
+  "context": "Built-in fixtures\u200b | You have already used test fixtures in your first test.",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "assertion"
+}

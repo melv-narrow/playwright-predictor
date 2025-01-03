@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    // Capture screenshot after each test failure.  \n    screenshot: 'only-on-failure',  \n  \n    // Record trace only when retrying a test for the first time.  \n    trace: 'on-first-retry',  \n  \n    // Record video only when retrying a test for the first time.  \n    video: 'on-first-retry'  \n  },  \n});",
+  "context": "Trace files, screenshots and videos will appear in the test output directory, typically `test-results`. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-use-options",
+  "pattern": "general"
+}

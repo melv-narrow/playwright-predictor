@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByLabel('User Name').fill('John');  \n  \nawait page.getByLabel('Password').fill('secret-password');  \n  \nawait page.getByRole('button', { name: 'Sign in' }).click();  \n  \nawait expect(page.getByText('Welcome, John!')).toBeVisible();",
+  "context": "page.getByTestId() to locate an element based on its `data-testid` attribute (other attributes can be configured).",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

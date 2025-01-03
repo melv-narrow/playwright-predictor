@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "type Person = { name: string };  \nconst test = base.extend<{ persons: Person[] }>({  \n  // Declare the option, default value is an empty array.  \n  persons: [[], { option: true }],  \n});  \n  \n// Option value is an array of persons.  \nconst actualPersons = [{ name: 'Alice' }, { name: 'Bob' }];  \ntest.use({  \n  // CORRECT: Wrap the value into an array and pass the scope.  \n  persons: [actualPersons, { scope: 'test' }],  \n});  \n  \ntest.use({  \n  // WRONG: passing an array value directly will not work.  \n  persons: actualPersons,  \n});",
+  "context": "**Array as an option value** | If the value of your option is an array, for example `[{ name: 'Alice' }, { name: 'Bob' }]`, you'll need to wrap it into an extra array when providing the value. This is best illustrated with an example.",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "form_interaction"
+}

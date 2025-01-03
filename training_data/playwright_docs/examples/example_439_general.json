@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  timeout: 60000, // Timeout is shared between all tests.  \n  projects: [  \n    {  \n      name: 'Smoke',  \n      testMatch: /.*smoke.spec.ts/,  \n      retries: 0,  \n    },  \n    {  \n      name: 'Default',  \n      testIgnore: /.*smoke.spec.ts/,  \n      retries: 2,  \n    },  \n  ],  \n});",
+  "context": "Here is an example that defines a common timeout and two projects. The \"Smoke\" project runs a small subset of tests without retries, and \"Default\" project runs all other tests with retries. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-projects",
+  "pattern": "general"
+}

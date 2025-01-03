@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \nexport default defineConfig({  \n  retries: 1,  \n  use: {  \n    trace: 'on-first-retry',  \n  },  \n});  \n\n\n\nconst browser = await chromium.launch();  \nconst context = await browser.newContext();  \n  \n// Start tracing before creating / navigating a page.  \nawait context.tracing.start({ screenshots: true, snapshots: true });  \n  \nconst page = await context.newPage();  \nawait page.goto('https://playwright.dev');  \n  \n// Stop tracing and export it into a zip archive.  \nawait context.tracing.stop({ path: 'trace.zip' });",
+  "context": "playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/trace-viewer",
+  "pattern": "navigation"
+}

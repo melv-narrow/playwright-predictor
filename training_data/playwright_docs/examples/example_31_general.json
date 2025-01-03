@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest.use({ storageState: 'playwright/.auth/admin.json' });  \n  \ntest('admin test', async ({ page }) => {  \n  // page is authenticated as admin  \n});  \n  \ntest.describe(() => {  \n  test.use({ storageState: 'playwright/.auth/user.json' });  \n  \n  test('user test', async ({ page }) => {  \n    // page is authenticated as a user  \n  });  \n});",
+  "context": "After that, specify `storageState` for each test file or test group, **instead of** setting it in the config. | tests/example.spec.ts",
+  "source_url": "https://playwright.dev/docs/auth",
+  "pattern": "general"
+}

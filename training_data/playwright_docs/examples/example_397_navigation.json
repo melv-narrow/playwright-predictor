@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as base } from '@playwright/test';  \n  \nexport const test = base.extend<{ forEachTest: void }>({  \n  forEachTest: [async ({ page }, use) => {  \n    // This code runs before every test.  \n    await page.goto('http://localhost:8000');  \n    await use();  \n    // This code runs after every test.  \n    console.log('Last URL:', page.url());  \n  }, { auto: true }],  // automatically starts for every test.  \n});",
+  "context": "[test.beforeEach()](/docs/api/class-test#test-before-each) and [test.afterEach()](/docs/api/class-test#test-after-each) hooks run before/after each test declared in the same file and same [test.describe()](/docs/api/class-test#test-describe) block (if any). If you want to declare hooks that run before/after each test globally, you can declare them as auto fixtures like this: | fixtures.ts",
+  "source_url": "https://playwright.dev/docs/test-fixtures",
+  "pattern": "navigation"
+}

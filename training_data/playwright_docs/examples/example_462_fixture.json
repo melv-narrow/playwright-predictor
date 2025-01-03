@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, type Page } from '@playwright/test';  \n  \ntest.describe.configure({ mode: 'serial' });  \n  \nlet page: Page;  \n  \ntest.beforeAll(async ({ browser }) => {  \n  page = await browser.newPage();  \n});  \n  \ntest.afterAll(async () => {  \n  await page.close();  \n});  \n  \ntest('runs first', async () => {  \n  await page.goto('https://playwright.dev/');  \n});  \n  \ntest('runs second', async () => {  \n  await page.getByText('Get Started').click();  \n});",
+  "context": "example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-retries",
+  "pattern": "fixture"
+}

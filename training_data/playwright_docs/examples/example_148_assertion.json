@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page  \n    .getByRole('listitem'))  \n    .toHaveText(['apple', 'banana', 'orange']);",
+  "context": "Use [expect(locator).toHaveText()](/docs/api/class-locatorassertions#locator-assertions-to-have-text) to ensure that the list has the text \"apple\", \"banana\" and \"orange\".",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByLabel('User Name').fill('John');  \n  \nawait page.getByLabel('Password').fill('secret-password');  \n  \nawait page.getByRole('button', { name: 'Sign in' }).click();  \n  \nawait expect(page.getByText('Welcome, John!')).toBeVisible();",
+  "context": "[page.getByTitle()](/docs/api/class-page#page-get-by-title) to locate an element by its title.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

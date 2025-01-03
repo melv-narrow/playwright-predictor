@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  tsconfig: './tsconfig.test.json',  \n});",
+  "context": "You can specify a single tsconfig file in the config file, that will be used for loading test files, reporters, etc. However, it will not be used while loading the playwright config itself or any files imported from it. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-typescript",
+  "pattern": "general"
+}

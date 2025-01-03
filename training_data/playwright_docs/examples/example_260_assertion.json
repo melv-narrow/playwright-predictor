@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(async () => {  \n  const response = await page.request.get('https://api.example.com');  \n  await expect(response).toBeOK();  \n}).toPass();",
+  "context": "Retry blocks of code until all assertions pass:",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "assertion"
+}

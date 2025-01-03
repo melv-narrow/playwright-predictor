@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  use: {  \n    colorScheme: 'dark',  \n  },  \n});",
+  "context": "Emulate the users `\"colorScheme\"`. Supported values are 'light' and 'dark'. You can also emulate the media type with [page.emulateMedia()](/docs/api/class-page#page-emulate-media). | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/emulation",
+  "pattern": "general"
+}

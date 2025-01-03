@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \n  \ntest('example test', async ({ page }) => {  \n  await page.goto('https://playwright.dev');  \n  await expect(page).toHaveScreenshot();  \n});",
+  "context": "Playwright Test includes the ability to produce and visually compare screenshots using `await expect(page).toHaveScreenshot()`. On first execution, Playwright test will generate reference screenshots. Subsequent runs will compare against the reference. | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-snapshots",
+  "pattern": "assertion"
+}

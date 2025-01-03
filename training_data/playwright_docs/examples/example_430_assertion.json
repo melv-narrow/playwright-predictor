@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from './my-test';  \n  \ntest('test 1', async ({ page, person }) => {  \n  await page.goto(`/index.html`);  \n  await expect(page.locator('#node')).toContainText(person);  \n  // ...  \n});",
+  "context": "We can use this option in the test, similarly to [fixtures](/docs/test-fixtures). | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/experimental-ct-vue';  \nimport type { HooksConfig } from '../playwright';  \nimport Store from './Store.vue';  \n  \ntest('override initialState ', async ({ mount }) => {  \n  const component = await mount<HooksConfig>(Store, {  \n    hooksConfig: {  \n      store: { name: 'override initialState' }  \n    }  \n  });  \n  await expect(component).toContainText('override initialState');  \n});",
+  "context": "src/pinia.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-components",
+  "pattern": "assertion"
+}

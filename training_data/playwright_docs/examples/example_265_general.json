@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  reporter: [['html', { host: 'localhost', port: '9223' }]],  \n});",
+  "context": "New options `host` and `port` for the html reporter.",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

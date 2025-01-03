@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.routeWebSocket('wss://example.com/ws', ws => {  \n  ws.onMessage(message => {  \n    if (message === 'request')  \n      ws.send('response');  \n  });  \n});",
+  "context": "Mock WebSockets\u200b | The following code will intercept WebSocket connections and mock entire communcation over the WebSocket, instead of connecting to the server. This example responds to a `\"request\"` with a `\"response\"`.",
+  "source_url": "https://playwright.dev/docs/mock",
+  "pattern": "wait_strategy"
+}

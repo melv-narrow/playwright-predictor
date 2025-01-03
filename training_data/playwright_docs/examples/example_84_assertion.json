@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test, expect } from '@playwright/test';  \nimport path from 'path';  \n  \ntest.beforeEach(async ({ page }) => {  \n  // Add script for every test in the beforeEach hook.  \n  // Make sure to correctly resolve the script path.  \n  await page.addInitScript({ path: path.resolve(__dirname, '../mocks/preload.js') });  \n});",
+  "context": "Next, add init script to the page.",
+  "source_url": "https://playwright.dev/docs/evaluating",
+  "pattern": "assertion"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  reporter: [  \n    ['list'],  \n    ['json', {  outputFile: 'test-results.json' }]  \n  ],  \n});",
+  "context": "You can use multiple reporters at the same time. For example you can use `'list'` for nice terminal output and `'json'` to get a comprehensive json file with the test results. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-reporters",
+  "pattern": "general"
+}

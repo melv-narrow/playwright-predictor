@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await expect(page.locator('x-details')).toContainText('Details');",
+  "context": "To ensure that `<x-details>` contains the text \"Details\":",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "assertion"
+}

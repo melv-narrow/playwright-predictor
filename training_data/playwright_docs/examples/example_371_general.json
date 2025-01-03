@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { defineConfig } from '@playwright/test';  \n  \nexport default defineConfig({  \n  // Glob patterns or regular expressions to ignore test files.  \n  testIgnore: '*test-assets',  \n  \n  // Glob patterns or regular expressions that match test files.  \n  testMatch: '*todo-tests/*.spec.ts',  \n});",
+  "context": "Filter tests by glob patterns or regular expressions. | playwright.config.ts",
+  "source_url": "https://playwright.dev/docs/test-configuration",
+  "pattern": "general"
+}

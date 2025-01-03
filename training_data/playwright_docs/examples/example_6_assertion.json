@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('example with attachment', async ({ page }, testInfo) => {  \n  await page.goto('https://your-site.com/');  \n  \n  const accessibilityScanResults = await new AxeBuilder({ page }).analyze();  \n  \n  await testInfo.attach('accessibility-scan-results', {  \n    body: JSON.stringify(accessibilityScanResults, null, 2),  \n    contentType: 'application/json'  \n  });  \n  \n  expect(accessibilityScanResults.violations).toEqual([]);  \n});",
+  "context": "To include _all_ of the scan results as part of your test results for debugging purposes, you can add the scan results as a test attachment with [`testInfo.attach()`](/docs/api/class-testinfo#test-info-attach). [Reporters](/docs/test-reporters) can then embed or link the full results as part of your test output. | The following example demonstrates attaching scan results to a test:",
+  "source_url": "https://playwright.dev/docs/accessibility-testing",
+  "pattern": "assertion"
+}

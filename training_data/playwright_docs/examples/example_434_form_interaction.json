@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test(`example test`, async ({ page }) => {  \n  // ...  \n  await page.getByLabel('User Name').fill(process.env.USER_NAME);  \n  await page.getByLabel('Password').fill(process.env.PASSWORD);  \n});",
+  "context": "For example, consider the following test file that needs a username and a password. It is usually a good idea not to store your secrets in the source code, so we'll need a way to pass secrets from outside. | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "form_interaction"
+}

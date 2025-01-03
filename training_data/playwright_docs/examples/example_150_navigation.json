@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page  \n    .getByRole('listitem')  \n    .filter({ hasText: 'orange' })  \n    .click();",
+  "context": "Locate an item by the role of \"listitem\" and then filter by the text of \"orange\" and then click it.",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

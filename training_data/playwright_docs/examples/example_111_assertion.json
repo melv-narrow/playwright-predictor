@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { expect, test, devices } from '@playwright/test';  \n  \ntest.use(devices['iPhone 11']);  \n  \ntest('should be titled', async ({ page, context }) => {  \n  await context.route('**.jpg', route => route.abort());  \n  await page.goto('https://example.com/');  \n  \n  await expect(page).toHaveTitle('Example');  \n});  \n\n\n\nconst { expect, test, devices } = require('@playwright/test');  \n  \ntest.use(devices['iPhone 11']);  \n  \ntest('should be titled', async ({ page, context }) => {  \n  await context.route('**.jpg', route => route.abort());  \n  await page.goto('https://example.com/');  \n  \n  await expect(page).toHaveTitle('Example');  \n});",
+  "context": "JavaScript",
+  "source_url": "https://playwright.dev/docs/library",
+  "pattern": "assertion"
+}

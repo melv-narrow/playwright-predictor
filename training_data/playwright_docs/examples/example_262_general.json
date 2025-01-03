@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Each test in the file will be retried twice and have a timeout of 20 seconds.  \ntest.describe.configure({ retries: 2, timeout: 20_000 });  \ntest('runs first', async ({ page }) => {});  \ntest('runs second', async ({ page }) => {});",
+  "context": "Test Runner\u200b | Configure retries and test timeout for a file or a test with [test.describe.configure()](/docs/api/class-test#test-describe-configure).",
+  "source_url": "https://playwright.dev/docs/release-notes",
+  "pattern": "general"
+}

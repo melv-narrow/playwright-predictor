@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test as setup } from '@playwright/test';  \n  \nsetup('create new database', async ({ }) => {  \n  console.log('creating new database...');  \n  // Initialize the database  \n});",
+  "context": "In this example the 'chromium with db' project depends on the 'setup db' project. We then create a setup test, stored at root level of your project (note that setup and teardown code must be defined as regular tests by calling [test()](/docs/api/class-test#test-call) function): | tests/global.setup.ts",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "general"
+}

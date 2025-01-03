@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.getByAltText('playwright logo').click();",
+  "context": "You can click on the image after locating it by the text alternative:",
+  "source_url": "https://playwright.dev/docs/locators",
+  "pattern": "navigation"
+}

@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test.beforeEach(async ({ page }) => {  \n  // ...  \n});  \n  \ntest.afterEach(async ({ page }) => {  \n  // ...  \n});  \n  \n[  \n  { name: 'Alice', expected: 'Hello, Alice!' },  \n  { name: 'Bob', expected: 'Hello, Bob!' },  \n  { name: 'Charlie', expected: 'Hello, Charlie!' },  \n].forEach(({ name, expected }) => {  \n  test(`testing with ${name}`, async ({ page }) => {  \n    await page.goto(`https://example.com/greet?name=${name}`);  \n    await expect(page.getByRole('heading')).toHaveText(expected);  \n  });  \n});",
+  "context": "Most of the time you should put `beforeEach`, `beforeAll`, `afterEach` and `afterAll` hooks outside of `forEach`, so that hooks are executed just once: | example.spec.ts",
+  "source_url": "https://playwright.dev/docs/test-parameterize",
+  "pattern": "assertion"
+}

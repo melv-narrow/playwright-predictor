@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { chromium, type FullConfig } from '@playwright/test';  \n  \nasync function globalSetup(config: FullConfig) {  \n  const { baseURL, storageState } = config.projects[0].use;  \n  const browser = await chromium.launch();  \n  const page = await browser.newPage();  \n  await page.goto(baseURL!);  \n  await page.getByLabel('User Name').fill('user');  \n  await page.getByLabel('Password').fill('password');  \n  await page.getByText('Sign in').click();  \n  await page.context().storageState({ path: storageState as string });  \n  await browser.close();  \n}  \n  \nexport default globalSetup;",
+  "context": "Here is a global setup example that authenticates once and reuses authentication state in tests. It uses the `baseURL` and `storageState` options from the configuration file. | global-setup.ts",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "navigation"
+}

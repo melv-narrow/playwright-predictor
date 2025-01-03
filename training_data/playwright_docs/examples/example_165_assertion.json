@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "test('records or updates the HAR file', async ({ page }) => {  \n  // Get the response from the HAR file  \n  await page.routeFromHAR('./hars/fruit.har', {  \n    url: '*/**/api/v1/fruits',  \n    update: true,  \n  });  \n  \n  // Go to the page  \n  await page.goto('https://demo.playwright.dev/api-mocking');  \n  \n  // Assert that the fruit is visible  \n  await expect(page.getByText('Strawberry')).toBeVisible();  \n});",
+  "context": "To record a HAR file we use [page.routeFromHAR()](/docs/api/class-page#page-route-from-har) or [browserContext.routeFromHAR()](/docs/api/class-browsercontext#browser-context-route-from-har) method. This method takes in the path to the HAR file and an optional object of options. The options object can contain the URL so that only requests with the URL matching the specified glob pattern will be served from the HAR File. If not specified, all requests will be served from the HAR file. | Setting `update` option to true will create or update the HAR file with the actual network information instead of serving the requests from the HAR file. Use it when creating a test to populate the HAR with real data.",
+  "source_url": "https://playwright.dev/docs/mock",
+  "pattern": "assertion"
+}

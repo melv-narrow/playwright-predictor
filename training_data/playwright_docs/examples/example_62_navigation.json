@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "// Start waiting for download before clicking. Note no await.  \nconst downloadPromise = page.waitForEvent('download');  \nawait page.getByText('Download file').click();  \nconst download = await downloadPromise;  \n  \n// Wait for the download process to complete and save the downloaded file somewhere.  \nawait download.saveAs('/path/to/save/at/' + download.suggestedFilename());",
+  "context": "Downloaded files are deleted when the browser context that produced them is closed. | Here is the simplest way to handle the file download:",
+  "source_url": "https://playwright.dev/docs/downloads",
+  "pattern": "navigation"
+}

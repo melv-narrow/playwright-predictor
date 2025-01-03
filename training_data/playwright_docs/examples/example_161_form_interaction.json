@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "await page.addInitScript(() => {  \n  Object.defineProperty(Object.getPrototypeOf(navigator), 'cookieEnabled', { value: false });  \n});",
+  "context": "However, if the property is [configurable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty#configurable), you can still override it using the plain JavaScript:",
+  "source_url": "https://playwright.dev/docs/mock-browser-apis",
+  "pattern": "form_interaction"
+}

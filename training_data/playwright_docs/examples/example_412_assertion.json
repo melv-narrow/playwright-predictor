@@ -1,0 +1,7 @@
+{
+  "language": "javascript",
+  "code": "import { test } from '@playwright/test';  \n  \ntest('test', async ({ page }) => {  \n  // environment variables which are set in globalSetup are only available inside test().  \n  const { FOO, BAR } = process.env;  \n  \n  // FOO and BAR properties are populated.  \n  expect(FOO).toEqual('some data');  \n  \n  const complexData = JSON.parse(BAR);  \n  expect(BAR).toEqual({ some: 'data' });  \n});",
+  "context": "Tests have access to the `process.env` properties set in the global setup.",
+  "source_url": "https://playwright.dev/docs/test-global-setup-teardown",
+  "pattern": "assertion"
+}
