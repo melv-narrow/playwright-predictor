@@ -1,0 +1,844 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://developer.mozilla.org/en-US/docs/Web/Media/images,nav,nav,navigation,navigation,False,True,True,"References
+Learn
+Plus
+Curriculum
+NEW
+Blog
+Tools",div#root > div > div:nth-of-type(2) > header > div > div:nth-of-type(2) > nav,"{'class': 'main-nav', 'aria-label': 'Main menu'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,nav,nav,navigation,navigation,False,True,True,"References
+Web media technologies
+Using images in HTML",div#root > div > div:nth-of-type(2) > div > div > nav,"{'class': 'breadcrumbs-container', 'aria-label': 'Breadcrumb'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,nav,nav,navigation,navigation,False,True,True,"Filter sidebar
+Audio and Video Delivery
+Adding captions and subtitles to HTML video
+Creating a cross-browser video player
+Cross-browser audio basics
+Livestreaming web audio and video
+Media buffering, seeking, and time ranges
+Setting up adaptive streaming media sources
+Video player styling basics
+Web Audio playbackRate explained
+Audio and video manipulation
+Autoplay guide for media and Web Audio APIs
+DASH Adaptive Streaming for HTML 5 Video
+Guide to streaming audio and video
+Media type and format guide: image, audio, and video content
+Codecs in common media types
+Codecs used by WebRTC
+Configuring servers for Ogg media
+Digital audio concepts
+Digital video concepts
+Handling media support issues in web content
+Image file type and format guide
+Media container formats (file types)
+Web audio codec guide
+Web video codec guide
+Using audio and video in HTML
+Using images in HTML",aside#sidebar-quicklinks > nav,"{'aria-label': 'Related Topics', 'class': 'sidebar-inner'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,nav,nav,navigation,navigation,False,True,True,"In this article
+References
+Guides
+Other topics",div#root > div > div:nth-of-type(3) > div > div > aside > nav,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,header,header,navigation,navigation,False,True,True,"References
+Learn
+Plus
+Curriculum
+NEW
+Blog
+Tools
+Search MDN
+SEARCH
+Theme
+Log in
+Sign up for free",div#root > div > div:nth-of-type(2) > header,{'class': 'top-navigation \n      \n      '}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,header,header,navigation,navigation,False,True,True,Filter sidebar,aside#sidebar-quicklinks > nav > header,{'class': 'sidebar-actions'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,header,header,navigation,navigation,False,False,True,In this article,aside#sidebar-quicklinks > nav > div > div > div > section > header,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,header,header,navigation,navigation,False,True,True,In this article,div#root > div > div:nth-of-type(3) > div > div > aside > nav > div > section > header,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,header,header,navigation,navigation,False,True,True,Using images in HTML,main#content > article > header,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,footer,footer,navigation,navigation,False,True,True,"Your blueprint for a better internet.
+
+MDN on Mastodon
+MDN on X (formerly Twitter)
+MDN on GitHub
+MDN Blog RSS Feed
+MDN
+About
+Blog
+Careers
+Advertise with us
+Support
+Product help
+Report an issue
+Our communities
+MDN Community
+MDN Forum
+MDN Chat
+Developers
+Web Technologies
+Learn Web Development
+MDN Plus
+Hacks Blog
+Website Privacy Notice
+Cookies
+Legal
+Community Participation Guidelines
+
+Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+Portions of this content are ©1998–2025 by individual mozilla.org contributors. Content available under a Creative Commons license.",footer#nav-footer,"{'id': 'nav-footer', 'class': 'page-footer'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,aside,aside,container,container,False,True,True,"Filter sidebar
+Audio and Video Delivery
+Adding captions and subtitles to HTML video
+Creating a cross-browser video player
+Cross-browser audio basics
+Livestreaming web audio and video
+Media buffering, seeking, and time ranges
+Setting up adaptive streaming media sources
+Video player styling basics
+Web Audio playbackRate explained
+Audio and video manipulation
+Autoplay guide for media and Web Audio APIs
+DASH Adaptive Streaming for HTML 5 Video
+Guide to streaming audio and video
+Media type and format guide: image, audio, and video content
+Codecs in common media types
+Codecs used by WebRTC
+Configuring servers for Ogg media
+Digital audio concepts
+Digital video concepts
+Handling media support issues in web content
+Image file type and format guide
+Media container formats (file types)
+Web audio codec guide
+Web video codec guide
+Using audio and video in HTML
+Using images in HTML",aside#sidebar-quicklinks,"{'id': 'sidebar-quicklinks', 'class': 'sidebar'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,aside,aside,container,container,False,True,True,"In this article
+References
+Guides
+Other topics",div#root > div > div:nth-of-type(3) > div > div > aside,{'class': 'toc'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,aside,aside,container,container,False,True,True,"Help improve MDN
+Was this page helpful to you?
+Yes
+No
+Learn how to contribute.
+
+This page was last modified on Dec 19, 2024 by MDN contributors.
+
+View this page on GitHub • Report a problem with this content",main#content > aside,{'class': 'article-footer'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,main,main,container,container,False,True,True,"Using images in HTML
+
+The HTML <img> element lets you embed images into an HTML document, while the <picture> element enables responsive images. In this guide you'll find links to resources that deal with adding images to websites.
+
+References
+
+These articles cover some of the HTML elements and CSS properties that are used to control how images are displayed on the web.
+
+HTML
+<img>
+
+The HTML <img> element is used to embed an image in a webpage. It supports a wide range of attributes that control how the image behaves and allows you to add important information like alt text for people who don't see the image.
+
+<picture>
+
+The HTML <picture> element contains zero or more <source> elements and one <img> element which provides versions of an image for different display/device scenarios. The browser considers each child <source> element and chooses the best match among them.
+
+CSS
+object-fit
+
+The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video>, should be resized to fit its container.
+
+object-position
+
+The object-position CSS property specifies the alignment of content in a selected replaced element within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.
+
+background-image
+
+The background-image CSS property sets one or more background images for an element.
+
+Guides
+
+These articles provide guidance on selecting and configuring image types.
+
+Image file type and format guide
+
+A guide to the various image file types commonly supported by web browsers including details about their individual use cases, capabilities, and compatibility factors. Additionally, this article provides guidance for selecting the best image file type for a given situation.
+
+Including width and height attributes helps avoid jank
+
+This changes how browsers load images so their aspect ratios are calculated by the browser early on and can later be used to reserve the display size of an image before it's loaded.
+
+Other topics
+
+Related topics that may be of interest.
+
+Responsive Images
+
+In this article, we'll learn about the concept of responsive images — images that work well on devices with widely differing screen sizes, resolutions, and other such features — and look at what tools HTML provides to help implement them.
+
+Help improve MDN
+Was this page helpful to you?
+Yes
+No
+Learn how to contribute.
+
+This page was last modified on Dec 19, 2024 by MDN contributors.
+
+View this page on GitHub • Report a problem with this content",main#content,"{'id': 'content', 'class': 'main-content  '}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,False,True,"Skip to main content
+Skip to search
+Skip to select language",ul#nav-access,"{'id': 'nav-access', 'class': 'a11y-nav'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Imagine What You’ll Build Tomorrow
+Get Started free
+Mozilla ads
+References
+Learn
+Plus
+Curriculum
+NEW
+Blog
+Tools
+Search MDN
+SEARCH
+Theme
+Log in
+Sign up for free
+References
+Web media technologies
+Using images in HTML
+English (US)
+Filter sidebar
+Audio and Video Delivery
+Adding captions and subtitles to HTML video
+Creating a cross-browser video player
+Cross-browser audio basics
+Livestreaming web audio and video
+Media buffering, seeking, and time ranges
+Setting up adaptive streaming media sources
+Video player styling basics
+Web Audio playbackRate explained
+Audio and video manipulation
+Autoplay guide for media and Web Audio APIs
+DASH Adaptive Streaming for HTML 5 Video
+Guide to streaming audio and video
+Media type and format guide: image, audio, and video content
+Codecs in common media types
+Codecs used by WebRTC
+Configuring servers for Ogg media
+Digital audio concepts
+Digital video concepts
+Handling media support issues in web content
+Image file type and format guide
+Media container formats (file types)
+Web audio codec guide
+Web video codec guide
+Using audio and video in HTML
+Using images in HTML
+In this article
+References
+Guides
+Other topics
+Using images in HTML
+
+The HTML <img> element lets you embed images into an HTML document, while the <picture> element enables responsive images. In this guide you'll find links to resources that deal with adding images to websites.
+
+References
+
+These articles cover some of the HTML elements and CSS properties that are used to control how images are displayed on the web.
+
+HTML
+<img>
+
+The HTML <img> element is used to embed an image in a webpage. It supports a wide range of attributes that control how the image behaves and allows you to add important information like alt text for people who don't see the image.
+
+<picture>
+
+The HTML <picture> element contains zero or more <source> elements and one <img> element which provides versions of an image for different display/device scenarios. The browser considers each child <source> element and chooses the best match among them.
+
+CSS
+object-fit
+
+The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video>, should be resized to fit its container.
+
+object-position
+
+The object-position CSS property specifies the alignment of content in a selected replaced element within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.
+
+background-image
+
+The background-image CSS property sets one or more background images for an element.
+
+Guides
+
+These articles provide guidance on selecting and configuring image types.
+
+Image file type and format guide
+
+A guide to the various image file types commonly supported by web browsers including details about their individual use cases, capabilities, and compatibility factors. Additionally, this article provides guidance for selecting the best image file type for a given situation.
+
+Including width and height attributes helps avoid jank
+
+This changes how browsers load images so their aspect ratios are calculated by the browser early on and can later be used to reserve the display size of an image before it's loaded.
+
+Other topics
+
+Related topics that may be of interest.
+
+Responsive Images
+
+In this article, we'll learn about the concept of responsive images — images that work well on devices with widely differing screen sizes, resolutions, and other such features — and look at what tools HTML provides to help implement them.
+
+Help improve MDN
+Was this page helpful to you?
+Yes
+No
+Learn how to contribute.
+
+This page was last modified on Dec 19, 2024 by MDN contributors.
+
+View this page on GitHub • Report a problem with this content
+Mozilla ads",div#root > div,{'class': 'page-wrapper  category-web document-page'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Imagine What You’ll Build Tomorrow
+Get Started free
+Mozilla ads",div#root > div > div,"{'class': 'top-banner visible', 'style': '--place-top-background-light: #FFFFFF; --place-top-color-light: #001e2b; --place-top-cta-background-light: #001e2b; --place-top-cta-color-light: #FFFFFF; --place-top-background-dark: #FFFFFF; --place-top-color-dark: #001e2b; --place-top-cta-background-dark: #001e2b; --place-top-cta-color-dark: #FFFFFF;'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,section,section,content,content,False,True,True,"Imagine What You’ll Build Tomorrow
+Get Started free
+Mozilla ads",div#root > div > div > section,{'class': 'place top container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"References
+Learn
+Plus
+Curriculum
+NEW
+Blog
+Tools
+Search MDN
+SEARCH
+Theme
+Log in
+Sign up for free
+References
+Web media technologies
+Using images in HTML
+English (US)",div#root > div > div:nth-of-type(2),{'class': 'sticky-header-container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,header,header,navigation,navigation,False,True,True,"References
+Learn
+Plus
+Curriculum
+NEW
+Blog
+Tools
+Search MDN
+SEARCH
+Theme
+Log in
+Sign up for free",div#root > div > div:nth-of-type(2) > header,{'class': 'top-navigation \n      \n      '}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,False,,div#root > div > div:nth-of-type(2) > header > div > div,{'class': 'top-navigation-wrap'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,a,a,navigation,interactive,True,True,False,,div#root > div > div:nth-of-type(2) > header > div > div > a,"{'href': '/en-US/', 'class': 'logo', 'aria-label': 'MDN homepage'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,button,button,interactive,interactive,True,False,True,Open main menu,div#root > div > div:nth-of-type(2) > header > div > div > button,"{'title': 'Open main menu', 'type': 'button', 'class': 'button action has-icon main-menu-toggle', 'aria-haspopup': 'menu', 'aria-label': 'Open main menu', 'aria-expanded': 'false'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"References
+Learn
+Plus
+Curriculum
+NEW
+Blog
+Tools
+Search MDN
+SEARCH
+Theme
+Log in
+Sign up for free",div#root > div > div:nth-of-type(2) > header > div > div:nth-of-type(2),{'class': 'top-navigation-main'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,nav,nav,navigation,navigation,False,True,True,"References
+Learn
+Plus
+Curriculum
+NEW
+Blog
+Tools",div#root > div > div:nth-of-type(2) > header > div > div:nth-of-type(2) > nav,"{'class': 'main-nav', 'aria-label': 'Main menu'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Overview / Web Technology,ul#references-menu > li > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Web technology reference for developers,ul#references-menu > li > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,HTML,ul#references-menu > li:nth-of-type(2) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Structure of content on the web,ul#references-menu > li:nth-of-type(2) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,CSS,ul#references-menu > li:nth-of-type(3) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Code used to describe document style,ul#references-menu > li:nth-of-type(3) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,JavaScript,ul#references-menu > li:nth-of-type(4) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,General-purpose scripting language,ul#references-menu > li:nth-of-type(4) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,HTTP,ul#references-menu > li:nth-of-type(5) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Protocol for transmitting web resources,ul#references-menu > li:nth-of-type(5) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Web APIs,ul#references-menu > li:nth-of-type(6) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Interfaces for building web applications,ul#references-menu > li:nth-of-type(6) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Web Extensions,ul#references-menu > li:nth-of-type(7) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Developing extensions for web browsers,ul#references-menu > li:nth-of-type(7) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Accessibility,ul#references-menu > li:nth-of-type(8) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Learn to make the web accessible to all,ul#references-menu > li:nth-of-type(8) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Web Technology,ul#references-menu > li:nth-of-type(9) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Web technology reference for developers,ul#references-menu > li:nth-of-type(9) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Overview / MDN Learning Area,ul#learn-menu > li > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Learn web development,ul#learn-menu > li > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,MDN Learning Area,ul#learn-menu > li:nth-of-type(2) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Learn web development,ul#learn-menu > li:nth-of-type(2) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,HTML,ul#learn-menu > li:nth-of-type(3) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Learn to structure web content with HTML,ul#learn-menu > li:nth-of-type(3) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,CSS,ul#learn-menu > li:nth-of-type(4) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Learn to style content using CSS,ul#learn-menu > li:nth-of-type(4) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,JavaScript,ul#learn-menu > li:nth-of-type(5) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Learn to run scripts in the browser,ul#learn-menu > li:nth-of-type(5) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Overview,ul#mdn-plus-menu > li > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,A customized MDN experience,ul#mdn-plus-menu > li > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,AI Help,ul#mdn-plus-menu > li:nth-of-type(2) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Get real-time assistance and support,ul#mdn-plus-menu > li:nth-of-type(2) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Updates,ul#mdn-plus-menu > li:nth-of-type(3) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,All browser compatibility updates at a glance,ul#mdn-plus-menu > li:nth-of-type(3) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Documentation,ul#mdn-plus-menu > li:nth-of-type(4) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Learn how to use MDN Plus,ul#mdn-plus-menu > li:nth-of-type(4) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,FAQ,ul#mdn-plus-menu > li:nth-of-type(5) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Frequently asked questions about MDN Plus,ul#mdn-plus-menu > li:nth-of-type(5) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Playground,ul#tools-menu > li > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,"Write, test and share your code",ul#tools-menu > li > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,HTTP Observatory,ul#tools-menu > li:nth-of-type(2) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Scan a website for free,ul#tools-menu > li:nth-of-type(2) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,AI Help,ul#tools-menu > li:nth-of-type(3) > a > div:nth-of-type(2) > div,{'class': 'submenu-item-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,False,True,Get real-time assistance and support,ul#tools-menu > li:nth-of-type(3) > a > div:nth-of-type(2) > p,{'class': 'submenu-item-description'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Search MDN
+SEARCH",div#root > div > div:nth-of-type(2) > header > div > div:nth-of-type(2) > div,{'class': 'header-search'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,form,form,interactive,container,False,True,True,"Search MDN
+SEARCH",form#top-nav-search-form,"{'action': '/en-US/search', 'class': 'search-form search-widget', 'id': 'top-nav-search-form', 'role': 'search'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,Theme,div#root > div > div:nth-of-type(2) > header > div > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'theme-switcher-menu'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,button,button,interactive,interactive,True,True,True,Theme,div#root > div > div:nth-of-type(2) > header > div > div:nth-of-type(2) > div:nth-of-type(2) > button,"{'type': 'button', 'class': 'button action has-icon theme-switcher-menu small', 'aria-haspopup': 'menu'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,True,True,"Log in
+Sign up for free",div#root > div > div:nth-of-type(2) > header > div > div:nth-of-type(2) > ul,{'class': 'auth-container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"References
+Web media technologies
+Using images in HTML
+English (US)",div#root > div > div:nth-of-type(2) > div,{'class': 'article-actions-container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"References
+Web media technologies
+Using images in HTML
+English (US)",div#root > div > div:nth-of-type(2) > div > div,{'class': 'container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,button,button,interactive,interactive,True,False,False,,div#root > div > div:nth-of-type(2) > div > div > button,"{'type': 'button', 'class': 'button action has-icon sidebar-button', 'aria-label': 'Expand sidebar', 'aria-expanded': 'false', 'aria-controls': 'sidebar-quicklinks'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,nav,nav,navigation,navigation,False,True,True,"References
+Web media technologies
+Using images in HTML",div#root > div > div:nth-of-type(2) > div > div > nav,"{'class': 'breadcrumbs-container', 'aria-label': 'Breadcrumb'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,English (US),div#root > div > div:nth-of-type(2) > div > div > div,{'class': 'article-actions'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,button,button,interactive,interactive,True,False,True,Article Actions,div#root > div > div:nth-of-type(2) > div > div > div > button,"{'type': 'button', 'class': 'button action has-icon article-actions-toggle', 'aria-label': 'Article actions'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,True,True,English (US),div#root > div > div:nth-of-type(2) > div > div > div > ul,{'class': 'article-actions-entries'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,button,button,interactive,interactive,True,True,True,English (US),button#languages-switcher-button,"{'id': 'languages-switcher-button', 'type': 'button', 'class': 'button action small has-icon languages-switcher-menu', 'aria-haspopup': 'menu'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,Remember languageIs this useful?This feature is useful.This feature is not useful.Deutsch日本語中文 (简体),div#root > div > div:nth-of-type(2) > div > div > div > ul > li > div > div,{'class': 'hidden'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,False,True,Remember languageIs this useful?This feature is useful.This feature is not useful.Deutsch日本語中文 (简体),div#root > div > div:nth-of-type(2) > div > div > div > ul > li > div > div > ul,"{'class': 'submenu language-menu  ', 'aria-labelledby': 'language-menu-button'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,label,label,interactive,interactive,True,False,True,Remember language,div#root > div > div:nth-of-type(2) > div > div > div > ul > li > div > div > ul > li > form > div > label,{'class': 'switch'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,a,a,navigation,interactive,True,False,False,,div#root > div > div:nth-of-type(2) > div > div > div > ul > li > div > div > ul > li > form > div > a,"{'href': 'https://github.com/orgs/mdn/discussions/739', 'rel': 'external noopener noreferrer', 'target': '_blank', 'title': ""Enable this setting to automatically switch to this language when it's available. (Click to learn more.)""}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Filter sidebar
+Audio and Video Delivery
+Adding captions and subtitles to HTML video
+Creating a cross-browser video player
+Cross-browser audio basics
+Livestreaming web audio and video
+Media buffering, seeking, and time ranges
+Setting up adaptive streaming media sources
+Video player styling basics
+Web Audio playbackRate explained
+Audio and video manipulation
+Autoplay guide for media and Web Audio APIs
+DASH Adaptive Streaming for HTML 5 Video
+Guide to streaming audio and video
+Media type and format guide: image, audio, and video content
+Codecs in common media types
+Codecs used by WebRTC
+Configuring servers for Ogg media
+Digital audio concepts
+Digital video concepts
+Handling media support issues in web content
+Image file type and format guide
+Media container formats (file types)
+Web audio codec guide
+Web video codec guide
+Using audio and video in HTML
+Using images in HTML
+In this article
+References
+Guides
+Other topics
+Using images in HTML
+
+The HTML <img> element lets you embed images into an HTML document, while the <picture> element enables responsive images. In this guide you'll find links to resources that deal with adding images to websites.
+
+References
+
+These articles cover some of the HTML elements and CSS properties that are used to control how images are displayed on the web.
+
+HTML
+<img>
+
+The HTML <img> element is used to embed an image in a webpage. It supports a wide range of attributes that control how the image behaves and allows you to add important information like alt text for people who don't see the image.
+
+<picture>
+
+The HTML <picture> element contains zero or more <source> elements and one <img> element which provides versions of an image for different display/device scenarios. The browser considers each child <source> element and chooses the best match among them.
+
+CSS
+object-fit
+
+The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video>, should be resized to fit its container.
+
+object-position
+
+The object-position CSS property specifies the alignment of content in a selected replaced element within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.
+
+background-image
+
+The background-image CSS property sets one or more background images for an element.
+
+Guides
+
+These articles provide guidance on selecting and configuring image types.
+
+Image file type and format guide
+
+A guide to the various image file types commonly supported by web browsers including details about their individual use cases, capabilities, and compatibility factors. Additionally, this article provides guidance for selecting the best image file type for a given situation.
+
+Including width and height attributes helps avoid jank
+
+This changes how browsers load images so their aspect ratios are calculated by the browser early on and can later be used to reserve the display size of an image before it's loaded.
+
+Other topics
+
+Related topics that may be of interest.
+
+Responsive Images
+
+In this article, we'll learn about the concept of responsive images — images that work well on devices with widely differing screen sizes, resolutions, and other such features — and look at what tools HTML provides to help implement them.
+
+Help improve MDN
+Was this page helpful to you?
+Yes
+No
+Learn how to contribute.
+
+This page was last modified on Dec 19, 2024 by MDN contributors.
+
+View this page on GitHub • Report a problem with this content",div#root > div > div:nth-of-type(3),{'class': 'main-wrapper'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Filter sidebar
+Audio and Video Delivery
+Adding captions and subtitles to HTML video
+Creating a cross-browser video player
+Cross-browser audio basics
+Livestreaming web audio and video
+Media buffering, seeking, and time ranges
+Setting up adaptive streaming media sources
+Video player styling basics
+Web Audio playbackRate explained
+Audio and video manipulation
+Autoplay guide for media and Web Audio APIs
+DASH Adaptive Streaming for HTML 5 Video
+Guide to streaming audio and video
+Media type and format guide: image, audio, and video content
+Codecs in common media types
+Codecs used by WebRTC
+Configuring servers for Ogg media
+Digital audio concepts
+Digital video concepts
+Handling media support issues in web content
+Image file type and format guide
+Media container formats (file types)
+Web audio codec guide
+Web video codec guide
+Using audio and video in HTML
+Using images in HTML
+In this article
+References
+Guides
+Other topics",div#root > div > div:nth-of-type(3) > div,{'class': 'sidebar-container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,aside,aside,container,container,False,True,True,"Filter sidebar
+Audio and Video Delivery
+Adding captions and subtitles to HTML video
+Creating a cross-browser video player
+Cross-browser audio basics
+Livestreaming web audio and video
+Media buffering, seeking, and time ranges
+Setting up adaptive streaming media sources
+Video player styling basics
+Web Audio playbackRate explained
+Audio and video manipulation
+Autoplay guide for media and Web Audio APIs
+DASH Adaptive Streaming for HTML 5 Video
+Guide to streaming audio and video
+Media type and format guide: image, audio, and video content
+Codecs in common media types
+Codecs used by WebRTC
+Configuring servers for Ogg media
+Digital audio concepts
+Digital video concepts
+Handling media support issues in web content
+Image file type and format guide
+Media container formats (file types)
+Web audio codec guide
+Web video codec guide
+Using audio and video in HTML
+Using images in HTML",aside#sidebar-quicklinks,"{'id': 'sidebar-quicklinks', 'class': 'sidebar'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,label,label,interactive,interactive,True,False,True,Filter sidebar,label#sidebar-filter-label,"{'id': 'sidebar-filter-label', 'class': 'sidebar-filter-label', 'for': 'sidebar-filter-input'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,input,input,interactive,interactive,True,True,False,,input#sidebar-filter-input,"{'id': 'sidebar-filter-input', 'autocomplete': 'off', 'class': 'sidebar-filter-input-field false', 'type': 'text', 'placeholder': 'Filter', 'value': ''}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,button,button,interactive,interactive,True,False,True,Clear filter input,aside#sidebar-quicklinks > nav > header > section > div > button,"{'type': 'button', 'class': 'button action has-icon clear-sidebar-filter-button'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,In this articleReferencesGuidesOther topics,aside#sidebar-quicklinks > nav > div > div,{'class': 'in-nav-toc'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,True,In this articleReferencesGuidesOther topics,aside#sidebar-quicklinks > nav > div > div > div,{'class': 'document-toc-container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,section,section,content,content,False,False,True,In this articleReferencesGuidesOther topics,aside#sidebar-quicklinks > nav > div > div > div > section,{'class': 'document-toc'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Audio and Video Delivery
+Adding captions and subtitles to HTML video
+Creating a cross-browser video player
+Cross-browser audio basics
+Livestreaming web audio and video
+Media buffering, seeking, and time ranges
+Setting up adaptive streaming media sources
+Video player styling basics
+Web Audio playbackRate explained
+Audio and video manipulation
+Autoplay guide for media and Web Audio APIs
+DASH Adaptive Streaming for HTML 5 Video
+Guide to streaming audio and video
+Media type and format guide: image, audio, and video content
+Codecs in common media types
+Codecs used by WebRTC
+Configuring servers for Ogg media
+Digital audio concepts
+Digital video concepts
+Handling media support issues in web content
+Image file type and format guide
+Media container formats (file types)
+Web audio codec guide
+Web video codec guide
+Using audio and video in HTML
+Using images in HTML",aside#sidebar-quicklinks > nav > div > div:nth-of-type(2),{'class': 'sidebar-body'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ol,ol,unknown,container,False,True,True,"Audio and Video Delivery
+Adding captions and subtitles to HTML video
+Creating a cross-browser video player
+Cross-browser audio basics
+Livestreaming web audio and video
+Media buffering, seeking, and time ranges
+Setting up adaptive streaming media sources
+Video player styling basics
+Web Audio playbackRate explained
+Audio and video manipulation
+Autoplay guide for media and Web Audio APIs
+DASH Adaptive Streaming for HTML 5 Video
+Guide to streaming audio and video
+Media type and format guide: image, audio, and video content
+Codecs in common media types
+Codecs used by WebRTC
+Configuring servers for Ogg media
+Digital audio concepts
+Digital video concepts
+Handling media support issues in web content
+Image file type and format guide
+Media container formats (file types)
+Web audio codec guide
+Web video codec guide
+Using audio and video in HTML
+Using images in HTML",aside#sidebar-quicklinks > nav > div > div:nth-of-type(2) > ol,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"In this article
+References
+Guides
+Other topics",div#root > div > div:nth-of-type(3) > div > div,{'class': 'toc-container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,aside,aside,container,container,False,True,True,"In this article
+References
+Guides
+Other topics",div#root > div > div:nth-of-type(3) > div > div > aside,{'class': 'toc'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,section,section,content,content,False,True,True,"In this article
+References
+Guides
+Other topics",div#root > div > div:nth-of-type(3) > div > div > aside > nav > div > section,{'class': 'document-toc'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,section,section,content,content,False,True,False,,div#root > div > div:nth-of-type(3) > div > div > section,{'class': 'place side'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,main,main,container,container,False,True,True,"Using images in HTML
+
+The HTML <img> element lets you embed images into an HTML document, while the <picture> element enables responsive images. In this guide you'll find links to resources that deal with adding images to websites.
+
+References
+
+These articles cover some of the HTML elements and CSS properties that are used to control how images are displayed on the web.
+
+HTML
+<img>
+
+The HTML <img> element is used to embed an image in a webpage. It supports a wide range of attributes that control how the image behaves and allows you to add important information like alt text for people who don't see the image.
+
+<picture>
+
+The HTML <picture> element contains zero or more <source> elements and one <img> element which provides versions of an image for different display/device scenarios. The browser considers each child <source> element and chooses the best match among them.
+
+CSS
+object-fit
+
+The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video>, should be resized to fit its container.
+
+object-position
+
+The object-position CSS property specifies the alignment of content in a selected replaced element within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.
+
+background-image
+
+The background-image CSS property sets one or more background images for an element.
+
+Guides
+
+These articles provide guidance on selecting and configuring image types.
+
+Image file type and format guide
+
+A guide to the various image file types commonly supported by web browsers including details about their individual use cases, capabilities, and compatibility factors. Additionally, this article provides guidance for selecting the best image file type for a given situation.
+
+Including width and height attributes helps avoid jank
+
+This changes how browsers load images so their aspect ratios are calculated by the browser early on and can later be used to reserve the display size of an image before it's loaded.
+
+Other topics
+
+Related topics that may be of interest.
+
+Responsive Images
+
+In this article, we'll learn about the concept of responsive images — images that work well on devices with widely differing screen sizes, resolutions, and other such features — and look at what tools HTML provides to help implement them.
+
+Help improve MDN
+Was this page helpful to you?
+Yes
+No
+Learn how to contribute.
+
+This page was last modified on Dec 19, 2024 by MDN contributors.
+
+View this page on GitHub • Report a problem with this content",main#content,"{'id': 'content', 'class': 'main-content  '}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,True,True,"The HTML <img> element lets you embed images into an HTML document, while the <picture> element enables responsive images. In this guide you'll find links to resources that deal with adding images to websites.",main#content > article > div > p,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,True,True,These articles cover some of the HTML elements and CSS properties that are used to control how images are displayed on the web.,main#content > article > section > div > p,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,dl,dl,content,content,False,True,True,"<img>
+
+The HTML <img> element is used to embed an image in a webpage. It supports a wide range of attributes that control how the image behaves and allows you to add important information like alt text for people who don't see the image.
+
+<picture>
+
+The HTML <picture> element contains zero or more <source> elements and one <img> element which provides versions of an image for different display/device scenarios. The browser considers each child <source> element and chooses the best match among them.",main#content > article > section:nth-of-type(2) > div > dl,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,dl,dl,content,content,False,True,True,"object-fit
+
+The object-fit CSS property sets how the content of a replaced element, such as an <img> or <video>, should be resized to fit its container.
+
+object-position
+
+The object-position CSS property specifies the alignment of content in a selected replaced element within the element's box. Areas of the box which aren't covered by the replaced element's object will show the element's background.
+
+background-image
+
+The background-image CSS property sets one or more background images for an element.",main#content > article > section:nth-of-type(3) > div > dl,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,True,True,These articles provide guidance on selecting and configuring image types.,main#content > article > section:nth-of-type(4) > div > p,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,dl,dl,content,content,False,True,True,"Image file type and format guide
+
+A guide to the various image file types commonly supported by web browsers including details about their individual use cases, capabilities, and compatibility factors. Additionally, this article provides guidance for selecting the best image file type for a given situation.
+
+Including width and height attributes helps avoid jank
+
+This changes how browsers load images so their aspect ratios are calculated by the browser early on and can later be used to reserve the display size of an image before it's loaded.",main#content > article > section:nth-of-type(4) > div > dl,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,True,True,Related topics that may be of interest.,main#content > article > section:nth-of-type(5) > div > p,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,dl,dl,content,content,False,True,True,"Responsive Images
+
+In this article, we'll learn about the concept of responsive images — images that work well on devices with widely differing screen sizes, resolutions, and other such features — and look at what tools HTML provides to help implement them.",main#content > article > section:nth-of-type(5) > div > dl,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,False,False,,main#content > aside > div > div,{'class': 'svg-container'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,h2,h2,content,content,False,True,True,Help improve MDN,main#content > aside > div > h2,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,fieldset,fieldset,unknown,container,False,True,True,"Was this page helpful to you?
+Yes
+No",main#content > aside > div > fieldset,{'class': 'feedback'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,button,button,interactive,interactive,True,True,True,Yes,main#content > aside > div > fieldset > div > button,"{'type': 'button', 'class': 'button primary has-icon yes'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,button,button,interactive,interactive,True,True,True,No,main#content > aside > div > fieldset > div > button:nth-of-type(2),"{'type': 'button', 'class': 'button primary has-icon no'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,a,a,navigation,interactive,True,True,True,Learn how to contribute,main#content > aside > div > a,"{'class': 'contribute', 'href': 'https://github.com/mdn/content/blob/main/CONTRIBUTING.md', 'title': 'This will take you to our contribution guidelines on GitHub.', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,True,True,"This page was last modified on Dec 19, 2024 by MDN contributors.",main#content > aside > div > p,{'class': 'last-modified-date'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,View this page on GitHub • Report a problem with this content,div#on-github,"{'id': 'on-github', 'class': 'on-github'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,a,a,navigation,interactive,True,True,True,View this page on GitHub,div#on-github > a,"{'href': 'https://github.com/mdn/content/blob/main/files/en-us/web/media/images/index.md?plain=1', 'title': 'Folder: en-us/web/media/images (Opens in a new tab)', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,a,a,navigation,interactive,True,True,True,Report a problem with this content,div#on-github > a:nth-of-type(2),"{'href': 'https://github.com/mdn/content/issues/new?template=page-report.yml&mdn-url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FMedia%2Fimages&metadata=%3C%21--+Do+not+make+changes+below+this+line+--%3E%0A%3Cdetails%3E%0A%3Csummary%3EPage+report+details%3C%2Fsummary%3E%0A%0A*+Folder%3A+%60en-us%2Fweb%2Fmedia%2Fimages%60%0A*+MDN+URL%3A+https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FMedia%2Fimages%0A*+GitHub+URL%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fblob%2Fmain%2Ffiles%2Fen-us%2Fweb%2Fmedia%2Fimages%2Findex.md%0A*+Last+commit%3A+https%3A%2F%2Fgithub.com%2Fmdn%2Fcontent%2Fcommit%2F5b20f5f4265f988f80f513db0e4b35c7e0cd70dc%0A*+Document+last+modified%3A+2024-12-19T15%3A37%3A45.000Z%0A%0A%3C%2Fdetails%3E', 'title': 'This will take you to GitHub to file a new issue.', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,Mozilla ads,div#root > div > div:nth-of-type(4),"{'class': 'bottom-banner-container', 'style': '--place-bottom-banner-background: #181422;'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,section,section,content,content,False,True,True,Mozilla ads,div#root > div > div:nth-of-type(4) > section,{'class': 'place bottom-banner'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,footer,footer,navigation,navigation,False,True,True,"Your blueprint for a better internet.
+
+MDN on Mastodon
+MDN on X (formerly Twitter)
+MDN on GitHub
+MDN Blog RSS Feed
+MDN
+About
+Blog
+Careers
+Advertise with us
+Support
+Product help
+Report an issue
+Our communities
+MDN Community
+MDN Forum
+MDN Chat
+Developers
+Web Technologies
+Learn Web Development
+MDN Plus
+Hacks Blog
+Website Privacy Notice
+Cookies
+Legal
+Community Participation Guidelines
+
+Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+Portions of this content are ©1998–2025 by individual mozilla.org contributors. Content available under a Creative Commons license.",footer#nav-footer,"{'id': 'nav-footer', 'class': 'page-footer'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Your blueprint for a better internet.
+
+MDN on Mastodon
+MDN on X (formerly Twitter)
+MDN on GitHub
+MDN Blog RSS Feed",footer#nav-footer > div > div,{'class': 'page-footer-logo-col'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,a,a,navigation,interactive,True,True,False,,footer#nav-footer > div > div > a,"{'href': '/', 'class': 'mdn-footer-logo', 'aria-label': 'MDN homepage'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,True,True,Your blueprint for a better internet.,footer#nav-footer > div > div > p,{}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,True,True,"MDN on Mastodon
+MDN on X (formerly Twitter)
+MDN on GitHub
+MDN Blog RSS Feed",footer#nav-footer > div > div > ul,{'class': 'social-icons'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"MDN
+About
+Blog
+Careers
+Advertise with us",footer#nav-footer > div > div:nth-of-type(2),{'class': 'page-footer-nav-col-1'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,h2,h2,content,content,False,True,True,MDN,footer#nav-footer > div > div:nth-of-type(2) > h2,{'class': 'footer-nav-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,True,True,"About
+Blog
+Careers
+Advertise with us",footer#nav-footer > div > div:nth-of-type(2) > ul,{'class': 'footer-nav-list'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Support
+Product help
+Report an issue",footer#nav-footer > div > div:nth-of-type(3),{'class': 'page-footer-nav-col-2'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,h2,h2,content,content,False,True,True,Support,footer#nav-footer > div > div:nth-of-type(3) > h2,{'class': 'footer-nav-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,True,True,"Product help
+Report an issue",footer#nav-footer > div > div:nth-of-type(3) > ul,{'class': 'footer-nav-list'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Our communities
+MDN Community
+MDN Forum
+MDN Chat",footer#nav-footer > div > div:nth-of-type(4),{'class': 'page-footer-nav-col-3'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,h2,h2,content,content,False,True,True,Our communities,footer#nav-footer > div > div:nth-of-type(4) > h2,{'class': 'footer-nav-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,True,True,"MDN Community
+MDN Forum
+MDN Chat",footer#nav-footer > div > div:nth-of-type(4) > ul,{'class': 'footer-nav-list'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Developers
+Web Technologies
+Learn Web Development
+MDN Plus
+Hacks Blog",footer#nav-footer > div > div:nth-of-type(5),{'class': 'page-footer-nav-col-4'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,h2,h2,content,content,False,True,True,Developers,footer#nav-footer > div > div:nth-of-type(5) > h2,{'class': 'footer-nav-heading'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,True,True,"Web Technologies
+Learn Web Development
+MDN Plus
+Hacks Blog",footer#nav-footer > div > div:nth-of-type(5) > ul,{'class': 'footer-nav-list'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Website Privacy Notice
+Cookies
+Legal
+Community Participation Guidelines",footer#nav-footer > div > div:nth-of-type(6),{'class': 'page-footer-moz'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,a,a,navigation,interactive,True,True,False,,footer#nav-footer > div > div:nth-of-type(6) > a,"{'href': 'https://www.mozilla.org/', 'class': 'footer-moz-logo-link', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,ul,ul,unknown,container,False,True,True,"Website Privacy Notice
+Cookies
+Legal
+Community Participation Guidelines",footer#nav-footer > div > div:nth-of-type(6) > ul,{'class': 'footer-moz-list'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,div,div,container,container,False,True,True,"Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+Portions of this content are ©1998–2025 by individual mozilla.org contributors. Content available under a Creative Commons license.",footer#nav-footer > div > div:nth-of-type(7),{'class': 'page-footer-legal'}
+https://developer.mozilla.org/en-US/docs/Web/Media/images,p,p,content,content,False,True,True,"Visit Mozilla Corporation’s not-for-profit parent, the Mozilla Foundation.
+Portions of this content are ©1998–2025 by individual mozilla.org contributors. Content available under a Creative Commons license.",p#license,"{'id': 'license', 'class': 'page-footer-legal-text'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,img,img,media,media,False,True,False,,div#root > div > div > section > p > a > img,"{'src': '/pimg/aHR0cHM6Ly9zdGF0aWM0LmJ1eXNlbGxhZHMubmV0L3V1LzIvMTQ4ODM5LzE3MTU4ODE4OTEtMTY5OTQ4MDU0MC1Nb25nb0RCX1NsYXRlQmx1ZV9yZXNpemVkLnBuZw%3D%3D.TD6TPW4its6jr4TnDMaUqr6ACfcvvf1v8AMD0Um6foo%3D', 'aria-hidden': 'false', 'alt': 'MongoDB', 'height': '50'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,img,img,media,media,False,True,False,,div#root > div > div:nth-of-type(4) > section > a > img,"{'src': '/pimg/aHR0cHM6Ly9zdGF0aWM0LmJ1eXNlbGxhZHMubmV0L3V1LzIvMTU4NTkwLzE3MzQ0NjQxNzAtMTQ1NngxODBfQV8yXy5wbmc%3D.PxKS1F9nE%2B4uwhO%2BUQdumQxYNOHk3uVxfQ7lU1gJ5rc%3D', 'alt': 'Gitlab', 'width': '728', 'height': '90'}"
+https://developer.mozilla.org/en-US/docs/Web/Media/images,img,img,media,media,False,True,False,,div#root > div > div:nth-of-type(4) > section > a > img,"{'src': '/pimg/aHR0cHM6Ly9zdGF0aWM0LmJ1eXNlbGxhZHMubmV0L3V1LzIvMTU4NTkwLzE3MzQ0NjQxNzAtMTQ1NngxODBfQV8yXy5wbmc%3D.PxKS1F9nE%2B4uwhO%2BUQdumQxYNOHk3uVxfQ7lU1gJ5rc%3D', 'alt': 'Gitlab', 'width': '728', 'height': '90'}"

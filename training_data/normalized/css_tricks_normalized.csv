@@ -1,0 +1,481 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://css-tricks.com/,p,p,content,content,False,True,True,"I’m more thankful this time around because, last year, I didn’t even get to write this post. But now that I’m back, writing this feels so, so, so good. There’s a lot more gusto going into my writing when I say: thank you so very much! Let’s tie a bow on this year and round up what happened around here in 2024.",article#post-383295 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"2024 has been one of the greatest years for CSS: cross-document view transitions, scroll-driven animations, anchor positioning, animate to height: […]",article#post-383249 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"Today, I want to focus on what I’ll call the little triangle in the tooltip. It receives minimal attention but it amazes you by how many ways there are to make them. Let’s start with the simplest and make our way up to the not-so-simple.",article#post-383224 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"When was the last time you developed a multi-step form? There’s so much to think about and so many moving pieces that need to be managed. But doing it by hand can be a good exercise and a great way to polish the basics. Fatuma Abdullaho walks you through her first multi-step form using vanilla HTML, CSS, and JavaScript.",article#post-382857 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"What else do we want or need CSS to do? Chris kept a CSS wishlist, going back as far as 2013 and following back up on it in 2019. We all have things we’d like to see CSS do and we always will no matter how many sparkly new features we get. We’ll round things up and put a list together — so let us know!",article#post-383250 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,How much attention do you pay to the alignments of your subscripts and superscripts? Lorenz Wöehr has you covered with a recipe for fluid scaling.,article#post-382867 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"One day I’d love to publish a note in one of the CSS specs that’s like this one I found for interpolate-size: NOTE: If we had a time machine, this property wouldn’t need to exist.",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"The CSSWG just approved the new CSS logo! — “WG likes the logo and would like to officially endorse it, will investigate what that means” (Github Issue and CSSWG Minutes)",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,A big THANK YOU to Lea Verou for all the years of work in the Technical Architecture Group! The Web is better (and so are we) because of you.,main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,False,False,,main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div > p:nth-of-type(2),{}
+https://css-tricks.com/,p,p,content,content,False,True,True,“Waits are a price that developers ask users to pay and loading spinners only buy so much time.” —Alex Russell (permalink),main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > div > p,{}
+https://css-tricks.com/,h1,h1,content,content,False,True,True,Thank You (2024 Edition),article#post-383295 > div:nth-of-type(2) > h1,{}
+https://css-tricks.com/,h2,h2,content,content,False,True,True,A CSS Wishlist for 2025,article#post-383249 > div:nth-of-type(2) > h2,{}
+https://css-tricks.com/,h2,h2,content,content,False,True,True,The Little Triangle in the Tooltip,article#post-383224 > div:nth-of-type(2) > h2,{}
+https://css-tricks.com/,h2,h2,content,content,False,True,True,How to Create Multi-Step Forms With Vanilla JavaScript and CSS,article#post-382857 > div:nth-of-type(2) > h2,{}
+https://css-tricks.com/,h2,h2,content,content,False,True,True,What ELSE is on your CSS wishlist?,article#post-383250 > div:nth-of-type(2) > h2,{}
+https://css-tricks.com/,h2,h2,content,content,False,True,True,Fluid Superscripts and Subscripts,article#post-382867 > div:nth-of-type(2) > h2,{}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Knowing CSS is Mastery to Frontend Development,article#mini-post-382956 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,"One of Those “Onboarding” UIs, With Anchor Positioning",article#mini-post-382731 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Yet Another Anchor Positioning Quirk,article#mini-post-382893 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,The Law of Diminishing Returns,article#mini-post-382846 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,The Different (and Modern) Ways to Toggle Content,article#mini-post-382363 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Come to the light-dark() Side,article#mini-post-382039 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Tooltip Best Practices,article#mini-post-382082 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Unleash the Power of Scroll-Driven Animations,article#mini-post-381613 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Popping Comments With CSS Anchor Positioning and View-Driven Animations,article#mini-post-382247 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Scroll Animation,article#mini-post-313469 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Yellow Flash,article#mini-post-303153 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Self-Drawing Shapes,article#mini-post-254582 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Scroll Shadows,article#mini-post-305914 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Editable Style Blocks,article#mini-post-305930 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Scroll Indicator,article#mini-post-304986 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Border Triangles,article#mini-post-254474 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Pin Scrolling to Bottom,article#mini-post-311167 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Infinite Scrolling Background Image,article#mini-post-255104 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,CSS Anchor Positioning Guide,article#mini-post-381364 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,CSS Selectors,article#mini-post-378745 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,CSS Length Units,article#mini-post-375815 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,CSS Container Queries,article#mini-post-378111 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,CSS Media Queries Guide,article#mini-post-319964 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Cascade Layers Guide,article#mini-post-363766 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,A Complete Beginner’s Guide to npm,article#mini-post-361210 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,CSS Functions Guide,article#mini-post-307668 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,CSS Gradients Guide,article#mini-post-325490 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,CSS Custom Properties Guide,article#mini-post-333595 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,Dark Mode in CSS Guide,article#mini-post-312285 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,HTML Data Attributes Guide,article#mini-post-302917 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,transition-behavior,article#mini-post-382993 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,font-size-adjust,article#mini-post-235175 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,box-decoration-break,article#mini-post-383045 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,prefers-reduced-motion,article#mini-post-383264 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,@media,article#mini-post-383311 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,@starting-style,article#mini-post-382931 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,@scope,article#mini-post-382462 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,@position-try,article#mini-post-380274 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,anchor-scope,article#mini-post-382393 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,anchor(),article#mini-post-380066 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,anchor-size(),article#mini-post-380083 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,position-visibility,article#mini-post-379899 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,h3,h3,content,content,False,True,True,position-try-fallbacks,article#mini-post-379684 > h3,{'class': 'mini-card-title'}
+https://css-tricks.com/,code,code,content,content,False,True,True,interpolate-size,main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article > div > p > code,{}
+https://css-tricks.com/,code,code,content,content,False,True,True,"# December 13, 2024",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article > code,{}
+https://css-tricks.com/,code,code,content,content,False,True,True,"# December 12, 2024",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > code,{}
+https://css-tricks.com/,code,code,content,content,False,True,True,"# December 11, 2024",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > code,{}
+https://css-tricks.com/,code,code,content,content,False,True,True,"# November 18, 2024",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > code,{}
+https://css-tricks.com/,code,code,content,content,False,True,True,dialog { transition-behavior: allow-discrete; },article#mini-post-382993 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,.element { font-size-adjust: .5; },article#mini-post-235175 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,.element { box-decoration-break: clone; },article#mini-post-383045 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,@media screen and (prefers-reduced-motion: reduce) { },article#mini-post-383264 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,@media screen and (min-width: 600px) { },article#mini-post-383311 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,@starting-style { opacity: 0; },article#mini-post-382931 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,@scope (.container) to (.article) { /* */ },article#mini-post-382462 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,@position-try --my-position { position-area: top left; },article#mini-post-380274 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,".element { anchor-scope: --anchor-one, --anchor-two; }",article#mini-post-382393 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,.target { top: anchor(--my-anchor bottom); },article#mini-post-380066 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,.target { width: anchor-size(width); },article#mini-post-380083 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,.target { position-visibility: no-overflow; },article#mini-post-379899 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,code,code,content,content,False,True,True,".target { position-try-fallbacks: flip-inline, bottom left; }",article#mini-post-379684 > a > code,{'class': ' language-css'}
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"ARTICLES
+NOTES
+LINKS
+GUIDES
+ALMANAC
+PICKS
+SHUFFLE",nav#main-nav,"{'id': 'main-nav', 'class': 'main-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"About DO
+Cloudways
+Legal stuff
+Get free credit!",nav#footer-nav-digitalocean,"{'id': 'footer-nav-digitalocean', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"Contact
+Write for CSS-Tricks!
+Advertise with us",nav#footer-nav-csstricks,"{'id': 'footer-nav-csstricks', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"RSS Feeds
+CodePen
+Mastodon
+Bluesky",nav#footer-nav-social,"{'id': 'footer-nav-social', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,div,div,container,container,False,True,True,"Quick Hits
+
+One day I’d love to publish a note in one of the CSS specs that’s like this one I found for interpolate-size: NOTE: If we had a time machine, this property wouldn’t need to exist.
+
+# December 13, 2024
+
+The CSSWG just approved the new CSS logo! — “WG likes the logo and would like to officially endorse it, will investigate what that means” (Github Issue and CSSWG Minutes)
+
+# December 12, 2024
+
+A big THANK YOU to Lea Verou for all the years of work in the Technical Architecture Group! The Web is better (and so are we) because of you.
+
+# December 11, 2024
+
+“Waits are a price that developers ask users to pay and loading spinners only buy so much time.” —Alex Russell (permalink)
+
+# November 18, 2024
+MORE QUICK HITS →
+Your new development career awaits. Check out the latest listings.
+ads via Carbon",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'entry-unrelated sidebar'}
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-383295 > div > a > img,"{'loading': 'eager', 'width': '2560', 'height': '1280', 'src': 'https://css-tricks.com/wp-content/uploads/2022/12/thank-you-2022-scaled.jpg', 'class': 'article-thumbnail wp-post-image', 'alt': '', 'decoding': 'async', 'fetchpriority': 'high', 'srcset': 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/12/thank-you-2022-scaled.jpg?w=2560&ssl=1 2560w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/12/thank-you-2022-scaled.jpg?resize=300%2C150&ssl=1 300w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/12/thank-you-2022-scaled.jpg?resize=1024%2C512&ssl=1 1024w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/12/thank-you-2022-scaled.jpg?resize=768%2C384&ssl=1 768w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/12/thank-you-2022-scaled.jpg?resize=1536%2C768&ssl=1 1536w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/12/thank-you-2022-scaled.jpg?resize=2048%2C1024&ssl=1 2048w', 'sizes': '(min-width: 735px) 864px, 96vw'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-383295 > div:nth-of-type(2) > div:nth-of-type(2) > a > img,"{'loading': 'eager', 'alt': 'Avatar of Geoff Graham', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo skip-lazy', 'height': '80', 'width': '80', 'decoding': 'async'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382956 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80', 'decoding': 'async'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382731 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/7dc839d600a4fd344ca6699b2e06ef69', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/7dc839d600a4fd344ca6699b2e06ef69 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80', 'decoding': 'async'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382893 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382846 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80', 'decoding': 'async'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382363 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ede12de9a039384052b2634a3f104253', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ede12de9a039384052b2634a3f104253 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80', 'decoding': 'async'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382039 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/sara-wallen-80x80.png', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382082 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/00eedd7282eab774e300918f9e32558b', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/00eedd7282eab774e300918f9e32558b 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80', 'decoding': 'async'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-381613 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80', 'decoding': 'async'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382247 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-383249 > div > a > img,"{'loading': 'lazy', 'width': '1200', 'height': '600', 'src': 'https://css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png', 'class': 'article-thumbnail wp-post-image', 'alt': '', 'decoding': 'async', 'srcset': 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?w=1200&ssl=1 1200w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?resize=300%2C150&ssl=1 300w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?resize=1024%2C512&ssl=1 1024w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?resize=768%2C384&ssl=1 768w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?resize=1000%2C500&ssl=1 1000w', 'sizes': '(min-width: 735px) 864px, 96vw'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-383249 > div:nth-of-type(2) > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': 'Avatar of Juan Diego Rodríguez', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-383224 > div > a > img,"{'loading': 'lazy', 'width': '1920', 'height': '1080', 'src': 'https://css-tricks.com/wp-content/uploads/2024/12/the-little-triangle-in-the-tooltip.png', 'class': 'article-thumbnail wp-post-image', 'alt': '', 'decoding': 'async', 'srcset': 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/the-little-triangle-in-the-tooltip.png?w=1920&ssl=1 1920w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/the-little-triangle-in-the-tooltip.png?resize=300%2C169&ssl=1 300w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/the-little-triangle-in-the-tooltip.png?resize=1024%2C576&ssl=1 1024w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/the-little-triangle-in-the-tooltip.png?resize=768%2C432&ssl=1 768w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/the-little-triangle-in-the-tooltip.png?resize=1536%2C864&ssl=1 1536w', 'sizes': '(min-width: 735px) 864px, 96vw'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-383224 > div:nth-of-type(2) > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': 'Avatar of Juan Diego Rodríguez', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-382857 > div > a > img,"{'loading': 'lazy', 'width': '1200', 'height': '600', 'src': 'https://css-tricks.com/wp-content/uploads/2022/08/forms.png', 'class': 'article-thumbnail wp-post-image', 'alt': '', 'decoding': 'async', 'srcset': 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/08/forms.png?w=1200&ssl=1 1200w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/08/forms.png?resize=300%2C150&ssl=1 300w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/08/forms.png?resize=1024%2C512&ssl=1 1024w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2022/08/forms.png?resize=768%2C384&ssl=1 768w', 'sizes': '(min-width: 735px) 864px, 96vw'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-382857 > div:nth-of-type(2) > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': 'Avatar of Fatuma Abdullaho', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/fatuma-abdullaho-80x80.png', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-383250 > div > a > img,"{'loading': 'lazy', 'width': '1200', 'height': '600', 'src': 'https://css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png', 'class': 'article-thumbnail wp-post-image', 'alt': '', 'decoding': 'async', 'srcset': 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?w=1200&ssl=1 1200w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?resize=300%2C150&ssl=1 300w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?resize=1024%2C512&ssl=1 1024w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?resize=768%2C384&ssl=1 768w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/08/css-sparkle-1.png?resize=1000%2C500&ssl=1 1000w', 'sizes': '(min-width: 735px) 864px, 96vw'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-383250 > div:nth-of-type(2) > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': 'Avatar of Geoff Graham', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo skip-lazy', 'height': '80', 'width': '80', 'decoding': 'async'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-382867 > div > a > img,"{'loading': 'lazy', 'width': '1600', 'height': '821', 'src': 'https://css-tricks.com/wp-content/uploads/2024/12/fluid-super-subscripts-1.png', 'class': 'article-thumbnail wp-post-image', 'alt': '', 'decoding': 'async', 'srcset': 'https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/fluid-super-subscripts-1.png?w=1600&ssl=1 1600w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/fluid-super-subscripts-1.png?resize=300%2C154&ssl=1 300w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/fluid-super-subscripts-1.png?resize=1024%2C525&ssl=1 1024w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/fluid-super-subscripts-1.png?resize=768%2C394&ssl=1 768w, https://i0.wp.com/css-tricks.com/wp-content/uploads/2024/12/fluid-super-subscripts-1.png?resize=1536%2C788&ssl=1 1536w', 'sizes': '(min-width: 735px) 864px, 96vw'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#post-382867 > div:nth-of-type(2) > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': 'Avatar of Lorenz Woehr', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/LorenzWohr-80x80.jpeg', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,div#carbon-responsive > div > a > img,"{'src': 'https://srv.carbonads.net/static/30242/3913207e72f710f619a5492de1f4271d876d8c0f', 'alt': 'ads via Carbon', 'border': '0', 'height': '100', 'width': '130', 'data-no-statview': 'no', 'style': 'max-width: 130px;'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-313469 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-303153 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-254582 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-305914 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-305930 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-304986 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-254474 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-311167 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-255104 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-381364 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-378745 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-375815 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-378111 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-319964 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/Ando1-80x80.jpg?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-363766 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/a98a3bb425ff796d7bfc1496b4dec98b', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/a98a3bb425ff796d7bfc1496b4dec98b 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-361210 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/b5938a61130749fe0c1ec823c7d3ee98', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/b5938a61130749fe0c1ec823c7d3ee98 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-307668 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/188a9d4deb76ac6e69c7f65358897476', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/188a9d4deb76ac6e69c7f65358897476 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-325490 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-333595 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-312285 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/32795085-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-302917 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/8081b26e05bb4354f7d65ffc34cbbd67 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382993 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-235175 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-383045 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ede12de9a039384052b2634a3f104253', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ede12de9a039384052b2634a3f104253 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-383264 > div > a > img,"{'loading': 'lazy', 'alt': '', 'src': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204', 'srcset': 'https://css-tricks.com/wp-content/cache/breeze-extra/gravatars/ac0d6274a6cea04669e66a20ec0ea204 2x', 'class': 'avatar avatar-80 photo', 'height': '80', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-383311 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/Ando1-80x80.jpg?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382931 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382462 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-380274 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-382393 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-380066 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-380083 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-379899 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,article#mini-post-379684 > div:nth-of-type(2) > a > img,"{'loading': 'lazy', 'data-recalc-dims': '1', 'decoding': 'async', 'alt': '', 'class': 'avatar avatar-80 photo avatar-default', 'height': '80', 'src': 'https://i0.wp.com/css-tricks.com/wp-content/cache/breeze-extra/gravatars/juan-diego-rodriguez-80x80.png?resize=80%2C80&ssl=1', 'width': '80'}"
+https://css-tricks.com/,img,img,media,media,False,True,False,,a#icon-id07094709643671882 > img,"{'src': 'https://consent.trustarc.com/get?name=css-tricks.com_cookie-notice.png', 'style': 'width:auto;height:40px;'}"
+https://css-tricks.com/,img,img,media,media,False,False,False,,img#wpstats,"{'src': 'https://pixel.wp.com/g.gif?v=ext&blog=45537868&post=378936&tz=-7&srv=css-tricks.com&j=1%3A14.1&host=css-tricks.com&ref=&fcp=1668&rand=0.36153204997855726', 'alt': '', 'width': '6', 'height': '5', 'id': 'wpstats'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"ARTICLES
+NOTES
+LINKS
+GUIDES
+ALMANAC
+PICKS
+SHUFFLE",nav#main-nav,"{'id': 'main-nav', 'class': 'main-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"About DO
+Cloudways
+Legal stuff
+Get free credit!",nav#footer-nav-digitalocean,"{'id': 'footer-nav-digitalocean', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"Contact
+Write for CSS-Tricks!
+Advertise with us",nav#footer-nav-csstricks,"{'id': 'footer-nav-csstricks', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"RSS Feeds
+CodePen
+Mastodon
+Bluesky",nav#footer-nav-social,"{'id': 'footer-nav-social', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"ARTICLES
+NOTES
+LINKS
+GUIDES
+ALMANAC
+PICKS
+SHUFFLE",nav#main-nav,"{'id': 'main-nav', 'class': 'main-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"About DO
+Cloudways
+Legal stuff
+Get free credit!",nav#footer-nav-digitalocean,"{'id': 'footer-nav-digitalocean', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"Contact
+Write for CSS-Tricks!
+Advertise with us",nav#footer-nav-csstricks,"{'id': 'footer-nav-csstricks', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"RSS Feeds
+CodePen
+Mastodon
+Bluesky",nav#footer-nav-social,"{'id': 'footer-nav-social', 'class': 'footer-nav', 'role': 'navigation'}"
+https://css-tricks.com/,nav,nav,navigation,navigation,False,True,True,"ARTICLES
+NOTES
+LINKS
+GUIDES
+ALMANAC
+PICKS
+SHUFFLE",nav#main-nav,"{'id': 'main-nav', 'class': 'main-nav', 'role': 'navigation'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Direct link to the article Thank You (2024 Edition)
+THANK-YOU
+Thank You (2024 Edition)
+
+I’m more thankful this time around because, last year, I didn’t even get to write this post. But now that I’m back, writing this feels so, so, so good. There’s a lot more gusto going into my writing when I say: thank you so very much! Let’s tie a bow on this year and round up what happened around here in 2024.
+
+Geoff Graham on Dec 30, 2024",article#post-383295,"{'class': 'article-card  article-card-large', 'id': 'post-383295'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Link on Dec 6, 2024
+Knowing CSS is Mastery to Frontend Development
+CSS FUNDAMENTALS
+Geoff Graham",article#mini-post-382956,"{'class': 'mini-card module module-article links', 'id': 'mini-post-382956'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Dec 4, 2024
+One of Those “Onboarding” UIs, With Anchor Positioning
+ANCHOR POSITIONING
+Ryan Trimble",article#mini-post-382731,"{'class': 'mini-card module module-article articles', 'id': 'mini-post-382731'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Dec 9, 2024
+Yet Another Anchor Positioning Quirk
+ANCHOR POSITIONING
+Juan Diego Rodríguez",article#mini-post-382893,"{'class': 'mini-card module module-article articles', 'id': 'mini-post-382893'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Dec 4, 2024
+The Law of Diminishing Returns
+INSPIRATION
+Geoff Graham",article#mini-post-382846,"{'class': 'mini-card module module-article articles', 'id': 'mini-post-382846'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Dec 12, 2024
+The Different (and Modern) Ways to Toggle Content
+DETAILS DIALOG POPOVER
+Daniel Schwarz",article#mini-post-382363,"{'class': 'mini-card module module-article articles', 'id': 'mini-post-382363'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 29, 2024
+Come to the light-dark() Side
+DARK MODE FUNCTIONS UI/IX DESIGN
+Sara Joy",article#mini-post-382039,"{'class': 'mini-card module module-article articles', 'id': 'mini-post-382039'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 29, 2024
+Tooltip Best Practices
+DIALOG POPOVER SEMANTICS
+Zell Liew",article#mini-post-382082,"{'class': 'mini-card module module-article articles', 'id': 'mini-post-382082'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Nov 14, 2024
+Unleash the Power of Scroll-Driven Animations
+ANIMATION SCROLL DRIVEN ANIMATION
+Geoff Graham",article#mini-post-381613,"{'class': 'mini-card module module-article notes', 'id': 'mini-post-381613'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Nov 6, 2024
+Popping Comments With CSS Anchor Positioning and View-Driven Animations
+ANCHOR POSITIONING SCROLL DRIVEN ANIMATION
+Juan Diego Rodríguez",article#mini-post-382247,"{'class': 'mini-card module module-article articles', 'id': 'mini-post-382247'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Direct link to the article A CSS Wishlist for 2025
+OPINION
+A CSS Wishlist for 2025
+
+2024 has been one of the greatest years for CSS: cross-document view transitions, scroll-driven animations, anchor positioning, animate to height: […]
+
+Juan Diego Rodríguez on Dec 23, 2024",article#post-383249,"{'class': 'article-card ', 'id': 'post-383249'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Direct link to the article The Little Triangle in the Tooltip
+TOOLTIP
+The Little Triangle in the Tooltip
+
+Today, I want to focus on what I’ll call the little triangle in the tooltip. It receives minimal attention but it amazes you by how many ways there are to make them. Let’s start with the simplest and make our way up to the not-so-simple.
+
+Juan Diego Rodríguez on Dec 20, 2024",article#post-383224,"{'class': 'article-card ', 'id': 'post-383224'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Direct link to the article How to Create Multi-Step Forms With Vanilla JavaScript and CSS
+FORMS
+How to Create Multi-Step Forms With Vanilla JavaScript and CSS
+
+When was the last time you developed a multi-step form? There’s so much to think about and so many moving pieces that need to be managed. But doing it by hand can be a good exercise and a great way to polish the basics. Fatuma Abdullaho walks you through her first multi-step form using vanilla HTML, CSS, and JavaScript.
+
+Fatuma Abdullaho on Dec 18, 2024",article#post-382857,"{'class': 'article-card ', 'id': 'post-382857'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Direct link to the article What ELSE is on your CSS wishlist?
+CSS
+What ELSE is on your CSS wishlist?
+
+What else do we want or need CSS to do? Chris kept a CSS wishlist, going back as far as 2013 and following back up on it in 2019. We all have things we’d like to see CSS do and we always will no matter how many sparkly new features we get. We’ll round things up and put a list together — so let us know!
+
+Geoff Graham on Dec 17, 2024",article#post-383250,"{'class': 'article-card ', 'id': 'post-383250'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Direct link to the article Fluid Superscripts and Subscripts
+TYPOGRAPHY
+Fluid Superscripts and Subscripts
+
+How much attention do you pay to the alignments of your subscripts and superscripts? Lorenz Wöehr has you covered with a recipe for fluid scaling.
+
+Lorenz Woehr on Dec 12, 2024",article#post-382867,"{'class': 'article-card ', 'id': 'post-382867'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"One day I’d love to publish a note in one of the CSS specs that’s like this one I found for interpolate-size: NOTE: If we had a time machine, this property wouldn’t need to exist.
+
+# December 13, 2024",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article,{}
+https://css-tricks.com/,article,article,content,content,False,True,True,"The CSSWG just approved the new CSS logo! — “WG likes the logo and would like to officially endorse it, will investigate what that means” (Github Issue and CSSWG Minutes)
+
+# December 12, 2024",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2),{}
+https://css-tricks.com/,article,article,content,content,False,True,True,"A big THANK YOU to Lea Verou for all the years of work in the Technical Architecture Group! The Web is better (and so are we) because of you.
+
+# December 11, 2024",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3),{}
+https://css-tricks.com/,article,article,content,content,False,True,True,"“Waits are a price that developers ask users to pay and loading spinners only buy so much time.” —Alex Russell (permalink)
+
+# November 18, 2024",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4),{}
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 6, 2021
+Scroll Animation
+Chris Coyier",article#mini-post-313469,"{'class': 'mini-card module module-article ', 'id': 'mini-post-313469'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 6, 2021
+Yellow Flash
+Chris Coyier",article#mini-post-303153,"{'class': 'mini-card module module-article ', 'id': 'mini-post-303153'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 6, 2021
+Self-Drawing Shapes
+Chris Coyier",article#mini-post-254582,"{'class': 'mini-card module module-article ', 'id': 'mini-post-254582'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 6, 2021
+Scroll Shadows
+Chris Coyier",article#mini-post-305914,"{'class': 'mini-card module module-article ', 'id': 'mini-post-305914'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on May 20, 2020
+Editable Style Blocks
+Chris Coyier",article#mini-post-305930,"{'class': 'mini-card module module-article ', 'id': 'mini-post-305930'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 6, 2021
+Scroll Indicator
+Chris Coyier",article#mini-post-304986,"{'class': 'mini-card module module-article ', 'id': 'mini-post-304986'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Mar 15, 2020
+Border Triangles
+Chris Coyier",article#mini-post-254474,"{'class': 'mini-card module module-article ', 'id': 'mini-post-254474'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 3, 2021
+Pin Scrolling to Bottom
+Chris Coyier",article#mini-post-311167,"{'class': 'mini-card module module-article ', 'id': 'mini-post-311167'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Jul 5, 2021
+Infinite Scrolling Background Image
+Chris Coyier",article#mini-post-255104,"{'class': 'mini-card module module-article ', 'id': 'mini-post-255104'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 7, 2024
+CSS Anchor Positioning Guide
+ANCHOR POSITIONING
+Juan Diego Rodríguez",article#mini-post-381364,"{'class': 'mini-card module module-article ', 'id': 'mini-post-381364'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Sep 6, 2024
+CSS Selectors
+SELECTORS
+Geoff Graham",article#mini-post-378745,"{'class': 'mini-card module module-article ', 'id': 'mini-post-378745'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Aug 27, 2024
+CSS Length Units
+CONTAINER UNITS UNITS
+Geoff Graham",article#mini-post-375815,"{'class': 'mini-card module module-article ', 'id': 'mini-post-375815'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Sep 26, 2024
+CSS Container Queries
+CONTAINER-QUERIES
+Geoff Graham",article#mini-post-378111,"{'class': 'mini-card module module-article ', 'id': 'mini-post-378111'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Dec 19, 2024
+CSS Media Queries Guide
+MEDIA QUERIES
+Andrés Galante",article#mini-post-319964,"{'class': 'mini-card module module-article ', 'id': 'mini-post-319964'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 17, 2024
+Cascade Layers Guide
+CASCADE LAYERS
+Miriam Suzanne",article#mini-post-363766,"{'class': 'mini-card module module-article ', 'id': 'mini-post-363766'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Sponsored Article on Jan 20, 2022
+A Complete Beginner’s Guide to npm
+NPM
+Josh Collinsworth",article#mini-post-361210,"{'class': 'mini-card module module-article  module-sponsored', 'id': 'mini-post-361210'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Aug 12, 2024
+CSS Functions Guide
+FUNCTIONS
+Eric Bailey",article#mini-post-307668,"{'class': 'mini-card module module-article ', 'id': 'mini-post-307668'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Aug 12, 2024
+CSS Gradients Guide
+Geoff Graham",article#mini-post-325490,"{'class': 'mini-card module module-article ', 'id': 'mini-post-325490'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Oct 17, 2024
+CSS Custom Properties Guide
+CUSTOM PROPERTIES
+Chris Coyier",article#mini-post-333595,"{'class': 'mini-card module module-article ', 'id': 'mini-post-333595'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Aug 12, 2024
+Dark Mode in CSS Guide
+DARK MODE
+Adhuham",article#mini-post-312285,"{'class': 'mini-card module module-article ', 'id': 'mini-post-312285'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Article on Aug 12, 2024
+HTML Data Attributes Guide
+ATTRIBUTE SELECTORS ATTRIBUTES DATA ATTRIBUTES HTML
+Chris Coyier",article#mini-post-302917,"{'class': 'mini-card module module-article ', 'id': 'mini-post-302917'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 16, 2024
+transition-behavior
+dialog { transition-behavior: allow-discrete; }
+TRANSITIONS
+Juan Diego Rodríguez",article#mini-post-382993,"{'class': 'mini-card module module-article ', 'id': 'mini-post-382993'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 16, 2024
+font-size-adjust
+.element { font-size-adjust: .5; }
+TYPOGRAPHY
+Geoff Graham",article#mini-post-235175,"{'class': 'mini-card module module-article ', 'id': 'mini-post-235175'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 20, 2024
+box-decoration-break
+.element { box-decoration-break: clone; }
+LINKS & URLS
+Daniel Schwarz",article#mini-post-383045,"{'class': 'mini-card module module-article ', 'id': 'mini-post-383045'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 20, 2024
+prefers-reduced-motion
+@media screen and (prefers-reduced-motion: reduce) { }
+Geoff Graham",article#mini-post-383264,"{'class': 'mini-card module module-article ', 'id': 'mini-post-383264'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 20, 2024
+@media
+@media screen and (min-width: 600px) { }
+MEDIA QUERIES
+Andrés Galante",article#mini-post-383311,"{'class': 'mini-card module module-article ', 'id': 'mini-post-383311'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 13, 2024
+@starting-style
+@starting-style { opacity: 0; }
+ANIMATION
+Juan Diego Rodríguez",article#mini-post-382931,"{'class': 'mini-card module module-article ', 'id': 'mini-post-382931'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Nov 18, 2024
+@scope
+@scope (.container) to (.article) { /* */ }
+AT-RULES SCOPING
+Juan Diego Rodríguez",article#mini-post-382462,"{'class': 'mini-card module module-article ', 'id': 'mini-post-382462'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 9, 2024
+@position-try
+@position-try --my-position { position-area: top left; }
+ANCHOR POSITIONING POSITION
+Juan Diego Rodríguez",article#mini-post-380274,"{'class': 'mini-card module module-article ', 'id': 'mini-post-380274'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 12, 2024
+anchor-scope
+.element { anchor-scope: --anchor-one, --anchor-two; }
+ANCHOR POSITIONING
+Juan Diego Rodríguez",article#mini-post-382393,"{'class': 'mini-card module module-article ', 'id': 'mini-post-382393'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 9, 2024
+anchor()
+.target { top: anchor(--my-anchor bottom); }
+ANCHOR POSITIONING POSITIONING
+Juan Diego Rodríguez",article#mini-post-380066,"{'class': 'mini-card module module-article ', 'id': 'mini-post-380066'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Sep 18, 2024
+anchor-size()
+.target { width: anchor-size(width); }
+ANCHOR POSITIONING POSITIONING
+Juan Diego Rodríguez",article#mini-post-380083,"{'class': 'mini-card module module-article ', 'id': 'mini-post-380083'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 9, 2024
+position-visibility
+.target { position-visibility: no-overflow; }
+ANCHOR POSITIONING POSITIONING
+Juan Diego Rodríguez",article#mini-post-379899,"{'class': 'mini-card module module-article ', 'id': 'mini-post-379899'}"
+https://css-tricks.com/,article,article,content,content,False,True,True,"Almanac on Dec 9, 2024
+position-try-fallbacks
+.target { position-try-fallbacks: flip-inline, bottom left; }
+ANCHOR POSITIONING
+Juan Diego Rodríguez",article#mini-post-379684,"{'class': 'mini-card module module-article ', 'id': 'mini-post-379684'}"
+https://css-tricks.com/,p,p,content,content,False,True,True,Timeless CSS gems,html#top-of-site > body > div:nth-of-type(2) > section > div > div > p,{'class': 'header-card-sponsor'}
+https://css-tricks.com/,p,p,content,content,False,True,True,Dive deep into CSS features and concepts,html#top-of-site > body > div:nth-of-type(2) > section > div:nth-of-type(2) > div > p,{'class': 'header-card-sponsor'}
+https://css-tricks.com/,p,p,content,content,False,True,True,"Properties, selectors, rules, and functions!",html#top-of-site > body > div:nth-of-type(2) > section > div:nth-of-type(3) > div > p,{'class': 'header-card-sponsor'}
+https://css-tricks.com/,p,p,content,content,False,True,True,"I’m more thankful this time around because, last year, I didn’t even get to write this post. But now that I’m back, writing this feels so, so, so good. There’s a lot more gusto going into my writing when I say: thank you so very much! Let’s tie a bow on this year and round up what happened around here in 2024.",article#post-383295 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"Powered by
+DigitalOcean",main#maincontent > div > div > p,{'class': 'header-card-sponsor'}
+https://css-tricks.com/,p,p,content,content,False,True,True,"2024 has been one of the greatest years for CSS: cross-document view transitions, scroll-driven animations, anchor positioning, animate to height: […]",article#post-383249 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"Today, I want to focus on what I’ll call the little triangle in the tooltip. It receives minimal attention but it amazes you by how many ways there are to make them. Let’s start with the simplest and make our way up to the not-so-simple.",article#post-383224 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"When was the last time you developed a multi-step form? There’s so much to think about and so many moving pieces that need to be managed. But doing it by hand can be a good exercise and a great way to polish the basics. Fatuma Abdullaho walks you through her first multi-step form using vanilla HTML, CSS, and JavaScript.",article#post-382857 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"What else do we want or need CSS to do? Chris kept a CSS wishlist, going back as far as 2013 and following back up on it in 2019. We all have things we’d like to see CSS do and we always will no matter how many sparkly new features we get. We’ll round things up and put a list together — so let us know!",article#post-383250 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,How much attention do you pay to the alignments of your subscripts and superscripts? Lorenz Wöehr has you covered with a recipe for fluid scaling.,article#post-382867 > div:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"One day I’d love to publish a note in one of the CSS specs that’s like this one I found for interpolate-size: NOTE: If we had a time machine, this property wouldn’t need to exist.",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,"The CSSWG just approved the new CSS logo! — “WG likes the logo and would like to officially endorse it, will investigate what that means” (Github Issue and CSSWG Minutes)",main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(2) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,True,True,A big THANK YOU to Lea Verou for all the years of work in the Technical Architecture Group! The Web is better (and so are we) because of you.,main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div > p,{}
+https://css-tricks.com/,p,p,content,content,False,False,False,,main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(3) > div > p:nth-of-type(2),{}
+https://css-tricks.com/,p,p,content,content,False,True,True,“Waits are a price that developers ask users to pay and loading spinners only buy so much time.” —Alex Russell (permalink),main#maincontent > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > article:nth-of-type(4) > div > p,{}
+https://css-tricks.com/,li,li,content,content,False,True,True,ARTICLES,li#menu-item-379211,"{'id': 'menu-item-379211', 'class': 'menu-item menu-item-type-taxonomy menu-item-object-category menu-item-379211'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,NOTES,li#menu-item-379212,"{'id': 'menu-item-379212', 'class': 'menu-item menu-item-type-taxonomy menu-item-object-category menu-item-379212'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,LINKS,li#menu-item-379154,"{'id': 'menu-item-379154', 'class': 'menu-item menu-item-type-taxonomy menu-item-object-category menu-item-379154'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,GUIDES,li#menu-item-377808,"{'id': 'menu-item-377808', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-377808'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,ALMANAC,li#menu-item-377809,"{'id': 'menu-item-377809', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-377809'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,PICKS,li#menu-item-382690,"{'id': 'menu-item-382690', 'class': 'menu-item menu-item-type-post_type menu-item-object-page menu-item-382690'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,SHUFFLE,li#menu-item-379272,"{'id': 'menu-item-379272', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-379272'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,About DO,li#menu-item-379274,"{'id': 'menu-item-379274', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-379274'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,Cloudways,li#menu-item-379275,"{'id': 'menu-item-379275', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-379275'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,Legal stuff,li#menu-item-379276,"{'id': 'menu-item-379276', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-379276'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,Get free credit!,li#menu-item-379277,"{'id': 'menu-item-379277', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-379277'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,Contact,li#menu-item-383182,"{'id': 'menu-item-383182', 'class': 'menu-item menu-item-type-post_type menu-item-object-page menu-item-383182'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,Write for CSS-Tricks!,li#menu-item-383181,"{'id': 'menu-item-383181', 'class': 'menu-item menu-item-type-post_type menu-item-object-page menu-item-383181'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,Advertise with us,li#menu-item-379047,"{'id': 'menu-item-379047', 'class': 'menu-item menu-item-type-post_type menu-item-object-page menu-item-379047'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,RSS Feeds,li#menu-item-379051,"{'id': 'menu-item-379051', 'class': 'menu-item menu-item-type-post_type menu-item-object-page menu-item-379051'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,CodePen,li#menu-item-377816,"{'id': 'menu-item-377816', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-377816'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,Mastodon,li#menu-item-377813,"{'id': 'menu-item-377813', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-377813'}"
+https://css-tricks.com/,li,li,content,content,False,True,True,Bluesky,li#menu-item-382192,"{'id': 'menu-item-382192', 'class': 'menu-item menu-item-type-custom menu-item-object-custom menu-item-382192'}"
+https://css-tricks.com/,a,a,interactive,interactive,True,False,False,,a#icon-id07094709643671882,"{'role': 'link', 'id': 'icon-id07094709643671882', 'tabindex': '0', 'lang': 'en', 'aria-haspopup': 'dialog', 'aria-label': 'Cookie Preferences, opens a dedicated popup modal window', 'class': 'truste_cursor_pointer'}"

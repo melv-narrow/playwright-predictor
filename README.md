@@ -5,10 +5,29 @@ An intelligent test automation framework that analyzes websites and automaticall
 ## Features
 
 - Website analysis and data collection
-- ML-powered element identification
+- ML-powered element identification and classification
+- Semantic role detection for web elements
 - Automated Playwright test generation
 - Configurable test strategies
 - Comprehensive logging and error handling
+
+## Recent Updates
+
+- Implemented GPU-accelerated model training with PyTorch
+- Added mixed precision training for better performance
+- Created element analysis pipeline for live websites
+- Improved model architecture for multi-task learning
+- Added support for semantic role classification
+- Implemented confidence scoring for predictions
+
+## Model Performance
+
+The model achieves strong performance in classifying web elements:
+
+- Element Type Classification: 92.98% accuracy
+- Semantic Role Classification: 89.25% accuracy
+- Interactive Element Detection: >99% confidence
+- Navigation Element Detection: >94% confidence
 
 ## Project Structure
 

@@ -1,0 +1,874 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://www.wikipedia.org/,nav,nav,navigation,navigation,False,True,True,"English
+6,924,000+ articles
+Русский
+2 014 000+ статей
+日本語
+1,440,000+ 記事
+Deutsch
+2.968.000+ Artikel
+Français
+2 652 000+ articles
+Español
+1.995.000+ artículos
+中文
+1,454,000+ 条目 / 條目
+Italiano
+1.895.000+ voci
+فارسی
+۱٬۰۲۲٬۰۰۰+ مقاله
+Português
+1.139.000+ artigos",body#www-wikipedia-org > main > nav,"{'data-jsl10n': 'top-ten-nav-label', 'aria-label': 'Top languages', 'class': 'central-featured', 'data-el-section': 'primary links'}"
+https://www.wikipedia.org/,nav,nav,navigation,navigation,False,True,True,Read Wikipedia in your language,body#www-wikipedia-org > main > nav:nth-of-type(2),"{'data-jsl10n': 'all-languages-nav-label', 'aria-label': 'All languages'}"
+https://www.wikipedia.org/,nav,nav,navigation,navigation,False,True,True,"Commons
+Free media collection
+ 
+Wikivoyage
+Free travel guide
+ 
+Wiktionary
+Free dictionary
+ 
+Wikibooks
+Free textbooks
+ 
+Wikinews
+Free news source
+ 
+Wikidata
+Free knowledge base
+ 
+Wikiversity
+Free learning resources
+ 
+Wikiquote
+Free quote compendium
+ 
+MediaWiki
+Free & open wiki software
+ 
+Wikisource
+Free content library
+ 
+Wikispecies
+Free species directory
+ 
+Wikifunctions
+Free function library
+ 
+Meta-Wiki
+Community coordination & documentation",body#www-wikipedia-org > footer > nav,"{'data-jsl10n': 'other-projects-nav-label', 'aria-label': 'Other projects', 'class': 'other-projects'}"
+https://www.wikipedia.org/,button,button,interactive,interactive,True,True,True,Search,form#search-form > fieldset > button,"{'class': 'pure-button pure-button-primary-progressive', 'type': 'submit'}"
+https://www.wikipedia.org/,button,button,interactive,interactive,True,True,True,Read Wikipedia in your language,button#js-lang-list-button,"{'id': 'js-lang-list-button', 'aria-expanded': 'false', 'aria-controls': 'js-lang-lists', 'class': 'lang-list-button'}"
+https://www.wikipedia.org/,button,button,interactive,interactive,True,False,False,,div#portalBanner_en6C_2024_overlayBanner5 > div > div > button,"{'class': 'frb-header-minimize overlay-banner-toggle', 'aria-label': 'minimize'}"
+https://www.wikipedia.org/,button,button,interactive,interactive,True,False,True,Collapse,div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div:nth-of-type(4) > button,"{'type': 'button', 'class': 'button-center button-collapse overlay-banner-toggle'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"English
+6,924,000+ articles",a#js-link-box-en,"{'id': 'js-link-box-en', 'href': '//en.wikipedia.org/', 'title': 'English — Wikipedia — The Free Encyclopedia', 'class': 'link-box', 'data-slogan': 'The Free Encyclopedia'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Русский
+2 014 000+ статей",a#js-link-box-ru,"{'id': 'js-link-box-ru', 'href': '//ru.wikipedia.org/', 'title': 'Russkiy — Википедия — Свободная энциклопедия', 'class': 'link-box', 'data-slogan': 'Свободная энциклопедия'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"日本語
+1,440,000+ 記事",a#js-link-box-ja,"{'id': 'js-link-box-ja', 'href': '//ja.wikipedia.org/', 'title': 'Nihongo — ウィキペディア — フリー百科事典', 'class': 'link-box', 'data-slogan': 'フリー百科事典'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Deutsch
+2.968.000+ Artikel",a#js-link-box-de,"{'id': 'js-link-box-de', 'href': '//de.wikipedia.org/', 'title': 'Deutsch — Wikipedia — Die freie Enzyklopädie', 'class': 'link-box', 'data-slogan': 'Die freie Enzyklopädie'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Français
+2 652 000+ articles",a#js-link-box-fr,"{'id': 'js-link-box-fr', 'href': '//fr.wikipedia.org/', 'title': 'Français — Wikipédia — L’encyclopédie libre', 'class': 'link-box', 'data-slogan': 'L’encyclopédie libre'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Español
+1.995.000+ artículos",a#js-link-box-es,"{'id': 'js-link-box-es', 'href': '//es.wikipedia.org/', 'title': 'Español — Wikipedia — La enciclopedia libre', 'class': 'link-box', 'data-slogan': 'La enciclopedia libre'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"中文
+1,454,000+ 条目 / 條目",a#js-link-box-zh,"{'id': 'js-link-box-zh', 'href': '//zh.wikipedia.org/', 'title': 'Zhōngwén — 维基百科 / 維基百科 — 自由的百科全书 / 自由的百科全書', 'class': 'link-box localize-variant', 'data-slogan': '自由的百科全书 / 自由的百科全書'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Italiano
+1.895.000+ voci",a#js-link-box-it,"{'id': 'js-link-box-it', 'href': '//it.wikipedia.org/', 'title': ""Italiano — Wikipedia — L'enciclopedia libera"", 'class': 'link-box', 'data-slogan': ""L'enciclopedia libera""}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"فارسی
+۱٬۰۲۲٬۰۰۰+ مقاله",a#js-link-box-fa,"{'id': 'js-link-box-fa', 'href': '//fa.wikipedia.org/', 'title': 'Fārsi — ویکی\u200cپدیا — دانشنامهٔ آزاد', 'class': 'link-box', 'data-slogan': 'دانشنامهٔ آزاد'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Português
+1.139.000+ artigos",a#js-link-box-pt,"{'id': 'js-link-box-pt', 'href': '//pt.wikipedia.org/', 'title': 'Português — Wikipédia — A enciclopédia livre', 'class': 'link-box', 'data-slogan': 'A enciclopédia livre'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li > a,"{'href': '//ar.wikipedia.org/', 'lang': 'ar', 'title': 'Al-ʿArabīyah'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(2) > a,"{'href': '//de.wikipedia.org/', 'lang': 'de'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(3) > a,"{'href': '//en.wikipedia.org/', 'lang': 'en', 'title': 'English'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(4) > a,"{'href': '//es.wikipedia.org/', 'lang': 'es'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(5) > a,"{'href': '//fa.wikipedia.org/', 'lang': 'fa', 'title': 'Fārsi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(6) > a,"{'href': '//fr.wikipedia.org/', 'lang': 'fr'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(7) > a,"{'href': '//it.wikipedia.org/', 'lang': 'it'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(8) > a,"{'href': '//arz.wikipedia.org/', 'lang': 'arz', 'title': 'Maṣrī'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(9) > a,"{'href': '//nl.wikipedia.org/', 'lang': 'nl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(10) > a,"{'href': '//ja.wikipedia.org/', 'lang': 'ja', 'title': 'Nihongo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(11) > a,"{'href': '//pl.wikipedia.org/', 'lang': 'pl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(12) > a,"{'href': '//pt.wikipedia.org/', 'lang': 'pt'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(13) > a,"{'href': '//ceb.wikipedia.org/', 'lang': 'ceb'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(14) > a,"{'href': '//sv.wikipedia.org/', 'lang': 'sv'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(15) > a,"{'href': '//uk.wikipedia.org/', 'lang': 'uk', 'title': 'Ukrayins’ka'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(16) > a,"{'href': '//vi.wikipedia.org/', 'lang': 'vi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(17) > a,"{'href': '//war.wikipedia.org/', 'lang': 'war'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(18) > a,"{'href': '//zh.wikipedia.org/', 'lang': 'zh', 'title': 'Zhōngwén'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(19) > a,"{'href': '//ru.wikipedia.org/', 'lang': 'ru', 'title': 'Russkiy'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li > a,"{'href': '//af.wikipedia.org/', 'lang': 'af'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(2) > a,"{'href': '//ast.wikipedia.org/', 'lang': 'ast'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(3) > a,"{'href': '//az.wikipedia.org/', 'lang': 'az'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(4) > a,"{'href': '//bg.wikipedia.org/', 'lang': 'bg', 'title': 'Bǎlgarski'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(5) > a,"{'href': '//zh-min-nan.wikipedia.org/', 'lang': 'nan', 'title': 'Bân-lâm-gú'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(6) > a,"{'href': '//bn.wikipedia.org/', 'lang': 'bn', 'title': 'Bangla'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(7) > a,"{'href': '//be.wikipedia.org/', 'lang': 'be', 'title': 'Belaruskaya'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(8) > a,"{'href': '//ca.wikipedia.org/', 'lang': 'ca'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(9) > a,"{'href': '//cs.wikipedia.org/', 'lang': 'cs'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(10) > a,"{'href': '//cy.wikipedia.org/', 'lang': 'cy'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(11) > a,"{'href': '//da.wikipedia.org/', 'lang': 'da'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(12) > a,"{'href': '//et.wikipedia.org/', 'lang': 'et'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(13) > a,"{'href': '//el.wikipedia.org/', 'lang': 'el', 'title': 'Ellīniká'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(14) > a,"{'href': '//eo.wikipedia.org/', 'lang': 'eo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(15) > a,"{'href': '//eu.wikipedia.org/', 'lang': 'eu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(16) > a,"{'href': '//gl.wikipedia.org/', 'lang': 'gl', 'title': 'Galego'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(17) > a,"{'href': '//ko.wikipedia.org/', 'lang': 'ko', 'title': 'Hangugeo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(18) > a,"{'href': '//hy.wikipedia.org/', 'lang': 'hy', 'title': 'Hayeren'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(19) > a,"{'href': '//hi.wikipedia.org/', 'lang': 'hi', 'title': 'Hindī'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(20) > a,"{'href': '//hr.wikipedia.org/', 'lang': 'hr'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(21) > a,"{'href': '//id.wikipedia.org/', 'lang': 'id'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(22) > a,"{'href': '//he.wikipedia.org/', 'lang': 'he', 'title': 'Ivrit'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(23) > a,"{'href': '//ka.wikipedia.org/', 'lang': 'ka', 'title': 'Kartuli'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(24) > a,"{'href': '//lld.wikipedia.org/', 'lang': 'lld'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(25) > a,"{'href': '//la.wikipedia.org/', 'lang': 'la'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(26) > a,"{'href': '//lv.wikipedia.org/', 'lang': 'lv'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(27) > a,"{'href': '//lt.wikipedia.org/', 'lang': 'lt'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(28) > a,"{'href': '//hu.wikipedia.org/', 'lang': 'hu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(29) > a,"{'href': '//mk.wikipedia.org/', 'lang': 'mk', 'title': 'Makedonski'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(30) > a,"{'href': '//ms.wikipedia.org/', 'lang': 'ms', 'title': 'Bahasa Melayu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(31) > a,"{'href': '//min.wikipedia.org/', 'lang': 'min'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(32) > a,"{'href': '//my.wikipedia.org/', 'lang': 'my', 'title': 'Myanmarsar'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(33) > ul > li > a,"{'href': '//no.wikipedia.org/', 'lang': 'nb'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(33) > ul > li:nth-of-type(2) > a,"{'href': '//nn.wikipedia.org/', 'lang': 'nn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(34) > a,"{'href': '//ce.wikipedia.org/', 'lang': 'ce', 'title': 'Noxçiyn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(35) > a,"{'href': '//uz.wikipedia.org/', 'lang': 'uz'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(36) > a,"{'href': '//kk.wikipedia.org/', 'lang': 'kk'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(37) > a,"{'href': '//ro.wikipedia.org/', 'lang': 'ro'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(38) > a,"{'href': '//sq.wikipedia.org/', 'lang': 'sq'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(39) > a,"{'href': '//simple.wikipedia.org/', 'lang': 'en'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(40) > a,"{'href': '//sk.wikipedia.org/', 'lang': 'sk'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(41) > a,"{'href': '//sl.wikipedia.org/', 'lang': 'sl', 'title': 'Slovenščina'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(42) > a,"{'href': '//sr.wikipedia.org/', 'lang': 'sr'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(43) > a,"{'href': '//sh.wikipedia.org/', 'lang': 'sh'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(44) > a,"{'href': '//fi.wikipedia.org/', 'lang': 'fi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(45) > a,"{'href': '//ta.wikipedia.org/', 'lang': 'ta', 'title': 'Tamiḻ'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(46) > a,"{'href': '//tt.wikipedia.org/', 'lang': 'tt'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(47) > a,"{'href': '//te.wikipedia.org/', 'lang': 'te', 'title': 'Telugu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(48) > a,"{'href': '//th.wikipedia.org/', 'lang': 'th', 'title': 'Phasa Thai'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(49) > a,"{'href': '//tg.wikipedia.org/', 'lang': 'tg', 'title': 'Tojikī'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(50) > a,"{'href': '//azb.wikipedia.org/', 'lang': 'azb', 'title': 'Türkce'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(51) > a,"{'href': '//tr.wikipedia.org/', 'lang': 'tr'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(52) > a,"{'href': '//ur.wikipedia.org/', 'lang': 'ur', 'title': 'Urdu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(53) > a,"{'href': '//zh-yue.wikipedia.org/', 'lang': 'yue'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li > a,"{'href': '//ace.wikipedia.org/', 'lang': 'ace'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(2) > a,"{'href': '//als.wikipedia.org/', 'lang': 'gsw'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(3) > a,"{'href': '//am.wikipedia.org/', 'lang': 'am', 'title': 'Āmariññā'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(4) > a,"{'href': '//an.wikipedia.org/', 'lang': 'an'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(5) > a,"{'href': '//hyw.wikipedia.org/', 'lang': 'hyw', 'title': 'Arevmdahayeren'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(6) > a,"{'href': '//gor.wikipedia.org/', 'lang': 'gor'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(7) > a,"{'href': '//ban.wikipedia.org/', 'lang': 'ban'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(8) > a,"{'href': '//bjn.wikipedia.org/', 'lang': 'bjn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(9) > a,"{'href': '//map-bms.wikipedia.org/', 'lang': 'map-x-bms'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(10) > a,"{'href': '//ba.wikipedia.org/', 'lang': 'ba', 'title': 'Başqortsa'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(11) > a,"{'href': '//be-tarask.wikipedia.org/', 'lang': 'be-tarask', 'title': 'Bielaruskaja (taraškievica)'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(12) > a,"{'href': '//bcl.wikipedia.org/', 'lang': 'bcl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(13) > a,"{'href': '//bpy.wikipedia.org/', 'lang': 'bpy', 'title': 'Bishnupriya Manipuri'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(14) > a,"{'href': '//bar.wikipedia.org/', 'lang': 'bar'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(15) > a,"{'href': '//bs.wikipedia.org/', 'lang': 'bs'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(16) > a,"{'href': '//br.wikipedia.org/', 'lang': 'br'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(17) > a,"{'href': '//cv.wikipedia.org/', 'lang': 'cv', 'title': 'Čăvašla'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(18) > a,"{'href': '//dag.wikipedia.org/', 'lang': 'dag'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(19) > a,"{'href': '//ary.wikipedia.org/', 'lang': 'ary', 'title': 'Darija'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(20) > a,"{'href': '//nv.wikipedia.org/', 'lang': 'nv'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(21) > a,"{'href': '//eml.wikipedia.org/', 'lang': 'roa-x-eml'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(22) > a,"{'href': '//hif.wikipedia.org/', 'lang': 'hif'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(23) > a,"{'href': '//fo.wikipedia.org/', 'lang': 'fo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(24) > a,"{'href': '//fy.wikipedia.org/', 'lang': 'fy'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(25) > a,"{'href': '//ga.wikipedia.org/', 'lang': 'ga'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(26) > a,"{'href': '//gd.wikipedia.org/', 'lang': 'gd'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(27) > a,"{'href': '//glk.wikipedia.org/', 'lang': 'glk', 'title': 'Giləki'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(28) > a,"{'href': '//gu.wikipedia.org/', 'lang': 'gu', 'title': 'Gujarati'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(29) > a,"{'href': '//hak.wikipedia.org/', 'lang': 'hak'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(30) > a,"{'href': '//ha.wikipedia.org/', 'lang': 'ha'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(31) > a,"{'href': '//hsb.wikipedia.org/', 'lang': 'hsb'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(32) > a,"{'href': '//io.wikipedia.org/', 'lang': 'io'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(33) > a,"{'href': '//ig.wikipedia.org/', 'lang': 'ig'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(34) > a,"{'href': '//ilo.wikipedia.org/', 'lang': 'ilo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(35) > a,"{'href': '//ia.wikipedia.org/', 'lang': 'ia'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(36) > a,"{'href': '//ie.wikipedia.org/', 'lang': 'ie'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(37) > a,"{'href': '//os.wikipedia.org/', 'lang': 'os', 'title': 'Iron'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(38) > a,"{'href': '//is.wikipedia.org/', 'lang': 'is'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(39) > a,"{'href': '//jv.wikipedia.org/', 'lang': 'jv'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(40) > a,"{'href': '//kn.wikipedia.org/', 'lang': 'kn', 'title': 'Kannada'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(41) > a,"{'href': '//pam.wikipedia.org/', 'lang': 'pam'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(42) > a,"{'href': '//km.wikipedia.org/', 'lang': 'km', 'title': 'Phéasa Khmér'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(43) > a,"{'href': '//avk.wikipedia.org/', 'lang': 'avk'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(44) > a,"{'href': '//ht.wikipedia.org/', 'lang': 'ht'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(45) > a,"{'href': '//ku.wikipedia.org/', 'lang': 'ku'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(46) > a,"{'href': '//ckb.wikipedia.org/', 'lang': 'ckb', 'title': 'Kurdîy Nawendî'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(47) > a,"{'href': '//ky.wikipedia.org/', 'lang': 'ky', 'title': 'Kyrgyzča'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(48) > a,"{'href': '//mrj.wikipedia.org/', 'lang': 'mjr', 'title': 'Kyryk Mary'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(49) > a,"{'href': '//lb.wikipedia.org/', 'lang': 'lb'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(50) > a,"{'href': '//lij.wikipedia.org/', 'lang': 'lij'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(51) > a,"{'href': '//li.wikipedia.org/', 'lang': 'li'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(52) > a,"{'href': '//lmo.wikipedia.org/', 'lang': 'lmo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(53) > a,"{'href': '//mai.wikipedia.org/', 'lang': 'mai', 'title': 'Maithilī'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(54) > a,"{'href': '//mg.wikipedia.org/', 'lang': 'mg'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(55) > a,"{'href': '//ml.wikipedia.org/', 'lang': 'ml', 'title': 'Malayalam'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(56) > a,"{'href': '//mr.wikipedia.org/', 'lang': 'mr', 'title': 'Marathi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(57) > a,"{'href': '//xmf.wikipedia.org/', 'lang': 'xmf', 'title': 'Margaluri'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(58) > a,"{'href': '//mzn.wikipedia.org/', 'lang': 'mzn', 'title': 'Mäzeruni'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(59) > a,"{'href': '//cdo.wikipedia.org/', 'lang': 'cdo', 'title': 'Ming-deng-ngu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(60) > a,"{'href': '//mn.wikipedia.org/', 'lang': 'mn', 'title': 'Mongol'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(61) > a,"{'href': '//nap.wikipedia.org/', 'lang': 'nap'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(62) > a,"{'href': '//new.wikipedia.org/', 'lang': 'new', 'title': 'Nepal Bhasa'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(63) > a,"{'href': '//ne.wikipedia.org/', 'lang': 'ne', 'title': 'Nepālī'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(64) > a,"{'href': '//frr.wikipedia.org/', 'lang': 'frr'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(65) > a,"{'href': '//oc.wikipedia.org/', 'lang': 'oc'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(66) > a,"{'href': '//mhr.wikipedia.org/', 'lang': 'mhr', 'title': 'Olyk Marij'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(67) > a,"{'href': '//or.wikipedia.org/', 'lang': 'or', 'title': 'Oṛiā'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(68) > a,"{'href': '//as.wikipedia.org/', 'lang': 'as', 'title': 'Ôxômiya'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(69) > a,"{'href': '//pa.wikipedia.org/', 'lang': 'pa', 'title': 'Pañjābī (Gurmukhī)'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(70) > a,"{'href': '//pnb.wikipedia.org/', 'lang': 'pnb', 'title': 'Pañjābī (Shāhmukhī)'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(71) > a,"{'href': '//ps.wikipedia.org/', 'lang': 'ps', 'title': 'Paʂto'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(72) > a,"{'href': '//pms.wikipedia.org/', 'lang': 'pms'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(73) > a,"{'href': '//nds.wikipedia.org/', 'lang': 'nds'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(74) > a,"{'href': '//crh.wikipedia.org/', 'lang': 'crh'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(75) > a,"{'href': '//qu.wikipedia.org/', 'lang': 'qu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(76) > a,"{'href': '//sa.wikipedia.org/', 'lang': 'sa', 'title': 'Saṃskṛtam'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(77) > a,"{'href': '//sat.wikipedia.org/', 'lang': 'sat', 'title': 'Santali'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(78) > a,"{'href': '//sah.wikipedia.org/', 'lang': 'sah', 'title': 'Saxa Tyla'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(79) > a,"{'href': '//sco.wikipedia.org/', 'lang': 'sco'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(80) > a,"{'href': '//sn.wikipedia.org/', 'lang': 'sn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(81) > a,"{'href': '//scn.wikipedia.org/', 'lang': 'scn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(82) > a,"{'href': '//si.wikipedia.org/', 'lang': 'si', 'title': 'Siṃhala'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(83) > a,"{'href': '//sd.wikipedia.org/', 'lang': 'sd', 'title': 'Sindhī'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(84) > a,"{'href': '//szl.wikipedia.org/', 'lang': 'szl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(85) > a,"{'href': '//su.wikipedia.org/', 'lang': 'su'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(86) > a,"{'href': '//sw.wikipedia.org/', 'lang': 'sw'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(87) > a,"{'href': '//tl.wikipedia.org/', 'lang': 'tl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(88) > a,"{'href': '//shn.wikipedia.org/', 'lang': 'shn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(89) > a,"{'href': '//zgh.wikipedia.org/', 'lang': 'zgh', 'title': 'Tamazight tanawayt'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(90) > a,"{'href': '//tum.wikipedia.org/', 'lang': 'tum'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(91) > a,"{'href': '//bug.wikipedia.org/', 'lang': 'bug'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(92) > a,"{'href': '//vec.wikipedia.org/', 'lang': 'vec'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(93) > a,"{'href': '//vo.wikipedia.org/', 'lang': 'vo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(94) > a,"{'href': '//wa.wikipedia.org/', 'lang': 'wa'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(95) > a,"{'href': '//zh-classical.wikipedia.org/', 'lang': 'lzh', 'title': 'Wényán'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(96) > a,"{'href': '//wuu.wikipedia.org/', 'lang': 'wuu', 'title': 'Wúyǔ'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(97) > a,"{'href': '//yi.wikipedia.org/', 'lang': 'yi', 'title': 'Yidiš'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(98) > a,"{'href': '//yo.wikipedia.org/', 'lang': 'yo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(99) > a,"{'href': '//diq.wikipedia.org/', 'lang': 'diq'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(100) > a,"{'href': '//bat-smg.wikipedia.org/', 'lang': 'sgs'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(101) > a,"{'href': '//zu.wikipedia.org/', 'lang': 'zu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(102) > a,"{'href': '//mni.wikipedia.org/', 'lang': 'mni'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li > a,"{'href': '//lad.wikipedia.org/', 'lang': 'lad'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(2) > a,"{'href': '//kbd.wikipedia.org/', 'lang': 'kbd', 'title': 'Adighabze'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(3) > a,"{'href': '//ang.wikipedia.org/', 'lang': 'ang'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(4) > a,"{'href': '//smn.wikipedia.org/', 'lang': 'smn', 'title': 'Anarâškielâ'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(5) > a,"{'href': '//anp.wikipedia.org/', 'lang': 'anp', 'title': 'Angika'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(6) > a,"{'href': '//ab.wikipedia.org/', 'lang': 'ab', 'title': 'Aṗsshwa'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(7) > a,"{'href': '//roa-rup.wikipedia.org/', 'lang': 'rup'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(8) > a,"{'href': '//frp.wikipedia.org/', 'lang': 'frp'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(9) > a,"{'href': '//atj.wikipedia.org/', 'lang': 'atj'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(10) > a,"{'href': '//arc.wikipedia.org/', 'lang': 'arc', 'title': 'Ātûrāyâ'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(11) > a,"{'href': '//gn.wikipedia.org/', 'lang': 'gn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(12) > a,"{'href': '//av.wikipedia.org/', 'lang': 'av', 'title': 'Avar'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(13) > a,"{'href': '//ay.wikipedia.org/', 'lang': 'ay'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(14) > a,"{'href': '//bew.wikipedia.org/', 'lang': 'bew'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(15) > a,"{'href': '//bh.wikipedia.org/', 'lang': 'bh', 'title': 'Bhōjapurī'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(16) > a,"{'href': '//bi.wikipedia.org/', 'lang': 'bi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(17) > a,"{'href': '//bo.wikipedia.org/', 'lang': 'bo', 'title': 'Bod Skad'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(18) > a,"{'href': '//bxr.wikipedia.org/', 'lang': 'bxr', 'title': 'Buryad'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(19) > a,"{'href': '//cbk-zam.wikipedia.org/', 'lang': 'cbk-x-zam'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(20) > a,"{'href': '//ny.wikipedia.org/', 'lang': 'ny'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(21) > a,"{'href': '//co.wikipedia.org/', 'lang': 'co'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(22) > a,"{'href': '//za.wikipedia.org/', 'lang': 'za'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(23) > a,"{'href': '//dga.wikipedia.org/', 'lang': 'dga'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(24) > a,"{'href': '//se.wikipedia.org/', 'lang': 'se', 'title': 'Davvisámegiella'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(25) > a,"{'href': '//pdc.wikipedia.org/', 'lang': 'pdc'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(26) > a,"{'href': '//dv.wikipedia.org/', 'lang': 'dv', 'title': 'Divehi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(27) > a,"{'href': '//dsb.wikipedia.org/', 'lang': 'dsb'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(28) > a,"{'href': '//dtp.wikipedia.org/', 'lang': 'dtp'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(29) > a,"{'href': '//myv.wikipedia.org/', 'lang': 'myv', 'title': 'Erzjanj'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(30) > a,"{'href': '//ext.wikipedia.org/', 'lang': 'ext'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(31) > a,"{'href': '//fon.wikipedia.org/', 'lang': 'fon'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(32) > a,"{'href': '//ff.wikipedia.org/', 'lang': 'ff'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(33) > a,"{'href': '//fur.wikipedia.org/', 'lang': 'fur'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(34) > a,"{'href': '//gv.wikipedia.org/', 'lang': 'gv'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(35) > a,"{'href': '//gag.wikipedia.org/', 'lang': 'gag'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(36) > a,"{'href': '//inh.wikipedia.org/', 'lang': 'inh', 'title': 'Ghalghai'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(37) > a,"{'href': '//gpe.wikipedia.org/', 'lang': 'gpe'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(38) > a,"{'href': '//ki.wikipedia.org/', 'lang': 'ki'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(39) > a,"{'href': '//gan.wikipedia.org/', 'lang': 'gan', 'title': 'Gon ua', 'data-hans': '赣语', 'data-hant': '贛語', 'class': 'jscnconv'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(40) > a,"{'href': '//guw.wikipedia.org/', 'lang': 'guw'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(41) > a,"{'href': '//xal.wikipedia.org/', 'lang': 'xal', 'title': 'Halʹmg'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(42) > a,"{'href': '//haw.wikipedia.org/', 'lang': 'haw'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(43) > a,"{'href': '//rw.wikipedia.org/', 'lang': 'rw'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(44) > a,"{'href': '//iba.wikipedia.org/', 'lang': 'iba'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(45) > a,"{'href': '//kbp.wikipedia.org/', 'lang': 'kbp'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(46) > a,"{'href': '//csb.wikipedia.org/', 'lang': 'csb'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(47) > a,"{'href': '//kw.wikipedia.org/', 'lang': 'kw'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(48) > a,"{'href': '//kv.wikipedia.org/', 'lang': 'kv', 'title': 'Komi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(49) > a,"{'href': '//koi.wikipedia.org/', 'lang': 'koi', 'title': 'Perem Komi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(50) > a,"{'href': '//kg.wikipedia.org/', 'lang': 'kg'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(51) > a,"{'href': '//gom.wikipedia.org/', 'lang': 'gom'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(52) > a,"{'href': '//ks.wikipedia.org/', 'lang': 'ks', 'title': 'Koshur'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(53) > a,"{'href': '//gcr.wikipedia.org/', 'lang': 'gcr'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(54) > a,"{'href': '//kge.wikipedia.org/', 'lang': 'kge'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(55) > a,"{'href': '//kus.wikipedia.org/', 'lang': 'kus'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(56) > a,"{'href': '//lo.wikipedia.org/', 'lang': 'lo', 'title': 'Phaasaa Laao'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(57) > a,"{'href': '//lbe.wikipedia.org/', 'lang': 'lbe', 'title': 'Lakku'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(58) > a,"{'href': '//ltg.wikipedia.org/', 'lang': 'ltg'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(59) > a,"{'href': '//lez.wikipedia.org/', 'lang': 'lez', 'title': 'Lezgi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(60) > a,"{'href': '//nia.wikipedia.org/', 'lang': 'nia'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(61) > a,"{'href': '//ln.wikipedia.org/', 'lang': 'ln'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(62) > a,"{'href': '//lfn.wikipedia.org/', 'lang': 'lfn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(63) > a,"{'href': '//olo.wikipedia.org/', 'lang': 'olo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(64) > a,"{'href': '//jbo.wikipedia.org/', 'lang': 'jbo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(65) > a,"{'href': '//lg.wikipedia.org/', 'lang': 'lg'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(66) > a,"{'href': '//mad.wikipedia.org/', 'lang': 'mad'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(67) > a,"{'href': '//mt.wikipedia.org/', 'lang': 'mt'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(68) > a,"{'href': '//btm.wikipedia.org/', 'lang': 'btm'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(69) > a,"{'href': '//mi.wikipedia.org/', 'lang': 'mi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(70) > a,"{'href': '//mwl.wikipedia.org/', 'lang': 'mwl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(71) > a,"{'href': '//mdf.wikipedia.org/', 'lang': 'mdf', 'title': 'Mokšenj'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(72) > a,"{'href': '//mnw.wikipedia.org/', 'lang': 'mnw'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(73) > a,"{'href': '//mos.wikipedia.org/', 'lang': 'mos'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(74) > a,"{'href': '//nqo.wikipedia.org/', 'lang': 'nqo', 'title': ""N'Ko""}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(75) > a,"{'href': '//fj.wikipedia.org/', 'lang': 'fj'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(76) > a,"{'href': '//nah.wikipedia.org/', 'lang': 'nah'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(77) > a,"{'href': '//pcm.wikipedia.org/', 'lang': 'pcm'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(78) > a,"{'href': '//nds-nl.wikipedia.org/', 'lang': 'nds-nl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(79) > a,"{'href': '//nrm.wikipedia.org/', 'lang': 'roa-x-nrm'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(80) > a,"{'href': '//nov.wikipedia.org/', 'lang': 'nov'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(81) > a,"{'href': '//om.wikipedia.org/', 'lang': 'om'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(82) > a,"{'href': '//blk.wikipedia.org/', 'lang': 'blk'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(83) > a,"{'href': '//pi.wikipedia.org/', 'lang': 'pi', 'title': 'Pāḷi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(84) > a,"{'href': '//pag.wikipedia.org/', 'lang': 'pag'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(85) > a,"{'href': '//ami.wikipedia.org/', 'lang': 'ami'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(86) > a,"{'href': '//pap.wikipedia.org/', 'lang': 'pap'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(87) > a,"{'href': '//jam.wikipedia.org/', 'lang': 'jam'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(88) > a,"{'href': '//pfl.wikipedia.org/', 'lang': 'pfl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(89) > a,"{'href': '//pcd.wikipedia.org/', 'lang': 'pcd'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(90) > a,"{'href': '//krc.wikipedia.org/', 'lang': 'krc', 'title': 'Qaraçay–Malqar'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(91) > a,"{'href': '//kaa.wikipedia.org/', 'lang': 'kaa'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(92) > a,"{'href': '//ksh.wikipedia.org/', 'lang': 'ksh'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(93) > a,"{'href': '//rm.wikipedia.org/', 'lang': 'rm'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(94) > a,"{'href': '//rue.wikipedia.org/', 'lang': 'rue', 'title': 'Rusin’skyj'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(95) > a,"{'href': '//szy.wikipedia.org/', 'lang': 'szy'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(96) > a,"{'href': '//sm.wikipedia.org/', 'lang': 'sm'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(97) > a,"{'href': '//skr.wikipedia.org/', 'lang': 'skr', 'title': 'Saraiki'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(98) > a,"{'href': '//sc.wikipedia.org/', 'lang': 'sc'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(99) > a,"{'href': '//trv.wikipedia.org/', 'lang': 'trv'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(100) > a,"{'href': '//stq.wikipedia.org/', 'lang': 'stq'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(101) > a,"{'href': '//st.wikipedia.org/', 'lang': 'st'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(102) > a,"{'href': '//nso.wikipedia.org/', 'lang': 'nso'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(103) > a,"{'href': '//tn.wikipedia.org/', 'lang': 'tn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(104) > a,"{'href': '//cu.wikipedia.org/', 'lang': 'cu', 'title': 'Slověnĭskŭ'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(105) > a,"{'href': '//so.wikipedia.org/', 'lang': 'so'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(106) > a,"{'href': '//srn.wikipedia.org/', 'lang': 'srn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(107) > a,"{'href': '//ss.wikipedia.org/', 'lang': 'ss'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(108) > a,"{'href': '//shi.wikipedia.org/', 'lang': 'shi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(109) > a,"{'href': '//ty.wikipedia.org/', 'lang': 'ty'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(110) > a,"{'href': '//kab.wikipedia.org/', 'lang': 'kab', 'title': 'Taqbaylit'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(111) > a,"{'href': '//roa-tara.wikipedia.org/', 'lang': 'roa'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(112) > a,"{'href': '//tay.wikipedia.org/', 'lang': 'tay'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(113) > a,"{'href': '//tet.wikipedia.org/', 'lang': 'tet'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(114) > a,"{'href': '//tpi.wikipedia.org/', 'lang': 'tpi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(115) > a,"{'href': '//tly.wikipedia.org/', 'lang': 'tly'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(116) > a,"{'href': '//to.wikipedia.org/', 'lang': 'to'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(117) > a,"{'href': '//tk.wikipedia.org/', 'lang': 'tk'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(118) > a,"{'href': '//tw.wikipedia.org/', 'lang': 'tw'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(119) > a,"{'href': '//kcg.wikipedia.org/', 'lang': 'kcg'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(120) > a,"{'href': '//tyv.wikipedia.org/', 'lang': 'tyv', 'title': 'Tyva dyl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(121) > a,"{'href': '//udm.wikipedia.org/', 'lang': 'udm', 'title': 'Udmurt'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(122) > a,"{'href': '//ug.wikipedia.org/', 'lang': 'ug'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(123) > a,"{'href': '//vep.wikipedia.org/', 'lang': 'vep'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(124) > a,"{'href': '//fiu-vro.wikipedia.org/', 'lang': 'vro'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(125) > a,"{'href': '//vls.wikipedia.org/', 'lang': 'vls'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(126) > a,"{'href': '//wo.wikipedia.org/', 'lang': 'wo'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(127) > a,"{'href': '//xh.wikipedia.org/', 'lang': 'xh'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(128) > a,"{'href': '//zea.wikipedia.org/', 'lang': 'zea'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(129) > a,"{'href': '//alt.wikipedia.org/', 'lang': 'alt'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(130) > a,"{'href': '//awa.wikipedia.org/', 'lang': 'awa'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(131) > a,"{'href': '//dty.wikipedia.org/', 'lang': 'dty'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(132) > a,"{'href': '//tcy.wikipedia.org/', 'lang': 'tcy'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li > a,"{'href': '//bdr.wikipedia.org/', 'lang': 'bdr'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(2) > a,"{'href': '//bm.wikipedia.org/', 'lang': 'bm'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(3) > a,"{'href': '//bbc.wikipedia.org/', 'lang': 'bbc'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(4) > a,"{'href': '//ch.wikipedia.org/', 'lang': 'ch'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(5) > a,"{'href': '//dz.wikipedia.org/', 'lang': 'dz', 'title': 'Rdzong-Kha'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(6) > a,"{'href': '//ee.wikipedia.org/', 'lang': 'ee'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(7) > a,"{'href': '//gur.wikipedia.org/', 'lang': 'gur'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(8) > a,"{'href': '//got.wikipedia.org/', 'lang': 'got', 'title': 'Gutisk'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(9) > a,"{'href': '//igl.wikipedia.org/', 'lang': 'igl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(10) > a,"{'href': '//iu.wikipedia.org/', 'lang': 'iu'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(11) > a,"{'href': '//ik.wikipedia.org/', 'lang': 'ik'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(12) > a,"{'href': '//nr.wikipedia.org/', 'lang': 'nr', 'title': 'isiNdebele seSewula'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(13) > a,"{'href': '//kl.wikipedia.org/', 'lang': 'kl'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(14) > a,"{'href': '//fat.wikipedia.org/', 'lang': 'fat'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(15) > a,"{'href': '//pih.wikipedia.org/', 'lang': 'pih'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(16) > a,"{'href': '//ann.wikipedia.org/', 'lang': 'ann'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(17) > a,"{'href': '//pwn.wikipedia.org/', 'lang': 'pwn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(18) > a,"{'href': '//pnt.wikipedia.org/', 'lang': 'pnt', 'title': 'Pontiaká'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(19) > a,"{'href': '//rmy.wikipedia.org/', 'lang': 'rmy'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(20) > a,"{'href': '//rn.wikipedia.org/', 'lang': 'rn'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(21) > a,"{'href': '//rsk.wikipedia.org/', 'lang': 'rsk', 'title': 'Ruski'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(22) > a,"{'href': '//sg.wikipedia.org/', 'lang': 'sg'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(23) > a,"{'href': '//tdd.wikipedia.org/', 'lang': 'tdd', 'title': 'Tai taɯ xoŋ'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(24) > a,"{'href': '//ti.wikipedia.org/', 'lang': 'ti', 'title': 'Təgərəña'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(25) > a,"{'href': '//din.wikipedia.org/', 'lang': 'din'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(26) > a,"{'href': '//chr.wikipedia.org/', 'lang': 'chr', 'title': 'Tsalagi'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(27) > a,"{'href': '//chy.wikipedia.org/', 'lang': 'chy'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(28) > a,"{'href': '//ts.wikipedia.org/', 'lang': 'ts'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(29) > a,"{'href': '//ve.wikipedia.org/', 'lang': 've'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(30) > a,"{'href': '//guc.wikipedia.org/', 'lang': 'guc'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(31) > a,"{'href': '//ady.wikipedia.org/', 'lang': 'ady'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,False,,div#js-lang-lists > div:nth-of-type(6) > a,"{'class': 'jsl10n', 'href': 'https://meta.wikimedia.org/wiki/Special:MyLanguage/List_of_Wikipedias', 'lang': '', 'data-jsl10n': 'other-languages-label'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,True,Donate now,div#portalBanner_en6C_2024_overlayBanner5 > div > div > div > a,"{'href': 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2024_overlayBanner5green&uselang=en', 'target': '_blank'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,True,Donate Now,a#frb-donate,"{'href': 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2024_overlayBanner5green&uselang=en', 'id': 'frb-donate', 'class': 'frb-submit banner-button banner-button-disabled', 'target': '_blank'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,False,True,Donate now,div#portalBanner_en6C_2024_overlayBanner5 > div > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > a,"{'href': 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalBanner&wmf_source=portalBanner_en6C_2024_overlayBanner5green&uselang=en', 'class': 'banner__button banner__button--progressive frb-submit', 'target': '_blank'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,You can support our work with a donation.,body#www-wikipedia-org > footer > div > div > div:nth-of-type(3) > a,"{'href': 'https://donate.wikimedia.org/?wmf_medium=portal&wmf_campaign=portalFooter&wmf_source=portalFooter', 'target': '_blank'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,Download Wikipedia for Android or iOS,body#www-wikipedia-org > footer > div:nth-of-type(2) > div > div > strong > a,"{'class': 'jsl10n', 'data-jsl10n': 'portal.app-links.url', 'href': 'https://en.wikipedia.org/wiki/List_of_Wikipedia_mobile_applications'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,Google Play Store,body#www-wikipedia-org > footer > div:nth-of-type(2) > div > div > ul > li > a,"{'target': '_blank', 'rel': 'noreferrer', 'href': 'https://play.google.com/store/apps/details?id=org.wikipedia&referrer=utm_source%3Dportal%26utm_medium%3Dbutton%26anid%3Dadmob'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,Apple App Store,body#www-wikipedia-org > footer > div:nth-of-type(2) > div > div > ul > li:nth-of-type(2) > a,"{'target': '_blank', 'rel': 'noreferrer', 'href': 'https://itunes.apple.com/app/apple-store/id324715238?pt=208305&ct=portal&mt=8'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Commons
+Free media collection",body#www-wikipedia-org > footer > nav > div > a,"{'class': 'other-project-link', 'href': '//commons.wikimedia.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikivoyage
+Free travel guide",body#www-wikipedia-org > footer > nav > div:nth-of-type(2) > a,"{'class': 'other-project-link', 'href': '//www.wikivoyage.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wiktionary
+Free dictionary",body#www-wikipedia-org > footer > nav > div:nth-of-type(3) > a,"{'class': 'other-project-link', 'href': '//www.wiktionary.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikibooks
+Free textbooks",body#www-wikipedia-org > footer > nav > div:nth-of-type(4) > a,"{'class': 'other-project-link', 'href': '//www.wikibooks.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikinews
+Free news source",body#www-wikipedia-org > footer > nav > div:nth-of-type(5) > a,"{'class': 'other-project-link', 'href': '//www.wikinews.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikidata
+Free knowledge base",body#www-wikipedia-org > footer > nav > div:nth-of-type(6) > a,"{'class': 'other-project-link', 'href': '//www.wikidata.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikiversity
+Free learning resources",body#www-wikipedia-org > footer > nav > div:nth-of-type(7) > a,"{'class': 'other-project-link', 'href': '//www.wikiversity.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikiquote
+Free quote compendium",body#www-wikipedia-org > footer > nav > div:nth-of-type(8) > a,"{'class': 'other-project-link', 'href': '//www.wikiquote.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"MediaWiki
+Free & open wiki software",body#www-wikipedia-org > footer > nav > div:nth-of-type(9) > a,"{'class': 'other-project-link', 'href': '//www.mediawiki.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikisource
+Free content library",body#www-wikipedia-org > footer > nav > div:nth-of-type(10) > a,"{'class': 'other-project-link', 'href': '//www.wikisource.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikispecies
+Free species directory",body#www-wikipedia-org > footer > nav > div:nth-of-type(11) > a,"{'class': 'other-project-link', 'href': '//species.wikimedia.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Wikifunctions
+Free function library",body#www-wikipedia-org > footer > nav > div:nth-of-type(12) > a,"{'class': 'other-project-link', 'href': '//www.wikifunctions.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,"Meta-Wiki
+Community coordination & documentation",body#www-wikipedia-org > footer > nav > div:nth-of-type(13) > a,"{'class': 'other-project-link', 'href': '//meta.wikimedia.org/'}"
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,Creative Commons Attribution-ShareAlike License,body#www-wikipedia-org > footer > p > small > a,{'href': 'https://creativecommons.org/licenses/by-sa/4.0/'}
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,Terms of Use,body#www-wikipedia-org > footer > p > small:nth-of-type(2) > a,{'href': 'https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use'}
+https://www.wikipedia.org/,a,a,navigation,interactive,True,True,True,Privacy Policy,body#www-wikipedia-org > footer > p > small:nth-of-type(3) > a,{'href': 'https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy'}
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,form#search-form > fieldset > input,"{'type': 'hidden', 'name': 'family', 'value': 'Wikipedia'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,input#hiddenLanguageInput,"{'type': 'hidden', 'id': 'hiddenLanguageInput', 'name': 'language', 'value': 'en'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,True,False,,input#searchInput,"{'id': 'searchInput', 'name': 'search', 'type': 'search', 'size': '20', 'autofocus': 'autofocus', 'accesskey': 'F', 'dir': 'auto', 'autocomplete': 'off', 'style': 'padding-right: 64px;'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,form#search-form > fieldset > input:nth-of-type(3),"{'type': 'hidden', 'value': 'Go', 'name': 'go'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#amountsGrid > label > input,"{'type': 'radio', 'name': 'amount', 'value': '2.75', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#amountsGrid > label:nth-of-type(2) > input,"{'type': 'radio', 'name': 'amount', 'value': '5', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#amountsGrid > label:nth-of-type(3) > input,"{'type': 'radio', 'name': 'amount', 'value': '10', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#amountsGrid > label:nth-of-type(4) > input,"{'type': 'radio', 'name': 'amount', 'value': '20', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#amountsGrid > label:nth-of-type(5) > input,"{'type': 'radio', 'name': 'amount', 'value': '30', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#amountsGrid > label:nth-of-type(6) > input,"{'type': 'radio', 'name': 'amount', 'value': '50', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#amountsGrid > label:nth-of-type(7) > input,"{'type': 'radio', 'name': 'amount', 'value': '100', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#amountsGrid > label:nth-of-type(8) > input,"{'type': 'radio', 'name': 'amount', 'value': 'Other', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#frequencyGrid > label > input,"{'type': 'radio', 'name': 'monthly', 'value': '0', 'class': 'sr-only'}"
+https://www.wikipedia.org/,input,input,interactive,interactive,True,False,False,,div#frequencyGrid > label:nth-of-type(2) > input,"{'type': 'radio', 'name': 'monthly', 'value': '1', 'class': 'sr-only'}"
+https://www.wikipedia.org/,h1,h1,content,content,False,True,True,"Wikipedia
+The Free Encyclopedia",body#www-wikipedia-org > main > div > h1,{'class': 'central-textlogo-wrapper'}
+https://www.wikipedia.org/,h2,h2,content,content,False,False,False,,div#js-lang-lists > h2,{'class': 'bookshelf-container'}
+https://www.wikipedia.org/,h2,h2,content,content,False,False,False,,div#js-lang-lists > h2:nth-of-type(2),{'class': 'bookshelf-container'}
+https://www.wikipedia.org/,h2,h2,content,content,False,False,False,,div#js-lang-lists > h2:nth-of-type(3),{'class': 'bookshelf-container'}
+https://www.wikipedia.org/,h2,h2,content,content,False,False,False,,div#js-lang-lists > h2:nth-of-type(4),{'class': 'bookshelf-container'}
+https://www.wikipedia.org/,h2,h2,content,content,False,False,False,,div#js-lang-lists > h2:nth-of-type(5),{'class': 'bookshelf-container'}
+https://www.wikipedia.org/,h3,h3,content,content,False,False,True,The internet we were promised,div#portalBanner_en6C_2024_overlayBanner5 > div > div:nth-of-type(2) > div:nth-of-type(3) > div > h3,{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,An important update for readers in the United States.,div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div > p,{'class': 'overlay-banner-main-message-subheading'}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"You deserve an explanation, so please don't skip this 1-minute read. We're sorry to interrupt, but this message will only be up for a short time. We ask you to reflect on the number of times you visited Wikipedia this past year and whether you're able to give $2.75 to the Wikimedia Foundation. If everyone reading this gave just $2.75, we'd hit our goal in a few hours.",div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div > p:nth-of-type(2),{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"The internet we were promised—a place of free, collaborative, and accessible knowledge—is under constant threat. On Wikipedia, volunteers work together to create and verify the pages you rely on, supported by tools that undo vandalism within minutes, ensuring the information you seek is trustworthy.",div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div > p:nth-of-type(3),{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"Just 2% of our readers donate, so if you have given in the past and Wikipedia still provides you with $2.75 worth of knowledge, kindly donate today. If you are undecided, remember that any contribution helps, whether it's $2.75 or $2.75.",div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div > p:nth-of-type(4),{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"Hi. Please don't skip this 1-minute read. Today, our nonprofit asks for your support. It matters. When Wikipedia was created, it was one of the first spaces online where you could learn for free, without ads. This space is yours. Just 2% of our readers donate, so whatever gift you can afford helps.",div#portalBanner_en6C_2024_overlayBanner5 > div > div:nth-of-type(2) > div:nth-of-type(3) > div > p,{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"— The Wikimedia Foundation, host of Wikipedia and its sister sites.",div#portalBanner_en6C_2024_overlayBanner5 > div > div:nth-of-type(2) > div:nth-of-type(3) > div > p:nth-of-type(2),{}
+https://www.wikipedia.org/,p,p,content,content,False,True,True,"Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.",body#www-wikipedia-org > footer > div:nth-of-type(2) > div > div > p,"{'class': 'jsl10n', 'data-jsl10n': 'portal.app-links.description'}"
+https://www.wikipedia.org/,p,p,content,content,False,True,True,This page is available under the Creative Commons Attribution-ShareAlike License Terms of Use Privacy Policy,body#www-wikipedia-org > footer > p,{'class': 'site-license'}
+https://www.wikipedia.org/,nav,nav,navigation,navigation,False,True,True,"Commons
+Free media collection
+ 
+Wikivoyage
+Free travel guide
+ 
+Wiktionary
+Free dictionary
+ 
+Wikibooks
+Free textbooks
+ 
+Wikinews
+Free news source
+ 
+Wikidata
+Free knowledge base
+ 
+Wikiversity
+Free learning resources
+ 
+Wikiquote
+Free quote compendium
+ 
+MediaWiki
+Free & open wiki software
+ 
+Wikisource
+Free content library
+ 
+Wikispecies
+Free species directory
+ 
+Wikifunctions
+Free function library
+ 
+Meta-Wiki
+Community coordination & documentation",body#www-wikipedia-org > footer > nav,"{'data-jsl10n': 'other-projects-nav-label', 'aria-label': 'Other projects', 'class': 'other-projects'}"
+https://www.wikipedia.org/,p,p,content,content,False,False,True,An important update for readers in the United States.,div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div > p,{'class': 'overlay-banner-main-message-subheading'}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"You deserve an explanation, so please don't skip this 1-minute read. We're sorry to interrupt, but this message will only be up for a short time. We ask you to reflect on the number of times you visited Wikipedia this past year and whether you're able to give $2.75 to the Wikimedia Foundation. If everyone reading this gave just $2.75, we'd hit our goal in a few hours.",div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div > p:nth-of-type(2),{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"The internet we were promised—a place of free, collaborative, and accessible knowledge—is under constant threat. On Wikipedia, volunteers work together to create and verify the pages you rely on, supported by tools that undo vandalism within minutes, ensuring the information you seek is trustworthy.",div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div > p:nth-of-type(3),{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"Just 2% of our readers donate, so if you have given in the past and Wikipedia still provides you with $2.75 worth of knowledge, kindly donate today. If you are undecided, remember that any contribution helps, whether it's $2.75 or $2.75.",div#portalBanner_en6C_2024_overlayBanner5 > div > div > div:nth-of-type(2) > div > p:nth-of-type(4),{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"Hi. Please don't skip this 1-minute read. Today, our nonprofit asks for your support. It matters. When Wikipedia was created, it was one of the first spaces online where you could learn for free, without ads. This space is yours. Just 2% of our readers donate, so whatever gift you can afford helps.",div#portalBanner_en6C_2024_overlayBanner5 > div > div:nth-of-type(2) > div:nth-of-type(3) > div > p,{}
+https://www.wikipedia.org/,p,p,content,content,False,False,True,"— The Wikimedia Foundation, host of Wikipedia and its sister sites.",div#portalBanner_en6C_2024_overlayBanner5 > div > div:nth-of-type(2) > div:nth-of-type(3) > div > p:nth-of-type(2),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li,{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(2),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(3),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(4),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(5),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(6),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(7),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(8),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(9),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(10),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(11),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(12),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(13),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(14),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(15),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(16),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(17),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(18),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div > ul > li:nth-of-type(19),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li,{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(2),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(3),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(4),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(5),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(6),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(7),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(8),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(9),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(10),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(11),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(12),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(13),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(14),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(15),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(16),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(17),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(18),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(19),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(20),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(21),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(22),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(23),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(24),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(25),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(26),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(27),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(28),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(29),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(30),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(31),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(32),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(33),{'lang': 'no'}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(33) > ul > li,{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(33) > ul > li:nth-of-type(2),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(34),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(35),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(36),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(37),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(38),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(39),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(40),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(41),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(42),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(43),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(44),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(45),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(46),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(47),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(48),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(49),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(50),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(51),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(52),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(2) > ul > li:nth-of-type(53),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li,{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(2),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(3),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(4),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(5),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(6),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(7),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(8),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(9),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(10),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(11),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(12),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(13),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(14),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(15),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(16),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(17),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(18),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(19),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(20),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(21),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(22),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(23),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(24),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(25),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(26),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(27),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(28),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(29),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(30),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(31),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(32),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(33),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(34),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(35),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(36),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(37),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(38),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(39),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(40),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(41),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(42),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(43),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(44),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(45),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(46),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(47),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(48),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(49),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(50),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(51),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(52),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(53),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(54),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(55),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(56),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(57),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(58),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(59),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(60),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(61),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(62),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(63),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(64),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(65),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(66),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(67),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(68),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(69),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(70),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(71),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(72),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(73),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(74),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(75),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(76),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(77),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(78),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(79),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(80),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(81),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(82),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(83),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(84),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(85),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(86),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(87),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(88),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(89),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(90),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(91),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(92),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(93),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(94),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(95),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(96),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(97),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(98),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(99),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(100),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(101),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(3) > ul > li:nth-of-type(102),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li,{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(2),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(3),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(4),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(5),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(6),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(7),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(8),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(9),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(10),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(11),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(12),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(13),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(14),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(15),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(16),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(17),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(18),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(19),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(20),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(21),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(22),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(23),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(24),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(25),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(26),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(27),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(28),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(29),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(30),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(31),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(32),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(33),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(34),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(35),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(36),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(37),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(38),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(39),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(40),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(41),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(42),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(43),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(44),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(45),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(46),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(47),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(48),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(49),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(50),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(51),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(52),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(53),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(54),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(55),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(56),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(57),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(58),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(59),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(60),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(61),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(62),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(63),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(64),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(65),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(66),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(67),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(68),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(69),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(70),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(71),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(72),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(73),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(74),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(75),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(76),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(77),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(78),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(79),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(80),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(81),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(82),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(83),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(84),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(85),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(86),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(87),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(88),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(89),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(90),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(91),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(92),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(93),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(94),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(95),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(96),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(97),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(98),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(99),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(100),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(101),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(102),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(103),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(104),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(105),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(106),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(107),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(108),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(109),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(110),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(111),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(112),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(113),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(114),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(115),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(116),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(117),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(118),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(119),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(120),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(121),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(122),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(123),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(124),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(125),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(126),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(127),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(128),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(129),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(130),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(131),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(4) > ul > li:nth-of-type(132),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li,{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(2),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(3),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(4),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(5),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(6),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(7),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(8),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(9),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(10),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(11),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(12),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(13),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(14),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(15),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(16),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(17),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(18),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(19),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(20),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(21),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(22),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(23),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(24),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(25),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(26),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(27),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(28),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(29),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(30),{}
+https://www.wikipedia.org/,li,li,content,content,False,False,False,,div#js-lang-lists > div:nth-of-type(5) > ul > li:nth-of-type(31),{}
+https://www.wikipedia.org/,li,li,content,content,False,True,True,Google Play Store,body#www-wikipedia-org > footer > div:nth-of-type(2) > div > div > ul > li,{'class': 'app-badge app-badge-android'}
+https://www.wikipedia.org/,li,li,content,content,False,True,True,Apple App Store,body#www-wikipedia-org > footer > div:nth-of-type(2) > div > div > ul > li:nth-of-type(2),{'class': 'app-badge app-badge-ios'}

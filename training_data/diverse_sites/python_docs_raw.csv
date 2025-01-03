@@ -1,0 +1,1491 @@
+url,site_category,tag_name,attributes,inner_text,is_visible,bounding_box,selector,aria_role,aria_label,classes,id,is_clickable,has_hover,text_length,child_elements,parent_tag
+https://docs.python.org/3/tutorial/index.html,content,nav,"{'class': 'nav-content', 'role': 'navigation'}",dev (3.14)3.13.13.123.113.103.93.83.73.63.53.43.33.23.13.02.72.6,False,,html > body > div > nav,navigation,,nav-content,,False,False,64,2,div
+https://docs.python.org/3/tutorial/index.html,content,nav,"{'class': 'menu', 'role': 'navigation', 'aria-label': 'main navigation', 'tabindex': '-1'}","EnglishSpanishFrenchItalianJapaneseKoreanPolishBrazilian PortugueseTurkishSimplified ChineseTraditional Chinese
+            
+
+    Theme
+    
+        Auto
+        Light
+        Dark
+    
+
+  
+    Previous topic
+    Changelog
+  
+  
+    Next topic
+    1. Whetting Your Appetite
+  
+  
+    This Page
+    
+      Report a Bug
+      
+        Show Source",False,,html > body > div > div > nav,navigation,main navigation,menu,,False,False,344,5,div
+https://docs.python.org/3/tutorial/index.html,content,nav,"{'class': 'nav-content', 'role': 'navigation'}",dev (3.14)3.13.13.123.113.103.93.83.73.63.53.43.33.23.13.02.72.6,False,,html > body > div > nav,navigation,,nav-content,,False,False,64,2,div
+https://docs.python.org/3/tutorial/index.html,content,nav,"{'class': 'menu', 'role': 'navigation', 'aria-label': 'main navigation', 'tabindex': '-1'}","EnglishSpanishFrenchItalianJapaneseKoreanPolishBrazilian PortugueseTurkishSimplified ChineseTraditional Chinese
+            
+
+    Theme
+    
+        Auto
+        Light
+        Dark
+    
+
+  
+    Previous topic
+    Changelog
+  
+  
+    Next topic
+    1. Whetting Your Appetite
+  
+  
+    This Page
+    
+      Report a Bug
+      
+        Show Source",False,,html > body > div > div > nav,navigation,main navigation,menu,,False,False,344,5,div
+https://docs.python.org/3/tutorial/index.html,content,div,"{'class': 'related', 'role': 'navigation', 'aria-label': 'Related'}","index
+modules |
+next |
+previous |
+ Python » 
+English
+Spanish
+French
+Italian
+Japanese
+Korean
+Polish
+Brazilian Portuguese
+Turkish
+Simplified Chinese
+Traditional Chinese
+dev (3.14)
+3.13.1
+3.12
+3.11
+3.10
+3.9
+3.8
+3.7
+3.6
+3.5
+3.4
+3.3
+3.2
+3.1
+3.0
+2.7
+2.6
+ 3.13.1 Documentation » The Python Tutorial
+  |
+Theme 
+Auto
+Light
+Dark
+ |",True,"{'x': 15.994318008422852, 'y': 7.187499523162842, 'width': 1231.6476497650146, 'height': 45.28408861160278}",html > body > div:nth-of-type(2),navigation,Related,related,,True,False,321,2,body
+https://docs.python.org/3/tutorial/index.html,content,div,"{'class': 'sphinxsidebar', 'role': 'navigation', 'aria-label': 'Main'}","Previous topic
+
+Changelog
+
+Next topic
+
+1. Whetting Your Appetite
+
+This Page
+Report a Bug
+Show Source
+«",True,"{'x': 15.994318008422852, 'y': 69.74431610107422, 'width': 229.99999046325684, 'height': 719.9999465942383}",html > body > div:nth-of-type(3) > div:nth-of-type(2),navigation,Main,sphinxsidebar,,True,False,102,2,div
+https://docs.python.org/3/tutorial/index.html,content,div,"{'class': 'related', 'role': 'navigation', 'aria-label': 'Related'}","index
+modules |
+next |
+previous |
+ Python » 
+English
+Spanish
+French
+Italian
+Japanese
+Korean
+Polish
+Brazilian Portuguese
+Turkish
+Simplified Chinese
+Traditional Chinese
+dev (3.14)
+3.13.1
+3.12
+3.11
+3.10
+3.9
+3.8
+3.7
+3.6
+3.5
+3.4
+3.3
+3.2
+3.1
+3.0
+2.7
+2.6
+ 3.13.1 Documentation » The Python Tutorial
+  |
+Theme 
+Auto
+Light
+Dark
+ |",True,"{'x': 15.994318008422852, 'y': 4385.3408203125, 'width': 1231.6476497650146, 'height': 45.2841796875}",html > body > div:nth-of-type(4),navigation,Related,related,,True,False,321,2,body
+https://docs.python.org/3/tutorial/index.html,content,div,"{'class': 'body', 'role': 'main'}","The Python Tutorial
+
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+
+The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.
+
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.
+
+This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well.
+
+For a description of standard objects and modules, see The Python Standard Library. The Python Language Reference gives a more formal definition of the language. To write extensions in C or C++, read Extending and Embedding the Python Interpreter and Python/C API Reference Manual. There are also several books covering Python in depth.
+
+This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in The Python Standard Library.
+
+The Glossary is also worth going through.
+
+1. Whetting Your Appetite
+2. Using the Python Interpreter
+2.1. Invoking the Interpreter
+2.1.1. Argument Passing
+2.1.2. Interactive Mode
+2.2. The Interpreter and Its Environment
+2.2.1. Source Code Encoding
+3. An Informal Introduction to Python
+3.1. Using Python as a Calculator
+3.1.1. Numbers
+3.1.2. Text
+3.1.3. Lists
+3.2. First Steps Towards Programming
+4. More Control Flow Tools
+4.1. if Statements
+4.2. for Statements
+4.3. The range() Function
+4.4. break and continue Statements
+4.5. else Clauses on Loops
+4.6. pass Statements
+4.7. match Statements
+4.8. Defining Functions
+4.9. More on Defining Functions
+4.9.1. Default Argument Values
+4.9.2. Keyword Arguments
+4.9.3. Special parameters
+4.9.3.1. Positional-or-Keyword Arguments
+4.9.3.2. Positional-Only Parameters
+4.9.3.3. Keyword-Only Arguments
+4.9.3.4. Function Examples
+4.9.3.5. Recap
+4.9.4. Arbitrary Argument Lists
+4.9.5. Unpacking Argument Lists
+4.9.6. Lambda Expressions
+4.9.7. Documentation Strings
+4.9.8. Function Annotations
+4.10. Intermezzo: Coding Style
+5. Data Structures
+5.1. More on Lists
+5.1.1. Using Lists as Stacks
+5.1.2. Using Lists as Queues
+5.1.3. List Comprehensions
+5.1.4. Nested List Comprehensions
+5.2. The del statement
+5.3. Tuples and Sequences
+5.4. Sets
+5.5. Dictionaries
+5.6. Looping Techniques
+5.7. More on Conditions
+5.8. Comparing Sequences and Other Types
+6. Modules
+6.1. More on Modules
+6.1.1. Executing modules as scripts
+6.1.2. The Module Search Path
+6.1.3. “Compiled” Python files
+6.2. Standard Modules
+6.3. The dir() Function
+6.4. Packages
+6.4.1. Importing * From a Package
+6.4.2. Intra-package References
+6.4.3. Packages in Multiple Directories
+7. Input and Output
+7.1. Fancier Output Formatting
+7.1.1. Formatted String Literals
+7.1.2. The String format() Method
+7.1.3. Manual String Formatting
+7.1.4. Old string formatting
+7.2. Reading and Writing Files
+7.2.1. Methods of File Objects
+7.2.2. Saving structured data with json
+8. Errors and Exceptions
+8.1. Syntax Errors
+8.2. Exceptions
+8.3. Handling Exceptions
+8.4. Raising Exceptions
+8.5. Exception Chaining
+8.6. User-defined Exceptions
+8.7. Defining Clean-up Actions
+8.8. Predefined Clean-up Actions
+8.9. Raising and Handling Multiple Unrelated Exceptions
+8.10. Enriching Exceptions with Notes
+9. Classes
+9.1. A Word About Names and Objects
+9.2. Python Scopes and Namespaces
+9.2.1. Scopes and Namespaces Example
+9.3. A First Look at Classes
+9.3.1. Class Definition Syntax
+9.3.2. Class Objects
+9.3.3. Instance Objects
+9.3.4. Method Objects
+9.3.5. Class and Instance Variables
+9.4. Random Remarks
+9.5. Inheritance
+9.5.1. Multiple Inheritance
+9.6. Private Variables
+9.7. Odds and Ends
+9.8. Iterators
+9.9. Generators
+9.10. Generator Expressions
+10. Brief Tour of the Standard Library
+10.1. Operating System Interface
+10.2. File Wildcards
+10.3. Command Line Arguments
+10.4. Error Output Redirection and Program Termination
+10.5. String Pattern Matching
+10.6. Mathematics
+10.7. Internet Access
+10.8. Dates and Times
+10.9. Data Compression
+10.10. Performance Measurement
+10.11. Quality Control
+10.12. Batteries Included
+11. Brief Tour of the Standard Library — Part II
+11.1. Output Formatting
+11.2. Templating
+11.3. Working with Binary Data Record Layouts
+11.4. Multi-threading
+11.5. Logging
+11.6. Weak References
+11.7. Tools for Working with Lists
+11.8. Decimal Floating-Point Arithmetic
+12. Virtual Environments and Packages
+12.1. Introduction
+12.2. Creating Virtual Environments
+12.3. Managing Packages with pip
+13. What Now?
+14. Interactive Input Editing and History Substitution
+14.1. Tab Completion and History Editing
+14.2. Alternatives to the Interactive Interpreter
+15. Floating-Point Arithmetic: Issues and Limitations
+15.1. Representation Error
+16. Appendix
+16.1. Interactive Mode
+16.1.1. Error Handling
+16.1.2. Executable Python Scripts
+16.1.3. The Interactive Startup File
+16.1.4. The Customization Modules",True,"{'x': 245.9943084716797, 'y': 69.74431610107422, 'width': 819.1902618408203, 'height': 4292.414375305176}",html > body > div:nth-of-type(3) > div > div > div,main,,body,,True,False,5921,2,div
+https://docs.python.org/3/tutorial/index.html,content,input,"{'type': 'checkbox', 'id': 'menuToggler', 'class': 'toggler__input', 'aria-controls': 'navigation', 'aria-pressed': 'false', 'aria-expanded': 'false', 'role': 'button', 'aria-label': 'Menu'}",,False,,input#menuToggler,button,Menu,toggler__input,menuToggler,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,nav,"{'class': 'nav-content', 'role': 'navigation'}",dev (3.14)3.13.13.123.113.103.93.83.73.63.53.43.33.23.13.02.72.6,False,,html > body > div > nav,navigation,,nav-content,,False,False,64,2,div
+https://docs.python.org/3/tutorial/index.html,content,div,{'class': 'menu-wrapper'},"EnglishSpanishFrenchItalianJapaneseKoreanPolishBrazilian PortugueseTurkishSimplified ChineseTraditional Chinese
+            
+
+    Theme
+    
+        Auto
+        Light
+        Dark
+    
+
+  
+    Previous topic
+    Changelog
+  
+  
+    Next topic
+    1. Whetting Your Appetite
+  
+  
+    This Page
+    
+      Report a Bug
+      
+        Show Source",False,,html > body > div > div,,,menu-wrapper,,False,False,344,1,div
+https://docs.python.org/3/tutorial/index.html,content,nav,"{'class': 'menu', 'role': 'navigation', 'aria-label': 'main navigation', 'tabindex': '-1'}","EnglishSpanishFrenchItalianJapaneseKoreanPolishBrazilian PortugueseTurkishSimplified ChineseTraditional Chinese
+            
+
+    Theme
+    
+        Auto
+        Light
+        Dark
+    
+
+  
+    Previous topic
+    Changelog
+  
+  
+    Next topic
+    1. Whetting Your Appetite
+  
+  
+    This Page
+    
+      Report a Bug
+      
+        Show Source",False,,html > body > div > div > nav,navigation,main navigation,menu,,False,False,344,5,div
+https://docs.python.org/3/tutorial/index.html,content,select,{'class': 'language-select'},EnglishSpanishFrenchItalianJapaneseKoreanPolishBrazilian PortugueseTurkishSimplified ChineseTraditional Chinese,False,,html > body > div > div > nav > div > select,,,language-select,,False,False,111,11,div
+https://docs.python.org/3/tutorial/index.html,content,h4,{},Previous topic,False,,html > body > div > div > nav > div:nth-of-type(2) > h4,,,,,False,False,14,0,div
+https://docs.python.org/3/tutorial/index.html,content,p,{'class': 'topless'},Changelog,False,,html > body > div > div > nav > div:nth-of-type(2) > p,,,topless,,False,False,9,1,div
+https://docs.python.org/3/tutorial/index.html,content,h4,{},Next topic,False,,html > body > div > div > nav > div:nth-of-type(3) > h4,,,,,False,False,10,0,div
+https://docs.python.org/3/tutorial/index.html,content,p,{'class': 'topless'},1. Whetting Your Appetite,False,,html > body > div > div > nav > div:nth-of-type(3) > p,,,topless,,False,False,25,1,div
+https://docs.python.org/3/tutorial/index.html,content,h3,{},This Page,False,,html > body > div > div > nav > div:nth-of-type(4) > h3,,,,,False,False,9,0,div
+https://docs.python.org/3/tutorial/index.html,content,ul,{'class': 'this-page-menu'},"Report a Bug
+      
+        Show Source",False,,html > body > div > div > nav > div:nth-of-type(4) > ul,,,this-page-menu,,False,False,39,2,div
+https://docs.python.org/3/tutorial/index.html,content,h3,{},Navigation,False,,html > body > div:nth-of-type(2) > h3,,,,,False,False,10,0,div
+https://docs.python.org/3/tutorial/index.html,content,ul,{},"index
+modules |
+next |
+previous |
+ Python » 
+English
+Spanish
+French
+Italian
+Japanese
+Korean
+Polish
+Brazilian Portuguese
+Turkish
+Simplified Chinese
+Traditional Chinese
+dev (3.14)
+3.13.1
+3.12
+3.11
+3.10
+3.9
+3.8
+3.7
+3.6
+3.5
+3.4
+3.3
+3.2
+3.1
+3.0
+2.7
+2.6
+ 3.13.1 Documentation » The Python Tutorial
+  |
+Theme 
+Auto
+Light
+Dark
+ |",True,"{'x': 15.994318008422852, 'y': 14.374999046325684, 'width': 1231.6476497650146, 'height': 30.000000953674316}",html > body > div:nth-of-type(2) > ul,,,,,True,False,321,12,div
+https://docs.python.org/3/tutorial/index.html,content,select,{'class': 'language-select'},"English
+Spanish
+French
+Italian
+Japanese
+Korean
+Polish
+Brazilian Portuguese
+Turkish
+Simplified Chinese
+Traditional Chinese",True,"{'x': 105.78125, 'y': 21.64772605895996, 'width': 146.36363220214844, 'height': 18.18181800842285}",html > body > div:nth-of-type(2) > ul > li:nth-of-type(7) > div > select,,,language-select,,True,False,121,11,div
+https://docs.python.org/3/tutorial/index.html,content,select,{'class': 'version-select'},"dev (3.14)
+3.13.1
+3.12
+3.11
+3.10
+3.9
+3.8
+3.7
+3.6
+3.5
+3.4
+3.3
+3.2
+3.1
+3.0
+2.7
+2.6",True,"{'x': 257.1448669433594, 'y': 21.64772605895996, 'width': 83.63638305664062, 'height': 18.18181800842285}",html > body > div:nth-of-type(2) > ul > li:nth-of-type(7) > div:nth-of-type(2) > select,,,version-select,,True,False,80,17,div
+https://docs.python.org/3/tutorial/index.html,content,form,"{'class': 'inline-search', 'action': '../search.html', 'method': 'get'}",,True,"{'x': 831.803955078125, 'y': 19.829544067382812, 'width': 190.05682373046875, 'height': 19.09090805053711}",html > body > div:nth-of-type(2) > ul > li:nth-of-type(11) > div > form,,,inline-search,,True,False,0,2,div
+https://docs.python.org/3/tutorial/index.html,content,div,{'class': 'documentwrapper'},"The Python Tutorial
+
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+
+The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.
+
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.
+
+This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well.
+
+For a description of standard objects and modules, see The Python Standard Library. The Python Language Reference gives a more formal definition of the language. To write extensions in C or C++, read Extending and Embedding the Python Interpreter and Python/C API Reference Manual. There are also several books covering Python in depth.
+
+This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in The Python Standard Library.
+
+The Glossary is also worth going through.
+
+1. Whetting Your Appetite
+2. Using the Python Interpreter
+2.1. Invoking the Interpreter
+2.1.1. Argument Passing
+2.1.2. Interactive Mode
+2.2. The Interpreter and Its Environment
+2.2.1. Source Code Encoding
+3. An Informal Introduction to Python
+3.1. Using Python as a Calculator
+3.1.1. Numbers
+3.1.2. Text
+3.1.3. Lists
+3.2. First Steps Towards Programming
+4. More Control Flow Tools
+4.1. if Statements
+4.2. for Statements
+4.3. The range() Function
+4.4. break and continue Statements
+4.5. else Clauses on Loops
+4.6. pass Statements
+4.7. match Statements
+4.8. Defining Functions
+4.9. More on Defining Functions
+4.9.1. Default Argument Values
+4.9.2. Keyword Arguments
+4.9.3. Special parameters
+4.9.3.1. Positional-or-Keyword Arguments
+4.9.3.2. Positional-Only Parameters
+4.9.3.3. Keyword-Only Arguments
+4.9.3.4. Function Examples
+4.9.3.5. Recap
+4.9.4. Arbitrary Argument Lists
+4.9.5. Unpacking Argument Lists
+4.9.6. Lambda Expressions
+4.9.7. Documentation Strings
+4.9.8. Function Annotations
+4.10. Intermezzo: Coding Style
+5. Data Structures
+5.1. More on Lists
+5.1.1. Using Lists as Stacks
+5.1.2. Using Lists as Queues
+5.1.3. List Comprehensions
+5.1.4. Nested List Comprehensions
+5.2. The del statement
+5.3. Tuples and Sequences
+5.4. Sets
+5.5. Dictionaries
+5.6. Looping Techniques
+5.7. More on Conditions
+5.8. Comparing Sequences and Other Types
+6. Modules
+6.1. More on Modules
+6.1.1. Executing modules as scripts
+6.1.2. The Module Search Path
+6.1.3. “Compiled” Python files
+6.2. Standard Modules
+6.3. The dir() Function
+6.4. Packages
+6.4.1. Importing * From a Package
+6.4.2. Intra-package References
+6.4.3. Packages in Multiple Directories
+7. Input and Output
+7.1. Fancier Output Formatting
+7.1.1. Formatted String Literals
+7.1.2. The String format() Method
+7.1.3. Manual String Formatting
+7.1.4. Old string formatting
+7.2. Reading and Writing Files
+7.2.1. Methods of File Objects
+7.2.2. Saving structured data with json
+8. Errors and Exceptions
+8.1. Syntax Errors
+8.2. Exceptions
+8.3. Handling Exceptions
+8.4. Raising Exceptions
+8.5. Exception Chaining
+8.6. User-defined Exceptions
+8.7. Defining Clean-up Actions
+8.8. Predefined Clean-up Actions
+8.9. Raising and Handling Multiple Unrelated Exceptions
+8.10. Enriching Exceptions with Notes
+9. Classes
+9.1. A Word About Names and Objects
+9.2. Python Scopes and Namespaces
+9.2.1. Scopes and Namespaces Example
+9.3. A First Look at Classes
+9.3.1. Class Definition Syntax
+9.3.2. Class Objects
+9.3.3. Instance Objects
+9.3.4. Method Objects
+9.3.5. Class and Instance Variables
+9.4. Random Remarks
+9.5. Inheritance
+9.5.1. Multiple Inheritance
+9.6. Private Variables
+9.7. Odds and Ends
+9.8. Iterators
+9.9. Generators
+9.10. Generator Expressions
+10. Brief Tour of the Standard Library
+10.1. Operating System Interface
+10.2. File Wildcards
+10.3. Command Line Arguments
+10.4. Error Output Redirection and Program Termination
+10.5. String Pattern Matching
+10.6. Mathematics
+10.7. Internet Access
+10.8. Dates and Times
+10.9. Data Compression
+10.10. Performance Measurement
+10.11. Quality Control
+10.12. Batteries Included
+11. Brief Tour of the Standard Library — Part II
+11.1. Output Formatting
+11.2. Templating
+11.3. Working with Binary Data Record Layouts
+11.4. Multi-threading
+11.5. Logging
+11.6. Weak References
+11.7. Tools for Working with Lists
+11.8. Decimal Floating-Point Arithmetic
+12. Virtual Environments and Packages
+12.1. Introduction
+12.2. Creating Virtual Environments
+12.3. Managing Packages with pip
+13. What Now?
+14. Interactive Input Editing and History Substitution
+14.1. Tab Completion and History Editing
+14.2. Alternatives to the Interactive Interpreter
+15. Floating-Point Arithmetic: Issues and Limitations
+15.1. Representation Error
+16. Appendix
+16.1. Interactive Mode
+16.1.1. Error Handling
+16.1.2. Executable Python Scripts
+16.1.3. The Interactive Startup File
+16.1.4. The Customization Modules",True,"{'x': 15.994318008422852, 'y': 69.74431610107422, 'width': 1231.6476497650146, 'height': 4308.409004211426}",html > body > div:nth-of-type(3) > div,,,documentwrapper,,True,False,5921,1,div
+https://docs.python.org/3/tutorial/index.html,content,div,{'class': 'bodywrapper'},"The Python Tutorial
+
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+
+The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.
+
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.
+
+This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well.
+
+For a description of standard objects and modules, see The Python Standard Library. The Python Language Reference gives a more formal definition of the language. To write extensions in C or C++, read Extending and Embedding the Python Interpreter and Python/C API Reference Manual. There are also several books covering Python in depth.
+
+This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in The Python Standard Library.
+
+The Glossary is also worth going through.
+
+1. Whetting Your Appetite
+2. Using the Python Interpreter
+2.1. Invoking the Interpreter
+2.1.1. Argument Passing
+2.1.2. Interactive Mode
+2.2. The Interpreter and Its Environment
+2.2.1. Source Code Encoding
+3. An Informal Introduction to Python
+3.1. Using Python as a Calculator
+3.1.1. Numbers
+3.1.2. Text
+3.1.3. Lists
+3.2. First Steps Towards Programming
+4. More Control Flow Tools
+4.1. if Statements
+4.2. for Statements
+4.3. The range() Function
+4.4. break and continue Statements
+4.5. else Clauses on Loops
+4.6. pass Statements
+4.7. match Statements
+4.8. Defining Functions
+4.9. More on Defining Functions
+4.9.1. Default Argument Values
+4.9.2. Keyword Arguments
+4.9.3. Special parameters
+4.9.3.1. Positional-or-Keyword Arguments
+4.9.3.2. Positional-Only Parameters
+4.9.3.3. Keyword-Only Arguments
+4.9.3.4. Function Examples
+4.9.3.5. Recap
+4.9.4. Arbitrary Argument Lists
+4.9.5. Unpacking Argument Lists
+4.9.6. Lambda Expressions
+4.9.7. Documentation Strings
+4.9.8. Function Annotations
+4.10. Intermezzo: Coding Style
+5. Data Structures
+5.1. More on Lists
+5.1.1. Using Lists as Stacks
+5.1.2. Using Lists as Queues
+5.1.3. List Comprehensions
+5.1.4. Nested List Comprehensions
+5.2. The del statement
+5.3. Tuples and Sequences
+5.4. Sets
+5.5. Dictionaries
+5.6. Looping Techniques
+5.7. More on Conditions
+5.8. Comparing Sequences and Other Types
+6. Modules
+6.1. More on Modules
+6.1.1. Executing modules as scripts
+6.1.2. The Module Search Path
+6.1.3. “Compiled” Python files
+6.2. Standard Modules
+6.3. The dir() Function
+6.4. Packages
+6.4.1. Importing * From a Package
+6.4.2. Intra-package References
+6.4.3. Packages in Multiple Directories
+7. Input and Output
+7.1. Fancier Output Formatting
+7.1.1. Formatted String Literals
+7.1.2. The String format() Method
+7.1.3. Manual String Formatting
+7.1.4. Old string formatting
+7.2. Reading and Writing Files
+7.2.1. Methods of File Objects
+7.2.2. Saving structured data with json
+8. Errors and Exceptions
+8.1. Syntax Errors
+8.2. Exceptions
+8.3. Handling Exceptions
+8.4. Raising Exceptions
+8.5. Exception Chaining
+8.6. User-defined Exceptions
+8.7. Defining Clean-up Actions
+8.8. Predefined Clean-up Actions
+8.9. Raising and Handling Multiple Unrelated Exceptions
+8.10. Enriching Exceptions with Notes
+9. Classes
+9.1. A Word About Names and Objects
+9.2. Python Scopes and Namespaces
+9.2.1. Scopes and Namespaces Example
+9.3. A First Look at Classes
+9.3.1. Class Definition Syntax
+9.3.2. Class Objects
+9.3.3. Instance Objects
+9.3.4. Method Objects
+9.3.5. Class and Instance Variables
+9.4. Random Remarks
+9.5. Inheritance
+9.5.1. Multiple Inheritance
+9.6. Private Variables
+9.7. Odds and Ends
+9.8. Iterators
+9.9. Generators
+9.10. Generator Expressions
+10. Brief Tour of the Standard Library
+10.1. Operating System Interface
+10.2. File Wildcards
+10.3. Command Line Arguments
+10.4. Error Output Redirection and Program Termination
+10.5. String Pattern Matching
+10.6. Mathematics
+10.7. Internet Access
+10.8. Dates and Times
+10.9. Data Compression
+10.10. Performance Measurement
+10.11. Quality Control
+10.12. Batteries Included
+11. Brief Tour of the Standard Library — Part II
+11.1. Output Formatting
+11.2. Templating
+11.3. Working with Binary Data Record Layouts
+11.4. Multi-threading
+11.5. Logging
+11.6. Weak References
+11.7. Tools for Working with Lists
+11.8. Decimal Floating-Point Arithmetic
+12. Virtual Environments and Packages
+12.1. Introduction
+12.2. Creating Virtual Environments
+12.3. Managing Packages with pip
+13. What Now?
+14. Interactive Input Editing and History Substitution
+14.1. Tab Completion and History Editing
+14.2. Alternatives to the Interactive Interpreter
+15. Floating-Point Arithmetic: Issues and Limitations
+15.1. Representation Error
+16. Appendix
+16.1. Interactive Mode
+16.1.1. Error Handling
+16.1.2. Executable Python Scripts
+16.1.3. The Interactive Startup File
+16.1.4. The Customization Modules",True,"{'x': 245.9943084716797, 'y': 69.74431610107422, 'width': 1001.6476593017578, 'height': 4292.414375305176}",html > body > div:nth-of-type(3) > div > div,,,bodywrapper,,True,False,5921,1,div
+https://docs.python.org/3/tutorial/index.html,content,div,"{'class': 'body', 'role': 'main'}","The Python Tutorial
+
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+
+The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.
+
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.
+
+This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well.
+
+For a description of standard objects and modules, see The Python Standard Library. The Python Language Reference gives a more formal definition of the language. To write extensions in C or C++, read Extending and Embedding the Python Interpreter and Python/C API Reference Manual. There are also several books covering Python in depth.
+
+This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in The Python Standard Library.
+
+The Glossary is also worth going through.
+
+1. Whetting Your Appetite
+2. Using the Python Interpreter
+2.1. Invoking the Interpreter
+2.1.1. Argument Passing
+2.1.2. Interactive Mode
+2.2. The Interpreter and Its Environment
+2.2.1. Source Code Encoding
+3. An Informal Introduction to Python
+3.1. Using Python as a Calculator
+3.1.1. Numbers
+3.1.2. Text
+3.1.3. Lists
+3.2. First Steps Towards Programming
+4. More Control Flow Tools
+4.1. if Statements
+4.2. for Statements
+4.3. The range() Function
+4.4. break and continue Statements
+4.5. else Clauses on Loops
+4.6. pass Statements
+4.7. match Statements
+4.8. Defining Functions
+4.9. More on Defining Functions
+4.9.1. Default Argument Values
+4.9.2. Keyword Arguments
+4.9.3. Special parameters
+4.9.3.1. Positional-or-Keyword Arguments
+4.9.3.2. Positional-Only Parameters
+4.9.3.3. Keyword-Only Arguments
+4.9.3.4. Function Examples
+4.9.3.5. Recap
+4.9.4. Arbitrary Argument Lists
+4.9.5. Unpacking Argument Lists
+4.9.6. Lambda Expressions
+4.9.7. Documentation Strings
+4.9.8. Function Annotations
+4.10. Intermezzo: Coding Style
+5. Data Structures
+5.1. More on Lists
+5.1.1. Using Lists as Stacks
+5.1.2. Using Lists as Queues
+5.1.3. List Comprehensions
+5.1.4. Nested List Comprehensions
+5.2. The del statement
+5.3. Tuples and Sequences
+5.4. Sets
+5.5. Dictionaries
+5.6. Looping Techniques
+5.7. More on Conditions
+5.8. Comparing Sequences and Other Types
+6. Modules
+6.1. More on Modules
+6.1.1. Executing modules as scripts
+6.1.2. The Module Search Path
+6.1.3. “Compiled” Python files
+6.2. Standard Modules
+6.3. The dir() Function
+6.4. Packages
+6.4.1. Importing * From a Package
+6.4.2. Intra-package References
+6.4.3. Packages in Multiple Directories
+7. Input and Output
+7.1. Fancier Output Formatting
+7.1.1. Formatted String Literals
+7.1.2. The String format() Method
+7.1.3. Manual String Formatting
+7.1.4. Old string formatting
+7.2. Reading and Writing Files
+7.2.1. Methods of File Objects
+7.2.2. Saving structured data with json
+8. Errors and Exceptions
+8.1. Syntax Errors
+8.2. Exceptions
+8.3. Handling Exceptions
+8.4. Raising Exceptions
+8.5. Exception Chaining
+8.6. User-defined Exceptions
+8.7. Defining Clean-up Actions
+8.8. Predefined Clean-up Actions
+8.9. Raising and Handling Multiple Unrelated Exceptions
+8.10. Enriching Exceptions with Notes
+9. Classes
+9.1. A Word About Names and Objects
+9.2. Python Scopes and Namespaces
+9.2.1. Scopes and Namespaces Example
+9.3. A First Look at Classes
+9.3.1. Class Definition Syntax
+9.3.2. Class Objects
+9.3.3. Instance Objects
+9.3.4. Method Objects
+9.3.5. Class and Instance Variables
+9.4. Random Remarks
+9.5. Inheritance
+9.5.1. Multiple Inheritance
+9.6. Private Variables
+9.7. Odds and Ends
+9.8. Iterators
+9.9. Generators
+9.10. Generator Expressions
+10. Brief Tour of the Standard Library
+10.1. Operating System Interface
+10.2. File Wildcards
+10.3. Command Line Arguments
+10.4. Error Output Redirection and Program Termination
+10.5. String Pattern Matching
+10.6. Mathematics
+10.7. Internet Access
+10.8. Dates and Times
+10.9. Data Compression
+10.10. Performance Measurement
+10.11. Quality Control
+10.12. Batteries Included
+11. Brief Tour of the Standard Library — Part II
+11.1. Output Formatting
+11.2. Templating
+11.3. Working with Binary Data Record Layouts
+11.4. Multi-threading
+11.5. Logging
+11.6. Weak References
+11.7. Tools for Working with Lists
+11.8. Decimal Floating-Point Arithmetic
+12. Virtual Environments and Packages
+12.1. Introduction
+12.2. Creating Virtual Environments
+12.3. Managing Packages with pip
+13. What Now?
+14. Interactive Input Editing and History Substitution
+14.1. Tab Completion and History Editing
+14.2. Alternatives to the Interactive Interpreter
+15. Floating-Point Arithmetic: Issues and Limitations
+15.1. Representation Error
+16. Appendix
+16.1. Interactive Mode
+16.1.1. Error Handling
+16.1.2. Executable Python Scripts
+16.1.3. The Interactive Startup File
+16.1.4. The Customization Modules",True,"{'x': 245.9943084716797, 'y': 69.74431610107422, 'width': 819.1902618408203, 'height': 4292.414375305176}",html > body > div:nth-of-type(3) > div > div > div,main,,body,,True,False,5921,2,div
+https://docs.python.org/3/tutorial/index.html,content,section,{'id': 'the-python-tutorial'},"The Python Tutorial
+
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+
+The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.
+
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.
+
+This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well.
+
+For a description of standard objects and modules, see The Python Standard Library. The Python Language Reference gives a more formal definition of the language. To write extensions in C or C++, read Extending and Embedding the Python Interpreter and Python/C API Reference Manual. There are also several books covering Python in depth.
+
+This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in The Python Standard Library.
+
+The Glossary is also worth going through.
+
+1. Whetting Your Appetite
+2. Using the Python Interpreter
+2.1. Invoking the Interpreter
+2.1.1. Argument Passing
+2.1.2. Interactive Mode
+2.2. The Interpreter and Its Environment
+2.2.1. Source Code Encoding
+3. An Informal Introduction to Python
+3.1. Using Python as a Calculator
+3.1.1. Numbers
+3.1.2. Text
+3.1.3. Lists
+3.2. First Steps Towards Programming
+4. More Control Flow Tools
+4.1. if Statements
+4.2. for Statements
+4.3. The range() Function
+4.4. break and continue Statements
+4.5. else Clauses on Loops
+4.6. pass Statements
+4.7. match Statements
+4.8. Defining Functions
+4.9. More on Defining Functions
+4.9.1. Default Argument Values
+4.9.2. Keyword Arguments
+4.9.3. Special parameters
+4.9.3.1. Positional-or-Keyword Arguments
+4.9.3.2. Positional-Only Parameters
+4.9.3.3. Keyword-Only Arguments
+4.9.3.4. Function Examples
+4.9.3.5. Recap
+4.9.4. Arbitrary Argument Lists
+4.9.5. Unpacking Argument Lists
+4.9.6. Lambda Expressions
+4.9.7. Documentation Strings
+4.9.8. Function Annotations
+4.10. Intermezzo: Coding Style
+5. Data Structures
+5.1. More on Lists
+5.1.1. Using Lists as Stacks
+5.1.2. Using Lists as Queues
+5.1.3. List Comprehensions
+5.1.4. Nested List Comprehensions
+5.2. The del statement
+5.3. Tuples and Sequences
+5.4. Sets
+5.5. Dictionaries
+5.6. Looping Techniques
+5.7. More on Conditions
+5.8. Comparing Sequences and Other Types
+6. Modules
+6.1. More on Modules
+6.1.1. Executing modules as scripts
+6.1.2. The Module Search Path
+6.1.3. “Compiled” Python files
+6.2. Standard Modules
+6.3. The dir() Function
+6.4. Packages
+6.4.1. Importing * From a Package
+6.4.2. Intra-package References
+6.4.3. Packages in Multiple Directories
+7. Input and Output
+7.1. Fancier Output Formatting
+7.1.1. Formatted String Literals
+7.1.2. The String format() Method
+7.1.3. Manual String Formatting
+7.1.4. Old string formatting
+7.2. Reading and Writing Files
+7.2.1. Methods of File Objects
+7.2.2. Saving structured data with json
+8. Errors and Exceptions
+8.1. Syntax Errors
+8.2. Exceptions
+8.3. Handling Exceptions
+8.4. Raising Exceptions
+8.5. Exception Chaining
+8.6. User-defined Exceptions
+8.7. Defining Clean-up Actions
+8.8. Predefined Clean-up Actions
+8.9. Raising and Handling Multiple Unrelated Exceptions
+8.10. Enriching Exceptions with Notes
+9. Classes
+9.1. A Word About Names and Objects
+9.2. Python Scopes and Namespaces
+9.2.1. Scopes and Namespaces Example
+9.3. A First Look at Classes
+9.3.1. Class Definition Syntax
+9.3.2. Class Objects
+9.3.3. Instance Objects
+9.3.4. Method Objects
+9.3.5. Class and Instance Variables
+9.4. Random Remarks
+9.5. Inheritance
+9.5.1. Multiple Inheritance
+9.6. Private Variables
+9.7. Odds and Ends
+9.8. Iterators
+9.9. Generators
+9.10. Generator Expressions
+10. Brief Tour of the Standard Library
+10.1. Operating System Interface
+10.2. File Wildcards
+10.3. Command Line Arguments
+10.4. Error Output Redirection and Program Termination
+10.5. String Pattern Matching
+10.6. Mathematics
+10.7. Internet Access
+10.8. Dates and Times
+10.9. Data Compression
+10.10. Performance Measurement
+10.11. Quality Control
+10.12. Batteries Included
+11. Brief Tour of the Standard Library — Part II
+11.1. Output Formatting
+11.2. Templating
+11.3. Working with Binary Data Record Layouts
+11.4. Multi-threading
+11.5. Logging
+11.6. Weak References
+11.7. Tools for Working with Lists
+11.8. Decimal Floating-Point Arithmetic
+12. Virtual Environments and Packages
+12.1. Introduction
+12.2. Creating Virtual Environments
+12.3. Managing Packages with pip
+13. What Now?
+14. Interactive Input Editing and History Substitution
+14.1. Tab Completion and History Editing
+14.2. Alternatives to the Interactive Interpreter
+15. Floating-Point Arithmetic: Issues and Limitations
+15.1. Representation Error
+16. Appendix
+16.1. Interactive Mode
+16.1.1. Error Handling
+16.1.2. Executable Python Scripts
+16.1.3. The Interactive Startup File
+16.1.4. The Customization Modules",True,"{'x': 265.1846618652344, 'y': 69.74431610107422, 'width': 799.9999084472656, 'height': 4292.414375305176}",section#the-python-tutorial,,,,the-python-tutorial,True,False,5921,10,div
+https://docs.python.org/3/tutorial/index.html,content,ul,{},"1. Whetting Your Appetite
+2. Using the Python Interpreter
+2.1. Invoking the Interpreter
+2.1.1. Argument Passing
+2.1.2. Interactive Mode
+2.2. The Interpreter and Its Environment
+2.2.1. Source Code Encoding
+3. An Informal Introduction to Python
+3.1. Using Python as a Calculator
+3.1.1. Numbers
+3.1.2. Text
+3.1.3. Lists
+3.2. First Steps Towards Programming
+4. More Control Flow Tools
+4.1. if Statements
+4.2. for Statements
+4.3. The range() Function
+4.4. break and continue Statements
+4.5. else Clauses on Loops
+4.6. pass Statements
+4.7. match Statements
+4.8. Defining Functions
+4.9. More on Defining Functions
+4.9.1. Default Argument Values
+4.9.2. Keyword Arguments
+4.9.3. Special parameters
+4.9.3.1. Positional-or-Keyword Arguments
+4.9.3.2. Positional-Only Parameters
+4.9.3.3. Keyword-Only Arguments
+4.9.3.4. Function Examples
+4.9.3.5. Recap
+4.9.4. Arbitrary Argument Lists
+4.9.5. Unpacking Argument Lists
+4.9.6. Lambda Expressions
+4.9.7. Documentation Strings
+4.9.8. Function Annotations
+4.10. Intermezzo: Coding Style
+5. Data Structures
+5.1. More on Lists
+5.1.1. Using Lists as Stacks
+5.1.2. Using Lists as Queues
+5.1.3. List Comprehensions
+5.1.4. Nested List Comprehensions
+5.2. The del statement
+5.3. Tuples and Sequences
+5.4. Sets
+5.5. Dictionaries
+5.6. Looping Techniques
+5.7. More on Conditions
+5.8. Comparing Sequences and Other Types
+6. Modules
+6.1. More on Modules
+6.1.1. Executing modules as scripts
+6.1.2. The Module Search Path
+6.1.3. “Compiled” Python files
+6.2. Standard Modules
+6.3. The dir() Function
+6.4. Packages
+6.4.1. Importing * From a Package
+6.4.2. Intra-package References
+6.4.3. Packages in Multiple Directories
+7. Input and Output
+7.1. Fancier Output Formatting
+7.1.1. Formatted String Literals
+7.1.2. The String format() Method
+7.1.3. Manual String Formatting
+7.1.4. Old string formatting
+7.2. Reading and Writing Files
+7.2.1. Methods of File Objects
+7.2.2. Saving structured data with json
+8. Errors and Exceptions
+8.1. Syntax Errors
+8.2. Exceptions
+8.3. Handling Exceptions
+8.4. Raising Exceptions
+8.5. Exception Chaining
+8.6. User-defined Exceptions
+8.7. Defining Clean-up Actions
+8.8. Predefined Clean-up Actions
+8.9. Raising and Handling Multiple Unrelated Exceptions
+8.10. Enriching Exceptions with Notes
+9. Classes
+9.1. A Word About Names and Objects
+9.2. Python Scopes and Namespaces
+9.2.1. Scopes and Namespaces Example
+9.3. A First Look at Classes
+9.3.1. Class Definition Syntax
+9.3.2. Class Objects
+9.3.3. Instance Objects
+9.3.4. Method Objects
+9.3.5. Class and Instance Variables
+9.4. Random Remarks
+9.5. Inheritance
+9.5.1. Multiple Inheritance
+9.6. Private Variables
+9.7. Odds and Ends
+9.8. Iterators
+9.9. Generators
+9.10. Generator Expressions
+10. Brief Tour of the Standard Library
+10.1. Operating System Interface
+10.2. File Wildcards
+10.3. Command Line Arguments
+10.4. Error Output Redirection and Program Termination
+10.5. String Pattern Matching
+10.6. Mathematics
+10.7. Internet Access
+10.8. Dates and Times
+10.9. Data Compression
+10.10. Performance Measurement
+10.11. Quality Control
+10.12. Batteries Included
+11. Brief Tour of the Standard Library — Part II
+11.1. Output Formatting
+11.2. Templating
+11.3. Working with Binary Data Record Layouts
+11.4. Multi-threading
+11.5. Logging
+11.6. Weak References
+11.7. Tools for Working with Lists
+11.8. Decimal Floating-Point Arithmetic
+12. Virtual Environments and Packages
+12.1. Introduction
+12.2. Creating Virtual Environments
+12.3. Managing Packages with pip
+13. What Now?
+14. Interactive Input Editing and History Substitution
+14.1. Tab Completion and History Editing
+14.2. Alternatives to the Interactive Interpreter
+15. Floating-Point Arithmetic: Issues and Limitations
+15.1. Representation Error
+16. Appendix
+16.1. Interactive Mode
+16.1.1. Error Handling
+16.1.2. Executable Python Scripts
+16.1.3. The Interactive Startup File
+16.1.4. The Customization Modules",True,"{'x': 265.1846618652344, 'y': 847.9971313476562, 'width': 799.9999084472656, 'height': 3514.1615600585938}",section#the-python-tutorial > div > ul,,,,,True,False,3855,16,div
+https://docs.python.org/3/tutorial/index.html,content,div,{'class': 'clearer'},,False,"{'x': 265.1846618652344, 'y': 4378.1533203125, 'width': 799.9999084472656, 'height': 0}",html > body > div:nth-of-type(3) > div > div > div > div,,,clearer,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,div,"{'class': 'sphinxsidebar', 'role': 'navigation', 'aria-label': 'Main'}","Previous topic
+
+Changelog
+
+Next topic
+
+1. Whetting Your Appetite
+
+This Page
+Report a Bug
+Show Source
+«",True,"{'x': 15.994318008422852, 'y': 69.74431610107422, 'width': 229.99999046325684, 'height': 719.9999465942383}",html > body > div:nth-of-type(3) > div:nth-of-type(2),navigation,Main,sphinxsidebar,,True,False,102,2,div
+https://docs.python.org/3/tutorial/index.html,content,div,{'class': 'sphinxsidebarwrapper'},"Previous topic
+
+Changelog
+
+Next topic
+
+1. Whetting Your Appetite
+
+This Page
+Report a Bug
+Show Source",True,"{'x': 15.994318008422852, 'y': 69.74431610107422, 'width': 216.98862266540527, 'height': 719.9999465942383}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div,,,sphinxsidebarwrapper,,True,False,100,3,div
+https://docs.python.org/3/tutorial/index.html,content,div,{},"Previous topic
+
+Changelog",True,"{'x': 25.99431800842285, 'y': 105.73863220214844, 'width': 201.98862266540527, 'height': 39.659088134765625}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div,,,,,True,False,25,2,div
+https://docs.python.org/3/tutorial/index.html,content,h4,{},Previous topic,True,"{'x': 25.99431800842285, 'y': 105.73863220214844, 'width': 201.98862266540527, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div > h4,,,,,True,False,14,0,div
+https://docs.python.org/3/tutorial/index.html,content,p,{'class': 'topless'},Changelog,True,"{'x': 35.99431610107422, 'y': 128.06817626953125, 'width': 181.9886245727539, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div > p,,,topless,,True,False,9,1,div
+https://docs.python.org/3/tutorial/index.html,content,div,{},"Next topic
+
+1. Whetting Your Appetite",True,"{'x': 25.99431800842285, 'y': 171.3920440673828, 'width': 201.98862266540527, 'height': 39.659088134765625}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2),,,,,True,False,37,2,div
+https://docs.python.org/3/tutorial/index.html,content,h4,{},Next topic,True,"{'x': 25.99431800842285, 'y': 171.3920440673828, 'width': 201.98862266540527, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > h4,,,,,True,False,10,0,div
+https://docs.python.org/3/tutorial/index.html,content,p,{'class': 'topless'},1. Whetting Your Appetite,True,"{'x': 35.99431610107422, 'y': 193.72158813476562, 'width': 181.9886245727539, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > p,,,topless,,True,False,25,1,div
+https://docs.python.org/3/tutorial/index.html,content,div,"{'role': 'note', 'aria-label': 'source link'}","This Page
+Report a Bug
+Show Source",True,"{'x': 25.99431800842285, 'y': 239.0482940673828, 'width': 201.98862266540527, 'height': 61.98863220214844}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3),note,source link,,,True,False,34,2,div
+https://docs.python.org/3/tutorial/index.html,content,h3,{},This Page,True,"{'x': 25.99431800842285, 'y': 239.0482940673828, 'width': 201.98862266540527, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3) > h3,,,,,True,False,9,0,div
+https://docs.python.org/3/tutorial/index.html,content,ul,{'class': 'this-page-menu'},"Report a Bug
+Show Source",True,"{'x': 35.99431610107422, 'y': 266.3778381347656, 'width': 181.9886245727539, 'height': 34.659088134765625}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3) > ul,,,this-page-menu,,True,False,24,2,div
+https://docs.python.org/3/tutorial/index.html,content,div,"{'id': 'sidebarbutton', 'title': 'Collapse sidebar'}",«,True,"{'x': 234.00567626953125, 'y': 69.74431610107422, 'width': 11.988632202148438, 'height': 720.994270324707}",div#sidebarbutton,,,,sidebarbutton,True,False,1,1,div
+https://docs.python.org/3/tutorial/index.html,content,span,{},«,True,"{'x': 234.00567626953125, 'y': 70.73863220214844, 'width': 11.988632202148438, 'height': 719.9999542236328}",div#sidebarbutton > span,,,,,True,False,1,0,div
+https://docs.python.org/3/tutorial/index.html,content,div,{'class': 'clearer'},,False,"{'x': 245.9943084716797, 'y': 69.74431610107422, 'width': 0, 'height': 4308.409004211426}",html > body > div:nth-of-type(3) > div:nth-of-type(3),,,clearer,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,h3,{},Navigation,False,,html > body > div:nth-of-type(4) > h3,,,,,False,False,10,0,div
+https://docs.python.org/3/tutorial/index.html,content,ul,{},"index
+modules |
+next |
+previous |
+ Python » 
+English
+Spanish
+French
+Italian
+Japanese
+Korean
+Polish
+Brazilian Portuguese
+Turkish
+Simplified Chinese
+Traditional Chinese
+dev (3.14)
+3.13.1
+3.12
+3.11
+3.10
+3.9
+3.8
+3.7
+3.6
+3.5
+3.4
+3.3
+3.2
+3.1
+3.0
+2.7
+2.6
+ 3.13.1 Documentation » The Python Tutorial
+  |
+Theme 
+Auto
+Light
+Dark
+ |",True,"{'x': 15.994318008422852, 'y': 4393.4375, 'width': 1231.6476497650146, 'height': 30}",html > body > div:nth-of-type(4) > ul,,,,,True,False,321,12,div
+https://docs.python.org/3/tutorial/index.html,content,select,{'class': 'language-select'},"English
+Spanish
+French
+Italian
+Japanese
+Korean
+Polish
+Brazilian Portuguese
+Turkish
+Simplified Chinese
+Traditional Chinese",True,"{'x': 105.78125, 'y': 4400.7099609375, 'width': 146.36363220214844, 'height': 18.18212890625}",html > body > div:nth-of-type(4) > ul > li:nth-of-type(7) > div > select,,,language-select,,True,False,121,11,div
+https://docs.python.org/3/tutorial/index.html,content,select,{'class': 'version-select'},"dev (3.14)
+3.13.1
+3.12
+3.11
+3.10
+3.9
+3.8
+3.7
+3.6
+3.5
+3.4
+3.3
+3.2
+3.1
+3.0
+2.7
+2.6",True,"{'x': 257.1448669433594, 'y': 4400.7099609375, 'width': 83.63638305664062, 'height': 18.18212890625}",html > body > div:nth-of-type(4) > ul > li:nth-of-type(7) > div:nth-of-type(2) > select,,,version-select,,True,False,80,17,div
+https://docs.python.org/3/tutorial/index.html,content,form,"{'class': 'inline-search', 'action': '../search.html', 'method': 'get'}",,True,"{'x': 831.803955078125, 'y': 4398.89208984375, 'width': 190.05682373046875, 'height': 19.0908203125}",html > body > div:nth-of-type(4) > ul > li:nth-of-type(11) > div > form,,,inline-search,,True,False,0,2,div
+https://docs.python.org/3/tutorial/index.html,content,a,{'href': '../copyright.html'},Copyright,True,"{'x': 966.2926025390625, 'y': 4433.806640625, 'width': 55.625, 'height': 15.45458984375}",html > body > div:nth-of-type(5) > a,,,,,True,False,9,0,div
+https://docs.python.org/3/tutorial/index.html,content,br,{},,False,"{'x': 15.994318008422852, 'y': 4423.90625, 'width': 0, 'height': 0}",html > body > div:nth-of-type(5) > br,,,,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,br,{},,False,"{'x': 15.994318008422852, 'y': 4423.90625, 'width': 0, 'height': 0}",html > body > div:nth-of-type(5) > br:nth-of-type(2),,,,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,br,{},,False,"{'x': 15.994318008422852, 'y': 4423.90625, 'width': 0, 'height': 0}",html > body > div:nth-of-type(5) > br:nth-of-type(3),,,,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,a,{'href': '/license.html'},History and License,True,"{'x': 1017.8408813476562, 'y': 4487.79833984375, 'width': 102.67047119140625, 'height': 15.4541015625}",html > body > div:nth-of-type(5) > a:nth-of-type(2),,,,,True,False,19,0,div
+https://docs.python.org/3/tutorial/index.html,content,br,{},,False,"{'x': 15.994318008422852, 'y': 4423.90625, 'width': 0, 'height': 0}",html > body > div:nth-of-type(5) > br:nth-of-type(4),,,,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,br,{},,False,"{'x': 15.994318008422852, 'y': 4423.90625, 'width': 0, 'height': 0}",html > body > div:nth-of-type(5) > br:nth-of-type(5),,,,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,a,{'href': 'https://www.python.org/psf/donations/'},Please donate.,True,"{'x': 1161.036865234375, 'y': 4523.79248046875, 'width': 76.6051025390625, 'height': 15.45458984375}",html > body > div:nth-of-type(5) > a:nth-of-type(3),,,,,True,False,14,0,div
+https://docs.python.org/3/tutorial/index.html,content,br,{},,False,"{'x': 15.994318008422852, 'y': 4423.90625, 'width': 0, 'height': 0}",html > body > div:nth-of-type(5) > br:nth-of-type(6),,,,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,br,{},,False,"{'x': 15.994318008422852, 'y': 4423.90625, 'width': 0, 'height': 0}",html > body > div:nth-of-type(5) > br:nth-of-type(7),,,,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,a,{'href': '/bugs.html'},Found a bug,True,"{'x': 1165.1136474609375, 'y': 4559.78662109375, 'width': 67.144775390625, 'height': 15.45458984375}",html > body > div:nth-of-type(5) > a:nth-of-type(4),,,,,True,False,11,0,div
+https://docs.python.org/3/tutorial/index.html,content,br,{},,False,"{'x': 15.994318008422852, 'y': 4423.90625, 'width': 0, 'height': 0}",html > body > div:nth-of-type(5) > br:nth-of-type(8),,,,,False,False,0,0,div
+https://docs.python.org/3/tutorial/index.html,content,a,{'href': 'https://www.sphinx-doc.org/'},Sphinx,True,"{'x': 1171.7044677734375, 'y': 4577.78369140625, 'width': 35.4261474609375, 'height': 15.45458984375}",html > body > div:nth-of-type(5) > a:nth-of-type(5),,,,,True,False,6,0,div
+https://docs.python.org/3/tutorial/index.html,content,section,{'id': 'the-python-tutorial'},"The Python Tutorial
+
+Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.
+
+The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.
+
+The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.
+
+This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well.
+
+For a description of standard objects and modules, see The Python Standard Library. The Python Language Reference gives a more formal definition of the language. To write extensions in C or C++, read Extending and Embedding the Python Interpreter and Python/C API Reference Manual. There are also several books covering Python in depth.
+
+This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in The Python Standard Library.
+
+The Glossary is also worth going through.
+
+1. Whetting Your Appetite
+2. Using the Python Interpreter
+2.1. Invoking the Interpreter
+2.1.1. Argument Passing
+2.1.2. Interactive Mode
+2.2. The Interpreter and Its Environment
+2.2.1. Source Code Encoding
+3. An Informal Introduction to Python
+3.1. Using Python as a Calculator
+3.1.1. Numbers
+3.1.2. Text
+3.1.3. Lists
+3.2. First Steps Towards Programming
+4. More Control Flow Tools
+4.1. if Statements
+4.2. for Statements
+4.3. The range() Function
+4.4. break and continue Statements
+4.5. else Clauses on Loops
+4.6. pass Statements
+4.7. match Statements
+4.8. Defining Functions
+4.9. More on Defining Functions
+4.9.1. Default Argument Values
+4.9.2. Keyword Arguments
+4.9.3. Special parameters
+4.9.3.1. Positional-or-Keyword Arguments
+4.9.3.2. Positional-Only Parameters
+4.9.3.3. Keyword-Only Arguments
+4.9.3.4. Function Examples
+4.9.3.5. Recap
+4.9.4. Arbitrary Argument Lists
+4.9.5. Unpacking Argument Lists
+4.9.6. Lambda Expressions
+4.9.7. Documentation Strings
+4.9.8. Function Annotations
+4.10. Intermezzo: Coding Style
+5. Data Structures
+5.1. More on Lists
+5.1.1. Using Lists as Stacks
+5.1.2. Using Lists as Queues
+5.1.3. List Comprehensions
+5.1.4. Nested List Comprehensions
+5.2. The del statement
+5.3. Tuples and Sequences
+5.4. Sets
+5.5. Dictionaries
+5.6. Looping Techniques
+5.7. More on Conditions
+5.8. Comparing Sequences and Other Types
+6. Modules
+6.1. More on Modules
+6.1.1. Executing modules as scripts
+6.1.2. The Module Search Path
+6.1.3. “Compiled” Python files
+6.2. Standard Modules
+6.3. The dir() Function
+6.4. Packages
+6.4.1. Importing * From a Package
+6.4.2. Intra-package References
+6.4.3. Packages in Multiple Directories
+7. Input and Output
+7.1. Fancier Output Formatting
+7.1.1. Formatted String Literals
+7.1.2. The String format() Method
+7.1.3. Manual String Formatting
+7.1.4. Old string formatting
+7.2. Reading and Writing Files
+7.2.1. Methods of File Objects
+7.2.2. Saving structured data with json
+8. Errors and Exceptions
+8.1. Syntax Errors
+8.2. Exceptions
+8.3. Handling Exceptions
+8.4. Raising Exceptions
+8.5. Exception Chaining
+8.6. User-defined Exceptions
+8.7. Defining Clean-up Actions
+8.8. Predefined Clean-up Actions
+8.9. Raising and Handling Multiple Unrelated Exceptions
+8.10. Enriching Exceptions with Notes
+9. Classes
+9.1. A Word About Names and Objects
+9.2. Python Scopes and Namespaces
+9.2.1. Scopes and Namespaces Example
+9.3. A First Look at Classes
+9.3.1. Class Definition Syntax
+9.3.2. Class Objects
+9.3.3. Instance Objects
+9.3.4. Method Objects
+9.3.5. Class and Instance Variables
+9.4. Random Remarks
+9.5. Inheritance
+9.5.1. Multiple Inheritance
+9.6. Private Variables
+9.7. Odds and Ends
+9.8. Iterators
+9.9. Generators
+9.10. Generator Expressions
+10. Brief Tour of the Standard Library
+10.1. Operating System Interface
+10.2. File Wildcards
+10.3. Command Line Arguments
+10.4. Error Output Redirection and Program Termination
+10.5. String Pattern Matching
+10.6. Mathematics
+10.7. Internet Access
+10.8. Dates and Times
+10.9. Data Compression
+10.10. Performance Measurement
+10.11. Quality Control
+10.12. Batteries Included
+11. Brief Tour of the Standard Library — Part II
+11.1. Output Formatting
+11.2. Templating
+11.3. Working with Binary Data Record Layouts
+11.4. Multi-threading
+11.5. Logging
+11.6. Weak References
+11.7. Tools for Working with Lists
+11.8. Decimal Floating-Point Arithmetic
+12. Virtual Environments and Packages
+12.1. Introduction
+12.2. Creating Virtual Environments
+12.3. Managing Packages with pip
+13. What Now?
+14. Interactive Input Editing and History Substitution
+14.1. Tab Completion and History Editing
+14.2. Alternatives to the Interactive Interpreter
+15. Floating-Point Arithmetic: Issues and Limitations
+15.1. Representation Error
+16. Appendix
+16.1. Interactive Mode
+16.1.1. Error Handling
+16.1.2. Executable Python Scripts
+16.1.3. The Interactive Startup File
+16.1.4. The Customization Modules",True,"{'x': 265.1846618652344, 'y': 69.74431610107422, 'width': 799.9999084472656, 'height': 4292.414375305176}",section#the-python-tutorial,,,,the-python-tutorial,True,False,5921,10,div
+https://docs.python.org/3/tutorial/index.html,content,p,{'class': 'topless'},Changelog,False,,html > body > div > div > nav > div:nth-of-type(2) > p,,,topless,,False,False,9,1,div
+https://docs.python.org/3/tutorial/index.html,content,p,{'class': 'topless'},1. Whetting Your Appetite,False,,html > body > div > div > nav > div:nth-of-type(3) > p,,,topless,,False,False,25,1,div
+https://docs.python.org/3/tutorial/index.html,content,p,{},"Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.",True,"{'x': 265.1846618652344, 'y': 147.6420440673828, 'width': 799.9999084472656, 'height': 102.32954406738281}",section#the-python-tutorial > p,,,,,True,False,359,0,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},"The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.",True,"{'x': 265.1846618652344, 'y': 265.9659118652344, 'width': 799.9999084472656, 'height': 102.32952880859375}",section#the-python-tutorial > p:nth-of-type(2),,,,,True,False,358,1,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.,True,"{'x': 265.1846618652344, 'y': 384.2897644042969, 'width': 799.9999084472656, 'height': 51.164764404296875}",section#the-python-tutorial > p:nth-of-type(3),,,,,True,False,217,0,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},"This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well.",True,"{'x': 265.1846618652344, 'y': 451.4488525390625, 'width': 799.9999084472656, 'height': 76.74713134765625}",section#the-python-tutorial > p:nth-of-type(4),,,,,True,False,268,0,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},"For a description of standard objects and modules, see The Python Standard Library. The Python Language Reference gives a more formal definition of the language. To write extensions in C or C++, read Extending and Embedding the Python Interpreter and Python/C API Reference Manual. There are also several books covering Python in depth.",True,"{'x': 265.1846618652344, 'y': 544.1903076171875, 'width': 799.9999084472656, 'height': 102.32952880859375}",section#the-python-tutorial > p:nth-of-type(5),,,,,True,False,336,4,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},"This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in The Python Standard Library.",True,"{'x': 265.1846618652344, 'y': 662.51416015625, 'width': 799.9999084472656, 'height': 127.91192626953125}",section#the-python-tutorial > p:nth-of-type(6),,,,,True,False,452,1,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},The Glossary is also worth going through.,True,"{'x': 265.1846618652344, 'y': 806.42041015625, 'width': 799.9999084472656, 'height': 25.5823974609375}",section#the-python-tutorial > p:nth-of-type(7),,,,,True,False,41,1,section
+https://docs.python.org/3/tutorial/index.html,content,p,{'class': 'topless'},Changelog,True,"{'x': 35.99431610107422, 'y': 128.06817626953125, 'width': 181.9886245727539, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div > p,,,topless,,True,False,9,1,div
+https://docs.python.org/3/tutorial/index.html,content,p,{'class': 'topless'},1. Whetting Your Appetite,True,"{'x': 35.99431610107422, 'y': 193.72158813476562, 'width': 181.9886245727539, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > p,,,topless,,True,False,25,1,div
+https://docs.python.org/3/tutorial/index.html,content,h4,{},Previous topic,False,,html > body > div > div > nav > div:nth-of-type(2) > h4,,,,,False,False,14,0,div
+https://docs.python.org/3/tutorial/index.html,content,h4,{},Next topic,False,,html > body > div > div > nav > div:nth-of-type(3) > h4,,,,,False,False,10,0,div
+https://docs.python.org/3/tutorial/index.html,content,h3,{},This Page,False,,html > body > div > div > nav > div:nth-of-type(4) > h3,,,,,False,False,9,0,div
+https://docs.python.org/3/tutorial/index.html,content,h3,{},Navigation,False,,html > body > div:nth-of-type(2) > h3,,,,,False,False,10,0,div
+https://docs.python.org/3/tutorial/index.html,content,h1,{},The Python Tutorial,True,"{'x': 265.1846618652344, 'y': 69.74431610107422, 'width': 799.9999084472656, 'height': 61.903404235839844}",section#the-python-tutorial > h1,,,,,True,False,19,1,section
+https://docs.python.org/3/tutorial/index.html,content,h4,{},Previous topic,True,"{'x': 25.99431800842285, 'y': 105.73863220214844, 'width': 201.98862266540527, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div > h4,,,,,True,False,14,0,div
+https://docs.python.org/3/tutorial/index.html,content,h4,{},Next topic,True,"{'x': 25.99431800842285, 'y': 171.3920440673828, 'width': 201.98862266540527, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(2) > h4,,,,,True,False,10,0,div
+https://docs.python.org/3/tutorial/index.html,content,h3,{},This Page,True,"{'x': 25.99431800842285, 'y': 239.0482940673828, 'width': 201.98862266540527, 'height': 17.329544067382812}",html > body > div:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3) > h3,,,,,True,False,9,0,div
+https://docs.python.org/3/tutorial/index.html,content,h3,{},Navigation,False,,html > body > div:nth-of-type(4) > h3,,,,,False,False,10,0,div
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref std std-keyword docutils literal notranslate'},if,True,"{'x': 333.7641906738281, 'y': 1210.6959228515625, 'width': 18.96307373046875, 'height': 18.181884765625}",section#the-python-tutorial > div > ul > li:nth-of-type(4) > ul > li > a > code,,,xref std std-keyword docutils literal notranslate,,True,False,2,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref std std-keyword docutils literal notranslate'},for,True,"{'x': 333.7641906738281, 'y': 1237.2158203125, 'width': 27.4573974609375, 'height': 18.181884765625}",section#the-python-tutorial > div > ul > li:nth-of-type(4) > ul > li:nth-of-type(2) > a > code,,,xref std std-keyword docutils literal notranslate,,True,False,3,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref py py-func docutils literal notranslate'},range(),True,"{'x': 363.9488525390625, 'y': 1263.7357177734375, 'width': 61.40625, 'height': 18.181884765625}",section#the-python-tutorial > div > ul > li:nth-of-type(4) > ul > li:nth-of-type(3) > a > code,,,xref py py-func docutils literal notranslate,,True,False,7,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref std std-keyword docutils literal notranslate'},break,True,"{'x': 333.7641906738281, 'y': 1290.255615234375, 'width': 44.43182373046875, 'height': 18.181884765625}",section#the-python-tutorial > div > ul > li:nth-of-type(4) > ul > li:nth-of-type(4) > a > code,,,xref std std-keyword docutils literal notranslate,,True,False,5,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref std std-keyword docutils literal notranslate'},continue,True,"{'x': 413.57952880859375, 'y': 1290.255615234375, 'width': 69.8863525390625, 'height': 18.181884765625}",section#the-python-tutorial > div > ul > li:nth-of-type(4) > ul > li:nth-of-type(4) > a > code:nth-of-type(2),,,xref std std-keyword docutils literal notranslate,,True,False,8,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref std std-keyword docutils literal notranslate'},else,True,"{'x': 333.7641906738281, 'y': 1316.7755126953125, 'width': 35.9375, 'height': 18.181884765625}",section#the-python-tutorial > div > ul > li:nth-of-type(4) > ul > li:nth-of-type(5) > a > code,,,xref std std-keyword docutils literal notranslate,,True,False,4,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref std std-keyword docutils literal notranslate'},pass,True,"{'x': 333.7641906738281, 'y': 1343.29541015625, 'width': 35.9375, 'height': 18.1817626953125}",section#the-python-tutorial > div > ul > li:nth-of-type(4) > ul > li:nth-of-type(6) > a > code,,,xref std std-keyword docutils literal notranslate,,True,False,4,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref std std-keyword docutils literal notranslate'},match,True,"{'x': 333.7641906738281, 'y': 1369.8153076171875, 'width': 44.43182373046875, 'height': 18.1817626953125}",section#the-python-tutorial > div > ul > li:nth-of-type(4) > ul > li:nth-of-type(7) > a > code,,,xref std std-keyword docutils literal notranslate,,True,False,5,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref std std-keyword docutils literal notranslate'},del,True,"{'x': 363.9488525390625, 'y': 1959.147705078125, 'width': 27.4573974609375, 'height': 18.1817626953125}",section#the-python-tutorial > div > ul > li:nth-of-type(5) > ul > li:nth-of-type(2) > a > code,,,xref std std-keyword docutils literal notranslate,,True,False,3,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref py py-func docutils literal notranslate'},dir(),True,"{'x': 363.9488525390625, 'y': 2292.65625, 'width': 44.43182373046875, 'height': 18.181640625}",section#the-python-tutorial > div > ul > li:nth-of-type(6) > ul > li:nth-of-type(3) > a > code,,,xref py py-func docutils literal notranslate,,True,False,5,1,a
+https://docs.python.org/3/tutorial/index.html,content,code,{'class': 'xref py py-mod docutils literal notranslate'},json,True,"{'x': 563.125, 'y': 2626.164794921875, 'width': 35.9375, 'height': 18.181640625}",section#the-python-tutorial > div > ul > li:nth-of-type(7) > ul > li:nth-of-type(2) > ul > li:nth-of-type(2) > a > code,,,xref py py-mod docutils literal notranslate,,True,False,4,1,a
+https://docs.python.org/3/tutorial/index.html,content,p,{},"Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most platforms.",True,"{'x': 265.1846618652344, 'y': 147.6420440673828, 'width': 799.9999084472656, 'height': 102.32954406738281}",section#the-python-tutorial > p,,,,,True,False,359,0,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},"The Python interpreter and the extensive standard library are freely available in source or binary form for all major platforms from the Python web site, https://www.python.org/, and may be freely distributed. The same site also contains distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.",True,"{'x': 265.1846618652344, 'y': 265.9659118652344, 'width': 799.9999084472656, 'height': 102.32952880859375}",section#the-python-tutorial > p:nth-of-type(2),,,,,True,False,358,1,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.,True,"{'x': 265.1846618652344, 'y': 384.2897644042969, 'width': 799.9999084472656, 'height': 51.164764404296875}",section#the-python-tutorial > p:nth-of-type(3),,,,,True,False,217,0,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},"This tutorial introduces the reader informally to the basic concepts and features of the Python language and system. It helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the tutorial can be read off-line as well.",True,"{'x': 265.1846618652344, 'y': 451.4488525390625, 'width': 799.9999084472656, 'height': 76.74713134765625}",section#the-python-tutorial > p:nth-of-type(4),,,,,True,False,268,0,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},"For a description of standard objects and modules, see The Python Standard Library. The Python Language Reference gives a more formal definition of the language. To write extensions in C or C++, read Extending and Embedding the Python Interpreter and Python/C API Reference Manual. There are also several books covering Python in depth.",True,"{'x': 265.1846618652344, 'y': 544.1903076171875, 'width': 799.9999084472656, 'height': 102.32952880859375}",section#the-python-tutorial > p:nth-of-type(5),,,,,True,False,336,4,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},"This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature. Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor and style. After reading it, you will be able to read and write Python modules and programs, and you will be ready to learn more about the various Python library modules described in The Python Standard Library.",True,"{'x': 265.1846618652344, 'y': 662.51416015625, 'width': 799.9999084472656, 'height': 127.91192626953125}",section#the-python-tutorial > p:nth-of-type(6),,,,,True,False,452,1,section
+https://docs.python.org/3/tutorial/index.html,content,p,{},The Glossary is also worth going through.,True,"{'x': 265.1846618652344, 'y': 806.42041015625, 'width': 799.9999084472656, 'height': 25.5823974609375}",section#the-python-tutorial > p:nth-of-type(7),,,,,True,False,41,1,section

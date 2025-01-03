@@ -1,0 +1,145 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://the-internet.herokuapp.com/,div,div,container,container,False,True,False,,div#flash-messages,"{'id': 'flash-messages', 'class': 'large-12 columns'}"
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,False,False,,html > body > div:nth-of-type(2) > a,{'href': 'https://github.com/tourdedave/the-internet'}
+https://the-internet.herokuapp.com/,div,div,container,container,False,True,True,"Welcome to the-internet
+Available Examples
+A/B Testing
+Add/Remove Elements
+Basic Auth (user and pass: admin)
+Broken Images
+Challenging DOM
+Checkboxes
+Context Menu
+Digest Authentication (user and pass: admin)
+Disappearing Elements
+Drag and Drop
+Dropdown
+Dynamic Content
+Dynamic Controls
+Dynamic Loading
+Entry Ad
+Exit Intent
+File Download
+File Upload
+Floating Menu
+Forgot Password
+Form Authentication
+Frames
+Geolocation
+Horizontal Slider
+Hovers
+Infinite Scroll
+Inputs
+JQuery UI Menus
+JavaScript Alerts
+JavaScript onload event error
+Key Presses
+Large & Deep DOM
+Multiple Windows
+Nested Frames
+Notification Messages
+Redirect Link
+Secure File Download
+Shadow DOM
+Shifting Content
+Slow Resources
+Sortable Data Tables
+Status Codes
+Typos
+WYSIWYG Editor",div#content,"{'id': 'content', 'class': 'large-12 columns'}"
+https://the-internet.herokuapp.com/,h1,h1,content,content,False,True,True,Welcome to the-internet,div#content > h1,{'class': 'heading'}
+https://the-internet.herokuapp.com/,h2,h2,content,content,False,True,True,Available Examples,div#content > h2,{}
+https://the-internet.herokuapp.com/,ul,ul,unknown,container,False,True,True,"A/B Testing
+Add/Remove Elements
+Basic Auth (user and pass: admin)
+Broken Images
+Challenging DOM
+Checkboxes
+Context Menu
+Digest Authentication (user and pass: admin)
+Disappearing Elements
+Drag and Drop
+Dropdown
+Dynamic Content
+Dynamic Controls
+Dynamic Loading
+Entry Ad
+Exit Intent
+File Download
+File Upload
+Floating Menu
+Forgot Password
+Form Authentication
+Frames
+Geolocation
+Horizontal Slider
+Hovers
+Infinite Scroll
+Inputs
+JQuery UI Menus
+JavaScript Alerts
+JavaScript onload event error
+Key Presses
+Large & Deep DOM
+Multiple Windows
+Nested Frames
+Notification Messages
+Redirect Link
+Secure File Download
+Shadow DOM
+Shifting Content
+Slow Resources
+Sortable Data Tables
+Status Codes
+Typos
+WYSIWYG Editor",div#content > ul,{}
+https://the-internet.herokuapp.com/,div,div,container,container,False,True,True,Powered by Elemental Selenium,div#page-footer > div,{'class': 'large-4 large-centered columns'}
+https://the-internet.herokuapp.com/,hr,hr,unknown,container,False,True,False,,div#page-footer > div > hr,{}
+https://the-internet.herokuapp.com/,div,div,container,container,False,True,True,Powered by Elemental Selenium,div#page-footer > div > div,{'style': 'text-align: center;'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Elemental Selenium,div#page-footer > div > div > a,"{'target': '_blank', 'href': 'http://elementalselenium.com/'}"
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,False,False,,html > body > div:nth-of-type(2) > a,{'href': 'https://github.com/tourdedave/the-internet'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,A/B Testing,div#content > ul > li > a,{'href': '/abtest'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Add/Remove Elements,div#content > ul > li:nth-of-type(2) > a,{'href': '/add_remove_elements/'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Basic Auth,div#content > ul > li:nth-of-type(3) > a,{'href': '/basic_auth'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Broken Images,div#content > ul > li:nth-of-type(4) > a,{'href': '/broken_images'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Challenging DOM,div#content > ul > li:nth-of-type(5) > a,{'href': '/challenging_dom'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Checkboxes,div#content > ul > li:nth-of-type(6) > a,{'href': '/checkboxes'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Context Menu,div#content > ul > li:nth-of-type(7) > a,{'href': '/context_menu'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Digest Authentication,div#content > ul > li:nth-of-type(8) > a,{'href': '/digest_auth'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Disappearing Elements,div#content > ul > li:nth-of-type(9) > a,{'href': '/disappearing_elements'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Drag and Drop,div#content > ul > li:nth-of-type(10) > a,{'href': '/drag_and_drop'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Dropdown,div#content > ul > li:nth-of-type(11) > a,{'href': '/dropdown'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Dynamic Content,div#content > ul > li:nth-of-type(12) > a,{'href': '/dynamic_content'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Dynamic Controls,div#content > ul > li:nth-of-type(13) > a,{'href': '/dynamic_controls'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Dynamic Loading,div#content > ul > li:nth-of-type(14) > a,{'href': '/dynamic_loading'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Entry Ad,div#content > ul > li:nth-of-type(15) > a,{'href': '/entry_ad'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Exit Intent,div#content > ul > li:nth-of-type(16) > a,{'href': '/exit_intent'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,File Download,div#content > ul > li:nth-of-type(17) > a,{'href': '/download'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,File Upload,div#content > ul > li:nth-of-type(18) > a,{'href': '/upload'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Floating Menu,div#content > ul > li:nth-of-type(19) > a,{'href': '/floating_menu'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Forgot Password,div#content > ul > li:nth-of-type(20) > a,{'href': '/forgot_password'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Form Authentication,div#content > ul > li:nth-of-type(21) > a,{'href': '/login'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Frames,div#content > ul > li:nth-of-type(22) > a,{'href': '/frames'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Geolocation,div#content > ul > li:nth-of-type(23) > a,{'href': '/geolocation'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Horizontal Slider,div#content > ul > li:nth-of-type(24) > a,{'href': '/horizontal_slider'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Hovers,div#content > ul > li:nth-of-type(25) > a,{'href': '/hovers'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Infinite Scroll,div#content > ul > li:nth-of-type(26) > a,{'href': '/infinite_scroll'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Inputs,div#content > ul > li:nth-of-type(27) > a,{'href': '/inputs'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,JQuery UI Menus,div#content > ul > li:nth-of-type(28) > a,{'href': '/jqueryui/menu'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,JavaScript Alerts,div#content > ul > li:nth-of-type(29) > a,{'href': '/javascript_alerts'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,JavaScript onload event error,div#content > ul > li:nth-of-type(30) > a,{'href': '/javascript_error'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Key Presses,div#content > ul > li:nth-of-type(31) > a,{'href': '/key_presses'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Large & Deep DOM,div#content > ul > li:nth-of-type(32) > a,{'href': '/large'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Multiple Windows,div#content > ul > li:nth-of-type(33) > a,{'href': '/windows'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Nested Frames,div#content > ul > li:nth-of-type(34) > a,{'href': '/nested_frames'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Notification Messages,div#content > ul > li:nth-of-type(35) > a,{'href': '/notification_message'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Redirect Link,div#content > ul > li:nth-of-type(36) > a,{'href': '/redirector'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Secure File Download,div#content > ul > li:nth-of-type(37) > a,{'href': '/download_secure'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Shadow DOM,div#content > ul > li:nth-of-type(38) > a,{'href': '/shadowdom'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Shifting Content,div#content > ul > li:nth-of-type(39) > a,{'href': '/shifting_content'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Slow Resources,div#content > ul > li:nth-of-type(40) > a,{'href': '/slow'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Sortable Data Tables,div#content > ul > li:nth-of-type(41) > a,{'href': '/tables'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Status Codes,div#content > ul > li:nth-of-type(42) > a,{'href': '/status_codes'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Typos,div#content > ul > li:nth-of-type(43) > a,{'href': '/typos'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,WYSIWYG Editor,div#content > ul > li:nth-of-type(44) > a,{'href': '/tinymce'}
+https://the-internet.herokuapp.com/,a,a,navigation,interactive,True,True,True,Elemental Selenium,div#page-footer > div > div > a,"{'target': '_blank', 'href': 'http://elementalselenium.com/'}"

@@ -1,0 +1,145 @@
+url,site_category,tag_name,attributes,inner_text,is_visible,bounding_box,selector,aria_role,aria_label,classes,id,is_clickable,has_hover,text_length,child_elements,parent_tag
+https://the-internet.herokuapp.com/,interactive,div,"{'id': 'flash-messages', 'class': 'large-12 columns'}",,True,"{'x': 131.81817626953125, 'y': 0, 'width': 999.9999389648438, 'height': 31.988636016845703}",div#flash-messages,,,large-12 columns,flash-messages,True,False,0,0,div
+https://the-internet.herokuapp.com/,interactive,a,{'href': 'https://github.com/tourdedave/the-internet'},,False,"{'x': 131.81817626953125, 'y': 31.988636016845703, 'width': 0, 'height': 0}",html > body > div:nth-of-type(2) > a,,,,,False,False,0,1,div
+https://the-internet.herokuapp.com/,interactive,div,"{'id': 'content', 'class': 'large-12 columns'}","Welcome to the-internet
+Available Examples
+A/B Testing
+Add/Remove Elements
+Basic Auth (user and pass: admin)
+Broken Images
+Challenging DOM
+Checkboxes
+Context Menu
+Digest Authentication (user and pass: admin)
+Disappearing Elements
+Drag and Drop
+Dropdown
+Dynamic Content
+Dynamic Controls
+Dynamic Loading
+Entry Ad
+Exit Intent
+File Download
+File Upload
+Floating Menu
+Forgot Password
+Form Authentication
+Frames
+Geolocation
+Horizontal Slider
+Hovers
+Infinite Scroll
+Inputs
+JQuery UI Menus
+JavaScript Alerts
+JavaScript onload event error
+Key Presses
+Large & Deep DOM
+Multiple Windows
+Nested Frames
+Notification Messages
+Redirect Link
+Secure File Download
+Shadow DOM
+Shifting Content
+Slow Resources
+Sortable Data Tables
+Status Codes
+Typos
+WYSIWYG Editor",True,"{'x': 131.81817626953125, 'y': 31.988636016845703, 'width': 999.9999389648438, 'height': 1288.3095817565918}",div#content,,,large-12 columns,content,True,False,744,4,div
+https://the-internet.herokuapp.com/,interactive,h1,{'class': 'heading'},Welcome to the-internet,True,"{'x': 146.81817626953125, 'y': 40.78125, 'width': 969.9999389648438, 'height': 61.60511016845703}",div#content > h1,,,heading,,True,False,23,0,div
+https://the-internet.herokuapp.com/,interactive,h2,{},Available Examples,True,"{'x': 146.81817626953125, 'y': 124.37499237060547, 'width': 969.9999389648438, 'height': 51.803977966308594}",div#content > h2,,,,,True,False,18,0,div
+https://the-internet.herokuapp.com/,interactive,ul,{},"A/B Testing
+Add/Remove Elements
+Basic Auth (user and pass: admin)
+Broken Images
+Challenging DOM
+Checkboxes
+Context Menu
+Digest Authentication (user and pass: admin)
+Disappearing Elements
+Drag and Drop
+Dropdown
+Dynamic Content
+Dynamic Controls
+Dynamic Loading
+Entry Ad
+Exit Intent
+File Download
+File Upload
+Floating Menu
+Forgot Password
+Form Authentication
+Frames
+Geolocation
+Horizontal Slider
+Hovers
+Infinite Scroll
+Inputs
+JQuery UI Menus
+JavaScript Alerts
+JavaScript onload event error
+Key Presses
+Large & Deep DOM
+Multiple Windows
+Nested Frames
+Notification Messages
+Redirect Link
+Secure File Download
+Shadow DOM
+Shifting Content
+Slow Resources
+Sortable Data Tables
+Status Codes
+Typos
+WYSIWYG Editor",True,"{'x': 146.81817626953125, 'y': 194.6732940673828, 'width': 969.9999389648438, 'height': 1125.6249237060547}",div#content > ul,,,,,True,False,701,44,div
+https://the-internet.herokuapp.com/,interactive,div,{'class': 'large-4 large-centered columns'},Powered by Elemental Selenium,True,"{'x': 465.1562194824219, 'y': 1340.2982177734375, 'width': 333.3238830566406, 'height': 35.8948974609375}",div#page-footer > div,,,large-4 large-centered columns,,True,False,29,2,div
+https://the-internet.herokuapp.com/,interactive,hr,{},,True,"{'x': 480.1562194824219, 'y': 1340.2982177734375, 'width': 303.3238830566406, 'height': 0.9091796875}",div#page-footer > div > hr,,,,,True,False,0,0,div
+https://the-internet.herokuapp.com/,interactive,div,{'style': 'text-align: center;'},Powered by Elemental Selenium,True,"{'x': 480.1562194824219, 'y': 1360.1988525390625, 'width': 303.3238830566406, 'height': 15.9942626953125}",div#page-footer > div > div,,,,,True,False,29,1,div
+https://the-internet.herokuapp.com/,interactive,a,"{'target': '_blank', 'href': 'http://elementalselenium.com/'}",Elemental Selenium,True,"{'x': 605.1420288085938, 'y': 1358.380615234375, 'width': 142.3011474609375, 'height': 18.181884765625}",div#page-footer > div > div > a,,,,,True,False,18,0,div
+https://the-internet.herokuapp.com/,interactive,a,{'href': 'https://github.com/tourdedave/the-internet'},,False,"{'x': 131.81817626953125, 'y': 31.988636016845703, 'width': 0, 'height': 0}",html > body > div:nth-of-type(2) > a,,,,,False,False,0,1,div
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/abtest'},A/B Testing,True,"{'x': 146.81817626953125, 'y': 198.3096466064453, 'width': 80.65341186523438, 'height': 18.18182373046875}",div#content > ul > li > a,,,,,True,False,11,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/add_remove_elements/'},Add/Remove Elements,True,"{'x': 146.81817626953125, 'y': 223.8920440673828, 'width': 163.6363525390625, 'height': 18.181808471679688}",div#content > ul > li:nth-of-type(2) > a,,,,,True,False,19,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/basic_auth'},Basic Auth,True,"{'x': 146.81817626953125, 'y': 249.47442626953125, 'width': 75.61079406738281, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(3) > a,,,,,True,False,10,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/broken_images'},Broken Images,True,"{'x': 146.81817626953125, 'y': 275.0567932128906, 'width': 107.61363220214844, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(4) > a,,,,,True,False,13,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/challenging_dom'},Challenging DOM,True,"{'x': 146.81817626953125, 'y': 300.6391906738281, 'width': 126.2926025390625, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(5) > a,,,,,True,False,15,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/checkboxes'},Checkboxes,True,"{'x': 146.81817626953125, 'y': 326.2215881347656, 'width': 88.05397033691406, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(6) > a,,,,,True,False,10,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/context_menu'},Context Menu,True,"{'x': 146.81817626953125, 'y': 351.803955078125, 'width': 99.61647033691406, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(7) > a,,,,,True,False,12,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/digest_auth'},Digest Authentication,True,"{'x': 146.81817626953125, 'y': 377.3863525390625, 'width': 150.32669067382812, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(8) > a,,,,,True,False,21,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/disappearing_elements'},Disappearing Elements,True,"{'x': 146.81817626953125, 'y': 402.96875, 'width': 165.42611694335938, 'height': 18.181793212890625}",div#content > ul > li:nth-of-type(9) > a,,,,,True,False,21,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/drag_and_drop'},Drag and Drop,True,"{'x': 146.81817626953125, 'y': 428.5511169433594, 'width': 104.95738220214844, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(10) > a,,,,,True,False,13,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/dropdown'},Dropdown,True,"{'x': 146.81817626953125, 'y': 454.1335144042969, 'width': 72.94033813476562, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(11) > a,,,,,True,False,8,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/dynamic_content'},Dynamic Content,True,"{'x': 146.81817626953125, 'y': 479.71588134765625, 'width': 122.72726440429688, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(12) > a,,,,,True,False,15,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/dynamic_controls'},Dynamic Controls,True,"{'x': 146.81817626953125, 'y': 505.29827880859375, 'width': 126.26419067382812, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(13) > a,,,,,True,False,16,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/dynamic_loading'},Dynamic Loading,True,"{'x': 146.81817626953125, 'y': 530.8806762695312, 'width': 123.6363525390625, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(14) > a,,,,,True,False,15,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/entry_ad'},Entry Ad,True,"{'x': 146.81817626953125, 'y': 556.4630737304688, 'width': 60.48295593261719, 'height': 18.1817626953125}",div#content > ul > li:nth-of-type(15) > a,,,,,True,False,8,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/exit_intent'},Exit Intent,True,"{'x': 146.81817626953125, 'y': 582.04541015625, 'width': 71.15055847167969, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(16) > a,,,,,True,False,11,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/download'},File Download,True,"{'x': 146.81817626953125, 'y': 607.6278076171875, 'width': 101.39204406738281, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(17) > a,,,,,True,False,13,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/upload'},File Upload,True,"{'x': 146.81817626953125, 'y': 633.210205078125, 'width': 80.9375, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(18) > a,,,,,True,False,11,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/floating_menu'},Floating Menu,True,"{'x': 146.81817626953125, 'y': 658.7926025390625, 'width': 101.39204406738281, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(19) > a,,,,,True,False,13,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/forgot_password'},Forgot Password,True,"{'x': 146.81817626953125, 'y': 684.375, 'width': 120.9375, 'height': 18.1817626953125}",div#content > ul > li:nth-of-type(20) > a,,,,,True,False,15,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/login'},Form Authentication,True,"{'x': 146.81817626953125, 'y': 709.9573364257812, 'width': 142.30111694335938, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(21) > a,,,,,True,False,19,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/frames'},Frames,True,"{'x': 146.81817626953125, 'y': 735.5397338867188, 'width': 54.23295593261719, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(22) > a,,,,,True,False,6,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/geolocation'},Geolocation,True,"{'x': 146.81817626953125, 'y': 761.1221313476562, 'width': 85.39772033691406, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(23) > a,,,,,True,False,11,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/horizontal_slider'},Horizontal Slider,True,"{'x': 146.81817626953125, 'y': 786.7045288085938, 'width': 117.3863525390625, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(24) > a,,,,,True,False,17,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/hovers'},Hovers,True,"{'x': 146.81817626953125, 'y': 812.2869262695312, 'width': 50.68182373046875, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(25) > a,,,,,True,False,6,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/infinite_scroll'},Infinite Scroll,True,"{'x': 146.81817626953125, 'y': 837.8692626953125, 'width': 91.60511779785156, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(26) > a,,,,,True,False,15,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/inputs'},Inputs,True,"{'x': 146.81817626953125, 'y': 863.45166015625, 'width': 43.59375, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(27) > a,,,,,True,False,6,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/jqueryui/menu'},JQuery UI Menus,True,"{'x': 146.81817626953125, 'y': 889.0340576171875, 'width': 124.4886474609375, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(28) > a,,,,,True,False,15,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/javascript_alerts'},JavaScript Alerts,True,"{'x': 146.81817626953125, 'y': 914.616455078125, 'width': 119.16192626953125, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(29) > a,,,,,True,False,17,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/javascript_error'},JavaScript onload event error,True,"{'x': 146.81817626953125, 'y': 940.1988525390625, 'width': 209.00567626953125, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(30) > a,,,,,True,False,29,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/key_presses'},Key Presses,True,"{'x': 146.81817626953125, 'y': 965.7811889648438, 'width': 89.81533813476562, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(31) > a,,,,,True,False,11,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/large'},Large & Deep DOM,True,"{'x': 146.81817626953125, 'y': 991.3635864257812, 'width': 140.5113525390625, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(32) > a,,,,,True,False,16,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/windows'},Multiple Windows,True,"{'x': 146.81817626953125, 'y': 1016.9459838867188, 'width': 124.4886474609375, 'height': 18.18182373046875}",div#content > ul > li:nth-of-type(33) > a,,,,,True,False,16,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/nested_frames'},Nested Frames,True,"{'x': 146.81817626953125, 'y': 1042.5283203125, 'width': 109.375, 'height': 18.181884765625}",div#content > ul > li:nth-of-type(34) > a,,,,,True,False,13,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/notification_message'},Notification Messages,True,"{'x': 146.81817626953125, 'y': 1068.1107177734375, 'width': 156.51986694335938, 'height': 18.181884765625}",div#content > ul > li:nth-of-type(35) > a,,,,,True,False,21,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/redirector'},Redirect Link,True,"{'x': 146.81817626953125, 'y': 1093.693115234375, 'width': 93.38067626953125, 'height': 18.181884765625}",div#content > ul > li:nth-of-type(36) > a,,,,,True,False,13,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/download_secure'},Secure File Download,True,"{'x': 146.81817626953125, 'y': 1119.2755126953125, 'width': 156.53408813476562, 'height': 18.181884765625}",div#content > ul > li:nth-of-type(37) > a,,,,,True,False,20,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/shadowdom'},Shadow DOM,True,"{'x': 146.81817626953125, 'y': 1144.85791015625, 'width': 99.60226440429688, 'height': 18.1817626953125}",div#content > ul > li:nth-of-type(38) > a,,,,,True,False,10,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/shifting_content'},Shifting Content,True,"{'x': 146.81817626953125, 'y': 1170.4403076171875, 'width': 113.8636474609375, 'height': 18.1817626953125}",div#content > ul > li:nth-of-type(39) > a,,,,,True,False,16,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/slow'},Slow Resources,True,"{'x': 146.81817626953125, 'y': 1196.022705078125, 'width': 115.61077880859375, 'height': 18.1817626953125}",div#content > ul > li:nth-of-type(40) > a,,,,,True,False,14,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/tables'},Sortable Data Tables,True,"{'x': 146.81817626953125, 'y': 1221.6051025390625, 'width': 148.25283813476562, 'height': 18.1817626953125}",div#content > ul > li:nth-of-type(41) > a,,,,,True,False,20,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/status_codes'},Status Codes,True,"{'x': 146.81817626953125, 'y': 1247.1875, 'width': 96.06533813476562, 'height': 18.1817626953125}",div#content > ul > li:nth-of-type(42) > a,,,,,True,False,12,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/typos'},Typos,True,"{'x': 146.81817626953125, 'y': 1272.7698974609375, 'width': 42.69886779785156, 'height': 18.1817626953125}",div#content > ul > li:nth-of-type(43) > a,,,,,True,False,5,0,li
+https://the-internet.herokuapp.com/,interactive,a,{'href': '/tinymce'},WYSIWYG Editor,True,"{'x': 146.81817626953125, 'y': 1298.3521728515625, 'width': 125.3551025390625, 'height': 18.181884765625}",div#content > ul > li:nth-of-type(44) > a,,,,,True,False,14,0,li
+https://the-internet.herokuapp.com/,interactive,a,"{'target': '_blank', 'href': 'http://elementalselenium.com/'}",Elemental Selenium,True,"{'x': 605.1420288085938, 'y': 1358.380615234375, 'width': 142.3011474609375, 'height': 18.181884765625}",div#page-footer > div > div > a,,,,,True,False,18,0,div

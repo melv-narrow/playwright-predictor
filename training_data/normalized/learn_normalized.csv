@@ -1,0 +1,663 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn web development,h3#learn-web-development,"{'id': 'learn-web-development', 'data-text': 'Learn web development', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn HTML,h3#learn-html,"{'id': 'learn-html', 'data-text': 'Learn HTML', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn CSS,h3#learn-css,"{'id': 'learn-css', 'data-text': 'Learn CSS', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn JavaScript,h3#learn-javascript,"{'id': 'learn-javascript', 'data-text': 'Learn JavaScript', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn Performance,h3#learn-performance,"{'id': 'learn-performance', 'data-text': 'Learn Performance', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn Privacy,h3#learn-privacy,"{'id': 'learn-privacy', 'data-text': 'Learn Privacy', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn Accessibility,h3#learn-accessibility,"{'id': 'learn-accessibility', 'data-text': 'Learn Accessibility', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn Images,h3#learn-images,"{'id': 'learn-images', 'data-text': 'Learn Images', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn Design,h3#learn-design,"{'id': 'learn-design', 'data-text': 'Learn Design', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn Forms,h3#learn-forms,"{'id': 'learn-forms', 'data-text': 'Learn Forms', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn PWA,h3#learn-pwa,"{'id': 'learn-pwa', 'data-text': 'Learn PWA', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,h3,h3,content,content,False,True,True,Learn Testing,h3#learn-testing,"{'id': 'learn-testing', 'data-text': 'Learn Testing', 'class': 'hide-from-toc no-link'}"
+https://web.dev/learn,nav,nav,navigation,navigation,False,True,True,"Resources
+Baseline
+Blog
+Case Studies",html > body > section > devsite-header > div > div > div > div > div:nth-of-type(2) > div > devsite-tabs > nav,"{'class': 'devsite-tabs-wrapper', 'aria-label': 'Upper tabs'}"
+https://web.dev/learn,nav,nav,navigation,navigation,False,False,True,"Resources
+   
+    
+  
+  
+  
+
+  
+    
+      
+
+
+  
+  
+  
+    
+      More
+   
+    
+    
+    
+    
+  
+  
+  
+
+
+
+    
+  
+              
+            
+          
+            
+              
+  
+  
+  
+    
+      Baseline
+   
+    
+  
+  
+  
+
+  
+              
+            
+          
+            
+              
+  
+  
+  
+    
+      Blog
+   
+    
+  
+  
+  
+
+  
+              
+            
+          
+            
+              
+  
+  
+  
+    
+      Case Studies
+   
+    
+  
+  
+  
+
+  
+              
+            
+          
+          
+          
+        
+      
+    
+    
+      
+        
+        
+          
+    
+      
+      
+        
+          
+            
+              
+
+
+  
+  
+  
+    
+      Web Platform
+   
+    
+  
+  
+  
+
+
+
+            
+            
+              
+
+
+  
+  
+  
+    
+      HTML
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      CSS
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      JavaScript
+   
+    
+  
+  
+  
+
+
+
+            
+          
+        
+          
+            
+              
+
+
+  
+  
+  
+    
+      User experience
+   
+    
+  
+  
+  
+
+
+
+            
+            
+              
+
+
+  
+  
+  
+    
+      Performance
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Accessibility
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Identity
+   
+    
+  
+  
+  
+
+
+
+            
+          
+        
+          
+            
+              
+
+
+  
+  
+  
+    
+      Learn
+   
+    
+  
+  
+  
+
+
+
+            
+            
+              
+
+
+  
+  
+  
+    
+      Learn HTML
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Learn CSS
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Learn JavaScript
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Learn Performance
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Learn Accessibility
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      More courses
+   
+    
+  
+  
+  
+
+
+
+            
+          
+        
+          
+            
+              
+
+
+  
+  
+  
+    
+      Additional resources
+   
+    
+  
+  
+  
+
+
+
+            
+            
+              
+
+
+  
+  
+  
+    
+      AI and the web
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Explore
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      PageSpeed Insights
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Patterns
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Podcasts &amp; shows
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      Developer Newsletter
+   
+    
+  
+  
+  
+
+
+
+            
+              
+
+
+  
+  
+  
+    
+      About web.dev",html > body > section > devsite-book-nav > nav,"{'class': 'devsite-book-nav devsite-nav nocontent', 'aria-label': 'Side menu'}"
+https://web.dev/learn,nav,nav,navigation,navigation,False,True,True,"We want to help you build beautiful, accessible, fast, and secure websites that work cross-browser, and for all of your users. This site is our home for content to help you on that journey, written by members of the Chrome team, and external experts.
+Contribute
+File a bug
+See open issues
+Related Content
+Chrome for Developers
+Chromium updates
+Case studies
+Podcasts & shows
+Follow
+@ChromiumDev on X
+YouTube
+Chrome for Developers on LinkedIn
+RSS",section#gc-wrapper > devsite-footer-linkboxes > nav,"{'class': 'devsite-footer-linkboxes nocontent', 'aria-label': 'Footer links'}"
+https://web.dev/learn,nav,nav,navigation,navigation,False,True,True,"Terms
+Privacy",section#gc-wrapper > devsite-footer-utility > div > nav,"{'class': 'devsite-footer-utility-links', 'aria-label': 'Utility links'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,html > body > section > devsite-header > div > div > div > div > div > a > picture > img,"{'src': 'https://www.gstatic.com/devrel-devsite/prod/v5ab6fd0ad9c02b131b4d387b5751ac2c3616478c6dd65b5e931f0805efa1009c/web/images/lockup.svg', 'class': 'devsite-site-logo', 'alt': 'web.dev'}"
+https://web.dev/learn,img,img,media,media,False,False,False,,html > body > section > devsite-book-nav > nav > div > div > a > picture > img,"{'src': 'https://www.gstatic.com/devrel-devsite/prod/v5ab6fd0ad9c02b131b4d387b5751ac2c3616478c6dd65b5e931f0805efa1009c/web/images/lockup.svg', 'class': 'devsite-site-logo', 'alt': 'web.dev'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section > div > div > div > div > figure > picture > img,"{'alt': '', 'src': 'https://web.dev/static/images/learn-header.png', 'srcset': 'https://web.dev/static/images/learn-header_36.png 36w,https://web.dev/static/images/learn-header_48.png 48w,https://web.dev/static/images/learn-header_72.png 72w,https://web.dev/static/images/learn-header_96.png 96w,https://web.dev/static/images/learn-header_480.png 480w,https://web.dev/static/images/learn-header_720.png 720w,https://web.dev/static/images/learn-header_856.png 856w,https://web.dev/static/images/learn-header_960.png 960w,https://web.dev/static/images/learn-header_1440.png 1440w,https://web.dev/static/images/learn-header_1920.png 1920w,https://web.dev/static/images/learn-header_2880.png 2880w', 'sizes': '(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px', 'fetchpriority': 'high'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/html/card.png', 'srcset': 'https://web.dev/static/learn/html/card_36.png 36w,https://web.dev/static/learn/html/card_48.png 48w,https://web.dev/static/learn/html/card_72.png 72w,https://web.dev/static/learn/html/card_96.png 96w,https://web.dev/static/learn/html/card_480.png 480w,https://web.dev/static/learn/html/card_720.png 720w,https://web.dev/static/learn/html/card_856.png 856w,https://web.dev/static/learn/html/card_960.png 960w,https://web.dev/static/learn/html/card_1440.png 1440w,https://web.dev/static/learn/html/card_1920.png 1920w,https://web.dev/static/learn/html/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(2) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/css/card.png', 'srcset': 'https://web.dev/static/learn/css/card_36.png 36w,https://web.dev/static/learn/css/card_48.png 48w,https://web.dev/static/learn/css/card_72.png 72w,https://web.dev/static/learn/css/card_96.png 96w,https://web.dev/static/learn/css/card_480.png 480w,https://web.dev/static/learn/css/card_720.png 720w,https://web.dev/static/learn/css/card_856.png 856w,https://web.dev/static/learn/css/card_960.png 960w,https://web.dev/static/learn/css/card_1440.png 1440w,https://web.dev/static/learn/css/card_1920.png 1920w,https://web.dev/static/learn/css/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(3) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/javascript/card.png', 'srcset': 'https://web.dev/static/learn/javascript/card_36.png 36w,https://web.dev/static/learn/javascript/card_48.png 48w,https://web.dev/static/learn/javascript/card_72.png 72w,https://web.dev/static/learn/javascript/card_96.png 96w,https://web.dev/static/learn/javascript/card_480.png 480w,https://web.dev/static/learn/javascript/card_720.png 720w,https://web.dev/static/learn/javascript/card_856.png 856w,https://web.dev/static/learn/javascript/card_960.png 960w,https://web.dev/static/learn/javascript/card_1440.png 1440w,https://web.dev/static/learn/javascript/card_1920.png 1920w,https://web.dev/static/learn/javascript/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(4) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/performance/card.png', 'srcset': 'https://web.dev/static/learn/performance/card_36.png 36w,https://web.dev/static/learn/performance/card_48.png 48w,https://web.dev/static/learn/performance/card_72.png 72w,https://web.dev/static/learn/performance/card_96.png 96w,https://web.dev/static/learn/performance/card_480.png 480w,https://web.dev/static/learn/performance/card_720.png 720w,https://web.dev/static/learn/performance/card_856.png 856w,https://web.dev/static/learn/performance/card_960.png 960w,https://web.dev/static/learn/performance/card_1440.png 1440w,https://web.dev/static/learn/performance/card_1920.png 1920w,https://web.dev/static/learn/performance/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(5) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/privacy/card.png', 'srcset': 'https://web.dev/static/learn/privacy/card_36.png 36w,https://web.dev/static/learn/privacy/card_48.png 48w,https://web.dev/static/learn/privacy/card_72.png 72w,https://web.dev/static/learn/privacy/card_96.png 96w,https://web.dev/static/learn/privacy/card_480.png 480w,https://web.dev/static/learn/privacy/card_720.png 720w,https://web.dev/static/learn/privacy/card_856.png 856w,https://web.dev/static/learn/privacy/card_960.png 960w,https://web.dev/static/learn/privacy/card_1440.png 1440w,https://web.dev/static/learn/privacy/card_1920.png 1920w,https://web.dev/static/learn/privacy/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(6) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/accessibility/card.png', 'srcset': 'https://web.dev/static/learn/accessibility/card_36.png 36w,https://web.dev/static/learn/accessibility/card_48.png 48w,https://web.dev/static/learn/accessibility/card_72.png 72w,https://web.dev/static/learn/accessibility/card_96.png 96w,https://web.dev/static/learn/accessibility/card_480.png 480w,https://web.dev/static/learn/accessibility/card_720.png 720w,https://web.dev/static/learn/accessibility/card_856.png 856w,https://web.dev/static/learn/accessibility/card_960.png 960w,https://web.dev/static/learn/accessibility/card_1440.png 1440w,https://web.dev/static/learn/accessibility/card_1920.png 1920w,https://web.dev/static/learn/accessibility/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(7) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/images/card.png', 'srcset': 'https://web.dev/static/learn/images/card_36.png 36w,https://web.dev/static/learn/images/card_48.png 48w,https://web.dev/static/learn/images/card_72.png 72w,https://web.dev/static/learn/images/card_96.png 96w,https://web.dev/static/learn/images/card_480.png 480w,https://web.dev/static/learn/images/card_720.png 720w,https://web.dev/static/learn/images/card_856.png 856w,https://web.dev/static/learn/images/card_960.png 960w,https://web.dev/static/learn/images/card_1440.png 1440w,https://web.dev/static/learn/images/card_1920.png 1920w,https://web.dev/static/learn/images/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(8) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/design/card.png', 'srcset': 'https://web.dev/static/learn/design/card_36.png 36w,https://web.dev/static/learn/design/card_48.png 48w,https://web.dev/static/learn/design/card_72.png 72w,https://web.dev/static/learn/design/card_96.png 96w,https://web.dev/static/learn/design/card_480.png 480w,https://web.dev/static/learn/design/card_720.png 720w,https://web.dev/static/learn/design/card_856.png 856w,https://web.dev/static/learn/design/card_960.png 960w,https://web.dev/static/learn/design/card_1440.png 1440w,https://web.dev/static/learn/design/card_1920.png 1920w,https://web.dev/static/learn/design/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(9) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/forms/card.png', 'srcset': 'https://web.dev/static/learn/forms/card_36.png 36w,https://web.dev/static/learn/forms/card_48.png 48w,https://web.dev/static/learn/forms/card_72.png 72w,https://web.dev/static/learn/forms/card_96.png 96w,https://web.dev/static/learn/forms/card_480.png 480w,https://web.dev/static/learn/forms/card_720.png 720w,https://web.dev/static/learn/forms/card_856.png 856w,https://web.dev/static/learn/forms/card_960.png 960w,https://web.dev/static/learn/forms/card_1440.png 1440w,https://web.dev/static/learn/forms/card_1920.png 1920w,https://web.dev/static/learn/forms/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(10) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/pwa/card.png', 'srcset': 'https://web.dev/static/learn/pwa/card_36.png 36w,https://web.dev/static/learn/pwa/card_48.png 48w,https://web.dev/static/learn/pwa/card_72.png 72w,https://web.dev/static/learn/pwa/card_96.png 96w,https://web.dev/static/learn/pwa/card_480.png 480w,https://web.dev/static/learn/pwa/card_720.png 720w,https://web.dev/static/learn/pwa/card_856.png 856w,https://web.dev/static/learn/pwa/card_960.png 960w,https://web.dev/static/learn/pwa/card_1440.png 1440w,https://web.dev/static/learn/pwa/card_1920.png 1920w,https://web.dev/static/learn/pwa/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(11) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/testing/card.png', 'srcset': 'https://web.dev/static/learn/testing/card_36.png 36w,https://web.dev/static/learn/testing/card_48.png 48w,https://web.dev/static/learn/testing/card_72.png 72w,https://web.dev/static/learn/testing/card_96.png 96w,https://web.dev/static/learn/testing/card_480.png 480w,https://web.dev/static/learn/testing/card_720.png 720w,https://web.dev/static/learn/testing/card_856.png 856w,https://web.dev/static/learn/testing/card_960.png 960w,https://web.dev/static/learn/testing/card_1440.png 1440w,https://web.dev/static/learn/testing/card_1920.png 1920w,https://web.dev/static/learn/testing/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,devsite-toc,devsite-toc,navigation,navigation,False,False,False,,section#gc-wrapper > main > div > div > devsite-toc,"{'class': 'devsite-nav', 'role': 'navigation', 'aria-label': 'On this page', 'depth': '2', 'scrollbars': '', 'disabled': ''}"
+https://web.dev/learn,div,div,navigation,navigation,False,False,False,,section#gc-wrapper > main > devsite-content > article > div,"{'class': 'devsite-article-meta nocontent', 'role': 'navigation'}"
+https://web.dev/learn,article,article,content,content,False,True,True,"Learn web development
+Explore our growing collection of courses on key web design and development subjects. An industry expert has written each course, helped by members of the Chrome team. Follow the modules sequentially, or dip into the topics you most want to learn about.
+Course
+Learn HTML
+A solid overview of HTML for developers, from novice to expert level HTML.
+Start course
+Course
+Learn CSS
+A guide to CSS with modules covering everything from accessibility to z-index.
+Start course
+Course
+Learn JavaScript
+An in-depth course on the basics of JavaScript.
+Start course
+Course
+Learn Performance
+A course for those new to web performance, a vital aspect of the user experience.
+Start course
+Course
+Learn Privacy
+A course to help you build more privacy-preserving websites.
+Start course
+Course
+Learn Accessibility
+Discover how to make your websites and web apps more accessible.
+Start course
+Course
+Learn Images
+A course covering everything from selecting the right formats, to responsive images, and performance.
+Start course
+Course
+Learn Design
+Let's explore all aspects of responsive design, learning how to make sites that look great and work well for everyone.
+Start course
+Course
+Learn Forms
+A course about HTML forms to help you improve your web developer expertise.
+Start course
+Course
+Learn PWA
+A course that breaks down every aspect of modern progressive web app development.
+Start course
+Course
+Learn Testing
+An in-depth course on software testing.
+Start course",section#gc-wrapper > main > devsite-content > article,{'class': 'devsite-article'}
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section > div > div > div > div > figure > picture > img,"{'alt': '', 'src': 'https://web.dev/static/images/learn-header.png', 'srcset': 'https://web.dev/static/images/learn-header_36.png 36w,https://web.dev/static/images/learn-header_48.png 48w,https://web.dev/static/images/learn-header_72.png 72w,https://web.dev/static/images/learn-header_96.png 96w,https://web.dev/static/images/learn-header_480.png 480w,https://web.dev/static/images/learn-header_720.png 720w,https://web.dev/static/images/learn-header_856.png 856w,https://web.dev/static/images/learn-header_960.png 960w,https://web.dev/static/images/learn-header_1440.png 1440w,https://web.dev/static/images/learn-header_1920.png 1920w,https://web.dev/static/images/learn-header_2880.png 2880w', 'sizes': '(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px', 'fetchpriority': 'high'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/html/card.png', 'srcset': 'https://web.dev/static/learn/html/card_36.png 36w,https://web.dev/static/learn/html/card_48.png 48w,https://web.dev/static/learn/html/card_72.png 72w,https://web.dev/static/learn/html/card_96.png 96w,https://web.dev/static/learn/html/card_480.png 480w,https://web.dev/static/learn/html/card_720.png 720w,https://web.dev/static/learn/html/card_856.png 856w,https://web.dev/static/learn/html/card_960.png 960w,https://web.dev/static/learn/html/card_1440.png 1440w,https://web.dev/static/learn/html/card_1920.png 1920w,https://web.dev/static/learn/html/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(2) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/css/card.png', 'srcset': 'https://web.dev/static/learn/css/card_36.png 36w,https://web.dev/static/learn/css/card_48.png 48w,https://web.dev/static/learn/css/card_72.png 72w,https://web.dev/static/learn/css/card_96.png 96w,https://web.dev/static/learn/css/card_480.png 480w,https://web.dev/static/learn/css/card_720.png 720w,https://web.dev/static/learn/css/card_856.png 856w,https://web.dev/static/learn/css/card_960.png 960w,https://web.dev/static/learn/css/card_1440.png 1440w,https://web.dev/static/learn/css/card_1920.png 1920w,https://web.dev/static/learn/css/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(3) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/javascript/card.png', 'srcset': 'https://web.dev/static/learn/javascript/card_36.png 36w,https://web.dev/static/learn/javascript/card_48.png 48w,https://web.dev/static/learn/javascript/card_72.png 72w,https://web.dev/static/learn/javascript/card_96.png 96w,https://web.dev/static/learn/javascript/card_480.png 480w,https://web.dev/static/learn/javascript/card_720.png 720w,https://web.dev/static/learn/javascript/card_856.png 856w,https://web.dev/static/learn/javascript/card_960.png 960w,https://web.dev/static/learn/javascript/card_1440.png 1440w,https://web.dev/static/learn/javascript/card_1920.png 1920w,https://web.dev/static/learn/javascript/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(4) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/performance/card.png', 'srcset': 'https://web.dev/static/learn/performance/card_36.png 36w,https://web.dev/static/learn/performance/card_48.png 48w,https://web.dev/static/learn/performance/card_72.png 72w,https://web.dev/static/learn/performance/card_96.png 96w,https://web.dev/static/learn/performance/card_480.png 480w,https://web.dev/static/learn/performance/card_720.png 720w,https://web.dev/static/learn/performance/card_856.png 856w,https://web.dev/static/learn/performance/card_960.png 960w,https://web.dev/static/learn/performance/card_1440.png 1440w,https://web.dev/static/learn/performance/card_1920.png 1920w,https://web.dev/static/learn/performance/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(5) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/privacy/card.png', 'srcset': 'https://web.dev/static/learn/privacy/card_36.png 36w,https://web.dev/static/learn/privacy/card_48.png 48w,https://web.dev/static/learn/privacy/card_72.png 72w,https://web.dev/static/learn/privacy/card_96.png 96w,https://web.dev/static/learn/privacy/card_480.png 480w,https://web.dev/static/learn/privacy/card_720.png 720w,https://web.dev/static/learn/privacy/card_856.png 856w,https://web.dev/static/learn/privacy/card_960.png 960w,https://web.dev/static/learn/privacy/card_1440.png 1440w,https://web.dev/static/learn/privacy/card_1920.png 1920w,https://web.dev/static/learn/privacy/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(6) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/accessibility/card.png', 'srcset': 'https://web.dev/static/learn/accessibility/card_36.png 36w,https://web.dev/static/learn/accessibility/card_48.png 48w,https://web.dev/static/learn/accessibility/card_72.png 72w,https://web.dev/static/learn/accessibility/card_96.png 96w,https://web.dev/static/learn/accessibility/card_480.png 480w,https://web.dev/static/learn/accessibility/card_720.png 720w,https://web.dev/static/learn/accessibility/card_856.png 856w,https://web.dev/static/learn/accessibility/card_960.png 960w,https://web.dev/static/learn/accessibility/card_1440.png 1440w,https://web.dev/static/learn/accessibility/card_1920.png 1920w,https://web.dev/static/learn/accessibility/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(7) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/images/card.png', 'srcset': 'https://web.dev/static/learn/images/card_36.png 36w,https://web.dev/static/learn/images/card_48.png 48w,https://web.dev/static/learn/images/card_72.png 72w,https://web.dev/static/learn/images/card_96.png 96w,https://web.dev/static/learn/images/card_480.png 480w,https://web.dev/static/learn/images/card_720.png 720w,https://web.dev/static/learn/images/card_856.png 856w,https://web.dev/static/learn/images/card_960.png 960w,https://web.dev/static/learn/images/card_1440.png 1440w,https://web.dev/static/learn/images/card_1920.png 1920w,https://web.dev/static/learn/images/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(8) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/design/card.png', 'srcset': 'https://web.dev/static/learn/design/card_36.png 36w,https://web.dev/static/learn/design/card_48.png 48w,https://web.dev/static/learn/design/card_72.png 72w,https://web.dev/static/learn/design/card_96.png 96w,https://web.dev/static/learn/design/card_480.png 480w,https://web.dev/static/learn/design/card_720.png 720w,https://web.dev/static/learn/design/card_856.png 856w,https://web.dev/static/learn/design/card_960.png 960w,https://web.dev/static/learn/design/card_1440.png 1440w,https://web.dev/static/learn/design/card_1920.png 1920w,https://web.dev/static/learn/design/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(9) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/forms/card.png', 'srcset': 'https://web.dev/static/learn/forms/card_36.png 36w,https://web.dev/static/learn/forms/card_48.png 48w,https://web.dev/static/learn/forms/card_72.png 72w,https://web.dev/static/learn/forms/card_96.png 96w,https://web.dev/static/learn/forms/card_480.png 480w,https://web.dev/static/learn/forms/card_720.png 720w,https://web.dev/static/learn/forms/card_856.png 856w,https://web.dev/static/learn/forms/card_960.png 960w,https://web.dev/static/learn/forms/card_1440.png 1440w,https://web.dev/static/learn/forms/card_1920.png 1920w,https://web.dev/static/learn/forms/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(10) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/pwa/card.png', 'srcset': 'https://web.dev/static/learn/pwa/card_36.png 36w,https://web.dev/static/learn/pwa/card_48.png 48w,https://web.dev/static/learn/pwa/card_72.png 72w,https://web.dev/static/learn/pwa/card_96.png 96w,https://web.dev/static/learn/pwa/card_480.png 480w,https://web.dev/static/learn/pwa/card_720.png 720w,https://web.dev/static/learn/pwa/card_856.png 856w,https://web.dev/static/learn/pwa/card_960.png 960w,https://web.dev/static/learn/pwa/card_1440.png 1440w,https://web.dev/static/learn/pwa/card_1920.png 1920w,https://web.dev/static/learn/pwa/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(11) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/testing/card.png', 'srcset': 'https://web.dev/static/learn/testing/card_36.png 36w,https://web.dev/static/learn/testing/card_48.png 48w,https://web.dev/static/learn/testing/card_72.png 72w,https://web.dev/static/learn/testing/card_96.png 96w,https://web.dev/static/learn/testing/card_480.png 480w,https://web.dev/static/learn/testing/card_720.png 720w,https://web.dev/static/learn/testing/card_856.png 856w,https://web.dev/static/learn/testing/card_960.png 960w,https://web.dev/static/learn/testing/card_1440.png 1440w,https://web.dev/static/learn/testing/card_1920.png 1920w,https://web.dev/static/learn/testing/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,html > body > section > devsite-header > div > div > div > div > div > a > picture > img,"{'src': 'https://www.gstatic.com/devrel-devsite/prod/v5ab6fd0ad9c02b131b4d387b5751ac2c3616478c6dd65b5e931f0805efa1009c/web/images/lockup.svg', 'class': 'devsite-site-logo', 'alt': 'web.dev'}"
+https://web.dev/learn,img,img,media,media,False,False,False,,html > body > section > devsite-book-nav > nav > div > div > a > picture > img,"{'src': 'https://www.gstatic.com/devrel-devsite/prod/v5ab6fd0ad9c02b131b4d387b5751ac2c3616478c6dd65b5e931f0805efa1009c/web/images/lockup.svg', 'class': 'devsite-site-logo', 'alt': 'web.dev'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section > div > div > div > div > figure > picture > img,"{'alt': '', 'src': 'https://web.dev/static/images/learn-header.png', 'srcset': 'https://web.dev/static/images/learn-header_36.png 36w,https://web.dev/static/images/learn-header_48.png 48w,https://web.dev/static/images/learn-header_72.png 72w,https://web.dev/static/images/learn-header_96.png 96w,https://web.dev/static/images/learn-header_480.png 480w,https://web.dev/static/images/learn-header_720.png 720w,https://web.dev/static/images/learn-header_856.png 856w,https://web.dev/static/images/learn-header_960.png 960w,https://web.dev/static/images/learn-header_1440.png 1440w,https://web.dev/static/images/learn-header_1920.png 1920w,https://web.dev/static/images/learn-header_2880.png 2880w', 'sizes': '(max-width: 600px) 100vw, (max-width: 840px) 50vw, 708px', 'fetchpriority': 'high'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/html/card.png', 'srcset': 'https://web.dev/static/learn/html/card_36.png 36w,https://web.dev/static/learn/html/card_48.png 48w,https://web.dev/static/learn/html/card_72.png 72w,https://web.dev/static/learn/html/card_96.png 96w,https://web.dev/static/learn/html/card_480.png 480w,https://web.dev/static/learn/html/card_720.png 720w,https://web.dev/static/learn/html/card_856.png 856w,https://web.dev/static/learn/html/card_960.png 960w,https://web.dev/static/learn/html/card_1440.png 1440w,https://web.dev/static/learn/html/card_1920.png 1920w,https://web.dev/static/learn/html/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(2) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/css/card.png', 'srcset': 'https://web.dev/static/learn/css/card_36.png 36w,https://web.dev/static/learn/css/card_48.png 48w,https://web.dev/static/learn/css/card_72.png 72w,https://web.dev/static/learn/css/card_96.png 96w,https://web.dev/static/learn/css/card_480.png 480w,https://web.dev/static/learn/css/card_720.png 720w,https://web.dev/static/learn/css/card_856.png 856w,https://web.dev/static/learn/css/card_960.png 960w,https://web.dev/static/learn/css/card_1440.png 1440w,https://web.dev/static/learn/css/card_1920.png 1920w,https://web.dev/static/learn/css/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(3) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/javascript/card.png', 'srcset': 'https://web.dev/static/learn/javascript/card_36.png 36w,https://web.dev/static/learn/javascript/card_48.png 48w,https://web.dev/static/learn/javascript/card_72.png 72w,https://web.dev/static/learn/javascript/card_96.png 96w,https://web.dev/static/learn/javascript/card_480.png 480w,https://web.dev/static/learn/javascript/card_720.png 720w,https://web.dev/static/learn/javascript/card_856.png 856w,https://web.dev/static/learn/javascript/card_960.png 960w,https://web.dev/static/learn/javascript/card_1440.png 1440w,https://web.dev/static/learn/javascript/card_1920.png 1920w,https://web.dev/static/learn/javascript/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(4) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/performance/card.png', 'srcset': 'https://web.dev/static/learn/performance/card_36.png 36w,https://web.dev/static/learn/performance/card_48.png 48w,https://web.dev/static/learn/performance/card_72.png 72w,https://web.dev/static/learn/performance/card_96.png 96w,https://web.dev/static/learn/performance/card_480.png 480w,https://web.dev/static/learn/performance/card_720.png 720w,https://web.dev/static/learn/performance/card_856.png 856w,https://web.dev/static/learn/performance/card_960.png 960w,https://web.dev/static/learn/performance/card_1440.png 1440w,https://web.dev/static/learn/performance/card_1920.png 1920w,https://web.dev/static/learn/performance/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(5) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/privacy/card.png', 'srcset': 'https://web.dev/static/learn/privacy/card_36.png 36w,https://web.dev/static/learn/privacy/card_48.png 48w,https://web.dev/static/learn/privacy/card_72.png 72w,https://web.dev/static/learn/privacy/card_96.png 96w,https://web.dev/static/learn/privacy/card_480.png 480w,https://web.dev/static/learn/privacy/card_720.png 720w,https://web.dev/static/learn/privacy/card_856.png 856w,https://web.dev/static/learn/privacy/card_960.png 960w,https://web.dev/static/learn/privacy/card_1440.png 1440w,https://web.dev/static/learn/privacy/card_1920.png 1920w,https://web.dev/static/learn/privacy/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(6) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/accessibility/card.png', 'srcset': 'https://web.dev/static/learn/accessibility/card_36.png 36w,https://web.dev/static/learn/accessibility/card_48.png 48w,https://web.dev/static/learn/accessibility/card_72.png 72w,https://web.dev/static/learn/accessibility/card_96.png 96w,https://web.dev/static/learn/accessibility/card_480.png 480w,https://web.dev/static/learn/accessibility/card_720.png 720w,https://web.dev/static/learn/accessibility/card_856.png 856w,https://web.dev/static/learn/accessibility/card_960.png 960w,https://web.dev/static/learn/accessibility/card_1440.png 1440w,https://web.dev/static/learn/accessibility/card_1920.png 1920w,https://web.dev/static/learn/accessibility/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(7) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/images/card.png', 'srcset': 'https://web.dev/static/learn/images/card_36.png 36w,https://web.dev/static/learn/images/card_48.png 48w,https://web.dev/static/learn/images/card_72.png 72w,https://web.dev/static/learn/images/card_96.png 96w,https://web.dev/static/learn/images/card_480.png 480w,https://web.dev/static/learn/images/card_720.png 720w,https://web.dev/static/learn/images/card_856.png 856w,https://web.dev/static/learn/images/card_960.png 960w,https://web.dev/static/learn/images/card_1440.png 1440w,https://web.dev/static/learn/images/card_1920.png 1920w,https://web.dev/static/learn/images/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(8) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/design/card.png', 'srcset': 'https://web.dev/static/learn/design/card_36.png 36w,https://web.dev/static/learn/design/card_48.png 48w,https://web.dev/static/learn/design/card_72.png 72w,https://web.dev/static/learn/design/card_96.png 96w,https://web.dev/static/learn/design/card_480.png 480w,https://web.dev/static/learn/design/card_720.png 720w,https://web.dev/static/learn/design/card_856.png 856w,https://web.dev/static/learn/design/card_960.png 960w,https://web.dev/static/learn/design/card_1440.png 1440w,https://web.dev/static/learn/design/card_1920.png 1920w,https://web.dev/static/learn/design/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(9) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/forms/card.png', 'srcset': 'https://web.dev/static/learn/forms/card_36.png 36w,https://web.dev/static/learn/forms/card_48.png 48w,https://web.dev/static/learn/forms/card_72.png 72w,https://web.dev/static/learn/forms/card_96.png 96w,https://web.dev/static/learn/forms/card_480.png 480w,https://web.dev/static/learn/forms/card_720.png 720w,https://web.dev/static/learn/forms/card_856.png 856w,https://web.dev/static/learn/forms/card_960.png 960w,https://web.dev/static/learn/forms/card_1440.png 1440w,https://web.dev/static/learn/forms/card_1920.png 1920w,https://web.dev/static/learn/forms/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(10) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/pwa/card.png', 'srcset': 'https://web.dev/static/learn/pwa/card_36.png 36w,https://web.dev/static/learn/pwa/card_48.png 48w,https://web.dev/static/learn/pwa/card_72.png 72w,https://web.dev/static/learn/pwa/card_96.png 96w,https://web.dev/static/learn/pwa/card_480.png 480w,https://web.dev/static/learn/pwa/card_720.png 720w,https://web.dev/static/learn/pwa/card_856.png 856w,https://web.dev/static/learn/pwa/card_960.png 960w,https://web.dev/static/learn/pwa/card_1440.png 1440w,https://web.dev/static/learn/pwa/card_1920.png 1920w,https://web.dev/static/learn/pwa/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,img,img,media,media,False,True,False,,section#gc-wrapper > main > devsite-content > article > div:nth-of-type(2) > section:nth-of-type(2) > div > div > div:nth-of-type(11) > div > figure > a > picture > img,"{'alt': '', 'src': 'https://web.dev/static/learn/testing/card.png', 'srcset': 'https://web.dev/static/learn/testing/card_36.png 36w,https://web.dev/static/learn/testing/card_48.png 48w,https://web.dev/static/learn/testing/card_72.png 72w,https://web.dev/static/learn/testing/card_96.png 96w,https://web.dev/static/learn/testing/card_480.png 480w,https://web.dev/static/learn/testing/card_720.png 720w,https://web.dev/static/learn/testing/card_856.png 856w,https://web.dev/static/learn/testing/card_960.png 960w,https://web.dev/static/learn/testing/card_1440.png 1440w,https://web.dev/static/learn/testing/card_1920.png 1920w,https://web.dev/static/learn/testing/card_2880.png 2880w', 'sizes': '(max-width: 840px) 50vw, 464px', 'loading': 'lazy'}"
+https://web.dev/learn,a,a,interactive,interactive,True,True,False,,html > body > section > devsite-header > div > div > div > div > div:nth-of-type(2) > div > devsite-tabs > nav > tab > a,"{'href': '#', 'role': 'button', 'aria-haspopup': 'true', 'aria-expanded': 'false', 'aria-label': 'Dropdown menu for Resources', 'track-type': 'nav', 'track-metadata-eventdetail': '', 'track-metadata-position': 'nav - resources', 'track-metadata-module': 'primary nav', 'data-category': 'Site-Wide Custom Events', 'data-label': 'Tab: Resources', 'track-name': 'resources', 'class': 'devsite-tabs-dropdown-toggle devsite-icon devsite-icon-arrow-drop-down'}"
+https://web.dev/learn,span,span,interactive,interactive,True,False,False,,html > body > section > devsite-book-nav > div > span:nth-of-type(2),"{'class': 'filter-clear-button hidden', 'data-title': 'Clear filter', 'aria-label': 'Clear filter', 'role': 'button', 'tabindex': '0'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,English,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li > a,"{'role': 'menuitem', 'lang': 'en', 'href': 'https://web.dev/learn', 'aria-current': 'true'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Deutsch,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(2) > a,"{'role': 'menuitem', 'lang': 'de', 'href': 'https://web.dev/learn?hl=de'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Español – América Latina,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(3) > a,"{'role': 'menuitem', 'lang': 'es-419', 'href': 'https://web.dev/learn?hl=es-419'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Français,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(4) > a,"{'role': 'menuitem', 'lang': 'fr', 'href': 'https://web.dev/learn?hl=fr'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Indonesia,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(5) > a,"{'role': 'menuitem', 'lang': 'id', 'href': 'https://web.dev/learn?hl=id'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Italiano,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(6) > a,"{'role': 'menuitem', 'lang': 'it', 'href': 'https://web.dev/learn?hl=it'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Polski,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(7) > a,"{'role': 'menuitem', 'lang': 'pl', 'href': 'https://web.dev/learn?hl=pl'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Português – Brasil,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(8) > a,"{'role': 'menuitem', 'lang': 'pt-br', 'href': 'https://web.dev/learn?hl=pt-br'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Tiếng Việt,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(9) > a,"{'role': 'menuitem', 'lang': 'vi', 'href': 'https://web.dev/learn?hl=vi'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Türkçe,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(10) > a,"{'role': 'menuitem', 'lang': 'tr', 'href': 'https://web.dev/learn?hl=tr'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Русский,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(11) > a,"{'role': 'menuitem', 'lang': 'ru', 'href': 'https://web.dev/learn?hl=ru'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,עברית,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(12) > a,"{'role': 'menuitem', 'lang': 'he', 'href': 'https://web.dev/learn?hl=he'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,العربيّة,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(13) > a,"{'role': 'menuitem', 'lang': 'ar', 'href': 'https://web.dev/learn?hl=ar'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,فارسی,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(14) > a,"{'role': 'menuitem', 'lang': 'fa', 'href': 'https://web.dev/learn?hl=fa'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,हिंदी,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(15) > a,"{'role': 'menuitem', 'lang': 'hi', 'href': 'https://web.dev/learn?hl=hi'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,বাংলা,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(16) > a,"{'role': 'menuitem', 'lang': 'bn', 'href': 'https://web.dev/learn?hl=bn'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,ภาษาไทย,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(17) > a,"{'role': 'menuitem', 'lang': 'th', 'href': 'https://web.dev/learn?hl=th'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,中文 – 简体,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(18) > a,"{'role': 'menuitem', 'lang': 'zh-cn', 'href': 'https://web.dev/learn?hl=zh-cn'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,中文 – 繁體,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(19) > a,"{'role': 'menuitem', 'lang': 'zh-tw', 'href': 'https://web.dev/learn?hl=zh-tw'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,日本語,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(20) > a,"{'role': 'menuitem', 'lang': 'ja', 'href': 'https://web.dev/learn?hl=ja'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,한국어,html > body > section > devsite-header > div > div > div > div > devsite-language-selector > ul > li:nth-of-type(21) > a,"{'role': 'menuitem', 'lang': 'ko', 'href': 'https://web.dev/learn?hl=ko'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,English,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li > a,"{'role': 'menuitem', 'lang': 'en', 'href': 'https://web.dev/learn', 'aria-current': 'true'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Deutsch,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(2) > a,"{'role': 'menuitem', 'lang': 'de', 'href': 'https://web.dev/learn?hl=de'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Español – América Latina,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(3) > a,"{'role': 'menuitem', 'lang': 'es-419', 'href': 'https://web.dev/learn?hl=es-419'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Français,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(4) > a,"{'role': 'menuitem', 'lang': 'fr', 'href': 'https://web.dev/learn?hl=fr'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Indonesia,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(5) > a,"{'role': 'menuitem', 'lang': 'id', 'href': 'https://web.dev/learn?hl=id'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Italiano,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(6) > a,"{'role': 'menuitem', 'lang': 'it', 'href': 'https://web.dev/learn?hl=it'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Polski,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(7) > a,"{'role': 'menuitem', 'lang': 'pl', 'href': 'https://web.dev/learn?hl=pl'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Português – Brasil,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(8) > a,"{'role': 'menuitem', 'lang': 'pt-br', 'href': 'https://web.dev/learn?hl=pt-br'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Tiếng Việt,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(9) > a,"{'role': 'menuitem', 'lang': 'vi', 'href': 'https://web.dev/learn?hl=vi'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Türkçe,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(10) > a,"{'role': 'menuitem', 'lang': 'tr', 'href': 'https://web.dev/learn?hl=tr'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,Русский,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(11) > a,"{'role': 'menuitem', 'lang': 'ru', 'href': 'https://web.dev/learn?hl=ru'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,עברית,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(12) > a,"{'role': 'menuitem', 'lang': 'he', 'href': 'https://web.dev/learn?hl=he'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,العربيّة,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(13) > a,"{'role': 'menuitem', 'lang': 'ar', 'href': 'https://web.dev/learn?hl=ar'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,فارسی,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(14) > a,"{'role': 'menuitem', 'lang': 'fa', 'href': 'https://web.dev/learn?hl=fa'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,हिंदी,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(15) > a,"{'role': 'menuitem', 'lang': 'hi', 'href': 'https://web.dev/learn?hl=hi'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,বাংলা,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(16) > a,"{'role': 'menuitem', 'lang': 'bn', 'href': 'https://web.dev/learn?hl=bn'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,ภาษาไทย,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(17) > a,"{'role': 'menuitem', 'lang': 'th', 'href': 'https://web.dev/learn?hl=th'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,中文 – 简体,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(18) > a,"{'role': 'menuitem', 'lang': 'zh-cn', 'href': 'https://web.dev/learn?hl=zh-cn'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,中文 – 繁體,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(19) > a,"{'role': 'menuitem', 'lang': 'zh-tw', 'href': 'https://web.dev/learn?hl=zh-tw'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,日本語,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(20) > a,"{'role': 'menuitem', 'lang': 'ja', 'href': 'https://web.dev/learn?hl=ja'}"
+https://web.dev/learn,a,a,interactive,interactive,True,False,True,한국어,section#gc-wrapper > devsite-footer-utility > div > nav > devsite-language-selector > ul > li:nth-of-type(21) > a,"{'role': 'menuitem', 'lang': 'ko', 'href': 'https://web.dev/learn?hl=ko'}"

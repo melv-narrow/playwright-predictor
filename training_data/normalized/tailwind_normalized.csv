@@ -1,0 +1,991 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://tailwindcss.com/docs/installation,nav,nav,navigation,navigation,False,True,True,"Docs
+Components
+Blog
+Showcase",div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav,{'class': 'text-sm leading-6 font-semibold text-slate-700 dark:text-slate-200'}
+https://tailwindcss.com/docs/installation,nav,nav,navigation,navigation,False,True,True,"Quick search...
+Ctrl K
+Documentation
+Components
+Templates
+Screencasts
+Playground
+Resources
+Community
+Getting Started
+Installation
+Editor Setup
+Using with Preprocessors
+Optimizing for Production
+Browser Support
+Upgrade Guide
+Core Concepts
+Utility-First Fundamentals
+Hover, Focus, and Other States
+Responsive Design
+Dark Mode
+Reusing Styles
+Adding Custom Styles
+Functions & Directives
+Customization
+Configuration
+Content
+Theme
+Screens
+Colors
+Spacing
+Plugins
+Presets
+Base Styles
+Preflight
+Layout
+Aspect Ratio
+Container
+Columns
+Break After
+Break Before
+Break Inside
+Box Decoration Break
+Box Sizing
+Display
+Floats
+Clear
+Isolation
+Object Fit
+Object Position
+Overflow
+Overscroll Behavior
+Position
+Top / Right / Bottom / Left
+Visibility
+Z-Index
+Flexbox & Grid
+Flex Basis
+Flex Direction
+Flex Wrap
+Flex
+Flex Grow
+Flex Shrink
+Order
+Grid Template Columns
+Grid Column Start / End
+Grid Template Rows
+Grid Row Start / End
+Grid Auto Flow
+Grid Auto Columns
+Grid Auto Rows
+Gap
+Justify Content
+Justify Items
+Justify Self
+Align Content
+Align Items
+Align Self
+Place Content
+Place Items
+Place Self
+Spacing
+Padding
+Margin
+Space Between
+Sizing
+Width
+Min-Width
+Max-Width
+Height
+Min-Height
+Max-Height
+Size
+Typography
+Font Family
+Font Size
+Font Smoothing
+Font Style
+Font Weight
+Font Variant Numeric
+Letter Spacing
+Line Clamp
+Line Height
+List Style Image
+List Style Position
+List Style Type
+Text Align
+Text Color
+Text Decoration
+Text Decoration Color
+Text Decoration Style
+Text Decoration Thickness
+Text Underline Offset
+Text Transform
+Text Overflow
+Text Wrap
+Text Indent
+Vertical Align
+Whitespace
+Word Break
+Hyphens
+Content
+Backgrounds
+Background Attachment
+Background Clip
+Background Color
+Background Origin
+Background Position
+Background Repeat
+Background Size
+Background Image
+Gradient Color Stops
+Borders
+Border Radius
+Border Width
+Border Color
+Border Style
+Divide Width
+Divide Color
+Divide Style
+Outline Width
+Outline Color
+Outline Style
+Outline Offset
+Ring Width
+Ring Color
+Ring Offset Width
+Ring Offset Color
+Effects
+Box Shadow
+Box Shadow Color
+Opacity
+Mix Blend Mode
+Background Blend Mode
+Filters
+Blur
+Brightness
+Contrast
+Drop Shadow
+Grayscale
+Hue Rotate
+Invert
+Saturate
+Sepia
+Backdrop Blur
+Backdrop Brightness
+Backdrop Contrast
+Backdrop Grayscale
+Backdrop Hue Rotate
+Backdrop Invert
+Backdrop Opacity
+Backdrop Saturate
+Backdrop Sepia
+Tables
+Border Collapse
+Border Spacing
+Table Layout
+Caption Side
+Transitions & Animation
+Transition Property
+Transition Duration
+Transition Timing Function
+Transition Delay
+Animation
+Transforms
+Scale
+Rotate
+Translate
+Skew
+Transform Origin
+Interactivity
+Accent Color
+Appearance
+Cursor
+Caret Color
+Pointer Events
+Resize
+Scroll Behavior
+Scroll Margin
+Scroll Padding
+Scroll Snap Align
+Scroll Snap Stop
+Scroll Snap Type
+Touch Action
+User Select
+Will Change
+SVG
+Fill
+Stroke
+Stroke Width
+Accessibility
+Screen Readers
+Forced Color Adjust
+Official Plugins
+Typography
+Forms
+Aspect Ratio
+Container Queries",nav#nav,"{'id': 'nav', 'class': 'lg:text-sm lg:leading-6 relative pb-20'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,True,True,v3.4.17,button#headlessui-menu-button-:r1:,"{'class': 'text-xs leading-5 font-semibold bg-slate-400/10 rounded-full py-1 px-3 flex items-center space-x-2 hover:bg-slate-400/20 dark:highlight-white/5', 'id': 'headlessui-menu-button-:r1:', 'type': 'button', 'aria-haspopup': 'menu', 'aria-expanded': 'false', 'data-headlessui-state': ''}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,True,False,,button#headlessui-listbox-button-:r5:,"{'type': 'button', 'id': 'headlessui-listbox-button-:r5:', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'aria-labelledby': 'headlessui-label-:r4: headlessui-listbox-button-:r5:'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,False,True,Search,div#__next > div:nth-of-type(2) > div > div > div > button,"{'type': 'button', 'class': 'ml-auto text-slate-500 w-8 h-8 -my-1 flex items-center justify-center hover:text-slate-600 lg:hidden dark:text-slate-400 dark:hover:text-slate-300'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,False,True,Navigation,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > button,"{'type': 'button', 'class': 'text-slate-500 w-8 h-8 flex items-center justify-center hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,False,True,Navigation,div#__next > div:nth-of-type(2) > div > div:nth-of-type(2) > button,"{'type': 'button', 'class': 'text-slate-500 hover:text-slate-600 dark:text-slate-400 dark:hover:text-slate-300'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,True,True,"Quick search...
+Ctrl K",nav#nav > div > div:nth-of-type(2) > button,"{'type': 'button', 'class': 'hidden w-full lg:flex items-center text-sm leading-6 text-slate-400 rounded-md ring-1 ring-slate-900/10 shadow-sm py-1.5 pl-2 pr-3 hover:ring-slate-300 dark:bg-slate-800 dark:highlight-white/5 dark:hover:bg-slate-700'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,True,False,,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li > div:nth-of-type(2) > div > div:nth-of-type(3) > div > button,"{'type': 'button', 'class': 'text-slate-500 hover:text-slate-400'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,True,False,,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(2) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > button,"{'type': 'button', 'class': 'text-slate-500 hover:text-slate-400'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,True,False,,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(3) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > button,"{'type': 'button', 'class': 'text-slate-500 hover:text-slate-400'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,True,False,,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(4) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > button,"{'type': 'button', 'class': 'text-slate-500 hover:text-slate-400'}"
+https://tailwindcss.com/docs/installation,button,button,interactive,interactive,True,True,False,,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(5) > div:nth-of-type(2) > div > div:nth-of-type(3) > div > button,"{'type': 'button', 'class': 'text-slate-500 hover:text-slate-400'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Tailwind CSS home page,div#__next > div:nth-of-type(2) > div > div > div > a,"{'class': 'mr-3 flex-none w-[2.0625rem] overflow-hidden md:w-auto', 'href': '/'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,"Introducing Catalyst
+A modern application UI kit for React",div#__next > div:nth-of-type(2) > div > div > div > a:nth-of-type(2),"{'href': 'https://tailwindcss.com/blog/2024-05-24-catalyst-application-layouts', 'class': 'ml-3 text-xs leading-5 font-medium text-sky-600 dark:text-sky-400 bg-sky-400/10 rounded-full py-1 px-3 hidden xl:flex items-center hover:bg-sky-400/20'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Docs,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav > ul > li > a,"{'class': 'hover:text-sky-500 dark:hover:text-sky-400', 'href': '/docs/installation'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Components,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav > ul > li:nth-of-type(2) > a,"{'href': 'https://tailwindui.com/?ref=top', 'class': 'hover:text-sky-500 dark:hover:text-sky-400'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Blog,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav > ul > li:nth-of-type(3) > a,"{'class': 'hover:text-sky-500 dark:hover:text-sky-400', 'href': '/blog'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Showcase,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav > ul > li:nth-of-type(4) > a,"{'class': 'hover:text-sky-500 dark:hover:text-sky-400', 'href': '/showcase'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Tailwind CSS on GitHub,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > div > a,"{'href': 'https://github.com/tailwindlabs/tailwindcss', 'class': 'ml-6 block text-slate-400 hover:text-slate-500 dark:hover:text-slate-300'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Documentation,nav#nav > ul > li > a,"{'class': 'group flex items-center lg:text-sm lg:leading-6 mb-4 font-semibold text-sky-500 dark:text-sky-400', 'href': '/docs/installation'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Components,nav#nav > ul > li:nth-of-type(2) > a,"{'class': 'group flex items-center lg:text-sm lg:leading-6 mb-4 font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://tailwindui.com/components?ref=sidebar'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Templates,nav#nav > ul > li:nth-of-type(3) > a,"{'class': 'group flex items-center lg:text-sm lg:leading-6 mb-4 font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://tailwindui.com/templates?ref=sidebar'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Screencasts,nav#nav > ul > li:nth-of-type(4) > a,"{'class': 'group flex items-center lg:text-sm lg:leading-6 mb-4 font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://www.youtube.com/tailwindlabs'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Playground,nav#nav > ul > li:nth-of-type(5) > a,"{'class': 'group flex items-center lg:text-sm lg:leading-6 mb-4 font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://play.tailwindcss.com'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Resources,nav#nav > ul > li:nth-of-type(6) > a,"{'class': 'group flex items-center lg:text-sm lg:leading-6 mb-4 font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/resources'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Community,nav#nav > ul > li:nth-of-type(7) > a,"{'class': 'group flex items-center lg:text-sm lg:leading-6 mb-4 font-medium text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://github.com/tailwindlabs/tailwindcss/discussions'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Installation,nav#nav > ul > li:nth-of-type(8) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px text-sky-500 border-current font-semibold dark:text-sky-400', 'href': '/docs/installation'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Editor Setup,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/editor-setup'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Using with Preprocessors,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/using-with-preprocessors'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Optimizing for Production,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/optimizing-for-production'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Browser Support,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/browser-support'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Upgrade Guide,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/upgrade-guide'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Utility-First Fundamentals,nav#nav > ul > li:nth-of-type(9) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/utility-first'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,"Hover, Focus, and Other States",nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/hover-focus-and-other-states'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Responsive Design,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/responsive-design'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Dark Mode,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/dark-mode'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Reusing Styles,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/reusing-styles'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Adding Custom Styles,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/adding-custom-styles'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Functions & Directives,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/functions-and-directives'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Configuration,nav#nav > ul > li:nth-of-type(10) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/configuration'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Content,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/content-configuration'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Theme,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/theme'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Screens,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/screens'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Colors,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/customizing-colors'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Spacing,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/customizing-spacing'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Plugins,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/plugins'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Presets,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(8) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/presets'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Preflight,nav#nav > ul > li:nth-of-type(11) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/preflight'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Aspect Ratio,nav#nav > ul > li:nth-of-type(12) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/aspect-ratio'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Container,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/container'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Columns,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/columns'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Break After,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/break-after'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Break Before,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/break-before'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Break Inside,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/break-inside'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Box Decoration Break,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/box-decoration-break'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Box Sizing,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(8) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/box-sizing'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Display,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(9) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/display'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Floats,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(10) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/float'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Clear,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(11) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/clear'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Isolation,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(12) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/isolation'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Object Fit,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(13) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/object-fit'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Object Position,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(14) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/object-position'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Overflow,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(15) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/overflow'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Overscroll Behavior,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(16) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/overscroll-behavior'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Position,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(17) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/position'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Top / Right / Bottom / Left,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(18) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/top-right-bottom-left'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Visibility,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(19) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/visibility'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Z-Index,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(20) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/z-index'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Flex Basis,nav#nav > ul > li:nth-of-type(13) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/flex-basis'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Flex Direction,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/flex-direction'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Flex Wrap,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/flex-wrap'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Flex,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/flex'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Flex Grow,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/flex-grow'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Flex Shrink,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/flex-shrink'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Order,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/order'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Grid Template Columns,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(8) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/grid-template-columns'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Grid Column Start / End,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(9) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/grid-column'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Grid Template Rows,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(10) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/grid-template-rows'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Grid Row Start / End,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(11) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/grid-row'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Grid Auto Flow,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(12) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/grid-auto-flow'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Grid Auto Columns,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(13) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/grid-auto-columns'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Grid Auto Rows,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(14) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/grid-auto-rows'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Gap,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(15) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/gap'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Justify Content,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(16) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/justify-content'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Justify Items,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(17) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/justify-items'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Justify Self,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(18) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/justify-self'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Align Content,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(19) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/align-content'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Align Items,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(20) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/align-items'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Align Self,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(21) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/align-self'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Place Content,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(22) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/place-content'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Place Items,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(23) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/place-items'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Place Self,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(24) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/place-self'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Padding,nav#nav > ul > li:nth-of-type(14) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/padding'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Margin,nav#nav > ul > li:nth-of-type(14) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/margin'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Space Between,nav#nav > ul > li:nth-of-type(14) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/space'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Width,nav#nav > ul > li:nth-of-type(15) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Min-Width,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/min-width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Max-Width,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/max-width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Height,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/height'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Min-Height,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/min-height'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Max-Height,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/max-height'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Size,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/size'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Font Family,nav#nav > ul > li:nth-of-type(16) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/font-family'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Font Size,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/font-size'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Font Smoothing,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/font-smoothing'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Font Style,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/font-style'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Font Weight,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/font-weight'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Font Variant Numeric,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/font-variant-numeric'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Letter Spacing,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/letter-spacing'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Line Clamp,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(8) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/line-clamp'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Line Height,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(9) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/line-height'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,List Style Image,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(10) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/list-style-image'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,List Style Position,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(11) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/list-style-position'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,List Style Type,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(12) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/list-style-type'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Align,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(13) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-align'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Color,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(14) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Decoration,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(15) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-decoration'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Decoration Color,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(16) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-decoration-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Decoration Style,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(17) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-decoration-style'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Decoration Thickness,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(18) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-decoration-thickness'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Underline Offset,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(19) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-underline-offset'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Transform,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(20) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-transform'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Overflow,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(21) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-overflow'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Wrap,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(22) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-wrap'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Text Indent,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(23) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/text-indent'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Vertical Align,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(24) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/vertical-align'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Whitespace,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(25) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/whitespace'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Word Break,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(26) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/word-break'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Hyphens,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(27) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/hyphens'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Content,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(28) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/content'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Attachment,nav#nav > ul > li:nth-of-type(17) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-attachment'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Clip,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-clip'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Color,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Origin,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-origin'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Position,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-position'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Repeat,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-repeat'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Size,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-size'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Image,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(8) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-image'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Gradient Color Stops,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(9) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/gradient-color-stops'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Border Radius,nav#nav > ul > li:nth-of-type(18) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/border-radius'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Border Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/border-width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Border Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/border-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Border Style,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/border-style'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Divide Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/divide-width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Divide Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/divide-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Divide Style,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/divide-style'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Outline Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(8) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/outline-width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Outline Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(9) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/outline-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Outline Style,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(10) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/outline-style'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Outline Offset,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(11) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/outline-offset'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Ring Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(12) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/ring-width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Ring Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(13) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/ring-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Ring Offset Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(14) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/ring-offset-width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Ring Offset Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(15) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/ring-offset-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Box Shadow,nav#nav > ul > li:nth-of-type(19) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/box-shadow'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Box Shadow Color,nav#nav > ul > li:nth-of-type(19) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/box-shadow-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Opacity,nav#nav > ul > li:nth-of-type(19) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/opacity'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Mix Blend Mode,nav#nav > ul > li:nth-of-type(19) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/mix-blend-mode'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Background Blend Mode,nav#nav > ul > li:nth-of-type(19) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/background-blend-mode'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Blur,nav#nav > ul > li:nth-of-type(20) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/blur'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Brightness,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/brightness'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Contrast,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/contrast'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Drop Shadow,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/drop-shadow'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Grayscale,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/grayscale'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Hue Rotate,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/hue-rotate'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Invert,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/invert'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Saturate,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(8) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/saturate'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Sepia,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(9) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/sepia'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Blur,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(10) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-blur'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Brightness,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(11) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-brightness'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Contrast,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(12) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-contrast'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Grayscale,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(13) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-grayscale'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Hue Rotate,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(14) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-hue-rotate'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Invert,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(15) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-invert'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Opacity,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(16) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-opacity'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Saturate,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(17) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-saturate'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Backdrop Sepia,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(18) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/backdrop-sepia'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Border Collapse,nav#nav > ul > li:nth-of-type(21) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/border-collapse'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Border Spacing,nav#nav > ul > li:nth-of-type(21) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/border-spacing'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Table Layout,nav#nav > ul > li:nth-of-type(21) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/table-layout'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Caption Side,nav#nav > ul > li:nth-of-type(21) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/caption-side'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Transition Property,nav#nav > ul > li:nth-of-type(22) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/transition-property'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Transition Duration,nav#nav > ul > li:nth-of-type(22) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/transition-duration'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Transition Timing Function,nav#nav > ul > li:nth-of-type(22) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/transition-timing-function'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Transition Delay,nav#nav > ul > li:nth-of-type(22) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/transition-delay'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Animation,nav#nav > ul > li:nth-of-type(22) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/animation'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Scale,nav#nav > ul > li:nth-of-type(23) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/scale'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Rotate,nav#nav > ul > li:nth-of-type(23) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/rotate'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Translate,nav#nav > ul > li:nth-of-type(23) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/translate'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Skew,nav#nav > ul > li:nth-of-type(23) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/skew'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Transform Origin,nav#nav > ul > li:nth-of-type(23) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/transform-origin'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Accent Color,nav#nav > ul > li:nth-of-type(24) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/accent-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Appearance,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/appearance'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Cursor,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/cursor'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Caret Color,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/caret-color'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Pointer Events,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(5) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/pointer-events'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Resize,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(6) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/resize'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Scroll Behavior,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(7) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/scroll-behavior'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Scroll Margin,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(8) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/scroll-margin'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Scroll Padding,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(9) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/scroll-padding'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Scroll Snap Align,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(10) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/scroll-snap-align'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Scroll Snap Stop,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(11) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/scroll-snap-stop'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Scroll Snap Type,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(12) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/scroll-snap-type'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Touch Action,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(13) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/touch-action'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,User Select,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(14) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/user-select'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Will Change,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(15) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/will-change'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Fill,nav#nav > ul > li:nth-of-type(25) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/fill'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Stroke,nav#nav > ul > li:nth-of-type(25) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/stroke'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Stroke Width,nav#nav > ul > li:nth-of-type(25) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/stroke-width'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Screen Readers,nav#nav > ul > li:nth-of-type(26) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/screen-readers'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Forced Color Adjust,nav#nav > ul > li:nth-of-type(26) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': '/docs/forced-color-adjust'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Typography,nav#nav > ul > li:nth-of-type(27) > ul > li > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://github.com/tailwindlabs/tailwindcss-typography'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Forms,nav#nav > ul > li:nth-of-type(27) > ul > li:nth-of-type(2) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://github.com/tailwindlabs/tailwindcss-forms'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Aspect Ratio,nav#nav > ul > li:nth-of-type(27) > ul > li:nth-of-type(3) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://github.com/tailwindlabs/tailwindcss-aspect-ratio'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Container Queries,nav#nav > ul > li:nth-of-type(27) > ul > li:nth-of-type(4) > a,"{'class': 'block border-l pl-4 -ml-px border-transparent hover:border-slate-400 dark:hover:border-slate-500 text-slate-700 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-300', 'href': 'https://github.com/tailwindlabs/tailwindcss-container-queries'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,"v4.0 Beta Documentation →
+
+Preview the next Tailwind CSS.",div#__next > div:nth-of-type(3) > div > div > div > a,"{'class': 'group relative px-4 py-3 bg-slate-800 hover:bg-slate-900 text-white rounded-lg font-medium text-sm grid overflow-hidden border border-white/10 shadow-lg', 'href': '/docs/v4-beta'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Tailwind CLI,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > div > div > div > ul > li > h2 > a,"{'class': 'flex text-sm leading-6 font-semibold pt-3 pb-2.5 border-b-2 -mb-px text-sky-500 border-current', 'href': '/docs/installation'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Using PostCSS,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > div > div > div > ul > li:nth-of-type(2) > h2 > a,"{'class': 'flex text-sm leading-6 font-semibold pt-3 pb-2.5 border-b-2 -mb-px text-slate-900 border-transparent hover:border-slate-300 dark:text-slate-200 dark:hover:border-slate-700', 'href': '/docs/installation/using-postcss'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Framework Guides,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > div > div > div > ul > li:nth-of-type(3) > h2 > a,"{'class': 'flex text-sm leading-6 font-semibold pt-3 pb-2.5 border-b-2 -mb-px text-slate-900 border-transparent hover:border-slate-300 dark:text-slate-200 dark:hover:border-slate-700', 'href': '/docs/installation/framework-guides'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Play CDN,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > div > div > div > ul > li:nth-of-type(4) > h2 > a,"{'class': 'flex text-sm leading-6 font-semibold pt-3 pb-2.5 border-b-2 -mb-px text-slate-900 border-transparent hover:border-slate-300 dark:text-slate-200 dark:hover:border-slate-700', 'href': '/docs/installation/play-cdn'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,standalone executable,div#content-wrapper > p > a,{'href': '/blog/standalone-cli'}
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Utility-First Fundamentals,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li > div:nth-of-type(2) > h3 > a,"{'class': 'before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4', 'href': '/docs/utility-first'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Responsive Design,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(2) > h3 > a,"{'class': 'before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4', 'href': '/docs/responsive-design'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,"Hover, Focus & Other States",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(2) > h3 > a,"{'class': 'before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4', 'href': '/docs/hover-focus-and-other-states'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Dark Mode,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(2) > h3 > a,"{'class': 'before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4', 'href': '/docs/dark-mode'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Reusing Styles,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(2) > h3 > a,"{'class': 'before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4', 'href': '/docs/reusing-styles'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Customizing the Framework,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(6) > div:nth-of-type(2) > h3 > a,"{'class': 'before:absolute before:-inset-3 before:rounded-2xl sm:before:-inset-4', 'href': '/docs/adding-custom-styles'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Trademark Policy,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > footer > div > div > p:nth-of-type(2) > a,"{'class': 'hover:text-slate-900 dark:hover:text-slate-400', 'href': '/brand'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,GitHub,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > footer > div > div:nth-of-type(2) > a,"{'href': 'https://github.com/tailwindlabs/tailwindcss', 'class': 'hover:text-slate-500 dark:hover:text-slate-400'}"
+https://tailwindcss.com/docs/installation,a,a,navigation,interactive,True,True,True,Discord,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > footer > div > div:nth-of-type(2) > a:nth-of-type(2),"{'href': '/discord', 'class': 'hover:text-slate-500 dark:hover:text-slate-400'}"
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,The simplest and fastest way to get up and running with Tailwind CSS from scratch is with the Tailwind CLI tool. The CLI is also available as a standalone executable if you want to use it without installing Node.js.,div#content-wrapper > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,"Install tailwindcss via npm, and create your tailwind.config.js file.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Add the paths to all of your template files in your tailwind.config.js file.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(2) > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(3) > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Run the CLI tool to scan your template files for classes and build your CSS.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(4) > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(5) > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Get familiar with some of the core concepts that make Tailwind CSS different from writing traditional CSS.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Using a utility-first workflow to build complex components from a constrained set of primitive utilities.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Build fully responsive user interfaces that adapt to any screen size using responsive modifiers.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,"Style elements in interactive states like hover, focus, and more using conditional modifiers.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Optimize your site for dark mode directly in your HTML using the dark mode modifier.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Manage duplication and keep your projects maintainable by creating reusable abstractions.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Customize the framework to match your brand and extend it with your own custom styles.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(6) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Installation,header#header > div > p,{'class': 'mb-4 text-sm leading-6 font-semibold text-sky-500 dark:text-sky-400'}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,"Tailwind CSS works by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.",header#header > div > p:nth-of-type(2),{'class': 'mt-4 text-lg text-slate-700 dark:text-slate-400'}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,"It's fast, flexible, and reliable — with zero-runtime.",header#header > div > p:nth-of-type(3),{'class': 'mt-4 text-lg text-slate-700 dark:text-slate-400'}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,The simplest and fastest way to get up and running with Tailwind CSS from scratch is with the Tailwind CLI tool. The CLI is also available as a standalone executable if you want to use it without installing Node.js.,div#content-wrapper > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,"Install tailwindcss via npm, and create your tailwind.config.js file.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Add the paths to all of your template files in your tailwind.config.js file.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(2) > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(3) > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Run the CLI tool to scan your template files for classes and build your CSS.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(4) > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(5) > div > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Get familiar with some of the core concepts that make Tailwind CSS different from writing traditional CSS.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Using a utility-first workflow to build complex components from a constrained set of primitive utilities.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Build fully responsive user interfaces that adapt to any screen size using responsive modifiers.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(2) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,"Style elements in interactive states like hover, focus, and more using conditional modifiers.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(3) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Optimize your site for dark mode directly in your HTML using the dark mode modifier.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(4) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Manage duplication and keep your projects maintainable by creating reusable abstractions.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(5) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,p,p,content,content,False,True,True,Customize the framework to match your brand and extend it with your own custom styles.,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(6) > div:nth-of-type(2) > div > p,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,False,True,Getting Started,div#__next > div:nth-of-type(2) > div > div:nth-of-type(2) > ol > li,{'class': 'flex items-center'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,False,True,Installation,div#__next > div:nth-of-type(2) > div > div:nth-of-type(2) > ol > li:nth-of-type(2),{'class': 'font-semibold text-slate-900 truncate dark:text-slate-200'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Install Tailwind CSS
+
+Install tailwindcss via npm, and create your tailwind.config.js file.
+
+Terminal
+npm install -D tailwindcss
+npx tailwindcss init",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li,"{'class': 'relative pl-10 xl:grid grid-cols-5 gap-16 before:content-[counter(step)] before:absolute before:left-0 before:flex before:items-center before:justify-center before:w-[calc(1.375rem+1px)] before:h-[calc(1.375rem+1px)] before:text-[0.625rem] before:font-bold before:text-slate-700 before:rounded-md before:shadow-sm before:ring-1 before:ring-slate-900/5 dark:before:bg-slate-700 dark:before:text-slate-200 dark:before:ring-0 dark:before:shadow-none dark:before:highlight-white/5 pb-8 after:absolute after:top-[calc(1.875rem+1px)] after:bottom-0 after:left-[0.6875rem] after:w-px after:bg-slate-200 dark:after:bg-slate-200/5', 'style': 'counter-increment: step 1;'}"
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Configure your template paths
+
+Add the paths to all of your template files in your tailwind.config.js file.
+
+tailwind.config.js
+/** @type {import('tailwindcss').Config} */
+
+module.exports = {
+
+  content: [""./src/**/*.{html,js}""],
+
+  theme: {
+
+    extend: {},
+
+  },
+
+  plugins: [],
+
+}",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(2),"{'class': 'relative pl-10 xl:grid grid-cols-5 gap-16 before:content-[counter(step)] before:absolute before:left-0 before:flex before:items-center before:justify-center before:w-[calc(1.375rem+1px)] before:h-[calc(1.375rem+1px)] before:text-[0.625rem] before:font-bold before:text-slate-700 before:rounded-md before:shadow-sm before:ring-1 before:ring-slate-900/5 dark:before:bg-slate-700 dark:before:text-slate-200 dark:before:ring-0 dark:before:shadow-none dark:before:highlight-white/5 pb-8 after:absolute after:top-[calc(1.875rem+1px)] after:bottom-0 after:left-[0.6875rem] after:w-px after:bg-slate-200 dark:after:bg-slate-200/5', 'style': 'counter-increment: step 1;'}"
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Add the Tailwind directives to your CSS
+
+Add the @tailwind directives for each of Tailwind’s layers to your main CSS file.
+
+src/input.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(3),"{'class': 'relative pl-10 xl:grid grid-cols-5 gap-16 before:content-[counter(step)] before:absolute before:left-0 before:flex before:items-center before:justify-center before:w-[calc(1.375rem+1px)] before:h-[calc(1.375rem+1px)] before:text-[0.625rem] before:font-bold before:text-slate-700 before:rounded-md before:shadow-sm before:ring-1 before:ring-slate-900/5 dark:before:bg-slate-700 dark:before:text-slate-200 dark:before:ring-0 dark:before:shadow-none dark:before:highlight-white/5 pb-8 after:absolute after:top-[calc(1.875rem+1px)] after:bottom-0 after:left-[0.6875rem] after:w-px after:bg-slate-200 dark:after:bg-slate-200/5', 'style': 'counter-increment: step 1;'}"
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Start the Tailwind CLI build process
+
+Run the CLI tool to scan your template files for classes and build your CSS.
+
+Terminal
+npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(4),"{'class': 'relative pl-10 xl:grid grid-cols-5 gap-16 before:content-[counter(step)] before:absolute before:left-0 before:flex before:items-center before:justify-center before:w-[calc(1.375rem+1px)] before:h-[calc(1.375rem+1px)] before:text-[0.625rem] before:font-bold before:text-slate-700 before:rounded-md before:shadow-sm before:ring-1 before:ring-slate-900/5 dark:before:bg-slate-700 dark:before:text-slate-200 dark:before:ring-0 dark:before:shadow-none dark:before:highlight-white/5 pb-8 after:absolute after:top-[calc(1.875rem+1px)] after:bottom-0 after:left-[0.6875rem] after:w-px after:bg-slate-200 dark:after:bg-slate-200/5', 'style': 'counter-increment: step 1;'}"
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Start using Tailwind in your HTML
+
+Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.
+
+src/index.html
+<!doctype html>
+
+<html>
+
+<head>
+
+  <meta charset=""UTF-8"">
+
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+
+  <link href=""./output.css"" rel=""stylesheet"">
+
+</head>
+
+<body>
+
+  <h1 class=""text-3xl font-bold underline"">
+
+    Hello world!
+
+  </h1>
+
+</body>
+
+</html>",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > ol > li:nth-of-type(5),"{'class': 'relative pl-10 xl:grid grid-cols-5 gap-16 before:content-[counter(step)] before:absolute before:left-0 before:flex before:items-center before:justify-center before:w-[calc(1.375rem+1px)] before:h-[calc(1.375rem+1px)] before:text-[0.625rem] before:font-bold before:text-slate-700 before:rounded-md before:shadow-sm before:ring-1 before:ring-slate-900/5 dark:before:bg-slate-700 dark:before:text-slate-200 dark:before:ring-0 dark:before:shadow-none dark:before:highlight-white/5', 'style': 'counter-increment: step 1;'}"
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Docs,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Components,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Blog,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Showcase,div#__next > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > nav > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Documentation,nav#nav > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Components,nav#nav > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Templates,nav#nav > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Screencasts,nav#nav > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Playground,nav#nav > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Resources,nav#nav > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Community,nav#nav > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Getting Started
+Installation
+Editor Setup
+Using with Preprocessors
+Optimizing for Production
+Browser Support
+Upgrade Guide",nav#nav > ul > li:nth-of-type(8),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Installation,nav#nav > ul > li:nth-of-type(8) > ul > li,{'data-active': 'true'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Editor Setup,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Using with Preprocessors,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Optimizing for Production,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Browser Support,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Upgrade Guide,nav#nav > ul > li:nth-of-type(8) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Core Concepts
+Utility-First Fundamentals
+Hover, Focus, and Other States
+Responsive Design
+Dark Mode
+Reusing Styles
+Adding Custom Styles
+Functions & Directives",nav#nav > ul > li:nth-of-type(9),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Utility-First Fundamentals,nav#nav > ul > li:nth-of-type(9) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Hover, Focus, and Other States",nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Responsive Design,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Dark Mode,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Reusing Styles,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Adding Custom Styles,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Functions & Directives,nav#nav > ul > li:nth-of-type(9) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Customization
+Configuration
+Content
+Theme
+Screens
+Colors
+Spacing
+Plugins
+Presets",nav#nav > ul > li:nth-of-type(10),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Configuration,nav#nav > ul > li:nth-of-type(10) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Content,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Theme,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Screens,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Colors,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Spacing,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Plugins,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Presets,nav#nav > ul > li:nth-of-type(10) > ul > li:nth-of-type(8),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Base Styles
+Preflight",nav#nav > ul > li:nth-of-type(11),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Preflight,nav#nav > ul > li:nth-of-type(11) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Layout
+Aspect Ratio
+Container
+Columns
+Break After
+Break Before
+Break Inside
+Box Decoration Break
+Box Sizing
+Display
+Floats
+Clear
+Isolation
+Object Fit
+Object Position
+Overflow
+Overscroll Behavior
+Position
+Top / Right / Bottom / Left
+Visibility
+Z-Index",nav#nav > ul > li:nth-of-type(12),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Aspect Ratio,nav#nav > ul > li:nth-of-type(12) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Container,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Columns,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Break After,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Break Before,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Break Inside,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Box Decoration Break,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Box Sizing,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(8),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Display,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(9),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Floats,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(10),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Clear,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(11),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Isolation,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(12),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Object Fit,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(13),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Object Position,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(14),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Overflow,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(15),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Overscroll Behavior,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(16),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Position,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(17),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Top / Right / Bottom / Left,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(18),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Visibility,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(19),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Z-Index,nav#nav > ul > li:nth-of-type(12) > ul > li:nth-of-type(20),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Flexbox & Grid
+Flex Basis
+Flex Direction
+Flex Wrap
+Flex
+Flex Grow
+Flex Shrink
+Order
+Grid Template Columns
+Grid Column Start / End
+Grid Template Rows
+Grid Row Start / End
+Grid Auto Flow
+Grid Auto Columns
+Grid Auto Rows
+Gap
+Justify Content
+Justify Items
+Justify Self
+Align Content
+Align Items
+Align Self
+Place Content
+Place Items
+Place Self",nav#nav > ul > li:nth-of-type(13),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Flex Basis,nav#nav > ul > li:nth-of-type(13) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Flex Direction,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Flex Wrap,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Flex,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Flex Grow,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Flex Shrink,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Order,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Grid Template Columns,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(8),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Grid Column Start / End,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(9),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Grid Template Rows,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(10),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Grid Row Start / End,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(11),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Grid Auto Flow,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(12),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Grid Auto Columns,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(13),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Grid Auto Rows,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(14),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Gap,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(15),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Justify Content,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(16),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Justify Items,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(17),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Justify Self,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(18),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Align Content,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(19),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Align Items,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(20),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Align Self,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(21),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Place Content,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(22),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Place Items,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(23),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Place Self,nav#nav > ul > li:nth-of-type(13) > ul > li:nth-of-type(24),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Spacing
+Padding
+Margin
+Space Between",nav#nav > ul > li:nth-of-type(14),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Padding,nav#nav > ul > li:nth-of-type(14) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Margin,nav#nav > ul > li:nth-of-type(14) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Space Between,nav#nav > ul > li:nth-of-type(14) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Sizing
+Width
+Min-Width
+Max-Width
+Height
+Min-Height
+Max-Height
+Size",nav#nav > ul > li:nth-of-type(15),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Width,nav#nav > ul > li:nth-of-type(15) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Min-Width,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Max-Width,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Height,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Min-Height,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Max-Height,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Size,nav#nav > ul > li:nth-of-type(15) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Typography
+Font Family
+Font Size
+Font Smoothing
+Font Style
+Font Weight
+Font Variant Numeric
+Letter Spacing
+Line Clamp
+Line Height
+List Style Image
+List Style Position
+List Style Type
+Text Align
+Text Color
+Text Decoration
+Text Decoration Color
+Text Decoration Style
+Text Decoration Thickness
+Text Underline Offset
+Text Transform
+Text Overflow
+Text Wrap
+Text Indent
+Vertical Align
+Whitespace
+Word Break
+Hyphens
+Content",nav#nav > ul > li:nth-of-type(16),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Font Family,nav#nav > ul > li:nth-of-type(16) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Font Size,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Font Smoothing,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Font Style,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Font Weight,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Font Variant Numeric,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Letter Spacing,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Line Clamp,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(8),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Line Height,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(9),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,List Style Image,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(10),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,List Style Position,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(11),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,List Style Type,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(12),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Align,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(13),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Color,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(14),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Decoration,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(15),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Decoration Color,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(16),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Decoration Style,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(17),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Decoration Thickness,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(18),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Underline Offset,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(19),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Transform,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(20),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Overflow,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(21),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Wrap,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(22),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Text Indent,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(23),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Vertical Align,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(24),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Whitespace,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(25),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Word Break,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(26),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Hyphens,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(27),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Content,nav#nav > ul > li:nth-of-type(16) > ul > li:nth-of-type(28),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Backgrounds
+Background Attachment
+Background Clip
+Background Color
+Background Origin
+Background Position
+Background Repeat
+Background Size
+Background Image
+Gradient Color Stops",nav#nav > ul > li:nth-of-type(17),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Attachment,nav#nav > ul > li:nth-of-type(17) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Clip,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Color,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Origin,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Position,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Repeat,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Size,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Image,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(8),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Gradient Color Stops,nav#nav > ul > li:nth-of-type(17) > ul > li:nth-of-type(9),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Borders
+Border Radius
+Border Width
+Border Color
+Border Style
+Divide Width
+Divide Color
+Divide Style
+Outline Width
+Outline Color
+Outline Style
+Outline Offset
+Ring Width
+Ring Color
+Ring Offset Width
+Ring Offset Color",nav#nav > ul > li:nth-of-type(18),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Border Radius,nav#nav > ul > li:nth-of-type(18) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Border Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Border Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Border Style,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Divide Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Divide Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Divide Style,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Outline Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(8),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Outline Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(9),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Outline Style,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(10),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Outline Offset,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(11),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Ring Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(12),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Ring Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(13),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Ring Offset Width,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(14),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Ring Offset Color,nav#nav > ul > li:nth-of-type(18) > ul > li:nth-of-type(15),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Effects
+Box Shadow
+Box Shadow Color
+Opacity
+Mix Blend Mode
+Background Blend Mode",nav#nav > ul > li:nth-of-type(19),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Box Shadow,nav#nav > ul > li:nth-of-type(19) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Box Shadow Color,nav#nav > ul > li:nth-of-type(19) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Opacity,nav#nav > ul > li:nth-of-type(19) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Mix Blend Mode,nav#nav > ul > li:nth-of-type(19) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Background Blend Mode,nav#nav > ul > li:nth-of-type(19) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Filters
+Blur
+Brightness
+Contrast
+Drop Shadow
+Grayscale
+Hue Rotate
+Invert
+Saturate
+Sepia
+Backdrop Blur
+Backdrop Brightness
+Backdrop Contrast
+Backdrop Grayscale
+Backdrop Hue Rotate
+Backdrop Invert
+Backdrop Opacity
+Backdrop Saturate
+Backdrop Sepia",nav#nav > ul > li:nth-of-type(20),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Blur,nav#nav > ul > li:nth-of-type(20) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Brightness,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Contrast,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Drop Shadow,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Grayscale,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Hue Rotate,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Invert,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Saturate,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(8),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Sepia,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(9),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Blur,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(10),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Brightness,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(11),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Contrast,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(12),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Grayscale,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(13),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Hue Rotate,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(14),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Invert,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(15),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Opacity,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(16),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Saturate,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(17),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Backdrop Sepia,nav#nav > ul > li:nth-of-type(20) > ul > li:nth-of-type(18),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Tables
+Border Collapse
+Border Spacing
+Table Layout
+Caption Side",nav#nav > ul > li:nth-of-type(21),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Border Collapse,nav#nav > ul > li:nth-of-type(21) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Border Spacing,nav#nav > ul > li:nth-of-type(21) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Table Layout,nav#nav > ul > li:nth-of-type(21) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Caption Side,nav#nav > ul > li:nth-of-type(21) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Transitions & Animation
+Transition Property
+Transition Duration
+Transition Timing Function
+Transition Delay
+Animation",nav#nav > ul > li:nth-of-type(22),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Transition Property,nav#nav > ul > li:nth-of-type(22) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Transition Duration,nav#nav > ul > li:nth-of-type(22) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Transition Timing Function,nav#nav > ul > li:nth-of-type(22) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Transition Delay,nav#nav > ul > li:nth-of-type(22) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Animation,nav#nav > ul > li:nth-of-type(22) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Transforms
+Scale
+Rotate
+Translate
+Skew
+Transform Origin",nav#nav > ul > li:nth-of-type(23),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Scale,nav#nav > ul > li:nth-of-type(23) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Rotate,nav#nav > ul > li:nth-of-type(23) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Translate,nav#nav > ul > li:nth-of-type(23) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Skew,nav#nav > ul > li:nth-of-type(23) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Transform Origin,nav#nav > ul > li:nth-of-type(23) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Interactivity
+Accent Color
+Appearance
+Cursor
+Caret Color
+Pointer Events
+Resize
+Scroll Behavior
+Scroll Margin
+Scroll Padding
+Scroll Snap Align
+Scroll Snap Stop
+Scroll Snap Type
+Touch Action
+User Select
+Will Change",nav#nav > ul > li:nth-of-type(24),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Accent Color,nav#nav > ul > li:nth-of-type(24) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Appearance,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Cursor,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Caret Color,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Pointer Events,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(5),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Resize,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(6),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Scroll Behavior,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(7),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Scroll Margin,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(8),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Scroll Padding,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(9),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Scroll Snap Align,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(10),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Scroll Snap Stop,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(11),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Scroll Snap Type,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(12),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Touch Action,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(13),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,User Select,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(14),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Will Change,nav#nav > ul > li:nth-of-type(24) > ul > li:nth-of-type(15),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"SVG
+Fill
+Stroke
+Stroke Width",nav#nav > ul > li:nth-of-type(25),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Fill,nav#nav > ul > li:nth-of-type(25) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Stroke,nav#nav > ul > li:nth-of-type(25) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Stroke Width,nav#nav > ul > li:nth-of-type(25) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Accessibility
+Screen Readers
+Forced Color Adjust",nav#nav > ul > li:nth-of-type(26),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Screen Readers,nav#nav > ul > li:nth-of-type(26) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Forced Color Adjust,nav#nav > ul > li:nth-of-type(26) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Official Plugins
+Typography
+Forms
+Aspect Ratio
+Container Queries",nav#nav > ul > li:nth-of-type(27),{'class': 'mt-12 lg:mt-8'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Typography,nav#nav > ul > li:nth-of-type(27) > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Forms,nav#nav > ul > li:nth-of-type(27) > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Aspect Ratio,nav#nav > ul > li:nth-of-type(27) > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Container Queries,nav#nav > ul > li:nth-of-type(27) > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Tailwind CLI,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > div > div > div > ul > li,{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Using PostCSS,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > div > div > div > ul > li:nth-of-type(2),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Framework Guides,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > div > div > div > ul > li:nth-of-type(3),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,Play CDN,div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section > div > div > div > ul > li:nth-of-type(4),{}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Utility-First Fundamentals
+
+Using a utility-first workflow to build complex components from a constrained set of primitive utilities.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li,{'class': 'relative flex items-start'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Responsive Design
+
+Build fully responsive user interfaces that adapt to any screen size using responsive modifiers.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(2),{'class': 'relative flex items-start'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Hover, Focus & Other States
+
+Style elements in interactive states like hover, focus, and more using conditional modifiers.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(3),{'class': 'relative flex items-start'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Dark Mode
+
+Optimize your site for dark mode directly in your HTML using the dark mode modifier.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(4),{'class': 'relative flex items-start'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Reusing Styles
+
+Manage duplication and keep your projects maintainable by creating reusable abstractions.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(5),{'class': 'relative flex items-start'}
+https://tailwindcss.com/docs/installation,li,li,content,content,False,True,True,"Customizing the Framework
+
+Customize the framework to match your brand and extend it with your own custom styles.",div#__next > div:nth-of-type(3) > div > div:nth-of-type(2) > main > section:nth-of-type(2) > ul > li:nth-of-type(6),{'class': 'relative flex items-start'}
+https://tailwindcss.com/docs/installation,img,img,media,media,False,True,False,,div#__next > div > div > picture > img,"{'src': '/_next/static/media/docs@tinypng.d9e4dcdc.png', 'alt': '', 'class': 'w-[71.75rem] flex-none max-w-none dark:hidden', 'decoding': 'async'}"
+https://tailwindcss.com/docs/installation,img,img,media,media,False,False,False,,div#__next > div > div > picture:nth-of-type(2) > img,"{'src': '/_next/static/media/docs-dark@tinypng.1bbe175e.png', 'alt': '', 'class': 'w-[90rem] flex-none max-w-none hidden dark:block', 'decoding': 'async'}"

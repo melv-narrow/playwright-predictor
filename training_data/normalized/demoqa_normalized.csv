@@ -1,0 +1,243 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://demoqa.com/elements,nav,nav,navigation,navigation,False,False,False,,div#app > div > div > div > div > nav,{'class': 'navbar navbar-dark bg-dark left-menu-nav-bar'}
+https://demoqa.com/elements,header,header,navigation,navigation,False,True,False,,div#app > header,{}
+https://demoqa.com/elements,footer,footer,navigation,navigation,False,True,True,© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.,div#app > footer,{}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#fixedban > div,{'style': 'text-align:center;display:block;max-width:970px;height:auto;overflow:hidden;margin:auto'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#fixedban > div > div,{}
+https://demoqa.com/elements,a,a,navigation,interactive,True,True,False,,a#close-fixedban,"{'id': 'close-fixedban', 'onclick': 'document.getElementById(""fixedban&apos"").style.display=""none&apos""', 'style': 'cursor:pointer'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#adplus-anchor,"{'id': 'adplus-anchor', 'data-google-query-id': 'CLn74saM2YoDFUuvJwId_1QAWw'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,"div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0__container__","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0__container__', 'style': 'border: 0pt none;'}"
+https://demoqa.com/elements,iframe,iframe,unknown,container,False,True,False,,"iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0', 'name': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0', 'title': '3rd party ad content', 'width': '970', 'height': '100', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'frameborder': '0', 'aria-label': 'Advertisement', 'tabindex': '0', 'allow': 'private-state-token-redemption;attribution-reporting', 'data-load-complete': 'true', 'style': 'border: 0px; vertical-align: bottom;', 'data-google-container-id': '1'}"
+https://demoqa.com/elements,header,header,navigation,navigation,False,True,False,,div#app > header,{}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application
+ 
+Please select an item from left to start practice.",div#app > div,{'class': 'body-height'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application
+ 
+Please select an item from left to start practice.",div#app > div > div,{'class': 'container playgound-body'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application
+ 
+Please select an item from left to start practice.",div#app > div > div > div,{'class': 'row'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application",div#app > div > div > div > div,{'class': 'col-12 mt-4  col-md-3'}
+https://demoqa.com/elements,nav,nav,navigation,navigation,False,False,False,,div#app > div > div > div > div > nav,{'class': 'navbar navbar-dark bg-dark left-menu-nav-bar'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application",div#app > div > div > div > div > div,{'class': 'left-pannel'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application",div#app > div > div > div > div > div > div,{'class': 'accordion'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties",div#app > div > div > div > div > div > div > div,{'class': 'element-group'}
+https://demoqa.com/elements,span,span,container,container,False,True,True,Elements,div#app > div > div > div > div > div > div > div > span,{'class': 'group-header'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Elements,div#app > div > div > div > div > div > div > div > span > div > div,{'class': 'header-text'}
+https://demoqa.com/elements,span,span,container,container,False,True,False,,div#app > div > div > div > div > div > div > div > span > div > div > span,{'class': 'pr-1'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div > span > div > div:nth-of-type(2),{'class': 'header-right'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div > span > div > div:nth-of-type(2) > div,{'class': 'separator'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div > span > div > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'icon'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties",div#app > div > div > div > div > div > div > div > div,{'class': 'element-list collapse show'}
+https://demoqa.com/elements,ul,ul,unknown,container,False,True,True,"Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties",div#app > div > div > div > div > div > div > div > div > ul,{'class': 'menu-list'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Forms,div#app > div > div > div > div > div > div > div:nth-of-type(2),{'class': 'element-group'}
+https://demoqa.com/elements,span,span,container,container,False,True,True,Forms,div#app > div > div > div > div > div > div > div:nth-of-type(2) > span,{'class': 'group-header'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Forms,div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div,{'class': 'header-text'}
+https://demoqa.com/elements,span,span,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div > span,{'class': 'pr-1'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div:nth-of-type(2),{'class': 'header-right'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div:nth-of-type(2) > div,{'class': 'separator'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'icon'}
+https://demoqa.com/elements,div,div,container,container,False,False,True,Practice Form,div#app > div > div > div > div > div > div > div:nth-of-type(2) > div,{'class': 'element-list collapse'}
+https://demoqa.com/elements,ul,ul,unknown,container,False,False,True,Practice Form,div#app > div > div > div > div > div > div > div:nth-of-type(2) > div > ul,{'class': 'menu-list'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Alerts, Frame & Windows",div#app > div > div > div > div > div > div > div:nth-of-type(3),{'class': 'element-group'}
+https://demoqa.com/elements,span,span,container,container,False,True,True,"Alerts, Frame & Windows",div#app > div > div > div > div > div > div > div:nth-of-type(3) > span,{'class': 'group-header'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,"Alerts, Frame & Windows",div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div,{'class': 'header-text'}
+https://demoqa.com/elements,span,span,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div > span,{'class': 'pr-1'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div:nth-of-type(2),{'class': 'header-right'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div:nth-of-type(2) > div,{'class': 'separator'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'icon'}
+https://demoqa.com/elements,div,div,container,container,False,False,True,Browser WindowsAlertsFramesNested FramesModal Dialogs,div#app > div > div > div > div > div > div > div:nth-of-type(3) > div,{'class': 'element-list collapse'}
+https://demoqa.com/elements,ul,ul,unknown,container,False,False,True,Browser WindowsAlertsFramesNested FramesModal Dialogs,div#app > div > div > div > div > div > div > div:nth-of-type(3) > div > ul,{'class': 'menu-list'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Widgets,div#app > div > div > div > div > div > div > div:nth-of-type(4),{'class': 'element-group'}
+https://demoqa.com/elements,span,span,container,container,False,True,True,Widgets,div#app > div > div > div > div > div > div > div:nth-of-type(4) > span,{'class': 'group-header'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Widgets,div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div,{'class': 'header-text'}
+https://demoqa.com/elements,span,span,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div > span,{'class': 'pr-1'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div:nth-of-type(2),{'class': 'header-right'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div:nth-of-type(2) > div,{'class': 'separator'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'icon'}
+https://demoqa.com/elements,div,div,container,container,False,False,True,AccordianAuto CompleteDate PickerSliderProgress BarTabsTool TipsMenuSelect Menu,div#app > div > div > div > div > div > div > div:nth-of-type(4) > div,{'class': 'element-list collapse'}
+https://demoqa.com/elements,ul,ul,unknown,container,False,False,True,AccordianAuto CompleteDate PickerSliderProgress BarTabsTool TipsMenuSelect Menu,div#app > div > div > div > div > div > div > div:nth-of-type(4) > div > ul,{'class': 'menu-list'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Interactions,div#app > div > div > div > div > div > div > div:nth-of-type(5),{'class': 'element-group'}
+https://demoqa.com/elements,span,span,container,container,False,True,True,Interactions,div#app > div > div > div > div > div > div > div:nth-of-type(5) > span,{'class': 'group-header'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Interactions,div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div,{'class': 'header-text'}
+https://demoqa.com/elements,span,span,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div > span,{'class': 'pr-1'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div:nth-of-type(2),{'class': 'header-right'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div:nth-of-type(2) > div,{'class': 'separator'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'icon'}
+https://demoqa.com/elements,div,div,container,container,False,False,True,SortableSelectableResizableDroppableDragabble,div#app > div > div > div > div > div > div > div:nth-of-type(5) > div,{'class': 'element-list collapse'}
+https://demoqa.com/elements,ul,ul,unknown,container,False,False,True,SortableSelectableResizableDroppableDragabble,div#app > div > div > div > div > div > div > div:nth-of-type(5) > div > ul,{'class': 'menu-list'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Book Store Application,div#app > div > div > div > div > div > div > div:nth-of-type(6),{'class': 'element-group'}
+https://demoqa.com/elements,span,span,container,container,False,True,True,Book Store Application,div#app > div > div > div > div > div > div > div:nth-of-type(6) > span,{'class': 'group-header'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Book Store Application,div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div,{'class': 'header-text'}
+https://demoqa.com/elements,span,span,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div > span,{'class': 'pr-1'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div:nth-of-type(2),{'class': 'header-right'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div:nth-of-type(2) > div,{'class': 'separator'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'icon'}
+https://demoqa.com/elements,div,div,container,container,False,False,True,LoginBook StoreProfileBook Store API,div#app > div > div > div > div > div > div > div:nth-of-type(6) > div,{'class': 'element-list collapse'}
+https://demoqa.com/elements,ul,ul,unknown,container,False,False,True,LoginBook StoreProfileBook Store API,div#app > div > div > div > div > div > div > div:nth-of-type(6) > div > ul,{'class': 'menu-list'}
+https://demoqa.com/elements,div,div,container,container,False,True,True,Please select an item from left to start practice.,div#app > div > div > div > div:nth-of-type(2),{'class': 'col-12 mt-4 col-md-6'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#Ad.Plus-970x250-1,"{'id': 'Ad.Plus-970x250-1', 'data-google-query-id': 'CI-KjseM2YoDFZAF-wMdXqQK3Q', 'style': 'margin-bottom: 50px;'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,"div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0__container__","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0__container__', 'style': 'border: 0pt none;'}"
+https://demoqa.com/elements,iframe,iframe,unknown,container,False,True,False,,"iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0', 'name': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0', 'title': '3rd party ad content', 'width': '970', 'height': '250', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'frameborder': '0', 'aria-label': 'Advertisement', 'tabindex': '0', 'allow': 'private-state-token-redemption;attribution-reporting', 'data-load-complete': 'true', 'style': 'border: 0px; vertical-align: bottom;', 'data-google-container-id': '2'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div:nth-of-type(2) > div:nth-of-type(2),"{'style': 'border: 1px solid rgb(229, 229, 229); margin-top: 50px; padding: 50px;'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#Ad.Plus-970x250-2,"{'id': 'Ad.Plus-970x250-2', 'data-google-query-id': 'CPKYvceM2YoDFQtgpAQdRF8b2g', 'style': 'margin-bottom: 50px;'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,"div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0__container__","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0__container__', 'style': 'border: 0pt none;'}"
+https://demoqa.com/elements,iframe,iframe,unknown,container,False,True,False,,"iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0', 'name': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0', 'title': '3rd party ad content', 'width': '970', 'height': '250', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'frameborder': '0', 'aria-label': 'Advertisement', 'tabindex': '0', 'allow': 'private-state-token-redemption;attribution-reporting', 'data-load-complete': 'true', 'style': 'border: 0px; vertical-align: bottom;', 'data-google-container-id': '3'}"
+https://demoqa.com/elements,div,div,container,container,False,False,False,,div#app > div > div > div > div:nth-of-type(2) > div:nth-of-type(3),{}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div:nth-of-type(3),{'class': 'col-12 mt-4 col-md-3'}
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#app > div > div > div > div:nth-of-type(3) > div,{'class': 'sidebar-content pattern-backgound shadow widget-divider-off'}
+https://demoqa.com/elements,section,section,content,content,False,True,False,,section#RightSide_Advertisement,"{'id': 'RightSide_Advertisement', 'class': 'widget widget_text'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,section#RightSide_Advertisement > div > div,{'class': 'Google-Ad'}
+https://demoqa.com/elements,a,a,navigation,interactive,True,True,False,,section#RightSide_Advertisement > div > div > a,"{'class': 'cursor-pointer', 'style': 'display: block;'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#Ad.Plus-300x250-1,"{'id': 'Ad.Plus-300x250-1', 'data-google-query-id': 'CJWorMeM2YoDFSqhJwIdTgM2Gg', 'style': 'margin-bottom: 50px;'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,"div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0__container__","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0__container__', 'style': 'border: 0pt none;'}"
+https://demoqa.com/elements,iframe,iframe,unknown,container,False,True,False,,"iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0', 'name': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0', 'title': '3rd party ad content', 'width': '300', 'height': '250', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'frameborder': '0', 'aria-label': 'Advertisement', 'tabindex': '0', 'allow': 'private-state-token-redemption;attribution-reporting', 'data-load-complete': 'true', 'style': 'border: 0px; vertical-align: bottom;', 'data-google-container-id': '4'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,div#Ad.Plus-300x250-2,"{'id': 'Ad.Plus-300x250-2', 'data-google-query-id': 'COmxnceM2YoDFT-bJwIdmmgP3g', 'style': 'margin-bottom: 50px;'}"
+https://demoqa.com/elements,div,div,container,container,False,True,False,,"div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0__container__","{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0__container__', 'style': 'border: 0pt none; display: inline-block; width: 300px; height: 250px;'}"
+https://demoqa.com/elements,iframe,iframe,unknown,container,False,True,False,,"iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0","{'frameborder': '0', 'src': 'https://03f231fe34ae422e5467a258250a3a49.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html', 'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0', 'title': '3rd party ad content', 'name': '', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'width': '300', 'height': '250', 'data-is-safeframe': 'true', 'sandbox': 'allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation', 'allow': 'private-state-token-redemption;attribution-reporting', 'aria-label': 'Advertisement', 'tabindex': '0', 'data-google-container-id': '5', 'style': 'border: 0px; vertical-align: bottom;', 'data-load-complete': 'true'}"
+https://demoqa.com/elements,footer,footer,navigation,navigation,False,True,True,© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.,div#app > footer,{}
+https://demoqa.com/elements,iframe,iframe,unknown,container,False,False,False,,iframe#aswift_0,"{'id': 'aswift_0', 'name': 'aswift_0', 'browsingtopics': 'true', 'style': 'left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;', 'sandbox': 'allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation', 'frameborder': '0', 'marginwidth': '0', 'marginheight': '0', 'vspace': '0', 'hspace': '0', 'allowtransparency': 'true', 'scrolling': 'no', 'allow': 'attribution-reporting; run-ad-auction', 'src': 'https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5889298451609146&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1710656768&plat=9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=404x648_l%7C404x648_r&format=0x0&url=https%3A%2F%2Fdemoqa.com%2Felements&pra=5&wgl=1&aihb=0&aiof=3&asro=0&ailel=1~2~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34&aiael=1~2~3~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34&aicel=33~38&aifxl=29_18~30_19&aiixl=29_5~30_6&aiict=1&aiapm=0.3221&aiapmi=0.33938&aiombap=1&aief=1&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTMxLjAuNjc3OC4zMyIsbnVsbCwwLG51bGwsIjY0IixbWyJDaHJvbWl1bSIsIjEzMS4wLjY3NzguMzMiXSxbIk5vdF9BIEJyYW5kIiwiMjQuMC4wLjAiXV0sMF0.&dt=1735891709651&bpp=10&bdt=813&idt=230&shv=r20241212&mjsv=m202412090101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&nras=1&correlator=7064509538932&frm=20&pv=2&u_tz=120&u_his=12&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1280&bih=720&scr_x=0&scr_y=0&eid=31089330%2C95331832%2C95345966&oid=2&pvsid=685294563895955&tmod=131998914&uas=0&nvt=1&fsapi=1&fc=1920&brdim=10%2C10%2C10%2C10%2C1280%2C0%2C1297%2C809%2C1280%2C720&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.01&td=1&tdf=2&psd=W251bGwsbnVsbCxudWxsLDNd&nt=1&ifi=1&uci=a!1&fsb=1&dtd=246', 'data-google-container-id': 'a!1', 'tabindex': '0', 'title': 'Advertisement', 'aria-label': 'Advertisement', 'data-load-complete': 'true'}"
+https://demoqa.com/elements,iframe,iframe,unknown,container,False,False,False,,html > body > div:nth-of-type(3) > iframe,"{'src': 'https://google-bidout-d.openx.net/w/1.0/pd?plm=5', 'width': '0', 'height': '0', 'style': 'display:none;'}"
+https://demoqa.com/elements,button,button,interactive,interactive,True,False,False,,div#app > div > div > div > div > nav > button,"{'class': 'navbar-toggler', 'type': 'button'}"
+https://demoqa.com/elements,a,a,navigation,interactive,True,True,False,,div#app > header > a,{'href': 'https://demoqa.com'}

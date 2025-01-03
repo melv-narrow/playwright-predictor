@@ -1,0 +1,1718 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://ui.shadcn.com/docs/components/accordion,nav,nav,navigation,navigation,False,True,True,"Docs
+Components
+Blocks
+Charts
+Themes
+Colors",html > body > div > div > div > header > div > div > div > nav,{'class': 'flex items-center gap-4 text-sm xl:gap-6'}
+https://ui.shadcn.com/docs/components/accordion,nav,nav,navigation,navigation,False,True,True,"GitHub
+Toggle theme",html > body > div > div > div > header > div > div > div:nth-of-type(2) > nav,{'class': 'flex items-center gap-0.5'}
+https://ui.shadcn.com/docs/components/accordion,header,header,navigation,navigation,False,True,True,"shadcn/ui
+Docs
+Components
+Blocks
+Charts
+Themes
+Colors
+Search documentation...
+⌘
+K
+GitHub
+Toggle theme",html > body > div > div > div > header,{'class': 'border-grid sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60'}
+https://ui.shadcn.com/docs/components/accordion,footer,footer,navigation,navigation,False,True,True,Built by shadcn. The source code is available on GitHub.,html > body > div > div > div > footer,{'class': 'border-grid border-t py-6 md:px-8 md:py-0'}
+https://ui.shadcn.com/docs/components/accordion,aside,aside,container,container,False,True,True,"Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog
+Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual
+Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip",html > body > div > div > div > main > div > div > aside,{'class': 'border-grid fixed top-14 z-30 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 border-r md:sticky md:block'}
+https://ui.shadcn.com/docs/components/accordion,main,main,container,container,False,True,True,"Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog
+Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual
+Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip
+Docs
+Accordion
+Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.
+
+Docs
+API Reference
+Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy
+Manual
+Alert
+
+On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel",html > body > div > div > div > main,{'class': 'flex flex-1 flex-col'}
+https://ui.shadcn.com/docs/components/accordion,main,main,container,container,False,True,True,"Docs
+Accordion
+Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.
+
+Docs
+API Reference
+Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy
+Manual
+Alert
+
+On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel",html > body > div > div > div > main > div > div > main,{'class': 'relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"shadcn/ui
+Docs
+Components
+Blocks
+Charts
+Themes
+Colors
+Search documentation...
+⌘
+K
+GitHub
+Toggle theme
+Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog
+Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual
+Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip
+Docs
+Accordion
+Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.
+
+Docs
+API Reference
+Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy
+Manual
+Alert
+
+On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel
+Built by shadcn. The source code is available on GitHub.",html > body > div > div,{'class': 'relative flex min-h-svh flex-col bg-background'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"shadcn/ui
+Docs
+Components
+Blocks
+Charts
+Themes
+Colors
+Search documentation...
+⌘
+K
+GitHub
+Toggle theme
+Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog
+Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual
+Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip
+Docs
+Accordion
+Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.
+
+Docs
+API Reference
+Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy
+Manual
+Alert
+
+On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel
+Built by shadcn. The source code is available on GitHub.",html > body > div > div > div,"{'data-wrapper': '', 'class': 'border-grid flex flex-1 flex-col'}"
+https://ui.shadcn.com/docs/components/accordion,header,header,navigation,navigation,False,True,True,"shadcn/ui
+Docs
+Components
+Blocks
+Charts
+Themes
+Colors
+Search documentation...
+⌘
+K
+GitHub
+Toggle theme",html > body > div > div > div > header,{'class': 'border-grid sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"shadcn/ui
+Docs
+Components
+Blocks
+Charts
+Themes
+Colors
+Search documentation...
+⌘
+K
+GitHub
+Toggle theme",html > body > div > div > div > header > div > div,{'class': 'container flex h-14 items-center'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"shadcn/ui
+Docs
+Components
+Blocks
+Charts
+Themes
+Colors",html > body > div > div > div > header > div > div > div,{'class': 'mr-4 hidden md:flex'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,shadcn/ui,html > body > div > div > div > header > div > div > div > a,"{'class': 'mr-4 flex items-center gap-2 lg:mr-6', 'href': '/'}"
+https://ui.shadcn.com/docs/components/accordion,nav,nav,navigation,navigation,False,True,True,"Docs
+Components
+Blocks
+Charts
+Themes
+Colors",html > body > div > div > div > header > div > div > div > nav,{'class': 'flex items-center gap-4 text-sm xl:gap-6'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,False,True,Toggle Menu,html > body > div > div > div > header > div > div > button,"{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground py-2 -ml-2 mr-2 h-8 w-8 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden', 'type': 'button', 'aria-haspopup': 'dialog', 'aria-expanded': 'false', 'aria-controls': 'radix-:R15u6ja:', 'data-state': 'closed'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Search documentation...
+⌘
+K
+GitHub
+Toggle theme",html > body > div > div > div > header > div > div > div:nth-of-type(2),{'class': 'flex flex-1 items-center justify-between gap-2 md:justify-end'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Search documentation...
+⌘
+K",html > body > div > div > div > header > div > div > div:nth-of-type(2) > div,{'class': 'w-full flex-1 md:w-auto md:flex-none'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,"Search documentation...
+⌘
+K",html > body > div > div > div > header > div > div > div:nth-of-type(2) > div > button,{'class': 'inline-flex items-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input hover:bg-accent hover:text-accent-foreground px-4 py-2 relative h-8 w-full justify-start rounded-[0.5rem] bg-muted/50 text-sm font-normal text-muted-foreground shadow-none sm:pr-12 md:w-40 lg:w-56 xl:w-64'}
+https://ui.shadcn.com/docs/components/accordion,nav,nav,navigation,navigation,False,True,True,"GitHub
+Toggle theme",html > body > div > div > div > header > div > div > div:nth-of-type(2) > nav,{'class': 'flex items-center gap-0.5'}
+https://ui.shadcn.com/docs/components/accordion,main,main,container,container,False,True,True,"Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog
+Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual
+Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip
+Docs
+Accordion
+Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.
+
+Docs
+API Reference
+Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy
+Manual
+Alert
+
+On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel",html > body > div > div > div > main,{'class': 'flex flex-1 flex-col'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog
+Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual
+Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip
+Docs
+Accordion
+Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.
+
+Docs
+API Reference
+Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy
+Manual
+Alert
+
+On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel",html > body > div > div > div > main > div > div,"{'class': 'container flex-1 items-start md:grid md:grid-cols-[220px_minmax(0,1fr)] md:gap-6 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-10'}"
+https://ui.shadcn.com/docs/components/accordion,aside,aside,container,container,False,True,True,"Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog
+Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual
+Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip",html > body > div > div > div > main > div > div > aside,{'class': 'border-grid fixed top-14 z-30 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 border-r md:sticky md:block'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog
+Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual
+Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip",html > body > div > div > div > main > div > div > aside > div > div,{'class': 'flex flex-col gap-6'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Getting Started
+Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog",html > body > div > div > div > main > div > div > aside > div > div > div,{'class': 'flex flex-col gap-1'}
+https://ui.shadcn.com/docs/components/accordion,h4,h4,content,content,False,True,True,Getting Started,html > body > div > div > div > main > div > div > aside > div > div > div > h4,{'class': 'rounded-md px-2 py-1 text-sm font-semibold'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Introduction
+Installation
+components.json
+Theming
+Dark mode
+CLI
+Monorepo
+New
+Next.js 15 + React 19
+Typography
+Open in v0
+Figma
+Changelog",html > body > div > div > div > main > div > div > aside > div > div > div > div,{'class': 'grid grid-flow-row auto-rows-max gap-0.5 text-sm'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Introduction,html > body > div > div > div > main > div > div > aside > div > div > div > div > a,"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Installation,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(2),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,components.json,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(3),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components-json'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Theming,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(4),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/theming'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Dark mode,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(5),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/dark-mode'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,CLI,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(6),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/cli'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,"Monorepo
+New",html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(7),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/monorepo'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Next.js 15 + React 19,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(8),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/react-19'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Typography,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(9),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/typography'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Open in v0,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(10),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/v0'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Figma,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(11),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/figma'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Changelog,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(12),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/changelog'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Installation
+Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual",html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2),{'class': 'flex flex-col gap-1'}
+https://ui.shadcn.com/docs/components/accordion,h4,h4,content,content,False,True,True,Installation,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > h4,{'class': 'rounded-md px-2 py-1 text-sm font-semibold'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Next.js
+Vite
+Remix
+Astro
+Laravel
+Gatsby
+Manual",html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div,{'class': 'grid grid-flow-row auto-rows-max gap-0.5 text-sm'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Next.js,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a,"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/next'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Vite,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(2),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/vite'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Remix,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(3),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/remix'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Astro,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(4),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/astro'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Laravel,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(5),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/laravel'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Gatsby,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(6),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/gatsby'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Manual,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(7),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/manual'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Components
+Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip",html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3),{'class': 'flex flex-col gap-1'}
+https://ui.shadcn.com/docs/components/accordion,h4,h4,content,content,False,True,True,Components,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > h4,{'class': 'rounded-md px-2 py-1 text-sm font-semibold'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Accordion
+Alert
+Alert Dialog
+Aspect Ratio
+Avatar
+Badge
+Breadcrumb
+Button
+Calendar
+Card
+Carousel
+Chart
+Checkbox
+Collapsible
+Combobox
+Command
+Context Menu
+Data Table
+Date Picker
+Dialog
+Drawer
+Dropdown Menu
+Form
+Hover Card
+Input
+Input OTP
+Label
+Menubar
+Navigation Menu
+Pagination
+Popover
+Progress
+Radio Group
+Resizable
+Scroll Area
+Select
+Separator
+Sheet
+Sidebar
+Skeleton
+Slider
+Sonner
+Switch
+Table
+Tabs
+Textarea
+Toast
+Toggle
+Toggle Group
+Tooltip",html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div,{'class': 'grid grid-flow-row auto-rows-max gap-0.5 text-sm'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Accordion,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a,"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 underline-offset-2 hover:bg-accent hover:text-accent-foreground bg-accent font-medium text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/accordion'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Alert,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(2),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/alert'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Alert Dialog,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(3),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/alert-dialog'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Aspect Ratio,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(4),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/aspect-ratio'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Avatar,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(5),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/avatar'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Badge,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(6),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/badge'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Breadcrumb,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(7),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/breadcrumb'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Button,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(8),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/button'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Calendar,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(9),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/calendar'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Card,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(10),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/card'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Carousel,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(11),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/carousel'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Chart,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(12),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/chart'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Checkbox,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(13),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/checkbox'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Collapsible,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(14),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/collapsible'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Combobox,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(15),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/combobox'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Command,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(16),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/command'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Context Menu,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(17),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/context-menu'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Data Table,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(18),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/data-table'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Date Picker,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(19),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/date-picker'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Dialog,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(20),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/dialog'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Drawer,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(21),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/drawer'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Dropdown Menu,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(22),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/dropdown-menu'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Form,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(23),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/form'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Hover Card,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(24),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/hover-card'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Input,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(25),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/input'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Input OTP,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(26),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/input-otp'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Label,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(27),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/label'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Menubar,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(28),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/menubar'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Navigation Menu,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(29),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/navigation-menu'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Pagination,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(30),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/pagination'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Popover,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(31),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/popover'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Progress,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(32),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/progress'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Radio Group,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(33),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/radio-group'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Resizable,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(34),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/resizable'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Scroll Area,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(35),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/scroll-area'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Select,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(36),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/select'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Separator,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(37),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/separator'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Sheet,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(38),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/sheet'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Sidebar,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(39),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/sidebar'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Skeleton,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(40),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/skeleton'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Slider,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(41),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/slider'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Sonner,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(42),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/sonner'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Switch,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(43),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/switch'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Table,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(44),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/table'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Tabs,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(45),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/tabs'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Textarea,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(46),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/textarea'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Toast,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(47),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/toast'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Toggle,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(48),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/toggle'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Toggle Group,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(49),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/toggle-group'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Tooltip,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(50),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/tooltip'}"
+https://ui.shadcn.com/docs/components/accordion,main,main,container,container,False,True,True,"Docs
+Accordion
+Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.
+
+Docs
+API Reference
+Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy
+Manual
+Alert
+
+On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel",html > body > div > div > div > main > div > div > main,{'class': 'relative py-6 lg:gap-10 lg:py-8 xl:grid xl:grid-cols-[1fr_300px]'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Docs
+Accordion",html > body > div > div > div > main > div > div > main > div > div,{'class': 'mb-4 flex items-center space-x-1 text-sm leading-none text-muted-foreground'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Docs,html > body > div > div > div > main > div > div > main > div > div > div,{'class': 'truncate'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Accordion,html > body > div > div > div > main > div > div > main > div > div > div:nth-of-type(2),{'class': 'text-foreground'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Accordion
+
+A vertically stacked set of interactive headings that each reveal a section of content.",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(2),{'class': 'space-y-2'}
+https://ui.shadcn.com/docs/components/accordion,h1,h1,content,content,False,True,True,Accordion,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(2) > h1,{'class': 'scroll-m-20 text-3xl font-bold tracking-tight'}
+https://ui.shadcn.com/docs/components/accordion,p,p,content,content,False,True,True,A vertically stacked set of interactive headings that each reveal a section of content.,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(2) > p,{'class': 'text-base text-muted-foreground'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Docs
+API Reference",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(3),{'class': 'flex items-center space-x-2 pt-4'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Docs,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(3) > a,"{'target': '_blank', 'rel': 'noreferrer', 'class': 'inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 gap-1', 'href': 'https://www.radix-ui.com/docs/primitives/components/accordion'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,API Reference,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(3) > a:nth-of-type(2),"{'target': '_blank', 'rel': 'noreferrer', 'class': 'inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 gap-1', 'href': 'https://www.radix-ui.com/docs/primitives/components/accordion#api-reference'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4),{'class': 'pb-12 pt-8'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?
+Installation
+CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy
+Usage
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy
+<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div,{'class': 'mdx'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div,{'class': 'group relative my-4 flex flex-col space-y-2 [&_.preview>[data-orientation=vertical]]:sm:max-w-[70%]'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Preview
+Code
+Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div > div,"{'dir': 'ltr', 'data-orientation': 'horizontal', 'class': 'relative mr-auto w-full'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Preview
+Code",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div > div > div,{'class': 'flex items-center justify-between pb-3'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Preview
+Code",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div > div > div > div,"{'role': 'tablist', 'aria-orientation': 'horizontal', 'class': 'inline-flex h-9 items-center text-muted-foreground w-full justify-start rounded-none border-b bg-transparent p-0', 'tabindex': '0', 'data-orientation': 'horizontal', 'style': 'outline:none'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Preview,button#radix-:R66fnkv9u6ja:-trigger-preview,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:R66fnkv9u6ja:-content-preview', 'data-state': 'active', 'id': 'radix-:R66fnkv9u6ja:-trigger-preview', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Code,button#radix-:R66fnkv9u6ja:-trigger-code,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:R66fnkv9u6ja:-content-code', 'data-state': 'inactive', 'id': 'radix-:R66fnkv9u6ja:-trigger-code', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Style:
+New York
+Open in
+Copy
+Is it accessible?
+Is it styled?
+Is it animated?",div#radix-:R66fnkv9u6ja:-content-preview,"{'data-state': 'active', 'data-orientation': 'horizontal', 'role': 'tabpanel', 'aria-labelledby': 'radix-:R66fnkv9u6ja:-trigger-preview', 'id': 'radix-:R66fnkv9u6ja:-content-preview', 'tabindex': '0', 'class': 'mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 relative rounded-md border', 'style': 'animation-duration:0s'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Style:
+New York
+Open in
+Copy",div#radix-:R66fnkv9u6ja:-content-preview > div,{'class': 'flex items-center justify-between p-4'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,"Style:
+New York",div#radix-:R66fnkv9u6ja:-content-preview > div > button,"{'type': 'button', 'role': 'combobox', 'aria-controls': 'radix-:R2q66fnkv9u6ja:', 'aria-expanded': 'false', 'aria-autocomplete': 'none', 'dir': 'ltr', 'data-state': 'closed', 'class': 'flex items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 h-7 w-[145px] text-xs [&_svg]:h-4 [&_svg]:w-4'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Open in
+Copy",div#radix-:R66fnkv9u6ja:-content-preview > div > div,{'class': 'flex items-center gap-2'}
+https://ui.shadcn.com/docs/components/accordion,form,form,interactive,container,False,True,True,Open in,div#radix-:R66fnkv9u6ja:-content-preview > div > div > form,"{'action': ""javascript:throw new Error('A React form was unexpectedly submitted. If you called form.submit() manually, consider using form.requestSubmit() instead. If you\\'re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().')""}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Copy,div#radix-:R66fnkv9u6ja:-content-preview > div > div > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm relative z-10 h-7 w-7 text-foreground opacity-100 hover:bg-muted hover:text-foreground [&_svg]:h-3.5 [&_svg]:w-3.5'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Is it accessible?
+Is it styled?
+Is it animated?",div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2),"{'class': 'theme-zinc w-full', 'style': '--radius:0.5rem'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Is it accessible?
+Is it styled?
+Is it animated?",div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2) > div,{'class': 'preview flex min-h-[350px] w-full justify-center p-10 items-center'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Is it accessible?
+Is it styled?
+Is it animated?",div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2) > div > div,"{'class': 'w-full', 'data-orientation': 'vertical'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Is it accessible?,div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2) > div > div > div,"{'data-state': 'closed', 'data-orientation': 'vertical', 'class': 'border-b'}"
+https://ui.shadcn.com/docs/components/accordion,h3,h3,content,content,False,True,True,Is it accessible?,div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2) > div > div > div > h3,"{'data-orientation': 'vertical', 'data-state': 'closed', 'class': 'flex'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,content,content,False,False,False,,div#radix-:r5:,"{'data-state': 'closed', 'id': 'radix-:r5:', 'hidden': '', 'role': 'region', 'aria-labelledby': 'radix-:r4:', 'data-orientation': 'vertical', 'class': 'overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down', 'style': '--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Is it styled?,div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2) > div > div > div:nth-of-type(2),"{'data-state': 'closed', 'data-orientation': 'vertical', 'class': 'border-b'}"
+https://ui.shadcn.com/docs/components/accordion,h3,h3,content,content,False,True,True,Is it styled?,div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2) > div > div > div:nth-of-type(2) > h3,"{'data-orientation': 'vertical', 'data-state': 'closed', 'class': 'flex'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,content,content,False,False,False,,div#radix-:r7:,"{'data-state': 'closed', 'id': 'radix-:r7:', 'hidden': '', 'role': 'region', 'aria-labelledby': 'radix-:r6:', 'data-orientation': 'vertical', 'class': 'overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down', 'style': '--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Is it animated?,div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2) > div > div > div:nth-of-type(3),"{'data-state': 'closed', 'data-orientation': 'vertical', 'class': 'border-b'}"
+https://ui.shadcn.com/docs/components/accordion,h3,h3,content,content,False,True,True,Is it animated?,div#radix-:R66fnkv9u6ja:-content-preview > div:nth-of-type(2) > div > div > div:nth-of-type(3) > h3,"{'data-orientation': 'vertical', 'data-state': 'closed', 'class': 'flex'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,content,content,False,False,False,,div#radix-:r9:,"{'data-state': 'closed', 'id': 'radix-:r9:', 'hidden': '', 'role': 'region', 'aria-labelledby': 'radix-:r8:', 'data-orientation': 'vertical', 'class': 'overflow-hidden text-sm data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down', 'style': '--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,False,False,,div#radix-:R66fnkv9u6ja:-content-code,"{'data-state': 'inactive', 'data-orientation': 'horizontal', 'role': 'tabpanel', 'aria-labelledby': 'radix-:R66fnkv9u6ja:-trigger-code', 'hidden': '', 'id': 'radix-:R66fnkv9u6ja:-content-code', 'tabindex': '0', 'class': 'mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2'}"
+https://ui.shadcn.com/docs/components/accordion,h2,h2,content,content,False,True,True,Installation,h2#installation,"{'class': 'font-heading mt-12 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0', 'id': 'installation'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"CLI
+Manual
+pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(2),"{'dir': 'ltr', 'data-orientation': 'horizontal', 'class': 'relative mt-6 w-full'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"CLI
+Manual",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(2) > div,"{'role': 'tablist', 'aria-orientation': 'horizontal', 'class': 'inline-flex h-9 items-center text-muted-foreground w-full justify-start rounded-none border-b bg-transparent p-0', 'tabindex': '0', 'data-orientation': 'horizontal', 'style': 'outline:none'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,CLI,button#radix-:Rm6fnkv9u6ja:-trigger-cli,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:Rm6fnkv9u6ja:-content-cli', 'data-state': 'active', 'id': 'radix-:Rm6fnkv9u6ja:-trigger-cli', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Manual,button#radix-:Rm6fnkv9u6ja:-trigger-manual,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rm6fnkv9u6ja:-content-manual', 'data-state': 'inactive', 'id': 'radix-:Rm6fnkv9u6ja:-trigger-manual', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy",div#radix-:Rm6fnkv9u6ja:-content-cli,"{'data-state': 'active', 'data-orientation': 'horizontal', 'role': 'tabpanel', 'aria-labelledby': 'radix-:Rm6fnkv9u6ja:-trigger-cli', 'id': 'radix-:Rm6fnkv9u6ja:-content-cli', 'tabindex': '0', 'class': 'mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 relative [&_h3.font-heading]:text-base [&_h3.font-heading]:font-semibold', 'style': 'animation-duration:0s'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy",div#radix-:Rm6fnkv9u6ja:-content-cli > div,{'data-rehype-pretty-code-fragment': ''}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion
+
+Copy",div#radix-:Rm6fnkv9u6ja:-content-cli > div > div,{'class': 'relative mt-6 max-h-[650px] overflow-x-auto rounded-xl bg-zinc-950 dark:bg-zinc-900'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"pnpm
+npm
+yarn
+bun
+pnpm dlx shadcn@latest add accordion",div#radix-:Rm6fnkv9u6ja:-content-cli > div > div > div,"{'dir': 'ltr', 'data-orientation': 'horizontal'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"pnpm
+npm
+yarn
+bun",div#radix-:Rm6fnkv9u6ja:-content-cli > div > div > div > div,{'class': 'flex items-center justify-between border-b border-zinc-800 bg-zinc-900 px-3 pt-2.5'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"pnpm
+npm
+yarn
+bun",div#radix-:Rm6fnkv9u6ja:-content-cli > div > div > div > div > div,"{'role': 'tablist', 'aria-orientation': 'horizontal', 'class': 'inline-flex items-center justify-center rounded-lg text-muted-foreground h-7 translate-y-[2px] gap-3 bg-transparent p-0 pl-1', 'tabindex': '0', 'data-orientation': 'horizontal', 'style': 'outline:none'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,pnpm,button#radix-:Rqm6fnkv9u6ja:-trigger-pnpm,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-pnpm', 'data-state': 'active', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-pnpm', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,npm,button#radix-:Rqm6fnkv9u6ja:-trigger-npm,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-npm', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-npm', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,yarn,button#radix-:Rqm6fnkv9u6ja:-trigger-yarn,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-yarn', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-yarn', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,bun,button#radix-:Rqm6fnkv9u6ja:-trigger-bun,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-bun', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-bun', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,pnpm dlx shadcn@latest add accordion,div#radix-:Rqm6fnkv9u6ja:-content-pnpm,"{'data-state': 'active', 'data-orientation': 'horizontal', 'role': 'tabpanel', 'aria-labelledby': 'radix-:Rqm6fnkv9u6ja:-trigger-pnpm', 'id': 'radix-:Rqm6fnkv9u6ja:-content-pnpm', 'tabindex': '0', 'class': 'ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 mt-0', 'style': 'animation-duration:0s'}"
+https://ui.shadcn.com/docs/components/accordion,pre,pre,content,content,False,True,True,pnpm dlx shadcn@latest add accordion,div#radix-:Rqm6fnkv9u6ja:-content-pnpm > pre,{'class': 'px-4 py-5'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,False,False,,div#radix-:Rqm6fnkv9u6ja:-content-npm,"{'data-state': 'inactive', 'data-orientation': 'horizontal', 'role': 'tabpanel', 'aria-labelledby': 'radix-:Rqm6fnkv9u6ja:-trigger-npm', 'hidden': '', 'id': 'radix-:Rqm6fnkv9u6ja:-content-npm', 'tabindex': '0', 'class': 'ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 mt-0'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,False,False,,div#radix-:Rqm6fnkv9u6ja:-content-yarn,"{'data-state': 'inactive', 'data-orientation': 'horizontal', 'role': 'tabpanel', 'aria-labelledby': 'radix-:Rqm6fnkv9u6ja:-trigger-yarn', 'hidden': '', 'id': 'radix-:Rqm6fnkv9u6ja:-content-yarn', 'tabindex': '0', 'class': 'ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 mt-0'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,False,False,,div#radix-:Rqm6fnkv9u6ja:-content-bun,"{'data-state': 'inactive', 'data-orientation': 'horizontal', 'role': 'tabpanel', 'aria-labelledby': 'radix-:Rqm6fnkv9u6ja:-trigger-bun', 'hidden': '', 'id': 'radix-:Rqm6fnkv9u6ja:-content-bun', 'tabindex': '0', 'class': 'ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 mt-0'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Copy,div#radix-:Rm6fnkv9u6ja:-content-cli > div > div > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 absolute right-2.5 top-2 z-10 h-6 w-6 text-zinc-50 hover:bg-zinc-700 hover:text-zinc-50 [&_svg]:h-3 [&_svg]:w-3'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,False,False,,div#radix-:Rm6fnkv9u6ja:-content-manual,"{'data-state': 'inactive', 'data-orientation': 'horizontal', 'role': 'tabpanel', 'aria-labelledby': 'radix-:Rm6fnkv9u6ja:-trigger-manual', 'hidden': '', 'id': 'radix-:Rm6fnkv9u6ja:-content-manual', 'tabindex': '0', 'class': 'mt-2 ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 relative [&_h3.font-heading]:text-base [&_h3.font-heading]:font-semibold'}"
+https://ui.shadcn.com/docs/components/accordion,h2,h2,content,content,False,True,True,Usage,h2#usage,"{'class': 'font-heading mt-12 scroll-m-20 border-b pb-2 text-2xl font-semibold tracking-tight first:mt-0', 'id': 'usage'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""
+Copy",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(3),{'data-rehype-pretty-code-fragment': ''}
+https://ui.shadcn.com/docs/components/accordion,pre,pre,content,content,False,True,True,"import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from ""@/components/ui/accordion""",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(3) > pre,"{'class': 'mb-4 mt-6 max-h-[650px] overflow-x-auto rounded-xl bg-zinc-950 py-4 dark:bg-zinc-900', 'data-language': 'tsx', 'data-theme': 'default'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Copy,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(3) > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 z-10 h-6 w-6 text-zinc-50 hover:bg-zinc-700 hover:text-zinc-50 [&_svg]:h-3 [&_svg]:w-3 absolute right-4 top-4'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>
+Copy",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(4),{'data-rehype-pretty-code-fragment': ''}
+https://ui.shadcn.com/docs/components/accordion,pre,pre,content,content,False,True,True,"<Accordion type=""single"" collapsible>
+  <AccordionItem value=""item-1"">
+    <AccordionTrigger>Is it accessible?</AccordionTrigger>
+    <AccordionContent>
+      Yes. It adheres to the WAI-ARIA design pattern.
+    </AccordionContent>
+  </AccordionItem>
+</Accordion>",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(4) > pre,"{'class': 'mb-4 mt-6 max-h-[650px] overflow-x-auto rounded-xl bg-zinc-950 py-4 dark:bg-zinc-900', 'data-language': 'tsx', 'data-theme': 'default'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Copy,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(4) > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 z-10 h-6 w-6 text-zinc-50 hover:bg-zinc-700 hover:text-zinc-50 [&_svg]:h-3 [&_svg]:w-3 absolute right-4 top-4'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Manual
+Alert",html > body > div > div > div > main > div > div > main > div > div:nth-of-type(5),{'class': 'flex flex-row items-center justify-between'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Manual,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(5) > a,"{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2', 'href': '/docs/installation/manual'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Alert,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(5) > a:nth-of-type(2),"{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 ml-auto', 'href': '/docs/components/alert'}"
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel",html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div,{'class': 'sticky top-20 -mt-6 h-[calc(100vh-3.5rem)] pt-4'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"On This Page
+
+Installation
+Usage
+Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel",html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div,{'class': 'no-scrollbar h-full overflow-auto pb-10'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"On This Page
+
+Installation
+Usage",html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div,{'class': 'space-y-2'}
+https://ui.shadcn.com/docs/components/accordion,p,p,content,content,False,True,True,On This Page,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div > p,{'class': 'font-medium'}
+https://ui.shadcn.com/docs/components/accordion,ul,ul,unknown,container,False,True,True,"Installation
+Usage",html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div > ul,{'class': 'm-0 list-none'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Bring your app built with shadcn to life on Vercel
+Trusted by OpenAI, Sonos, Chick-fil-A, and more.
+Vercel provides tools and infrastructure to deploy apps and features at scale.
+Deploy Now
+Deploy to Vercel",html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2),{'class': 'group relative flex flex-col gap-2 rounded-lg border p-4 text-sm mt-6 max-w-[80%]'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Bring your app built with shadcn to life on Vercel,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div,{'class': 'text-balance text-lg font-semibold leading-tight group-hover:underline'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,"Trusted by OpenAI, Sonos, Chick-fil-A, and more.",html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(2),{}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Vercel provides tools and infrastructure to deploy apps and features at scale.,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div:nth-of-type(3),{}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Deploy Now,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-8 rounded-md px-3 text-xs mt-2 w-fit'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Deploy to Vercel,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > a,"{'target': '_blank', 'rel': 'noreferrer', 'class': 'absolute inset-0', 'href': 'https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout'}"
+https://ui.shadcn.com/docs/components/accordion,footer,footer,navigation,navigation,False,True,True,Built by shadcn. The source code is available on GitHub.,html > body > div > div > div > footer,{'class': 'border-grid border-t py-6 md:px-8 md:py-0'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Built by shadcn. The source code is available on GitHub.,html > body > div > div > div > footer > div > div,{'class': 'container py-4'}
+https://ui.shadcn.com/docs/components/accordion,div,div,container,container,False,True,True,Built by shadcn. The source code is available on GitHub.,html > body > div > div > div > footer > div > div > div,{'class': 'text-balance text-center text-sm leading-loose text-muted-foreground md:text-left'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,shadcn,html > body > div > div > div > footer > div > div > div > a,"{'href': 'https://twitter.com/shadcn', 'target': '_blank', 'rel': 'noreferrer', 'class': 'font-medium underline underline-offset-4'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,GitHub,html > body > div > div > div > footer > div > div > div > a:nth-of-type(2),"{'href': 'https://github.com/shadcn-ui/ui', 'target': '_blank', 'rel': 'noreferrer', 'class': 'font-medium underline underline-offset-4'}"
+https://ui.shadcn.com/docs/components/accordion,ol,ol,unknown,container,False,True,False,,html > body > div:nth-of-type(2) > ol,"{'tabindex': '-1', 'class': 'fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]'}"
+https://ui.shadcn.com/docs/components/accordion,ol,ol,unknown,container,False,True,False,,html > body > div:nth-of-type(3) > ol,"{'tabindex': '-1', 'class': 'fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,False,True,Toggle Menu,html > body > div > div > div > header > div > div > button,"{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground py-2 -ml-2 mr-2 h-8 w-8 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden', 'type': 'button', 'aria-haspopup': 'dialog', 'aria-expanded': 'false', 'aria-controls': 'radix-:R15u6ja:', 'data-state': 'closed'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,"Search documentation...
+⌘
+K",html > body > div > div > div > header > div > div > div:nth-of-type(2) > div > button,{'class': 'inline-flex items-center gap-2 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input hover:bg-accent hover:text-accent-foreground px-4 py-2 relative h-8 w-full justify-start rounded-[0.5rem] bg-muted/50 text-sm font-normal text-muted-foreground shadow-none sm:pr-12 md:w-40 lg:w-56 xl:w-64'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,GitHub,html > body > div > div > div > header > div > div > div:nth-of-type(2) > nav > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-8 w-8 px-0'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Toggle theme,html > body > div > div > div > header > div > div > div:nth-of-type(2) > nav > button:nth-of-type(2),{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground py-2 group/toggle h-8 w-8 px-0'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Preview,button#radix-:R66fnkv9u6ja:-trigger-preview,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:R66fnkv9u6ja:-content-preview', 'data-state': 'active', 'id': 'radix-:R66fnkv9u6ja:-trigger-preview', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Code,button#radix-:R66fnkv9u6ja:-trigger-code,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:R66fnkv9u6ja:-content-code', 'data-state': 'inactive', 'id': 'radix-:R66fnkv9u6ja:-trigger-code', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,"Style:
+New York",div#radix-:R66fnkv9u6ja:-content-preview > div > button,"{'type': 'button', 'role': 'combobox', 'aria-controls': 'radix-:R2q66fnkv9u6ja:', 'aria-expanded': 'false', 'aria-autocomplete': 'none', 'dir': 'ltr', 'data-state': 'closed', 'class': 'flex items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 h-7 w-[145px] text-xs [&_svg]:h-4 [&_svg]:w-4'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Open in,div#radix-:R66fnkv9u6ja:-content-preview > div > div > form > button,"{'class': 'inline-flex items-center justify-center whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 shadow py-2 z-50 h-[calc(theme(spacing.7)_-_1px)] gap-1 rounded-[6px] bg-black px-3 text-xs text-white hover:bg-black hover:text-white dark:bg-white dark:text-black', 'aria-label': 'Open in v0'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Copy,div#radix-:R66fnkv9u6ja:-content-preview > div > div > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border border-input bg-background shadow-sm relative z-10 h-7 w-7 text-foreground opacity-100 hover:bg-muted hover:text-foreground [&_svg]:h-3.5 [&_svg]:w-3.5'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it accessible?,button#radix-:r4:,"{'type': 'button', 'aria-controls': 'radix-:r5:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r4:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it styled?,button#radix-:r6:,"{'type': 'button', 'aria-controls': 'radix-:r7:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r6:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it animated?,button#radix-:r8:,"{'type': 'button', 'aria-controls': 'radix-:r9:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r8:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,CLI,button#radix-:Rm6fnkv9u6ja:-trigger-cli,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:Rm6fnkv9u6ja:-content-cli', 'data-state': 'active', 'id': 'radix-:Rm6fnkv9u6ja:-trigger-cli', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Manual,button#radix-:Rm6fnkv9u6ja:-trigger-manual,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rm6fnkv9u6ja:-content-manual', 'data-state': 'inactive', 'id': 'radix-:Rm6fnkv9u6ja:-trigger-manual', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,pnpm,button#radix-:Rqm6fnkv9u6ja:-trigger-pnpm,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-pnpm', 'data-state': 'active', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-pnpm', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,npm,button#radix-:Rqm6fnkv9u6ja:-trigger-npm,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-npm', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-npm', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,yarn,button#radix-:Rqm6fnkv9u6ja:-trigger-yarn,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-yarn', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-yarn', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,bun,button#radix-:Rqm6fnkv9u6ja:-trigger-bun,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-bun', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-bun', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Copy,div#radix-:Rm6fnkv9u6ja:-content-cli > div > div > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 absolute right-2.5 top-2 z-10 h-6 w-6 text-zinc-50 hover:bg-zinc-700 hover:text-zinc-50 [&_svg]:h-3 [&_svg]:w-3'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Copy,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(3) > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 z-10 h-6 w-6 text-zinc-50 hover:bg-zinc-700 hover:text-zinc-50 [&_svg]:h-3 [&_svg]:w-3 absolute right-4 top-4'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Copy,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(4) > div > div:nth-of-type(4) > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 z-10 h-6 w-6 text-zinc-50 hover:bg-zinc-700 hover:text-zinc-50 [&_svg]:h-3 [&_svg]:w-3 absolute right-4 top-4'}
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Deploy Now,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > button,{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground shadow hover:bg-primary/90 h-8 rounded-md px-3 text-xs mt-2 w-fit'}
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,shadcn/ui,html > body > div > div > div > header > div > div > div > a,"{'class': 'mr-4 flex items-center gap-2 lg:mr-6', 'href': '/'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Docs,html > body > div > div > div > header > div > div > div > nav > a,"{'class': 'transition-colors hover:text-foreground/80 text-foreground/80', 'href': '/docs'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Components,html > body > div > div > div > header > div > div > div > nav > a:nth-of-type(2),"{'class': 'transition-colors hover:text-foreground/80 text-foreground', 'href': '/docs/components'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Blocks,html > body > div > div > div > header > div > div > div > nav > a:nth-of-type(3),"{'class': 'transition-colors hover:text-foreground/80 text-foreground/80', 'href': '/blocks'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Charts,html > body > div > div > div > header > div > div > div > nav > a:nth-of-type(4),"{'class': 'transition-colors hover:text-foreground/80 text-foreground/80', 'href': '/charts'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Themes,html > body > div > div > div > header > div > div > div > nav > a:nth-of-type(5),"{'class': 'transition-colors hover:text-foreground/80 text-foreground/80', 'href': '/themes'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Colors,html > body > div > div > div > header > div > div > div > nav > a:nth-of-type(6),"{'class': 'transition-colors hover:text-foreground/80 text-foreground/80', 'href': '/colors'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,GitHub,html > body > div > div > div > header > div > div > div:nth-of-type(2) > nav > button > a,"{'target': '_blank', 'rel': 'noreferrer', 'href': 'https://github.com/shadcn-ui/ui'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Introduction,html > body > div > div > div > main > div > div > aside > div > div > div > div > a,"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Installation,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(2),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,components.json,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(3),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components-json'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Theming,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(4),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/theming'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Dark mode,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(5),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/dark-mode'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,CLI,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(6),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/cli'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,"Monorepo
+New",html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(7),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/monorepo'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Next.js 15 + React 19,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(8),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/react-19'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Typography,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(9),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/typography'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Open in v0,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(10),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/v0'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Figma,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(11),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/figma'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Changelog,html > body > div > div > div > main > div > div > aside > div > div > div > div > a:nth-of-type(12),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/changelog'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Next.js,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a,"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/next'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Vite,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(2),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/vite'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Remix,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(3),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/remix'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Astro,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(4),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/astro'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Laravel,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(5),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/laravel'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Gatsby,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(6),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/gatsby'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Manual,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(2) > div > a:nth-of-type(7),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/installation/manual'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Accordion,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a,"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 underline-offset-2 hover:bg-accent hover:text-accent-foreground bg-accent font-medium text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/accordion'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Alert,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(2),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/alert'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Alert Dialog,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(3),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/alert-dialog'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Aspect Ratio,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(4),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/aspect-ratio'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Avatar,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(5),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/avatar'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Badge,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(6),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/badge'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Breadcrumb,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(7),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/breadcrumb'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Button,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(8),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/button'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Calendar,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(9),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/calendar'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Card,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(10),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/card'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Carousel,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(11),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/carousel'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Chart,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(12),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/chart'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Checkbox,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(13),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/checkbox'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Collapsible,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(14),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/collapsible'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Combobox,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(15),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/combobox'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Command,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(16),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/command'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Context Menu,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(17),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/context-menu'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Data Table,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(18),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/data-table'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Date Picker,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(19),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/date-picker'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Dialog,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(20),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/dialog'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Drawer,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(21),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/drawer'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Dropdown Menu,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(22),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/dropdown-menu'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Form,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(23),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/form'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Hover Card,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(24),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/hover-card'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Input,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(25),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/input'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Input OTP,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(26),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/input-otp'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Label,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(27),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/label'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Menubar,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(28),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/menubar'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Navigation Menu,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(29),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/navigation-menu'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Pagination,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(30),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/pagination'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Popover,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(31),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/popover'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Progress,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(32),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/progress'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Radio Group,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(33),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/radio-group'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Resizable,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(34),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/resizable'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Scroll Area,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(35),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/scroll-area'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Select,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(36),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/select'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Separator,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(37),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/separator'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Sheet,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(38),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/sheet'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Sidebar,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(39),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/sidebar'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Skeleton,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(40),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/skeleton'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Slider,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(41),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/slider'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Sonner,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(42),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/sonner'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Switch,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(43),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/switch'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Table,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(44),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/table'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Tabs,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(45),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/tabs'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Textarea,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(46),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/textarea'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Toast,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(47),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/toast'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Toggle,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(48),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/toggle'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Toggle Group,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(49),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/toggle-group'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Tooltip,html > body > div > div > div > main > div > div > aside > div > div > div:nth-of-type(3) > div > a:nth-of-type(50),"{'class': 'group flex h-8 w-full items-center rounded-lg px-2 font-normal text-foreground underline-offset-2 hover:bg-accent hover:text-accent-foreground', 'target': '', 'rel': '', 'href': '/docs/components/tooltip'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Docs,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(3) > a,"{'target': '_blank', 'rel': 'noreferrer', 'class': 'inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 gap-1', 'href': 'https://www.radix-ui.com/docs/primitives/components/accordion'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,API Reference,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(3) > a:nth-of-type(2),"{'target': '_blank', 'rel': 'noreferrer', 'class': 'inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 gap-1', 'href': 'https://www.radix-ui.com/docs/primitives/components/accordion#api-reference'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,False,False,,h2#installation > a,"{'class': 'font-medium underline underline-offset-4 subheading-anchor', 'aria-label': 'Link to section', 'href': '#installation'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,False,False,,h2#usage > a,"{'class': 'font-medium underline underline-offset-4 subheading-anchor', 'aria-label': 'Link to section', 'href': '#usage'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Manual,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(5) > a,"{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2', 'href': '/docs/installation/manual'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Alert,html > body > div > div > div > main > div > div > main > div > div:nth-of-type(5) > a:nth-of-type(2),"{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-9 px-4 py-2 ml-auto', 'href': '/docs/components/alert'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Installation,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div > ul > li > a,"{'href': '#installation', 'class': 'inline-block no-underline transition-colors hover:text-foreground font-medium text-foreground'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Usage,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div > ul > li:nth-of-type(2) > a,"{'href': '#usage', 'class': 'inline-block no-underline transition-colors hover:text-foreground text-muted-foreground'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,Deploy to Vercel,html > body > div > div > div > main > div > div > main > div:nth-of-type(2) > div > div > div:nth-of-type(2) > a,"{'target': '_blank', 'rel': 'noreferrer', 'class': 'absolute inset-0', 'href': 'https://vercel.com/new?utm_source=shadcn_site&utm_medium=web&utm_campaign=docs_cta_deploy_now_callout'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,shadcn,html > body > div > div > div > footer > div > div > div > a,"{'href': 'https://twitter.com/shadcn', 'target': '_blank', 'rel': 'noreferrer', 'class': 'font-medium underline underline-offset-4'}"
+https://ui.shadcn.com/docs/components/accordion,a,a,navigation,interactive,True,True,True,GitHub,html > body > div > div > div > footer > div > div > div > a:nth-of-type(2),"{'href': 'https://github.com/shadcn-ui/ui', 'target': '_blank', 'rel': 'noreferrer', 'class': 'font-medium underline underline-offset-4'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Preview,button#radix-:R66fnkv9u6ja:-trigger-preview,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:R66fnkv9u6ja:-content-preview', 'data-state': 'active', 'id': 'radix-:R66fnkv9u6ja:-trigger-preview', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Code,button#radix-:R66fnkv9u6ja:-trigger-code,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:R66fnkv9u6ja:-content-code', 'data-state': 'inactive', 'id': 'radix-:R66fnkv9u6ja:-trigger-code', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,CLI,button#radix-:Rm6fnkv9u6ja:-trigger-cli,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:Rm6fnkv9u6ja:-content-cli', 'data-state': 'active', 'id': 'radix-:Rm6fnkv9u6ja:-trigger-cli', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Manual,button#radix-:Rm6fnkv9u6ja:-trigger-manual,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rm6fnkv9u6ja:-content-manual', 'data-state': 'inactive', 'id': 'radix-:Rm6fnkv9u6ja:-trigger-manual', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,pnpm,button#radix-:Rqm6fnkv9u6ja:-trigger-pnpm,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-pnpm', 'data-state': 'active', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-pnpm', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,npm,button#radix-:Rqm6fnkv9u6ja:-trigger-npm,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-npm', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-npm', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,yarn,button#radix-:Rqm6fnkv9u6ja:-trigger-yarn,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-yarn', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-yarn', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,bun,button#radix-:Rqm6fnkv9u6ja:-trigger-bun,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-bun', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-bun', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,form,form,interactive,container,False,True,True,Open in,div#radix-:R66fnkv9u6ja:-content-preview > div > div > form,"{'action': ""javascript:throw new Error('A React form was unexpectedly submitted. If you called form.submit() manually, consider using form.requestSubmit() instead. If you\\'re trying to use event.stopPropagation() in a submit event handler, consider also calling event.preventDefault().')""}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,False,True,Toggle Menu,html > body > div > div > div > header > div > div > button,"{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground py-2 -ml-2 mr-2 h-8 w-8 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden', 'type': 'button', 'aria-haspopup': 'dialog', 'aria-expanded': 'false', 'aria-controls': 'radix-:R15u6ja:', 'data-state': 'closed'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Preview,button#radix-:R66fnkv9u6ja:-trigger-preview,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:R66fnkv9u6ja:-content-preview', 'data-state': 'active', 'id': 'radix-:R66fnkv9u6ja:-trigger-preview', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Code,button#radix-:R66fnkv9u6ja:-trigger-code,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:R66fnkv9u6ja:-content-code', 'data-state': 'inactive', 'id': 'radix-:R66fnkv9u6ja:-trigger-code', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,"Style:
+New York",div#radix-:R66fnkv9u6ja:-content-preview > div > button,"{'type': 'button', 'role': 'combobox', 'aria-controls': 'radix-:R2q66fnkv9u6ja:', 'aria-expanded': 'false', 'aria-autocomplete': 'none', 'dir': 'ltr', 'data-state': 'closed', 'class': 'flex items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 h-7 w-[145px] text-xs [&_svg]:h-4 [&_svg]:w-4'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it accessible?,button#radix-:r4:,"{'type': 'button', 'aria-controls': 'radix-:r5:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r4:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it styled?,button#radix-:r6:,"{'type': 'button', 'aria-controls': 'radix-:r7:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r6:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it animated?,button#radix-:r8:,"{'type': 'button', 'aria-controls': 'radix-:r9:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r8:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,CLI,button#radix-:Rm6fnkv9u6ja:-trigger-cli,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:Rm6fnkv9u6ja:-content-cli', 'data-state': 'active', 'id': 'radix-:Rm6fnkv9u6ja:-trigger-cli', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Manual,button#radix-:Rm6fnkv9u6ja:-trigger-manual,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rm6fnkv9u6ja:-content-manual', 'data-state': 'inactive', 'id': 'radix-:Rm6fnkv9u6ja:-trigger-manual', 'class': 'inline-flex items-center justify-center whitespace-nowrap py-1 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:bg-background relative h-9 rounded-none border-b-2 border-b-transparent bg-transparent px-4 pb-3 pt-2 font-semibold text-muted-foreground shadow-none transition-none data-[state=active]:border-b-primary data-[state=active]:text-foreground data-[state=active]:shadow-none', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,pnpm,button#radix-:Rqm6fnkv9u6ja:-trigger-pnpm,"{'type': 'button', 'role': 'tab', 'aria-selected': 'true', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-pnpm', 'data-state': 'active', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-pnpm', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,npm,button#radix-:Rqm6fnkv9u6ja:-trigger-npm,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-npm', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-npm', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,yarn,button#radix-:Rqm6fnkv9u6ja:-trigger-yarn,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-yarn', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-yarn', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,bun,button#radix-:Rqm6fnkv9u6ja:-trigger-bun,"{'type': 'button', 'role': 'tab', 'aria-selected': 'false', 'aria-controls': 'radix-:Rqm6fnkv9u6ja:-content-bun', 'data-state': 'inactive', 'id': 'radix-:Rqm6fnkv9u6ja:-trigger-bun', 'class': 'inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=active]:shadow rounded-none border-b border-transparent bg-transparent p-0 pb-1.5 font-mono text-zinc-400 data-[state=active]:border-b-zinc-50 data-[state=active]:bg-transparent data-[state=active]:text-zinc-50', 'tabindex': '-1', 'data-orientation': 'horizontal', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,False,True,Toggle Menu,html > body > div > div > div > header > div > div > button,"{'class': 'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md font-medium transition-colors focus-visible:outline-none focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:text-accent-foreground py-2 -ml-2 mr-2 h-8 w-8 px-0 text-base hover:bg-transparent focus-visible:bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 md:hidden', 'type': 'button', 'aria-haspopup': 'dialog', 'aria-expanded': 'false', 'aria-controls': 'radix-:R15u6ja:', 'data-state': 'closed'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,"Style:
+New York",div#radix-:R66fnkv9u6ja:-content-preview > div > button,"{'type': 'button', 'role': 'combobox', 'aria-controls': 'radix-:R2q66fnkv9u6ja:', 'aria-expanded': 'false', 'aria-autocomplete': 'none', 'dir': 'ltr', 'data-state': 'closed', 'class': 'flex items-center justify-between whitespace-nowrap rounded-md border border-input bg-transparent px-3 py-2 shadow-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-ring disabled:cursor-not-allowed disabled:opacity-50 [&>span]:line-clamp-1 h-7 w-[145px] text-xs [&_svg]:h-4 [&_svg]:w-4'}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it accessible?,button#radix-:r4:,"{'type': 'button', 'aria-controls': 'radix-:r5:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r4:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it styled?,button#radix-:r6:,"{'type': 'button', 'aria-controls': 'radix-:r7:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r6:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"
+https://ui.shadcn.com/docs/components/accordion,button,button,interactive,interactive,True,True,True,Is it animated?,button#radix-:r8:,"{'type': 'button', 'aria-controls': 'radix-:r9:', 'aria-expanded': 'false', 'data-state': 'closed', 'data-orientation': 'vertical', 'id': 'radix-:r8:', 'class': 'flex flex-1 items-center justify-between py-4 text-sm font-medium transition-all hover:underline text-left [&[data-state=open]>svg]:rotate-180', 'data-radix-collection-item': ''}"

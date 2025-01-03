@@ -1,0 +1,243 @@
+url,site_category,tag_name,attributes,inner_text,is_visible,bounding_box,selector,aria_role,aria_label,classes,id,is_clickable,has_hover,text_length,child_elements,parent_tag
+https://demoqa.com/elements,interactive,nav,{'class': 'navbar navbar-dark bg-dark left-menu-nav-bar'},,False,,div#app > div > div > div > div > nav,,,navbar navbar-dark bg-dark left-menu-nav-bar,,False,False,0,1,div
+https://demoqa.com/elements,interactive,header,{},,True,"{'x': 0, 'y': 0, 'width': 1263.6363525390625, 'height': 100}",div#app > header,,,,,True,False,0,1,div
+https://demoqa.com/elements,interactive,footer,{},© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.,True,"{'x': 0, 'y': 643.6363525390625, 'width': 1263.6363525390625, 'height': 60}",div#app > footer,,,,,True,False,46,1,div
+https://demoqa.com/elements,interactive,div,{'style': 'text-align:center;display:block;max-width:970px;height:auto;overflow:hidden;margin:auto'},,True,"{'x': 146.81817626953125, 'y': 579.6448364257812, 'width': 969.9999389648438, 'height': 123.99151611328125}",div#fixedban > div,,,,,True,False,0,5,div
+https://demoqa.com/elements,interactive,div,{},,True,"{'x': 146.81817626953125, 'y': 579.6448364257812, 'width': 969.9999389648438, 'height': 23.99151611328125}",div#fixedban > div > div,,,,,True,False,0,1,div
+https://demoqa.com/elements,interactive,a,"{'id': 'close-fixedban', 'onclick': 'document.getElementById(""fixedban&apos"").style.display=""none&apos""', 'style': 'cursor:pointer'}",,True,"{'x': 622.8125, 'y': 580.553955078125, 'width': 17.99713134765625, 'height': 20.90911865234375}",a#close-fixedban,,,,close-fixedban,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,"{'id': 'adplus-anchor', 'data-google-query-id': 'CLn74saM2YoDFUuvJwId_1QAWw'}",,True,"{'x': 146.81817626953125, 'y': 603.6363525390625, 'width': 969.9999389648438, 'height': 100}",div#adplus-anchor,,,,adplus-anchor,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0__container__', 'style': 'border: 0pt none;'}",,True,"{'x': 146.81817626953125, 'y': 603.6363525390625, 'width': 969.9999389648438, 'height': 100}","div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0__container__",,,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0__container__",True,False,0,1,div
+https://demoqa.com/elements,interactive,iframe,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0', 'name': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0', 'title': '3rd party ad content', 'width': '970', 'height': '100', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'frameborder': '0', 'aria-label': 'Advertisement', 'tabindex': '0', 'allow': 'private-state-token-redemption;attribution-reporting', 'data-load-complete': 'true', 'style': 'border: 0px; vertical-align: bottom;', 'data-google-container-id': '1'}",,True,"{'x': 146.81817626953125, 'y': 603.6363525390625, 'width': 969.9999389648438, 'height': 100}","iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0",,Advertisement,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0",True,False,0,0,div
+https://demoqa.com/elements,interactive,header,{},,True,"{'x': 0, 'y': 0, 'width': 1263.6363525390625, 'height': 100}",div#app > header,,,,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'body-height'},"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application
+ 
+Please select an item from left to start practice.",True,"{'x': 0, 'y': 100, 'width': 1263.6363525390625, 'height': 1269.70166015625}",div#app > div,,,body-height,,True,False,263,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'container playgound-body'},"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application
+ 
+Please select an item from left to start practice.",True,"{'x': 12.642045021057129, 'y': 100, 'width': 1238.3522176742554, 'height': 1169.70166015625}",div#app > div > div,,,container playgound-body,,True,False,263,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'row'},"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application
+ 
+Please select an item from left to start practice.",True,"{'x': 12.642045021057129, 'y': 100, 'width': 1238.3522176742554, 'height': 1169.70166015625}",div#app > div > div > div,,,row,,True,False,263,3,div
+https://demoqa.com/elements,interactive,div,{'class': 'col-12 mt-4  col-md-3'},"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application",True,"{'x': 12.642045021057129, 'y': 123.99147033691406, 'width': 309.58805751800537, 'height': 1145.710189819336}",div#app > div > div > div > div,,,col-12 mt-4  col-md-3,,True,False,210,2,div
+https://demoqa.com/elements,interactive,nav,{'class': 'navbar navbar-dark bg-dark left-menu-nav-bar'},,False,,div#app > div > div > div > div > nav,,,navbar navbar-dark bg-dark left-menu-nav-bar,,False,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'left-pannel'},"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application",True,"{'x': 27.642044067382812, 'y': 123.99147033691406, 'width': 279.5880584716797, 'height': 1145.710189819336}",div#app > div > div > div > div > div,,,left-pannel,,True,False,210,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'accordion'},"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties
+Forms
+ 
+Alerts, Frame & Windows
+ 
+Widgets
+ 
+Interactions
+ 
+Book Store Application",True,"{'x': 49.346588134765625, 'y': 148.8920440673828, 'width': 253.77841186523438, 'height': 1103.9061737060547}",div#app > div > div > div > div > div > div,,,accordion,,True,False,210,6,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-group'},"Elements
+ 
+Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties",True,"{'x': 49.346588134765625, 'y': 148.8920440673828, 'width': 253.77841186523438, 'height': 655.9232635498047}",div#app > div > div > div > div > div > div > div,,,element-group,,True,False,128,2,div
+https://demoqa.com/elements,interactive,span,{'class': 'group-header'},Elements,True,"{'x': 49.346588134765625, 'y': 148.8920440673828, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div > span,,,group-header,,True,False,8,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-text'},Elements,True,"{'x': 49.346588134765625, 'y': 148.8920440673828, 'width': 115.68180847167969, 'height': 80}",div#app > div > div > div > div > div > div > div > span > div > div,,,header-text,,True,False,8,1,div
+https://demoqa.com/elements,interactive,span,{'class': 'pr-1'},,True,"{'x': 65.34090423583984, 'y': 172.88351440429688, 'width': 23.18181610107422, 'height': 56.00852966308594}",div#app > div > div > div > div > div > div > div > span > div > div > span,,,pr-1,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-right'},,True,"{'x': 239.94317626953125, 'y': 148.8920440673828, 'width': 43.18182373046875, 'height': 80}",div#app > div > div > div > div > div > div > div > span > div > div:nth-of-type(2),,,header-right,,True,False,0,2,div
+https://demoqa.com/elements,interactive,div,{'class': 'separator'},,True,"{'x': 239.94317626953125, 'y': 156.8892059326172, 'width': 0.9943084716796875, 'height': 63.99147033691406}",div#app > div > div > div > div > div > div > div > span > div > div:nth-of-type(2) > div,,,separator,,True,False,0,0,div
+https://demoqa.com/elements,interactive,div,{'class': 'icon'},,True,"{'x': 255.93748474121094, 'y': 174.48863220214844, 'width': 19.190353393554688, 'height': 28.806808471679688}",div#app > div > div > div > div > div > div > div > span > div > div:nth-of-type(2) > div:nth-of-type(2),,,icon,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-list collapse show'},"Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties",True,"{'x': 49.346588134765625, 'y': 228.8920440673828, 'width': 253.77841186523438, 'height': 575.9232635498047}",div#app > div > div > div > div > div > div > div > div,,,element-list collapse show,,True,False,117,1,div
+https://demoqa.com/elements,interactive,ul,{'class': 'menu-list'},"Text Box
+Check Box
+Radio Button
+Web Tables
+Buttons
+Links
+Broken Links - Images
+Upload and Download
+Dynamic Properties",True,"{'x': 49.346588134765625, 'y': 228.8920440673828, 'width': 233.77841186523438, 'height': 575.9232635498047}",div#app > div > div > div > div > div > div > div > div > ul,,,menu-list,,True,False,117,9,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-group'},Forms,True,"{'x': 49.346588134765625, 'y': 820.8096313476562, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(2),,,element-group,,True,False,5,2,div
+https://demoqa.com/elements,interactive,span,{'class': 'group-header'},Forms,True,"{'x': 49.346588134765625, 'y': 820.8096313476562, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(2) > span,,,group-header,,True,False,5,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-text'},Forms,True,"{'x': 49.346588134765625, 'y': 820.8096313476562, 'width': 91.16476440429688, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div,,,header-text,,True,False,5,1,div
+https://demoqa.com/elements,interactive,span,{'class': 'pr-1'},,True,"{'x': 65.34090423583984, 'y': 844.8010864257812, 'width': 23.18181610107422, 'height': 56.008544921875}",div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div > span,,,pr-1,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-right'},,True,"{'x': 239.94317626953125, 'y': 820.8096313476562, 'width': 43.18182373046875, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div:nth-of-type(2),,,header-right,,True,False,0,2,div
+https://demoqa.com/elements,interactive,div,{'class': 'separator'},,True,"{'x': 239.94317626953125, 'y': 828.8067626953125, 'width': 0.9943084716796875, 'height': 63.99151611328125}",div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div:nth-of-type(2) > div,,,separator,,True,False,0,0,div
+https://demoqa.com/elements,interactive,div,{'class': 'icon'},,True,"{'x': 255.93748474121094, 'y': 846.40625, 'width': 19.190353393554688, 'height': 28.8067626953125}",div#app > div > div > div > div > div > div > div:nth-of-type(2) > span > div > div:nth-of-type(2) > div:nth-of-type(2),,,icon,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-list collapse'},Practice Form,False,,div#app > div > div > div > div > div > div > div:nth-of-type(2) > div,,,element-list collapse,,False,False,13,1,div
+https://demoqa.com/elements,interactive,ul,{'class': 'menu-list'},Practice Form,False,,div#app > div > div > div > div > div > div > div:nth-of-type(2) > div > ul,,,menu-list,,False,False,13,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-group'},"Alerts, Frame & Windows",True,"{'x': 49.346588134765625, 'y': 908.8067626953125, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(3),,,element-group,,True,False,23,2,div
+https://demoqa.com/elements,interactive,span,{'class': 'group-header'},"Alerts, Frame & Windows",True,"{'x': 49.346588134765625, 'y': 908.8067626953125, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(3) > span,,,group-header,,True,False,23,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-text'},"Alerts, Frame & Windows",True,"{'x': 49.346588134765625, 'y': 908.8067626953125, 'width': 190.59658813476562, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div,,,header-text,,True,False,23,1,div
+https://demoqa.com/elements,interactive,span,{'class': 'pr-1'},,True,"{'x': 65.34090423583984, 'y': 932.7982788085938, 'width': 23.18181610107422, 'height': 56.00848388671875}",div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div > span,,,pr-1,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-right'},,True,"{'x': 239.94317626953125, 'y': 908.8067626953125, 'width': 43.18182373046875, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div:nth-of-type(2),,,header-right,,True,False,0,2,div
+https://demoqa.com/elements,interactive,div,{'class': 'separator'},,True,"{'x': 239.94317626953125, 'y': 916.803955078125, 'width': 0.9943084716796875, 'height': 63.991455078125}",div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div:nth-of-type(2) > div,,,separator,,True,False,0,0,div
+https://demoqa.com/elements,interactive,div,{'class': 'icon'},,True,"{'x': 255.93748474121094, 'y': 934.4033813476562, 'width': 19.190353393554688, 'height': 28.80682373046875}",div#app > div > div > div > div > div > div > div:nth-of-type(3) > span > div > div:nth-of-type(2) > div:nth-of-type(2),,,icon,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-list collapse'},Browser WindowsAlertsFramesNested FramesModal Dialogs,False,,div#app > div > div > div > div > div > div > div:nth-of-type(3) > div,,,element-list collapse,,False,False,53,1,div
+https://demoqa.com/elements,interactive,ul,{'class': 'menu-list'},Browser WindowsAlertsFramesNested FramesModal Dialogs,False,,div#app > div > div > div > div > div > div > div:nth-of-type(3) > div > ul,,,menu-list,,False,False,53,5,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-group'},Widgets,True,"{'x': 49.346588134765625, 'y': 996.803955078125, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(4),,,element-group,,True,False,7,2,div
+https://demoqa.com/elements,interactive,span,{'class': 'group-header'},Widgets,True,"{'x': 49.346588134765625, 'y': 996.803955078125, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(4) > span,,,group-header,,True,False,7,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-text'},Widgets,True,"{'x': 49.346588134765625, 'y': 996.803955078125, 'width': 109.07670593261719, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div,,,header-text,,True,False,7,1,div
+https://demoqa.com/elements,interactive,span,{'class': 'pr-1'},,True,"{'x': 65.34090423583984, 'y': 1020.79541015625, 'width': 23.18181610107422, 'height': 56.008544921875}",div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div > span,,,pr-1,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-right'},,True,"{'x': 239.94317626953125, 'y': 996.803955078125, 'width': 43.18182373046875, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div:nth-of-type(2),,,header-right,,True,False,0,2,div
+https://demoqa.com/elements,interactive,div,{'class': 'separator'},,True,"{'x': 239.94317626953125, 'y': 1004.8010864257812, 'width': 0.9943084716796875, 'height': 63.99151611328125}",div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div:nth-of-type(2) > div,,,separator,,True,False,0,0,div
+https://demoqa.com/elements,interactive,div,{'class': 'icon'},,True,"{'x': 255.93748474121094, 'y': 1022.4005126953125, 'width': 19.190353393554688, 'height': 28.806884765625}",div#app > div > div > div > div > div > div > div:nth-of-type(4) > span > div > div:nth-of-type(2) > div:nth-of-type(2),,,icon,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-list collapse'},AccordianAuto CompleteDate PickerSliderProgress BarTabsTool TipsMenuSelect Menu,False,,div#app > div > div > div > div > div > div > div:nth-of-type(4) > div,,,element-list collapse,,False,False,79,1,div
+https://demoqa.com/elements,interactive,ul,{'class': 'menu-list'},AccordianAuto CompleteDate PickerSliderProgress BarTabsTool TipsMenuSelect Menu,False,,div#app > div > div > div > div > div > div > div:nth-of-type(4) > div > ul,,,menu-list,,False,False,79,9,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-group'},Interactions,True,"{'x': 49.346588134765625, 'y': 1084.8011474609375, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(5),,,element-group,,True,False,12,2,div
+https://demoqa.com/elements,interactive,span,{'class': 'group-header'},Interactions,True,"{'x': 49.346588134765625, 'y': 1084.8011474609375, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(5) > span,,,group-header,,True,False,12,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-text'},Interactions,True,"{'x': 49.346588134765625, 'y': 1084.8011474609375, 'width': 138.4375, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div,,,header-text,,True,False,12,1,div
+https://demoqa.com/elements,interactive,span,{'class': 'pr-1'},,True,"{'x': 65.34090423583984, 'y': 1108.7926025390625, 'width': 23.18181610107422, 'height': 56.008544921875}",div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div > span,,,pr-1,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-right'},,True,"{'x': 239.94317626953125, 'y': 1084.8011474609375, 'width': 43.18182373046875, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div:nth-of-type(2),,,header-right,,True,False,0,2,div
+https://demoqa.com/elements,interactive,div,{'class': 'separator'},,True,"{'x': 239.94317626953125, 'y': 1092.7982177734375, 'width': 0.9943084716796875, 'height': 63.991455078125}",div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div:nth-of-type(2) > div,,,separator,,True,False,0,0,div
+https://demoqa.com/elements,interactive,div,{'class': 'icon'},,True,"{'x': 255.93748474121094, 'y': 1110.397705078125, 'width': 19.190353393554688, 'height': 28.8067626953125}",div#app > div > div > div > div > div > div > div:nth-of-type(5) > span > div > div:nth-of-type(2) > div:nth-of-type(2),,,icon,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-list collapse'},SortableSelectableResizableDroppableDragabble,False,,div#app > div > div > div > div > div > div > div:nth-of-type(5) > div,,,element-list collapse,,False,False,45,1,div
+https://demoqa.com/elements,interactive,ul,{'class': 'menu-list'},SortableSelectableResizableDroppableDragabble,False,,div#app > div > div > div > div > div > div > div:nth-of-type(5) > div > ul,,,menu-list,,False,False,45,5,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-group'},Book Store Application,True,"{'x': 49.346588134765625, 'y': 1172.7982177734375, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(6),,,element-group,,True,False,22,2,div
+https://demoqa.com/elements,interactive,span,{'class': 'group-header'},Book Store Application,True,"{'x': 49.346588134765625, 'y': 1172.7982177734375, 'width': 253.77841186523438, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(6) > span,,,group-header,,True,False,22,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-text'},Book Store Application,True,"{'x': 49.346588134765625, 'y': 1172.7982177734375, 'width': 190.59658813476562, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div,,,header-text,,True,False,22,1,div
+https://demoqa.com/elements,interactive,span,{'class': 'pr-1'},,True,"{'x': 65.34090423583984, 'y': 1196.7896728515625, 'width': 23.18181610107422, 'height': 56.008544921875}",div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div > span,,,pr-1,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'header-right'},,True,"{'x': 239.94317626953125, 'y': 1172.7982177734375, 'width': 43.18182373046875, 'height': 80}",div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div:nth-of-type(2),,,header-right,,True,False,0,2,div
+https://demoqa.com/elements,interactive,div,{'class': 'separator'},,True,"{'x': 239.94317626953125, 'y': 1180.79541015625, 'width': 0.9943084716796875, 'height': 63.991455078125}",div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div:nth-of-type(2) > div,,,separator,,True,False,0,0,div
+https://demoqa.com/elements,interactive,div,{'class': 'icon'},,True,"{'x': 255.93748474121094, 'y': 1198.3948974609375, 'width': 19.190353393554688, 'height': 28.8067626953125}",div#app > div > div > div > div > div > div > div:nth-of-type(6) > span > div > div:nth-of-type(2) > div:nth-of-type(2),,,icon,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'element-list collapse'},LoginBook StoreProfileBook Store API,False,,div#app > div > div > div > div > div > div > div:nth-of-type(6) > div,,,element-list collapse,,False,False,36,1,div
+https://demoqa.com/elements,interactive,ul,{'class': 'menu-list'},LoginBook StoreProfileBook Store API,False,,div#app > div > div > div > div > div > div > div:nth-of-type(6) > div > ul,,,menu-list,,False,False,36,4,div
+https://demoqa.com/elements,interactive,div,{'class': 'col-12 mt-4 col-md-6'},Please select an item from left to start practice.,True,"{'x': 322.2301025390625, 'y': 123.99147033691406, 'width': 619.1760864257812, 'height': 1145.710189819336}",div#app > div > div > div > div:nth-of-type(2),,,col-12 mt-4 col-md-6,,True,False,50,3,div
+https://demoqa.com/elements,interactive,div,"{'id': 'Ad.Plus-970x250-1', 'data-google-query-id': 'CI-KjseM2YoDFZAF-wMdXqQK3Q', 'style': 'margin-bottom: 50px;'}",,True,"{'x': 337.2301025390625, 'y': 123.99147033691406, 'width': 589.1760864257812, 'height': 249.99998474121094}",div#Ad.Plus-970x250-1,,,,Ad.Plus-970x250-1,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0__container__', 'style': 'border: 0pt none;'}",,True,"{'x': 337.2301025390625, 'y': 123.99147033691406, 'width': 589.1760864257812, 'height': 249.99998474121094}","div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0__container__",,,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0__container__",True,False,0,1,div
+https://demoqa.com/elements,interactive,iframe,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0', 'name': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0', 'title': '3rd party ad content', 'width': '970', 'height': '250', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'frameborder': '0', 'aria-label': 'Advertisement', 'tabindex': '0', 'allow': 'private-state-token-redemption;attribution-reporting', 'data-load-complete': 'true', 'style': 'border: 0px; vertical-align: bottom;', 'data-google-container-id': '2'}",,True,"{'x': 337.2301025390625, 'y': 123.99147033691406, 'width': 970, 'height': 249.99998474121094}","iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0",,Advertisement,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-1_0",True,False,0,0,div
+https://demoqa.com/elements,interactive,div,"{'style': 'border: 1px solid rgb(229, 229, 229); margin-top: 50px; padding: 50px;'}",,True,"{'x': 337.2301025390625, 'y': 497.9829406738281, 'width': 589.1760864257812, 'height': 401.8181457519531}",div#app > div > div > div > div:nth-of-type(2) > div:nth-of-type(2),,,,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,"{'id': 'Ad.Plus-970x250-2', 'data-google-query-id': 'CPKYvceM2YoDFQtgpAQdRF8b2g', 'style': 'margin-bottom: 50px;'}",,True,"{'x': 388.1391906738281, 'y': 548.8920288085938, 'width': 487.3579406738281, 'height': 250}",div#Ad.Plus-970x250-2,,,,Ad.Plus-970x250-2,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0__container__', 'style': 'border: 0pt none;'}",,True,"{'x': 388.1391906738281, 'y': 548.8920288085938, 'width': 487.3579406738281, 'height': 250}","div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0__container__",,,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0__container__",True,False,0,1,div
+https://demoqa.com/elements,interactive,iframe,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0', 'name': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0', 'title': '3rd party ad content', 'width': '970', 'height': '250', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'frameborder': '0', 'aria-label': 'Advertisement', 'tabindex': '0', 'allow': 'private-state-token-redemption;attribution-reporting', 'data-load-complete': 'true', 'style': 'border: 0px; vertical-align: bottom;', 'data-google-container-id': '3'}",,True,"{'x': 388.1391906738281, 'y': 548.8920288085938, 'width': 969.9999694824219, 'height': 250}","iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0",,Advertisement,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-970x250-2_0",True,False,0,0,div
+https://demoqa.com/elements,interactive,div,{},,False,"{'x': 337.2301025390625, 'y': 899.8010864257812, 'width': 589.1760864257812, 'height': 0}",div#app > div > div > div > div:nth-of-type(2) > div:nth-of-type(3),,,,,False,False,0,0,div
+https://demoqa.com/elements,interactive,div,{'class': 'col-12 mt-4 col-md-3'},,True,"{'x': 941.4061889648438, 'y': 123.99147033691406, 'width': 309.58807373046875, 'height': 1145.710189819336}",div#app > div > div > div > div:nth-of-type(3),,,col-12 mt-4 col-md-3,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'sidebar-content pattern-backgound shadow widget-divider-off'},,True,"{'x': 956.4061889648438, 'y': 123.99147033691406, 'width': 279.58807373046875, 'height': 929.9999847412109}",div#app > div > div > div > div:nth-of-type(3) > div,,,sidebar-content pattern-backgound shadow widget-divider-off,,True,False,0,1,div
+https://demoqa.com/elements,interactive,section,"{'id': 'RightSide_Advertisement', 'class': 'widget widget_text'}",,True,"{'x': 956.4061889648438, 'y': 123.99147033691406, 'width': 279.58807373046875, 'height': 929.9999847412109}",section#RightSide_Advertisement,,,widget widget_text,RightSide_Advertisement,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,{'class': 'Google-Ad'},,True,"{'x': 971.4061889648438, 'y': 138.99147033691406, 'width': 249.58807373046875, 'height': 849.9999847412109}",section#RightSide_Advertisement > div > div,,,Google-Ad,,True,False,0,3,div
+https://demoqa.com/elements,interactive,a,"{'class': 'cursor-pointer', 'style': 'display: block;'}",,True,"{'x': 971.4061889648438, 'y': 138.99147033691406, 'width': 249.58807373046875, 'height': 299.99998474121094}",section#RightSide_Advertisement > div > div > a,,,cursor-pointer,,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,"{'id': 'Ad.Plus-300x250-1', 'data-google-query-id': 'CJWorMeM2YoDFSqhJwIdTgM2Gg', 'style': 'margin-bottom: 50px;'}",,True,"{'x': 971.4061889648438, 'y': 438.991455078125, 'width': 249.58807373046875, 'height': 250}",div#Ad.Plus-300x250-1,,,,Ad.Plus-300x250-1,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0__container__', 'style': 'border: 0pt none;'}",,True,"{'x': 971.4061889648438, 'y': 438.991455078125, 'width': 249.58807373046875, 'height': 250}","div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0__container__",,,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0__container__",True,False,0,1,div
+https://demoqa.com/elements,interactive,iframe,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0', 'name': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0', 'title': '3rd party ad content', 'width': '300', 'height': '250', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'frameborder': '0', 'aria-label': 'Advertisement', 'tabindex': '0', 'allow': 'private-state-token-redemption;attribution-reporting', 'data-load-complete': 'true', 'style': 'border: 0px; vertical-align: bottom;', 'data-google-container-id': '4'}",,True,"{'x': 971.4061889648438, 'y': 438.991455078125, 'width': 300.00006103515625, 'height': 250}","iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0",,Advertisement,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-1_0",True,False,0,0,div
+https://demoqa.com/elements,interactive,div,"{'id': 'Ad.Plus-300x250-2', 'data-google-query-id': 'COmxnceM2YoDFT-bJwIdmmgP3g', 'style': 'margin-bottom: 50px;'}",,True,"{'x': 971.4061889648438, 'y': 738.991455078125, 'width': 249.58807373046875, 'height': 250}",div#Ad.Plus-300x250-2,,,,Ad.Plus-300x250-2,True,False,0,1,div
+https://demoqa.com/elements,interactive,div,"{'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0__container__', 'style': 'border: 0pt none; display: inline-block; width: 300px; height: 250px;'}",,True,"{'x': 971.4061889648438, 'y': 738.991455078125, 'width': 300.00006103515625, 'height': 250}","div#google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0__container__",,,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0__container__",True,False,0,1,div
+https://demoqa.com/elements,interactive,iframe,"{'frameborder': '0', 'src': 'https://03f231fe34ae422e5467a258250a3a49.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html', 'id': 'google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0', 'title': '3rd party ad content', 'name': '', 'scrolling': 'no', 'marginwidth': '0', 'marginheight': '0', 'width': '300', 'height': '250', 'data-is-safeframe': 'true', 'sandbox': 'allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation', 'allow': 'private-state-token-redemption;attribution-reporting', 'aria-label': 'Advertisement', 'tabindex': '0', 'data-google-container-id': '5', 'style': 'border: 0px; vertical-align: bottom;', 'data-load-complete': 'true'}",,True,"{'x': 971.4061889648438, 'y': 738.991455078125, 'width': 300.00006103515625, 'height': 250}","iframe#google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0",,Advertisement,,"google_ads_iframe_/21849154601,22343295815/Ad.Plus-300x250-2_0",True,False,0,0,div
+https://demoqa.com/elements,interactive,footer,{},© 2013-2020 TOOLSQA.COM | ALL RIGHTS RESERVED.,True,"{'x': 0, 'y': 643.6363525390625, 'width': 1263.6363525390625, 'height': 60}",div#app > footer,,,,,True,False,46,1,div
+https://demoqa.com/elements,interactive,iframe,"{'id': 'aswift_0', 'name': 'aswift_0', 'browsingtopics': 'true', 'style': 'left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;', 'sandbox': 'allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation', 'frameborder': '0', 'marginwidth': '0', 'marginheight': '0', 'vspace': '0', 'hspace': '0', 'allowtransparency': 'true', 'scrolling': 'no', 'allow': 'attribution-reporting; run-ad-auction', 'src': 'https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-5889298451609146&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1710656768&plat=9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32&plas=404x648_l%7C404x648_r&format=0x0&url=https%3A%2F%2Fdemoqa.com%2Felements&pra=5&wgl=1&aihb=0&aiof=3&asro=0&ailel=1~2~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34&aiael=1~2~3~4~6~7~8~9~10~11~12~13~14~15~16~17~18~19~20~21~24~29~30~34&aicel=33~38&aifxl=29_18~30_19&aiixl=29_5~30_6&aiict=1&aiapm=0.3221&aiapmi=0.33938&aiombap=1&aief=1&uach=WyJXaW5kb3dzIiwiMTUuMC4wIiwieDg2IiwiIiwiMTMxLjAuNjc3OC4zMyIsbnVsbCwwLG51bGwsIjY0IixbWyJDaHJvbWl1bSIsIjEzMS4wLjY3NzguMzMiXSxbIk5vdF9BIEJyYW5kIiwiMjQuMC4wLjAiXV0sMF0.&dt=1735891709651&bpp=10&bdt=813&idt=230&shv=r20241212&mjsv=m202412090101&ptt=9&saldr=aa&abxe=1&cookie_enabled=1&eoidce=1&nras=1&correlator=7064509538932&frm=20&pv=2&u_tz=120&u_his=12&u_h=720&u_w=1280&u_ah=720&u_aw=1280&u_cd=24&u_sd=1&dmc=8&adx=-12245933&ady=-12245933&biw=1280&bih=720&scr_x=0&scr_y=0&eid=31089330%2C95331832%2C95345966&oid=2&pvsid=685294563895955&tmod=131998914&uas=0&nvt=1&fsapi=1&fc=1920&brdim=10%2C10%2C10%2C10%2C1280%2C0%2C1297%2C809%2C1280%2C720&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1.01&td=1&tdf=2&psd=W251bGwsbnVsbCxudWxsLDNd&nt=1&ifi=1&uci=a!1&fsb=1&dtd=246', 'data-google-container-id': 'a!1', 'tabindex': '0', 'title': 'Advertisement', 'aria-label': 'Advertisement', 'data-load-complete': 'true'}",,False,,iframe#aswift_0,,Advertisement,,aswift_0,False,False,0,0,div
+https://demoqa.com/elements,interactive,iframe,"{'src': 'https://google-bidout-d.openx.net/w/1.0/pd?plm=5', 'width': '0', 'height': '0', 'style': 'display:none;'}",,False,,html > body > div:nth-of-type(3) > iframe,,,,,False,False,0,0,div
+https://demoqa.com/elements,interactive,button,"{'class': 'navbar-toggler', 'type': 'button'}",,False,,div#app > div > div > div > div > nav > button,,,navbar-toggler,,False,False,0,1,nav
+https://demoqa.com/elements,interactive,a,{'href': 'https://demoqa.com'},,True,"{'x': 458.30963134765625, 'y': 0, 'width': 347.00286865234375, 'height': 100}",div#app > header > a,,,,,True,False,0,1,header

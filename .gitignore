@@ -56,3 +56,17 @@ htmlcov/
 models/*.pkl
 models/*.h5
 models/*.pt
+
+# Model and training
+models/
+training_data/processed/
+analysis_results/
+
+# Temporary files
+*.tmp
+*.temp
+.ipynb_checkpoints/
+
+# Local development
+local_tests/
+scratch/

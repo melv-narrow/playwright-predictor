@@ -1,0 +1,511 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://vuejs.org/guide/introduction.html,nav,nav,navigation,navigation,False,True,True,"Main Navigation
+Docs
+API
+Playground
+Ecosystem
+About
+Sponsor
+Experts
+NEW",div#app > div > header > div > div > div > nav,"{'aria-labelledby': 'main-nav-aria-label', 'class': 'VPNavBarMenu menu', 'data-v-926b474f': '', 'data-v-93948c33': ''}"
+https://vuejs.org/guide/introduction.html,nav,nav,navigation,navigation,False,True,True,"API Preference
+Options
+Composition
+?
+
+API style now defaults to Composition API.
+
+Some pages contain different content based on the API style chosen. Use this switch to toggle between APIs styles.
+
+Learn moreGot it
+
+Sidebar Navigation
+Getting Started
+
+Introduction
+
+Quick Start
+
+Essentials
+
+Creating an Application
+
+Template Syntax
+
+Reactivity Fundamentals
+
+Computed Properties
+
+Class and Style Bindings
+
+Conditional Rendering
+
+List Rendering
+
+Event Handling
+
+Form Input Bindings
+
+Watchers
+
+Template Refs
+
+Components Basics
+
+Lifecycle Hooks
+
+Components In-Depth
+
+Registration
+
+Props
+
+Events
+
+Component v-model
+
+Fallthrough Attributes
+
+Slots
+
+Provide / inject
+
+Async Components
+
+Reusability
+
+Composables
+
+Custom Directives
+
+Plugins
+
+Built-in Components
+
+Transition
+
+TransitionGroup
+
+KeepAlive
+
+Teleport
+
+Suspense
+
+Scaling Up
+
+Single-File Components
+
+Tooling
+
+Routing
+
+State Management
+
+Testing
+
+Server-Side Rendering (SSR)
+
+Best Practices
+
+Production Deployment
+
+Performance
+
+Accessibility
+
+Security
+
+TypeScript
+
+Overview
+
+TS with Composition API
+
+TS with Options API
+
+Extra Topics
+
+Ways of Using Vue
+
+Composition API FAQ
+
+Reactivity in Depth
+
+Rendering Mechanism
+
+Render Functions & JSX
+
+Vue and Web Components
+
+Animation Techniques
+
+Get Security Updates for Vue 2",nav#VPSidebarNav,"{'id': 'VPSidebarNav', 'aria-labelledby': 'sidebar-aria-label', 'tabindex': '-1', 'data-v-3146ed73': ''}"
+https://vuejs.org/guide/introduction.html,nav,nav,navigation,navigation,False,True,True,"Table of Contents for current page
+What is Vue?
+The Progressive Framework
+Single-File Components
+API Styles
+Still Got Questions?
+Pick Your Learning Path",div#VPContent > div > div > div > div > div > nav,"{'aria-labelledby': 'doc-outline-aria-label', 'data-v-74231c93': ''}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,True,"Search
+Ctrl
+K",div#docsearch > button,"{'type': 'button', 'class': 'DocSearch DocSearch-Button', 'aria-label': 'Search'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,True,Docs,div#app > div > header > div > div > div > nav > div > button,"{'type': 'button', 'class': 'vt-flyout-button', 'aria-haspopup': 'true', 'aria-expanded': 'false'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,True,Ecosystem,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > button,"{'type': 'button', 'class': 'vt-flyout-button', 'aria-haspopup': 'true', 'aria-expanded': 'false'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,True,About,div#app > div > header > div > div > div > nav > div:nth-of-type(3) > button,"{'type': 'button', 'class': 'vt-flyout-button', 'aria-haspopup': 'true', 'aria-expanded': 'false'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,True,"Experts
+NEW",div#app > div > header > div > div > div > nav > div:nth-of-type(4) > button,"{'type': 'button', 'class': 'vt-flyout-button', 'aria-haspopup': 'true', 'aria-expanded': 'false'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > button,"{'type': 'button', 'class': 'vt-flyout-button', 'aria-haspopup': 'true', 'aria-expanded': 'false', 'aria-label': 'Select Language'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,False,,div#app > div > header > div > div > div > div:nth-of-type(2) > button,"{'class': 'vt-switch vt-switch-appearance', 'type': 'button', 'role': 'switch', 'aria-label': 'Toggle dark mode', 'aria-checked': 'false', 'data-v-2dded041': ''}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,False,False,,div#app > div > header > div > div > div > div:nth-of-type(4) > button,"{'type': 'button', 'class': 'vt-flyout-button', 'aria-haspopup': 'true', 'aria-expanded': 'false', 'aria-label': 'extra navigation'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,False,False,,div#app > div > header > div > div > div > div:nth-of-type(4) > div > div > div > div > div > button,"{'class': 'vt-switch vt-switch-appearance', 'type': 'button', 'role': 'switch', 'aria-label': 'Toggle dark mode', 'aria-checked': 'false', 'data-v-19a12313': ''}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,False,False,,div#app > div > header > div > div > div > button,"{'type': 'button', 'class': 'vt-hamburger VPNavBarHamburger hamburger', 'aria-label': 'Mobile navigation', 'aria-expanded': 'false', 'aria-controls': 'VPNavScreen', 'data-v-926b474f': '', 'data-v-d3cc693d': ''}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,False,True,Menu,div#app > div > div > button,"{'class': 'menu', 'aria-expanded': 'false', 'aria-controls': 'VPSidebarNav', 'data-v-06898a72': ''}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,False,True,On this page,div#app > div > div > div > button,"{'class': '', 'data-v-8343a74c': ''}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,True,API Preference,nav#VPSidebarNav > div > button,"{'class': 'toggle', 'aria-label': 'preference switches toggle', 'aria-controls': 'preference-switches', 'aria-expanded': 'true', 'data-v-e02760d0': ''}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,False,,div#preference-switches > div > button,"{'class': 'vt-switch api-switch', 'type': 'button', 'role': 'switch', 'aria-label': 'prefer composition api', 'aria-checked': 'true', 'data-v-e02760d0': ''}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,True,Got it,div#preference-switches > div > div > p:nth-of-type(3) > button,{'data-v-dbbcc10a': ''}
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,False,False,,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(3) > div > button,"{'title': 'Copy Code', 'class': 'copy'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,False,,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(4) > div > button,"{'title': 'Copy Code', 'class': 'copy'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,False,,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(5) > button,"{'title': 'Copy Code', 'class': 'copy'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,True,Count is: 0,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(6) > button,{}
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,False,False,,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(8) > div > button,"{'title': 'Copy Code', 'class': 'copy'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,False,,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(9) > div > button,"{'title': 'Copy Code', 'class': 'copy'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,False,,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(10) > button,"{'title': 'Copy Code', 'class': 'copy'}"
+https://vuejs.org/guide/introduction.html,button,button,interactive,interactive,True,True,False,,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(11) > button,"{'title': 'Copy Code', 'class': 'copy'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Skip to content,div#app > div > a,"{'href': '#VPContent', 'class': 'VPSkipLink visually-hidden', 'data-v-ea12ab4d': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Vue.js,div#app > div > header > div > div > a,"{'class': 'VPNavBarTitle', 'href': '/', 'data-v-926b474f': '', 'data-v-2b313a12': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div > div > div > div > a,"{'class': 'vt-link link vt-menu-link', 'href': '/guide/introduction'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div > div > div > div > a:nth-of-type(2),"{'class': 'vt-link link vt-menu-link', 'href': '/tutorial/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div > div > div > div > a:nth-of-type(3),"{'class': 'vt-link link vt-menu-link', 'href': '/examples/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div > div > div > div > a:nth-of-type(4),"{'class': 'vt-link link vt-menu-link', 'href': '/guide/quick-start'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div > div > div > div > a:nth-of-type(5),"{'class': 'vt-link link vt-menu-link', 'href': '/glossary/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div > div > div > div > a:nth-of-type(6),"{'class': 'vt-link link vt-menu-link', 'href': '/error-reference/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div > div > div > div > a:nth-of-type(7),"{'class': 'vt-link link vt-menu-link', 'href': 'https://v2.vuejs.org', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div > div > div > div > a:nth-of-type(8),"{'class': 'vt-link link vt-menu-link', 'href': 'https://v3-migration.vuejs.org/', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,API,div#app > div > header > div > div > div > nav > a,"{'class': 'vt-link link VPNavBarMenuLink', 'href': '/api/', 'data-v-93948c33': '', 'data-v-7a48a17c': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Playground,div#app > div > header > div > div > div > nav > a:nth-of-type(2),"{'class': 'vt-link link VPNavBarMenuLink', 'href': 'https://play.vuejs.org', 'target': '_blank', 'rel': 'noopener noreferrer', 'data-v-93948c33': '', 'data-v-7a48a17c': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div > a,"{'class': 'vt-link link vt-menu-link', 'href': '/partners/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div > a:nth-of-type(2),"{'class': 'vt-link link vt-menu-link', 'href': '/developers/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div > a:nth-of-type(3),"{'class': 'vt-link link vt-menu-link', 'href': '/ecosystem/themes'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div > a:nth-of-type(4),"{'class': 'vt-link link vt-menu-link', 'href': 'https://ui-libs.vercel.app/', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div > a:nth-of-type(5),"{'class': 'vt-link link vt-menu-link', 'href': 'https://certificates.dev/vuejs/?ref=vuejs-nav', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div > a:nth-of-type(6),"{'class': 'vt-link link vt-menu-link', 'href': 'https://vuejobs.com/?ref=vuejs', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div > a:nth-of-type(7),"{'class': 'vt-link link vt-menu-link', 'href': 'https://vue.threadless.com/', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > a,"{'class': 'vt-link link vt-menu-link', 'href': 'https://router.vuejs.org/', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > a:nth-of-type(2),"{'class': 'vt-link link vt-menu-link', 'href': 'https://pinia.vuejs.org/', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > a:nth-of-type(3),"{'class': 'vt-link link vt-menu-link', 'href': '/guide/scaling-up/tooling'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > a,"{'class': 'vt-link link vt-menu-link', 'href': 'https://www.vuemastery.com/courses/', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > a:nth-of-type(2),"{'class': 'vt-link link vt-menu-link', 'href': 'https://vueschool.io/?friend=vuejs&utm_source=Vuejs.org&utm_medium=Link&utm_content=Navbar%20Dropdown', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(4) > a,"{'class': 'vt-link link vt-menu-link', 'href': 'https://discord.com/invite/HBherRA', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(4) > a:nth-of-type(2),"{'class': 'vt-link link vt-menu-link', 'href': 'https://github.com/vuejs/core/discussions', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(4) > a:nth-of-type(3),"{'class': 'vt-link link vt-menu-link', 'href': 'https://dev.to/t/vue', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(5) > a,"{'class': 'vt-link link vt-menu-link', 'href': 'https://blog.vuejs.org/', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(5) > a:nth-of-type(2),"{'class': 'vt-link link vt-menu-link', 'href': 'https://twitter.com/vuejs', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(5) > a:nth-of-type(3),"{'class': 'vt-link link vt-menu-link', 'href': 'https://events.vuejs.org/', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(5) > a:nth-of-type(4),"{'class': 'vt-link link vt-menu-link', 'href': '/ecosystem/newsletters'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(3) > div > div > div > a,"{'class': 'vt-link link vt-menu-link', 'href': '/about/faq'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(3) > div > div > div > a:nth-of-type(2),"{'class': 'vt-link link vt-menu-link', 'href': '/about/team'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(3) > div > div > div > a:nth-of-type(3),"{'class': 'vt-link link vt-menu-link', 'href': '/about/releases'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(3) > div > div > div > a:nth-of-type(4),"{'class': 'vt-link link vt-menu-link', 'href': '/about/community-guide'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(3) > div > div > div > a:nth-of-type(5),"{'class': 'vt-link link vt-menu-link', 'href': '/about/coc'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(3) > div > div > div > a:nth-of-type(6),"{'class': 'vt-link link vt-menu-link', 'href': '/about/privacy'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(3) > div > div > div > a:nth-of-type(7),"{'class': 'vt-link link vt-menu-link', 'href': 'https://www.youtube.com/watch?v=OrxmtDw4pVI', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Sponsor,div#app > div > header > div > div > div > nav > a:nth-of-type(3),"{'class': 'vt-link link VPNavBarMenuLink', 'href': '/sponsor/', 'data-v-93948c33': '', 'data-v-7a48a17c': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(4) > div > div > div > a,"{'class': 'vt-link link vt-menu-link', 'href': '/partners/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(4) > div > div > div > a:nth-of-type(2),"{'class': 'vt-link link vt-menu-link', 'href': '/developers/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://cn.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-zh-cn', 'title': '简体中文 Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(2) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://ja.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(2) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-ja', 'title': '日本語 Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(3) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://ua.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(3) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-uk', 'title': 'Українська Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(4) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://fr.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(4) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-fr', 'title': 'Français Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(5) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://ko.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(5) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-ko', 'title': '한국어 Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(6) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://pt.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(6) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-pt', 'title': 'Português Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(7) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://bn.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(7) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-bn', 'title': 'বাংলা Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(8) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://it.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(8) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-it', 'title': 'Italiano Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(9) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://fa.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(9) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-fa', 'title': 'فارسی Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(10) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://ru.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(10) > a:nth-of-type(2),"{'href': 'https://github.com/translation-gang/docs-ru', 'title': 'Русский Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(11) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://cs.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(11) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-cs', 'title': 'Čeština Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(12) > a,"{'class': 'vt-locales-menu-item-text', 'href': 'https://zh-hk.vuejs.org/guide/introduction', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div > div:nth-of-type(12) > a:nth-of-type(2),"{'href': 'https://github.com/vuejs-translations/docs-zh-hk', 'title': '繁體中文 Repository', 'target': '_blank', 'class': 'vt-locales-btn-icon-container'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,github,div#app > div > header > div > div > div > div:nth-of-type(3) > a,"{'class': 'vt-social-link is-small', 'href': 'https://github.com/vuejs/', 'title': 'github', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,twitter,div#app > div > header > div > div > div > div:nth-of-type(3) > a:nth-of-type(2),"{'class': 'vt-social-link is-small', 'href': 'https://twitter.com/vuejs', 'title': 'twitter', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,discord,div#app > div > header > div > div > div > div:nth-of-type(3) > a:nth-of-type(3),"{'class': 'vt-social-link is-small', 'href': 'https://discord.com/invite/vue', 'title': 'discord', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,True,github,div#app > div > header > div > div > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div > div > a,"{'class': 'vt-social-link is-small', 'href': 'https://github.com/vuejs/', 'title': 'github', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,True,twitter,div#app > div > header > div > div > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div > div > a:nth-of-type(2),"{'class': 'vt-social-link is-small', 'href': 'https://twitter.com/vuejs', 'title': 'twitter', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,False,True,discord,div#app > div > header > div > div > div > div:nth-of-type(4) > div > div > div:nth-of-type(2) > div > div > a:nth-of-type(3),"{'class': 'vt-social-link is-small', 'href': 'https://discord.com/invite/vue', 'title': 'discord', 'target': '_blank', 'rel': 'noopener noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,?,div#preference-switches > div > a,"{'class': 'switch-link', 'data-v-e02760d0': '', 'href': '/guide/introduction#api-styles', 'title': 'About API preference'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Learn more,div#preference-switches > div > div > p:nth-of-type(3) > a,"{'data-v-dbbcc10a': '', 'href': '/guide/introduction#api-styles'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Introduction,nav#VPSidebarNav > div:nth-of-type(2) > section > a,"{'class': 'link active', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/introduction'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Quick Start,nav#VPSidebarNav > div:nth-of-type(2) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/quick-start'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Creating an Application,nav#VPSidebarNav > div:nth-of-type(3) > section > a,"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/application'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Template Syntax,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/template-syntax'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Reactivity Fundamentals,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(3),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/reactivity-fundamentals'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Computed Properties,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(4),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/computed'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Class and Style Bindings,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(5),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/class-and-style'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Conditional Rendering,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(6),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/conditional'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,List Rendering,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(7),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/list'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Event Handling,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(8),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/event-handling'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Form Input Bindings,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(9),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/forms'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Watchers,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(10),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/watchers'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Template Refs,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(11),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/template-refs'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Components Basics,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(12),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/component-basics'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Lifecycle Hooks,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(13),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/essentials/lifecycle'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Registration,nav#VPSidebarNav > div:nth-of-type(4) > section > a,"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/components/registration'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Props,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/components/props'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Events,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(3),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/components/events'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Component v-model,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(4),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/components/v-model'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Fallthrough Attributes,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(5),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/components/attrs'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Slots,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(6),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/components/slots'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Provide / inject,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(7),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/components/provide-inject'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Async Components,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(8),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/components/async'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Composables,nav#VPSidebarNav > div:nth-of-type(5) > section > a,"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/reusability/composables'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Custom Directives,nav#VPSidebarNav > div:nth-of-type(5) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/reusability/custom-directives'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Plugins,nav#VPSidebarNav > div:nth-of-type(5) > section > a:nth-of-type(3),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/reusability/plugins'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Transition,nav#VPSidebarNav > div:nth-of-type(6) > section > a,"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/built-ins/transition'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,TransitionGroup,nav#VPSidebarNav > div:nth-of-type(6) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/built-ins/transition-group'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,KeepAlive,nav#VPSidebarNav > div:nth-of-type(6) > section > a:nth-of-type(3),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/built-ins/keep-alive'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Teleport,nav#VPSidebarNav > div:nth-of-type(6) > section > a:nth-of-type(4),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/built-ins/teleport'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Suspense,nav#VPSidebarNav > div:nth-of-type(6) > section > a:nth-of-type(5),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/built-ins/suspense'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Single-File Components,nav#VPSidebarNav > div:nth-of-type(7) > section > a,"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/scaling-up/sfc'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Tooling,nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/scaling-up/tooling'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Routing,nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(3),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/scaling-up/routing'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,State Management,nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(4),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/scaling-up/state-management'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Testing,nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(5),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/scaling-up/testing'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Server-Side Rendering (SSR),nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(6),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/scaling-up/ssr'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Production Deployment,nav#VPSidebarNav > div:nth-of-type(8) > section > a,"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/best-practices/production-deployment'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Performance,nav#VPSidebarNav > div:nth-of-type(8) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/best-practices/performance'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Accessibility,nav#VPSidebarNav > div:nth-of-type(8) > section > a:nth-of-type(3),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/best-practices/accessibility'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Security,nav#VPSidebarNav > div:nth-of-type(8) > section > a:nth-of-type(4),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/best-practices/security'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Overview,nav#VPSidebarNav > div:nth-of-type(9) > section > a,"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/typescript/overview'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,TS with Composition API,nav#VPSidebarNav > div:nth-of-type(9) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/typescript/composition-api'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,TS with Options API,nav#VPSidebarNav > div:nth-of-type(9) > section > a:nth-of-type(3),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/typescript/options-api'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Ways of Using Vue,nav#VPSidebarNav > div:nth-of-type(10) > section > a,"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/extras/ways-of-using-vue'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Composition API FAQ,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(2),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/extras/composition-api-faq'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Reactivity in Depth,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(3),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/extras/reactivity-in-depth'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Rendering Mechanism,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(4),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/extras/rendering-mechanism'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Render Functions & JSX,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(5),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/extras/render-function'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Vue and Web Components,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(6),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/extras/web-components'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Animation Techniques,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(7),"{'class': 'link', 'data-v-2dfe2c7e': '', 'data-v-50a3efdb': '', 'href': '/guide/extras/animation'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Get Security Updates for Vue 2,nav#VPSidebarNav > div:nth-of-type(11) > a,"{'class': 'security', 'href': 'https://www.herodevs.com/support/nes-vue?utm_source=vuejs_org&utm_medium=sidebar_link&utm_campaign=vue2eol', 'target': '_blank', 'data-v-6b569599': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,What is Vue?,div#VPContent > div > div > div > div > div > nav > ul > li > a,"{'class': 'outline-link', 'href': '#what-is-vue', 'style': '', 'data-v-39bab8e9': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,The Progressive Framework,div#VPContent > div > div > div > div > div > nav > ul > li:nth-of-type(2) > a,"{'class': 'outline-link', 'href': '#the-progressive-framework', 'style': '', 'data-v-39bab8e9': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Single-File Components,div#VPContent > div > div > div > div > div > nav > ul > li:nth-of-type(3) > a,"{'class': 'outline-link', 'href': '#single-file-components', 'style': '', 'data-v-39bab8e9': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,API Styles,div#VPContent > div > div > div > div > div > nav > ul > li:nth-of-type(4) > a,"{'class': 'outline-link', 'href': '#api-styles', 'style': '', 'data-v-39bab8e9': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Still Got Questions?,div#VPContent > div > div > div > div > div > nav > ul > li:nth-of-type(5) > a,"{'class': 'outline-link', 'href': '#still-got-questions', 'style': '', 'data-v-39bab8e9': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Pick Your Learning Path,div#VPContent > div > div > div > div > div > nav > ul > li:nth-of-type(6) > a,"{'class': 'outline-link', 'href': '#pick-your-learning-path', 'style': '', 'data-v-39bab8e9': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,SPONSORS,div#VPContent > div > div > div > div > div:nth-of-type(2) > a,"{'class': 'sponsors-aside-text', 'href': '/sponsor/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a,"{'data-v-df04ecce': '', 'class': 'sponsor-item', 'href': 'https://www.vuemastery.com/', 'target': '_blank', 'rel': 'sponsored noopener'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(2),"{'data-v-df04ecce': '', 'class': 'sponsor-item', 'href': 'https://vueschool.io/?utm_source=Vuejs.org&utm_medium=Banner&utm_campaign=Sponsored%20Banner&utm_content=V1', 'target': '_blank', 'rel': 'sponsored noopener'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(3),"{'data-v-df04ecce': '', 'class': 'sponsor-item', 'href': 'https://vehikl.com/', 'target': '_blank', 'rel': 'sponsored noopener'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(4),"{'data-v-df04ecce': '', 'class': 'sponsor-item', 'href': 'https://passionatepeople.io/', 'target': '_blank', 'rel': 'sponsored noopener'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(5),"{'data-v-df04ecce': '', 'class': 'sponsor-item', 'href': 'https://www.storyblok.com', 'target': '_blank', 'rel': 'sponsored noopener'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(6),"{'data-v-df04ecce': '', 'class': 'sponsor-item', 'href': 'https://opencollective.com/2021-frameworks-fund', 'target': '_blank', 'rel': 'sponsored noopener'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(7),"{'data-v-df04ecce': '', 'class': 'sponsor-item', 'href': 'https://www.herodevs.com/support/vue', 'target': '_blank', 'rel': 'sponsored noopener'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(8),"{'data-v-df04ecce': '', 'class': 'sponsor-item', 'href': 'https://certificates.dev/javascript/?ref=vuejs-sponsor&friend=VUEJS', 'target': '_blank', 'rel': 'sponsored noopener'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Become a Sponsor,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(9),"{'href': '/sponsor/', 'class': 'sponsor-item action', 'data-v-df04ecce': ''}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,False,,div#carbonads > span > span > a,"{'href': 'https://srv.carbonads.net/ads/click/x/GTND427ICWADK2QNCES4YKQUCKBIPKJWCTBD6Z3JCA7IP23YCKSIE27KCKYDT53YCVAIEK3YCYADTK7UCVYD553KC6SIC2QYF6YI6K3EHJNCLSIZ', 'class': 'carbon-img', 'target': '_blank', 'rel': 'noopener sponsored'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Your new development career awaits. Check out the latest listings.,div#carbonads > span > span > a:nth-of-type(2),"{'href': 'https://srv.carbonads.net/ads/click/x/GTND427ICWADK2QNCES4YKQUCKBIPKJWCTBD6Z3JCA7IP23YCKSIE27KCKYDT53YCVAIEK3YCYADTK7UCVYD553KC6SIC2QYF6YI6K3EHJNCLSIZ', 'class': 'carbon-text', 'target': '_blank', 'rel': 'noopener sponsored'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,ADS VIA CARBON,div#carbonads > span > a,"{'href': 'http://carbonads.net/?utm_source=vuejsorg&utm_medium=ad_via_link&utm_campaign=in_unit&utm_term=carbon', 'class': 'carbon-poweredby', 'target': '_blank', 'rel': 'noopener sponsored'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h1#introduction > a,"{'class': 'header-anchor', 'href': '#introduction', 'aria-label': 'Permalink to ""Introduction {#introduction}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Vue 2 EOL,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div > ul > li > a,"{'href': 'https://v2.vuejs.org/eol/', 'target': '_blank', 'rel': 'noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Migration Guide,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div > ul > li:nth-of-type(2) > a,"{'href': 'https://v3-migration.vuejs.org/', 'target': '_blank', 'rel': 'noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Learn Vue with video tutorials on VueMastery.com,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > a,"{'href': 'https://www.vuemastery.com/courses/', 'target': '_blank'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h2#what-is-vue > a,"{'class': 'header-anchor', 'href': '#what-is-vue', 'aria-label': 'Permalink to ""What is Vue? {#what-is-vue}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,JavaScript,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(7) > p:nth-of-type(2) > a,"{'href': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript', 'target': '_blank', 'rel': 'noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,HTML,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(7) > p:nth-of-type(2) > a:nth-of-type(2),"{'href': 'https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML', 'target': '_blank', 'rel': 'noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,CSS,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(7) > p:nth-of-type(2) > a:nth-of-type(3),"{'href': 'https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps', 'target': '_blank', 'rel': 'noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h2#the-progressive-framework > a,"{'class': 'header-anchor', 'href': '#the-progressive-framework', 'aria-label': 'Permalink to ""The Progressive Framework {#the-progressive-framework}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Ways of Using Vue,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(8) > a,{'href': '/guide/extras/ways-of-using-vue'}
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h2#single-file-components > a,"{'class': 'header-anchor', 'href': '#single-file-components', 'aria-label': 'Permalink to ""Single-File Components {#single-file-components}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,how and why of SFC,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(11) > a,{'href': '/guide/scaling-up/sfc'}
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h2#api-styles > a,"{'class': 'header-anchor', 'href': '#api-styles', 'aria-label': 'Permalink to ""API Styles {#api-styles}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h3#options-api > a,"{'class': 'header-anchor', 'href': '#options-api', 'aria-label': 'Permalink to ""Options API {#options-api}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Try it in the Playground,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(14) > a,"{'href': 'https://play.vuejs.org/#eNptkMFqxCAQhl9lkB522ZL0HNKlpa/Qo4e1ZpLIGhUdl5bgu9es2eSyIMio833zO7NP56pbRNawNkivHJ25wV9nPUGHvYiaYOYGoK7Bo5CkbgiBBOFy2AkSh2N5APmeojePCkDaaKiBt1KnZUuv3Ky0PppMsyYAjYJgigu0oEGYDsirYUAP0WULhqVrQhptF5qHQhnpcUJD+wyQaSpUd/Xp9NysVY/yT2qE0dprIS/vsds5Mg9mNVbaDofL94jZpUgJXUKBCvAy76ZUXY53CTd5tfX2k7kgnJzOCXIF0P5EImvgQ2olr++cbRE4O3+t6JxvXj0ptXVpye1tvbFY+ge/NJZt', 'target': '_blank', 'rel': 'noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h3#composition-api > a,"{'class': 'header-anchor', 'href': '#composition-api', 'aria-label': 'Permalink to ""Composition API {#composition-api}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,<script setup>,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(15) > a,{'href': '/api/sfc-script-setup'}
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Try it in the Playground,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(17) > a,"{'href': 'https://play.vuejs.org/#eNpNkMFqwzAQRH9lMYU4pNg9Bye09NxbjzrEVda2iLwS0spQjP69a+yYHnRYad7MaOfiw/tqSliciybqYDxDRE7+qsiM3gWGGQJ2r+DoyyVivEOGLrgRDkIdFCmqa1G0ms2EELllVKQdRQa9AHBZ+PLtuEm7RCKVd+ChZRjTQqwctHQHDqbvMUDyd7mKip4AGNIBRyQujzArgtW/mlqb8HRSlLcEazrUv9oiDM49xGGvXgp5uT5his5iZV1f3r4HFHvDprVbaxPhZf4XkKub/CDLaep1T7IhGRhHb6WoTADNT2KWpu/aGv24qGKvrIrr5+Z7hnneQnJu6hURvKl3ryL/ARrVkuI=', 'target': '_blank', 'rel': 'noreferrer'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h3#which-to-choose > a,"{'class': 'header-anchor', 'href': '#which-to-choose', 'aria-label': 'Permalink to ""Which to Choose? {#which-to-choose}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Composition API FAQ,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(21) > a,{'href': '/guide/extras/composition-api-faq'}
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h2#still-got-questions > a,"{'class': 'header-anchor', 'href': '#still-got-questions', 'aria-label': 'Permalink to ""Still Got Questions? {#still-got-questions}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,FAQ,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(24) > a,{'href': '/about/faq'}
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,​,h2#pick-your-learning-path > a,"{'class': 'header-anchor', 'href': '#pick-your-learning-path', 'aria-label': 'Permalink to ""Pick Your Learning Path {#pick-your-learning-path}""'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,"Try the Tutorial
+
+For those who prefer learning things hands-on.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a,"{'class': 'vt-box', 'href': '/tutorial/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,"Read the Guide
+
+The guide walks you through every aspect of the framework in full detail.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(2),"{'class': 'vt-box', 'href': '/guide/quick-start'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,"Check out the Examples
+
+Explore examples of core features and common UI tasks.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(3),"{'class': 'vt-box', 'href': '/examples/'}"
+https://vuejs.org/guide/introduction.html,a,a,navigation,interactive,True,True,True,Edit this page on GitHub,div#VPContent > div > div > div:nth-of-type(2) > main > p > a,"{'class': 'vt-link link', 'href': 'https://github.com/vuejs/docs/edit/main/src/guide/introduction.md', 'target': '_blank', 'rel': 'noopener noreferrer', 'data-v-f1aade42': ''}"
+https://vuejs.org/guide/introduction.html,nav,nav,navigation,navigation,False,True,True,"Main Navigation
+Docs
+API
+Playground
+Ecosystem
+About
+Sponsor
+Experts
+NEW",div#app > div > header > div > div > div > nav,"{'aria-labelledby': 'main-nav-aria-label', 'class': 'VPNavBarMenu menu', 'data-v-926b474f': '', 'data-v-93948c33': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Introduction,nav#VPSidebarNav > div:nth-of-type(2) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Quick Start,nav#VPSidebarNav > div:nth-of-type(2) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Creating an Application,nav#VPSidebarNav > div:nth-of-type(3) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Template Syntax,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Reactivity Fundamentals,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(3) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Computed Properties,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(4) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Class and Style Bindings,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(5) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Conditional Rendering,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(6) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,List Rendering,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(7) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Event Handling,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(8) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Form Input Bindings,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(9) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Watchers,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(10) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Template Refs,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(11) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Components Basics,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(12) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Lifecycle Hooks,nav#VPSidebarNav > div:nth-of-type(3) > section > a:nth-of-type(13) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Registration,nav#VPSidebarNav > div:nth-of-type(4) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Props,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Events,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(3) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Component v-model,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(4) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Fallthrough Attributes,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(5) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Slots,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(6) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Provide / inject,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(7) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Async Components,nav#VPSidebarNav > div:nth-of-type(4) > section > a:nth-of-type(8) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Composables,nav#VPSidebarNav > div:nth-of-type(5) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Custom Directives,nav#VPSidebarNav > div:nth-of-type(5) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Plugins,nav#VPSidebarNav > div:nth-of-type(5) > section > a:nth-of-type(3) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Transition,nav#VPSidebarNav > div:nth-of-type(6) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,TransitionGroup,nav#VPSidebarNav > div:nth-of-type(6) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,KeepAlive,nav#VPSidebarNav > div:nth-of-type(6) > section > a:nth-of-type(3) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Teleport,nav#VPSidebarNav > div:nth-of-type(6) > section > a:nth-of-type(4) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Suspense,nav#VPSidebarNav > div:nth-of-type(6) > section > a:nth-of-type(5) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Single-File Components,nav#VPSidebarNav > div:nth-of-type(7) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Tooling,nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Routing,nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(3) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,State Management,nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(4) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Testing,nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(5) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Server-Side Rendering (SSR),nav#VPSidebarNav > div:nth-of-type(7) > section > a:nth-of-type(6) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Production Deployment,nav#VPSidebarNav > div:nth-of-type(8) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Performance,nav#VPSidebarNav > div:nth-of-type(8) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Accessibility,nav#VPSidebarNav > div:nth-of-type(8) > section > a:nth-of-type(3) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Security,nav#VPSidebarNav > div:nth-of-type(8) > section > a:nth-of-type(4) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Overview,nav#VPSidebarNav > div:nth-of-type(9) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,TS with Composition API,nav#VPSidebarNav > div:nth-of-type(9) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,TS with Options API,nav#VPSidebarNav > div:nth-of-type(9) > section > a:nth-of-type(3) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Ways of Using Vue,nav#VPSidebarNav > div:nth-of-type(10) > section > a > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Composition API FAQ,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(2) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Reactivity in Depth,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(3) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Rendering Mechanism,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(4) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Render Functions & JSX,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(5) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Vue and Web Components,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(6) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Animation Techniques,nav#VPSidebarNav > div:nth-of-type(10) > section > a:nth-of-type(7) > p,"{'class': 'link-text', 'data-v-2dfe2c7e': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,You are reading the documentation for Vue 3!,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div > p,{'class': 'custom-block-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Learn Vue with video tutorials on VueMastery.com,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > a > p,{'class': 'description'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative, component-based programming model that helps you efficiently develop user interfaces of any complexity.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Here is a minimal example:,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(2),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Result,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(3),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,The above example demonstrates the two core features of Vue:,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(4),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Declarative Rendering: Vue extends standard HTML with a template syntax that allows us to declaratively describe HTML output based on JavaScript state.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul > li > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Reactivity: Vue automatically tracks JavaScript state changes and efficiently updates the DOM when changes happen.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul > li:nth-of-type(2) > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"You may already have questions - don't worry. We will cover every little detail in the rest of the documentation. For now, please read along so you can have a high-level understanding of what Vue offers.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(5),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Prerequisites,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(7) > p,{'class': 'custom-block-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"The rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with these overviews for JavaScript, HTML and CSS if needed. Prior experience with other frameworks helps, but is not required.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(7) > p:nth-of-type(2),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Vue is a framework and ecosystem that covers most of the common features needed in frontend development. But the web is extremely diverse - the things we build on the web may vary drastically in form and scale. With that in mind, Vue is designed to be flexible and incrementally adoptable. Depending on your use case, Vue can be used in different ways:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(6),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"If you find these concepts intimidating, don't worry! The tutorial and guide only require basic HTML and JavaScript knowledge, and you should be able to follow along without being an expert in any of these.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(7),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"If you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in Ways of Using Vue.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(8),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Despite the flexibility, the core knowledge about how Vue works is shared across all these use cases. Even if you are just a beginner now, the knowledge gained along the way will stay useful as you grow to tackle more ambitious goals in the future. If you are a veteran, you can pick the optimal way to leverage Vue based on the problems you are trying to solve, while retaining the same productivity. This is why we call Vue ""The Progressive Framework"": it's a framework that can grow with you and adapt to your needs.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(9),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"In most build-tool-enabled Vue projects, we author Vue components using an HTML-like file format called Single-File Component (also known as *.vue files, abbreviated as SFC). A Vue SFC, as the name suggests, encapsulates the component's logic (JavaScript), template (HTML), and styles (CSS) in a single file. Here's the previous example, written in SFC format:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(10),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"SFC is a defining feature of Vue and is the recommended way to author Vue components if your use case warrants a build setup. You can learn more about the how and why of SFC in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(11),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Vue components can be authored in two different API styles: Options API and Composition API.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(12),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"With Options API, we define a component's logic using an object of options such as data, methods, and mounted. Properties defined by options are exposed on this inside functions, which points to the component instance:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(13),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Try it in the Playground,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(14),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with <script setup>. The setup attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in <script setup> are directly usable in the template.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(15),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Here is the same component, with the exact same template, but using Composition API and <script setup> instead:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(16),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Try it in the Playground,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(17),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Both API styles are fully capable of covering common use cases. They are different interfaces powered by the exact same underlying system. In fact, the Options API is implemented on top of the Composition API! The fundamental concepts and knowledge about Vue are shared across the two styles.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(18),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"The Options API is centered around the concept of a ""component instance"" (this as seen in the example), which typically aligns better with a class-based mental model for users coming from OOP language backgrounds. It is also more beginner-friendly by abstracting away the reactivity details and enforcing code organization via option groups.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(19),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"The Composition API is centered around declaring reactive state variables directly in a function scope and composing state from multiple functions together to handle complexity. It is more free-form and requires an understanding of how reactivity works in Vue to be used effectively. In return, its flexibility enables more powerful patterns for organizing and reusing logic.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(20),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,You can learn more about the comparison between the two styles and the potential benefits of Composition API in the Composition API FAQ.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(21),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"If you are new to Vue, here's our general recommendation:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(22),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"For learning purposes, go with the style that looks easier to understand to you. Again, most of the core concepts are shared between the two styles. You can always pick up the other style later.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul:nth-of-type(3) > li > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,For production use:,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul:nth-of-type(3) > li:nth-of-type(2) > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Go with Options API if you are not using build tools, or plan to use Vue primarily in low-complexity scenarios, e.g. progressive enhancement.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul:nth-of-type(3) > li:nth-of-type(2) > ul > li > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Go with Composition API + Single-File Components if you plan to build full applications with Vue.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul:nth-of-type(3) > li:nth-of-type(2) > ul > li:nth-of-type(2) > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"You don't have to commit to only one style during the learning phase. The rest of the documentation will provide code samples in both styles where applicable, and you can toggle between them at any time using the API Preference switches at the top of the left sidebar.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(23),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Check out our FAQ.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(24),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Different developers have different learning styles. Feel free to pick a learning path that suits your preference - although we do recommend going over all of the content, if possible!",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(25),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Try the Tutorial,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a > p,{'class': 'next-steps-link'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,For those who prefer learning things hands-on.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a > p:nth-of-type(2),{'class': 'next-steps-caption'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Read the Guide,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(2) > p,{'class': 'next-steps-link'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,The guide walks you through every aspect of the framework in full detail.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(2) > p:nth-of-type(2),{'class': 'next-steps-caption'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Check out the Examples,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(3) > p,{'class': 'next-steps-link'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Explore examples of core features and common UI tasks.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(3) > p:nth-of-type(2),{'class': 'next-steps-caption'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Edit this page on GitHub,div#VPContent > div > div > div:nth-of-type(2) > main > p,"{'class': 'edit-link', 'data-v-f1aade42': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div > p,{'class': 'vt-menu-group-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(2) > p,{'class': 'vt-menu-group-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(3) > p,{'class': 'vt-menu-group-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(4) > p,{'class': 'vt-menu-group-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(2) > div > div > div > div:nth-of-type(5) > p,{'class': 'vt-menu-group-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,False,True,Appearance,div#app > div > header > div > div > div > div:nth-of-type(4) > div > div > div > div > p,"{'class': 'vt-menu-label', 'data-v-19a12313': ''}"
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,You are reading the documentation for Vue 3!,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div > p,{'class': 'custom-block-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Learn Vue with video tutorials on VueMastery.com,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(2) > a > p,{'class': 'description'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Vue (pronounced /vjuː/, like view) is a JavaScript framework for building user interfaces. It builds on top of standard HTML, CSS, and JavaScript and provides a declarative, component-based programming model that helps you efficiently develop user interfaces of any complexity.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Here is a minimal example:,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(2),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Result,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(3),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,The above example demonstrates the two core features of Vue:,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(4),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Declarative Rendering: Vue extends standard HTML with a template syntax that allows us to declaratively describe HTML output based on JavaScript state.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul > li > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Reactivity: Vue automatically tracks JavaScript state changes and efficiently updates the DOM when changes happen.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul > li:nth-of-type(2) > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"You may already have questions - don't worry. We will cover every little detail in the rest of the documentation. For now, please read along so you can have a high-level understanding of what Vue offers.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(5),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Prerequisites,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(7) > p,{'class': 'custom-block-title'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"The rest of the documentation assumes basic familiarity with HTML, CSS, and JavaScript. If you are totally new to frontend development, it might not be the best idea to jump right into a framework as your first step - grasp the basics and then come back! You can check your knowledge level with these overviews for JavaScript, HTML and CSS if needed. Prior experience with other frameworks helps, but is not required.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(7) > p:nth-of-type(2),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Vue is a framework and ecosystem that covers most of the common features needed in frontend development. But the web is extremely diverse - the things we build on the web may vary drastically in form and scale. With that in mind, Vue is designed to be flexible and incrementally adoptable. Depending on your use case, Vue can be used in different ways:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(6),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"If you find these concepts intimidating, don't worry! The tutorial and guide only require basic HTML and JavaScript knowledge, and you should be able to follow along without being an expert in any of these.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(7),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"If you are an experienced developer interested in how to best integrate Vue into your stack, or you are curious about what these terms mean, we discuss them in more detail in Ways of Using Vue.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(8),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Despite the flexibility, the core knowledge about how Vue works is shared across all these use cases. Even if you are just a beginner now, the knowledge gained along the way will stay useful as you grow to tackle more ambitious goals in the future. If you are a veteran, you can pick the optimal way to leverage Vue based on the problems you are trying to solve, while retaining the same productivity. This is why we call Vue ""The Progressive Framework"": it's a framework that can grow with you and adapt to your needs.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(9),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"In most build-tool-enabled Vue projects, we author Vue components using an HTML-like file format called Single-File Component (also known as *.vue files, abbreviated as SFC). A Vue SFC, as the name suggests, encapsulates the component's logic (JavaScript), template (HTML), and styles (CSS) in a single file. Here's the previous example, written in SFC format:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(10),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"SFC is a defining feature of Vue and is the recommended way to author Vue components if your use case warrants a build setup. You can learn more about the how and why of SFC in its dedicated section - but for now, just know that Vue will handle all the build tools setup for you.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(11),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Vue components can be authored in two different API styles: Options API and Composition API.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(12),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"With Options API, we define a component's logic using an object of options such as data, methods, and mounted. Properties defined by options are exposed on this inside functions, which points to the component instance:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(13),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Try it in the Playground,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(14),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"With Composition API, we define a component's logic using imported API functions. In SFCs, Composition API is typically used with <script setup>. The setup attribute is a hint that makes Vue perform compile-time transforms that allow us to use Composition API with less boilerplate. For example, imports and top-level variables / functions declared in <script setup> are directly usable in the template.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(15),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Here is the same component, with the exact same template, but using Composition API and <script setup> instead:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(16),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Try it in the Playground,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(17),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Both API styles are fully capable of covering common use cases. They are different interfaces powered by the exact same underlying system. In fact, the Options API is implemented on top of the Composition API! The fundamental concepts and knowledge about Vue are shared across the two styles.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(18),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"The Options API is centered around the concept of a ""component instance"" (this as seen in the example), which typically aligns better with a class-based mental model for users coming from OOP language backgrounds. It is also more beginner-friendly by abstracting away the reactivity details and enforcing code organization via option groups.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(19),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"The Composition API is centered around declaring reactive state variables directly in a function scope and composing state from multiple functions together to handle complexity. It is more free-form and requires an understanding of how reactivity works in Vue to be used effectively. In return, its flexibility enables more powerful patterns for organizing and reusing logic.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(20),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,You can learn more about the comparison between the two styles and the potential benefits of Composition API in the Composition API FAQ.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(21),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"If you are new to Vue, here's our general recommendation:",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(22),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"For learning purposes, go with the style that looks easier to understand to you. Again, most of the core concepts are shared between the two styles. You can always pick up the other style later.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul:nth-of-type(3) > li > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,For production use:,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul:nth-of-type(3) > li:nth-of-type(2) > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Go with Options API if you are not using build tools, or plan to use Vue primarily in low-complexity scenarios, e.g. progressive enhancement.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul:nth-of-type(3) > li:nth-of-type(2) > ul > li > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Go with Composition API + Single-File Components if you plan to build full applications with Vue.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > ul:nth-of-type(3) > li:nth-of-type(2) > ul > li:nth-of-type(2) > p,{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"You don't have to commit to only one style during the learning phase. The rest of the documentation will provide code samples in both styles where applicable, and you can toggle between them at any time using the API Preference switches at the top of the left sidebar.",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(23),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Check out our FAQ.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(24),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,"Different developers have different learning styles. Feel free to pick a learning path that suits your preference - although we do recommend going over all of the content, if possible!",div#VPContent > div > div > div:nth-of-type(2) > main > div > div > p:nth-of-type(25),{}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Try the Tutorial,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a > p,{'class': 'next-steps-link'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,For those who prefer learning things hands-on.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a > p:nth-of-type(2),{'class': 'next-steps-caption'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Read the Guide,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(2) > p,{'class': 'next-steps-link'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,The guide walks you through every aspect of the framework in full detail.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(2) > p:nth-of-type(2),{'class': 'next-steps-caption'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Check out the Examples,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(3) > p,{'class': 'next-steps-link'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Explore examples of core features and common UI tasks.,div#VPContent > div > div > div:nth-of-type(2) > main > div > div > div:nth-of-type(12) > a:nth-of-type(3) > p:nth-of-type(2),{'class': 'next-steps-caption'}
+https://vuejs.org/guide/introduction.html,p,p,content,content,False,True,True,Edit this page on GitHub,div#VPContent > div > div > div:nth-of-type(2) > main > p,"{'class': 'edit-link', 'data-v-f1aade42': ''}"
+https://vuejs.org/guide/introduction.html,img,img,media,media,False,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a > picture > img,"{'data-v-df04ecce': '', 'src': 'https://sponsors.vuejs.org/images/vuemastery.png', 'alt': 'VueMastery'}"
+https://vuejs.org/guide/introduction.html,img,img,media,media,False,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(2) > picture > img,"{'data-v-df04ecce': '', 'src': 'https://sponsors.vuejs.org/images/vueschool.png', 'alt': 'VueSchool'}"
+https://vuejs.org/guide/introduction.html,img,img,media,media,False,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(3) > picture > img,"{'data-v-df04ecce': '', 'src': 'https://sponsors.vuejs.org/images/vehikl.png', 'alt': 'Vehikl'}"
+https://vuejs.org/guide/introduction.html,img,img,media,media,False,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(4) > picture > img,"{'data-v-df04ecce': '', 'src': 'https://sponsors.vuejs.org/images/passionate_people.png', 'alt': 'Passionate People'}"
+https://vuejs.org/guide/introduction.html,img,img,media,media,False,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(5) > picture > img,"{'data-v-df04ecce': '', 'src': 'https://sponsors.vuejs.org/images/storyblok.png', 'alt': 'Storyblok'}"
+https://vuejs.org/guide/introduction.html,img,img,media,media,False,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(6) > picture > img,"{'data-v-df04ecce': '', 'src': 'https://sponsors.vuejs.org/images/chrome_frameworks_fund.png', 'alt': 'Chrome Frameworks Fund'}"
+https://vuejs.org/guide/introduction.html,img,img,media,media,False,True,False,,div#VPContent > div > div > div > div > div:nth-of-type(2) > div > a:nth-of-type(7) > picture > img,"{'data-v-df04ecce': '', 'src': 'https://sponsors.vuejs.org/images/herodevs.png', 'alt': 'HeroDevs'}"
+https://vuejs.org/guide/introduction.html,div,div,interactive,interactive,True,False,False,,div#app > div > header > div > div > div > nav > div:nth-of-type(5) > div > div > div:nth-of-type(3) > div,"{'role': 'link', 'tabindex': '0', 'class': 'vt-locales-menu-item-text', 'data-v-fa395110': ''}"

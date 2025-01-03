@@ -1,0 +1,1524 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://playwright.dev/python/docs/intro,nav,nav,navigation,navigation,False,True,True,"Playwright for Python
+Docs
+API
+Python
+Community
+Search
+K",div#__docusaurus > nav,"{'aria-label': 'Main', 'class': 'navbar navbar--fixed-top'}"
+https://playwright.dev/python/docs/intro,nav,nav,navigation,navigation,False,True,True,"Getting Started
+Installation
+Writing tests
+Generating tests
+Running and debugging tests
+Trace viewer
+Setting up CI
+Pytest Plugin Reference
+Getting started - Library
+Release notes
+Guides
+Actions
+Auto-waiting
+API testing
+Assertions
+Authentication
+Browsers
+Chrome extensions
+Clock
+Debugging Tests
+Dialogs
+Downloads
+Emulation
+Evaluating JavaScript
+Events
+Extensibility
+Frames
+Handles
+Isolation
+Locators
+Mock APIs
+Navigations
+Network
+Other locators
+Pages
+Page object models
+Screenshots
+Aria snapshots
+Test generator
+Trace viewer
+Videos
+WebView2
+Integrations
+Supported languages",div#__docusaurus_skipToContent_fallback > div > div > aside > div > div > nav,"{'aria-label': 'Docs sidebar', 'class': 'menu thin-scrollbar menu_SIkG'}"
+https://playwright.dev/python/docs/intro,nav,nav,navigation,navigation,False,True,True,Getting StartedInstallation,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > nav,"{'class': 'theme-doc-breadcrumbs breadcrumbsContainer_Z_bl', 'aria-label': 'Breadcrumbs'}"
+https://playwright.dev/python/docs/intro,nav,nav,navigation,navigation,False,True,True,"Next
+Writing tests",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > nav,"{'class': 'pagination-nav docusaurus-mt-lg', 'aria-label': 'Docs pages'}"
+https://playwright.dev/python/docs/intro,header,header,navigation,navigation,False,True,True,Installation,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > header,{}
+https://playwright.dev/python/docs/intro,footer,footer,navigation,navigation,False,True,True,"Learn
+Getting started
+Playwright Training
+Learn Videos
+Feature Videos
+Community
+Stack Overflow
+Discord
+Twitter
+LinkedIn
+More
+GitHub
+YouTube
+Blog
+Ambassadors
+Copyright © 2025 Microsoft",div#__docusaurus > footer,{'class': 'footer footer--dark'}
+https://playwright.dev/python/docs/intro,aside,aside,container,container,False,True,True,"Getting Started
+Installation
+Writing tests
+Generating tests
+Running and debugging tests
+Trace viewer
+Setting up CI
+Pytest Plugin Reference
+Getting started - Library
+Release notes
+Guides
+Actions
+Auto-waiting
+API testing
+Assertions
+Authentication
+Browsers
+Chrome extensions
+Clock
+Debugging Tests
+Dialogs
+Downloads
+Emulation
+Evaluating JavaScript
+Events
+Extensibility
+Frames
+Handles
+Isolation
+Locators
+Mock APIs
+Navigations
+Network
+Other locators
+Pages
+Page object models
+Screenshots
+Aria snapshots
+Test generator
+Trace viewer
+Videos
+WebView2
+Integrations
+Supported languages",div#__docusaurus_skipToContent_fallback > div > div > aside,{'class': 'theme-doc-sidebar-container docSidebarContainer_YfHR'}
+https://playwright.dev/python/docs/intro,main,main,container,container,False,True,True,"Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests
+Next
+Writing tests
+Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback > div > div > main,{'class': 'docMainContainer_TBSr'}
+https://playwright.dev/python/docs/intro,div,div,content,content,False,False,True,Skip to main content,div#__docusaurus > div,"{'role': 'region', 'aria-label': 'Skip to main content'}"
+https://playwright.dev/python/docs/intro,a,a,navigation,interactive,True,True,True,Skip to main content,div#__docusaurus > div > a,"{'class': 'skipToContent_fXgn', 'href': '#__docusaurus_skipToContent_fallback'}"
+https://playwright.dev/python/docs/intro,nav,nav,navigation,navigation,False,True,True,"Playwright for Python
+Docs
+API
+Python
+Community
+Search
+K",div#__docusaurus > nav,"{'aria-label': 'Main', 'class': 'navbar navbar--fixed-top'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Playwright for Python
+Docs
+API
+Python
+Community",div#__docusaurus > nav > div > div,{'class': 'navbar__items'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,False,False,,div#__docusaurus > nav > div > div > button,"{'aria-label': 'Toggle navigation bar', 'aria-expanded': 'false', 'class': 'navbar__toggle clean-btn', 'type': 'button'}"
+https://playwright.dev/python/docs/intro,a,a,navigation,interactive,True,True,True,Playwright for Python,div#__docusaurus > nav > div > div > a,"{'class': 'navbar__brand', 'href': '/python/'}"
+https://playwright.dev/python/docs/intro,img,img,media,media,False,True,False,,div#__docusaurus > nav > div > div > a > div > img,"{'src': '/python/img/playwright-logo.svg', 'alt': 'Playwright logo', 'class': 'themedComponent_mlkZ themedComponent--light_NVdE'}"
+https://playwright.dev/python/docs/intro,a,a,navigation,interactive,True,True,True,Docs,div#__docusaurus > nav > div > div > a:nth-of-type(2),"{'aria-current': 'page', 'class': 'navbar__item navbar__link navbar__link--active', 'href': '/python/docs/intro'}"
+https://playwright.dev/python/docs/intro,a,a,navigation,interactive,True,True,True,API,div#__docusaurus > nav > div > div > a:nth-of-type(3),"{'class': 'navbar__item navbar__link', 'href': '/python/docs/api/class-playwright'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,Python,div#__docusaurus > nav > div > div > div,{'class': 'navbar__item dropdown dropdown--hoverable'}
+https://playwright.dev/python/docs/intro,a,a,interactive,interactive,True,True,True,Python,div#__docusaurus > nav > div > div > div > a,"{'href': '#', 'aria-haspopup': 'true', 'aria-expanded': 'false', 'role': 'button', 'class': 'navbar__link'}"
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,False,False,,div#__docusaurus > nav > div > div > div > ul,{'class': 'dropdown__menu'}
+https://playwright.dev/python/docs/intro,a,a,navigation,interactive,True,True,True,Community,div#__docusaurus > nav > div > div > a:nth-of-type(4),"{'class': 'navbar__item navbar__link', 'href': '/python/community/welcome'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Search
+K",div#__docusaurus > nav > div > div:nth-of-type(2),{'class': 'navbar__items navbar__items--right'}
+https://playwright.dev/python/docs/intro,a,a,navigation,interactive,True,True,False,,div#__docusaurus > nav > div > div:nth-of-type(2) > a,"{'href': 'https://github.com/microsoft/playwright-python', 'target': '_blank', 'rel': 'noopener noreferrer', 'class': 'navbar__item navbar__link header-github-link', 'aria-label': 'GitHub repository'}"
+https://playwright.dev/python/docs/intro,a,a,navigation,interactive,True,True,False,,div#__docusaurus > nav > div > div:nth-of-type(2) > a:nth-of-type(2),"{'href': 'https://aka.ms/playwright/discord', 'target': '_blank', 'rel': 'noopener noreferrer', 'class': 'navbar__item navbar__link header-discord-link', 'aria-label': 'Discord server'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,False,,div#__docusaurus > nav > div > div:nth-of-type(2) > div,{'class': 'toggle_vylO colorModeToggle_DEke'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,True,False,,div#__docusaurus > nav > div > div:nth-of-type(2) > div > button,"{'class': 'clean-btn toggleButton_gllP', 'type': 'button', 'title': 'Switch between dark and light mode (currently dark mode)', 'aria-label': 'Switch between dark and light mode (currently dark mode)', 'aria-live': 'polite', 'aria-pressed': 'true'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Search
+K",div#__docusaurus > nav > div > div:nth-of-type(2) > div:nth-of-type(2),{'class': 'navbarSearchContainer_Bca1'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,True,True,"Search
+K",div#__docusaurus > nav > div > div:nth-of-type(2) > div:nth-of-type(2) > button,"{'type': 'button', 'class': 'DocSearch DocSearch-Button', 'aria-label': 'Search (Ctrl+K)'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Getting Started
+Installation
+Writing tests
+Generating tests
+Running and debugging tests
+Trace viewer
+Setting up CI
+Pytest Plugin Reference
+Getting started - Library
+Release notes
+Guides
+Actions
+Auto-waiting
+API testing
+Assertions
+Authentication
+Browsers
+Chrome extensions
+Clock
+Debugging Tests
+Dialogs
+Downloads
+Emulation
+Evaluating JavaScript
+Events
+Extensibility
+Frames
+Handles
+Isolation
+Locators
+Mock APIs
+Navigations
+Network
+Other locators
+Pages
+Page object models
+Screenshots
+Aria snapshots
+Test generator
+Trace viewer
+Videos
+WebView2
+Integrations
+Supported languages
+Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests
+Next
+Writing tests
+Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback,"{'id': '__docusaurus_skipToContent_fallback', 'class': 'main-wrapper mainWrapper_z2l0'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Getting Started
+Installation
+Writing tests
+Generating tests
+Running and debugging tests
+Trace viewer
+Setting up CI
+Pytest Plugin Reference
+Getting started - Library
+Release notes
+Guides
+Actions
+Auto-waiting
+API testing
+Assertions
+Authentication
+Browsers
+Chrome extensions
+Clock
+Debugging Tests
+Dialogs
+Downloads
+Emulation
+Evaluating JavaScript
+Events
+Extensibility
+Frames
+Handles
+Isolation
+Locators
+Mock APIs
+Navigations
+Network
+Other locators
+Pages
+Page object models
+Screenshots
+Aria snapshots
+Test generator
+Trace viewer
+Videos
+WebView2
+Integrations
+Supported languages
+Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests
+Next
+Writing tests
+Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback > div,{'class': 'docsWrapper_hBAB'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,False,False,,div#__docusaurus_skipToContent_fallback > div > button,"{'aria-label': 'Scroll back to top', 'class': 'clean-btn theme-back-to-top-button backToTopButton_sjWU', 'type': 'button'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Getting Started
+Installation
+Writing tests
+Generating tests
+Running and debugging tests
+Trace viewer
+Setting up CI
+Pytest Plugin Reference
+Getting started - Library
+Release notes
+Guides
+Actions
+Auto-waiting
+API testing
+Assertions
+Authentication
+Browsers
+Chrome extensions
+Clock
+Debugging Tests
+Dialogs
+Downloads
+Emulation
+Evaluating JavaScript
+Events
+Extensibility
+Frames
+Handles
+Isolation
+Locators
+Mock APIs
+Navigations
+Network
+Other locators
+Pages
+Page object models
+Screenshots
+Aria snapshots
+Test generator
+Trace viewer
+Videos
+WebView2
+Integrations
+Supported languages
+Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests
+Next
+Writing tests
+Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback > div > div,{'class': 'docRoot_UBD9'}
+https://playwright.dev/python/docs/intro,aside,aside,container,container,False,True,True,"Getting Started
+Installation
+Writing tests
+Generating tests
+Running and debugging tests
+Trace viewer
+Setting up CI
+Pytest Plugin Reference
+Getting started - Library
+Release notes
+Guides
+Actions
+Auto-waiting
+API testing
+Assertions
+Authentication
+Browsers
+Chrome extensions
+Clock
+Debugging Tests
+Dialogs
+Downloads
+Emulation
+Evaluating JavaScript
+Events
+Extensibility
+Frames
+Handles
+Isolation
+Locators
+Mock APIs
+Navigations
+Network
+Other locators
+Pages
+Page object models
+Screenshots
+Aria snapshots
+Test generator
+Trace viewer
+Videos
+WebView2
+Integrations
+Supported languages",div#__docusaurus_skipToContent_fallback > div > div > aside,{'class': 'theme-doc-sidebar-container docSidebarContainer_YfHR'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Getting Started
+Installation
+Writing tests
+Generating tests
+Running and debugging tests
+Trace viewer
+Setting up CI
+Pytest Plugin Reference
+Getting started - Library
+Release notes
+Guides
+Actions
+Auto-waiting
+API testing
+Assertions
+Authentication
+Browsers
+Chrome extensions
+Clock
+Debugging Tests
+Dialogs
+Downloads
+Emulation
+Evaluating JavaScript
+Events
+Extensibility
+Frames
+Handles
+Isolation
+Locators
+Mock APIs
+Navigations
+Network
+Other locators
+Pages
+Page object models
+Screenshots
+Aria snapshots
+Test generator
+Trace viewer
+Videos
+WebView2
+Integrations
+Supported languages",div#__docusaurus_skipToContent_fallback > div > div > aside > div > div,{'class': 'sidebar_njMd'}
+https://playwright.dev/python/docs/intro,nav,nav,navigation,navigation,False,True,True,"Getting Started
+Installation
+Writing tests
+Generating tests
+Running and debugging tests
+Trace viewer
+Setting up CI
+Pytest Plugin Reference
+Getting started - Library
+Release notes
+Guides
+Actions
+Auto-waiting
+API testing
+Assertions
+Authentication
+Browsers
+Chrome extensions
+Clock
+Debugging Tests
+Dialogs
+Downloads
+Emulation
+Evaluating JavaScript
+Events
+Extensibility
+Frames
+Handles
+Isolation
+Locators
+Mock APIs
+Navigations
+Network
+Other locators
+Pages
+Page object models
+Screenshots
+Aria snapshots
+Test generator
+Trace viewer
+Videos
+WebView2
+Integrations
+Supported languages",div#__docusaurus_skipToContent_fallback > div > div > aside > div > div > nav,"{'aria-label': 'Docs sidebar', 'class': 'menu thin-scrollbar menu_SIkG'}"
+https://playwright.dev/python/docs/intro,a,a,interactive,interactive,True,True,True,Getting Started,div#__docusaurus_skipToContent_fallback > div > div > aside > div > div > nav > ul > li > div > a,"{'href': '#', 'class': 'menu__link menu__link--sublist menu__link--sublist-caret menu__link--active', 'role': 'button', 'aria-expanded': 'true'}"
+https://playwright.dev/python/docs/intro,a,a,interactive,interactive,True,True,True,Guides,div#__docusaurus_skipToContent_fallback > div > div > aside > div > div > nav > ul > li:nth-of-type(4) > div > a,"{'href': '#', 'class': 'menu__link menu__link--sublist menu__link--sublist-caret', 'role': 'button', 'aria-expanded': 'true'}"
+https://playwright.dev/python/docs/intro,a,a,interactive,interactive,True,True,True,Integrations,div#__docusaurus_skipToContent_fallback > div > div > aside > div > div > nav > ul > li:nth-of-type(5) > div > a,"{'href': '#', 'class': 'menu__link menu__link--sublist menu__link--sublist-caret', 'role': 'button', 'aria-expanded': 'false'}"
+https://playwright.dev/python/docs/intro,main,main,container,container,False,True,True,"Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests
+Next
+Writing tests
+Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback > div > div > main,{'class': 'docMainContainer_TBSr'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests
+Next
+Writing tests
+Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback > div > div > main > div > div,{'class': 'row'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests
+Next
+Writing tests",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div,{'class': 'col docItemCol_VOVn'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests
+Next
+Writing tests",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div,{'class': 'docItemContainer_Djhp'}
+https://playwright.dev/python/docs/intro,article,article,content,content,False,True,True,"Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article,{}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,False,True,On this page,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div > button,"{'type': 'button', 'class': 'clean-btn tocCollapsibleButton_TO0P'}"
+https://playwright.dev/python/docs/intro,header,header,navigation,navigation,False,True,True,Installation,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > header,{}
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Introduction​,h2#introduction,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'introduction'}"
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p,{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(2),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(3),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,You will learn,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(4),{}
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,True,True,"How to install Playwright Pytest
+How to run the example test",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > ul,{}
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Installing Playwright Pytest​,h2#installing-playwright-pytest,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'installing-playwright-pytest'}"
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(5),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,Get started by installing Playwright and running the example test to see it in action.,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(6),{}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div,{'class': 'tabs-container tabList__CuJ'}
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,True,True,"PyPI
+Anaconda",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > ul,"{'role': 'tablist', 'aria-orientation': 'horizontal', 'class': 'tabs'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Install the Pytest plugin:
+
+pip install pytest-playwright",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div,{'class': 'margin-top--md'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Install the Pytest plugin:
+
+pip install pytest-playwright",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div,"{'role': 'tabpanel', 'class': 'tabItem_Ymn6'}"
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,Install the Pytest plugin:,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > p,{}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,pip install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > div,"{'class': 'language-bash codeBlockContainer_Ckt0 theme-code-block', 'style': '--prism-color: #2e2e2c; --prism-background-color: #f6f8fa;'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,pip install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > div > div,{'class': 'codeBlockContent_biex'}
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,pip install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > div > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,div,div,container,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > div > div > div,{'class': 'buttonGroup__atx'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > div > div > div > button,"{'type': 'button', 'aria-label': 'Copy code to clipboard', 'title': 'Copy', 'class': 'clean-btn'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,False,True,Install the Pytest plugin:conda config --add channels conda-forgeconda config --add channels microsoftconda install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2),"{'role': 'tabpanel', 'class': 'tabItem_Ymn6', 'hidden': ''}"
+https://playwright.dev/python/docs/intro,p,p,content,content,False,False,True,Install the Pytest plugin:,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > p,{}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,False,True,conda config --add channels conda-forgeconda config --add channels microsoftconda install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div,"{'class': 'language-bash codeBlockContainer_Ckt0 theme-code-block', 'style': '--prism-color: #2e2e2c; --prism-background-color: #f6f8fa;'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,False,True,conda config --add channels conda-forgeconda config --add channels microsoftconda install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div,{'class': 'codeBlockContent_biex'}
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,False,True,conda config --add channels conda-forgeconda config --add channels microsoftconda install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,div,div,container,interactive,True,False,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > div,{'class': 'buttonGroup__atx'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,False,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > div > button,"{'type': 'button', 'aria-label': 'Copy code to clipboard', 'title': 'Copy', 'class': 'clean-btn'}"
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,Install the required browsers:,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(7),{}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,playwright install,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(2),"{'class': 'language-bash codeBlockContainer_Ckt0 theme-code-block', 'style': '--prism-color: #2e2e2c; --prism-background-color: #f6f8fa;'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,playwright install,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(2) > div,{'class': 'codeBlockContent_biex'}
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,playwright install,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(2) > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,div,div,container,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(2) > div > div,{'class': 'buttonGroup__atx'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(2) > div > div > button,"{'type': 'button', 'aria-label': 'Copy code to clipboard', 'title': 'Copy', 'class': 'clean-btn'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Add Example Test​,h2#add-example-test,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'add-example-test'}"
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(8),{}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(3),"{'class': 'language-py codeBlockContainer_Ckt0 theme-code-block', 'style': '--prism-color: #2e2e2c; --prism-background-color: #f6f8fa;'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,test_example.py,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(3) > div,{'class': 'codeBlockTitle_Ktv7'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2),{'class': 'codeBlockContent_biex'}
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,"import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > pre,"{'tabindex': '0', 'class': 'prism-code language-py codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,div,div,container,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div,{'class': 'buttonGroup__atx'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > div > button,"{'type': 'button', 'aria-label': 'Copy code to clipboard', 'title': 'Copy', 'class': 'clean-btn'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Running the Example Test​,h2#running-the-example-test,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'running-the-example-test'}"
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(9),{}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,pytest,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(4),"{'class': 'language-bash codeBlockContainer_Ckt0 theme-code-block', 'style': '--prism-color: #2e2e2c; --prism-background-color: #f6f8fa;'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,pytest,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(4) > div,{'class': 'codeBlockContent_biex'}
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,pytest,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(4) > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,div,div,container,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(4) > div > div,{'class': 'buttonGroup__atx'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(4) > div > div > button,"{'type': 'button', 'aria-label': 'Copy code to clipboard', 'title': 'Copy', 'class': 'clean-btn'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Updating Playwright​,h2#updating-playwright,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'updating-playwright'}"
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,To update Playwright to the latest version run the following command:,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(10),{}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,pip install pytest-playwright playwright -U,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(5),"{'class': 'language-bash codeBlockContainer_Ckt0 theme-code-block', 'style': '--prism-color: #2e2e2c; --prism-background-color: #f6f8fa;'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,pip install pytest-playwright playwright -U,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(5) > div,{'class': 'codeBlockContent_biex'}
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,pip install pytest-playwright playwright -U,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(5) > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,div,div,container,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(5) > div > div,{'class': 'buttonGroup__atx'}
+https://playwright.dev/python/docs/intro,button,button,interactive,interactive,True,True,False,,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(5) > div > div > button,"{'type': 'button', 'aria-label': 'Copy code to clipboard', 'title': 'Copy', 'class': 'clean-btn'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,System requirements​,h2#system-requirements,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'system-requirements'}"
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,True,True,"Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > ul:nth-of-type(2),{}
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,What's next​,h2#whats-next,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'whats-next'}"
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,True,True,"Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > ul:nth-of-type(3),{}
+https://playwright.dev/python/docs/intro,nav,nav,navigation,navigation,False,True,True,"Next
+Writing tests",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > nav,"{'class': 'pagination-nav docusaurus-mt-lg', 'aria-label': 'Docs pages'}"
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div:nth-of-type(2),{'class': 'col col--3'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div:nth-of-type(2) > div,{'class': 'tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop'}
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,True,True,"Introduction
+Installing Playwright Pytest
+Add Example Test
+Running the Example Test
+Updating Playwright
+System requirements
+What's next",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div:nth-of-type(2) > div > ul,{'class': 'table-of-contents table-of-contents__left-border'}
+https://playwright.dev/python/docs/intro,footer,footer,navigation,navigation,False,True,True,"Learn
+Getting started
+Playwright Training
+Learn Videos
+Feature Videos
+Community
+Stack Overflow
+Discord
+Twitter
+LinkedIn
+More
+GitHub
+YouTube
+Blog
+Ambassadors
+Copyright © 2025 Microsoft",div#__docusaurus > footer,{'class': 'footer footer--dark'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Learn
+Getting started
+Playwright Training
+Learn Videos
+Feature Videos
+Community
+Stack Overflow
+Discord
+Twitter
+LinkedIn
+More
+GitHub
+YouTube
+Blog
+Ambassadors",div#__docusaurus > footer > div > div,{'class': 'row footer__links'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Learn
+Getting started
+Playwright Training
+Learn Videos
+Feature Videos",div#__docusaurus > footer > div > div > div,{'class': 'col footer__col'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,Learn,div#__docusaurus > footer > div > div > div > div,{'class': 'footer__title'}
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,True,True,"Getting started
+Playwright Training
+Learn Videos
+Feature Videos",div#__docusaurus > footer > div > div > div > ul,{'class': 'footer__items clean-list'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"Community
+Stack Overflow
+Discord
+Twitter
+LinkedIn",div#__docusaurus > footer > div > div > div:nth-of-type(2),{'class': 'col footer__col'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,Community,div#__docusaurus > footer > div > div > div:nth-of-type(2) > div,{'class': 'footer__title'}
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,True,True,"Stack Overflow
+Discord
+Twitter
+LinkedIn",div#__docusaurus > footer > div > div > div:nth-of-type(2) > ul,{'class': 'footer__items clean-list'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,"More
+GitHub
+YouTube
+Blog
+Ambassadors",div#__docusaurus > footer > div > div > div:nth-of-type(3),{'class': 'col footer__col'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,More,div#__docusaurus > footer > div > div > div:nth-of-type(3) > div,{'class': 'footer__title'}
+https://playwright.dev/python/docs/intro,ul,ul,unknown,container,False,True,True,"GitHub
+YouTube
+Blog
+Ambassadors",div#__docusaurus > footer > div > div > div:nth-of-type(3) > ul,{'class': 'footer__items clean-list'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,Copyright © 2025 Microsoft,div#__docusaurus > footer > div > div:nth-of-type(2),{'class': 'footer__bottom text--center'}
+https://playwright.dev/python/docs/intro,div,div,container,container,False,True,True,Copyright © 2025 Microsoft,div#__docusaurus > footer > div > div:nth-of-type(2) > div,{'class': 'footer__copyright'}
+https://playwright.dev/python/docs/intro,article,article,content,content,False,True,True,"Getting StartedInstallation
+Installation
+Introduction​
+
+Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.
+
+The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.
+
+This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.
+
+You will learn
+
+How to install Playwright Pytest
+How to run the example test
+Installing Playwright Pytest​
+
+Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.
+
+Get started by installing Playwright and running the example test to see it in action.
+
+PyPI
+Anaconda
+
+Install the Pytest plugin:
+
+pip install pytest-playwright
+
+
+Install the required browsers:
+
+playwright install
+
+Add Example Test​
+
+Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.
+
+test_example.py
+import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()
+
+Running the Example Test​
+
+By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.
+
+pytest
+
+Updating Playwright​
+
+To update Playwright to the latest version run the following command:
+
+pip install pytest-playwright playwright -U
+
+System requirements​
+Python 3.8 or higher.
+Windows 10+, Windows Server 2016+ or Windows Subsystem for Linux (WSL).
+macOS 13 Ventura, or later.
+Debian 12, Ubuntu 22.04, Ubuntu 24.04, on x86-64 and arm64 architecture.
+What's next​
+Write tests using web first assertions, page fixtures and locators
+Run single test, multiple tests, headed mode
+Generate tests with Codegen
+See a trace of your tests",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article,{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"Playwright was created specifically to accommodate the needs of end-to-end testing. Playwright supports all modern rendering engines including Chromium, WebKit, and Firefox. Test on Windows, Linux, and macOS, locally or on CI, headless or headed with native mobile emulation.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p,{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"The Playwright library can be used as a general purpose browser automation tool, providing a powerful set of APIs to automate web applications, for both sync and async Python.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(2),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"This introduction describes the Playwright Pytest plugin, which is the recommended way to write end-to-end tests.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(3),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,You will learn,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(4),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"Playwright recommends using the official Playwright Pytest plugin to write end-to-end tests. It provides context isolation, running it on multiple browser configurations out of the box.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(5),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,Get started by installing Playwright and running the example test to see it in action.,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(6),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,Install the Pytest plugin:,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > p,{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,False,True,Install the Pytest plugin:,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > p,{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,Install the required browsers:,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(7),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,"Create a file that follows the test_ prefix convention, such as test_example.py, inside the current working directory or in a sub-directory with the code below. Make sure your test name also follows the test_ prefix convention.",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(8),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,By default tests will be run on chromium. This can be configured via the CLI options. Tests are run in headless mode meaning no browser UI will open up when running the tests. Results of the tests and test logs will be shown in the terminal.,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(9),{}
+https://playwright.dev/python/docs/intro,p,p,content,content,False,True,True,To update Playwright to the latest version run the following command:,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(10),{}
+https://playwright.dev/python/docs/intro,h1,h1,content,content,False,True,True,Installation,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > header > h1,{}
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Introduction​,h2#introduction,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'introduction'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Installing Playwright Pytest​,h2#installing-playwright-pytest,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'installing-playwright-pytest'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Add Example Test​,h2#add-example-test,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'add-example-test'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Running the Example Test​,h2#running-the-example-test,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'running-the-example-test'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,Updating Playwright​,h2#updating-playwright,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'updating-playwright'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,System requirements​,h2#system-requirements,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'system-requirements'}"
+https://playwright.dev/python/docs/intro,h2,h2,content,content,False,True,True,What's next​,h2#whats-next,"{'class': 'anchor anchorWithStickyNavbar_LWe7', 'id': 'whats-next'}"
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,pip install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > div > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,False,True,conda config --add channels conda-forgeconda config --add channels microsoftconda install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,playwright install,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(2) > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,"import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > pre,"{'tabindex': '0', 'class': 'prism-code language-py codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,pytest,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(4) > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,pre,pre,content,content,False,True,True,pip install pytest-playwright playwright -U,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(5) > div > pre,"{'tabindex': '0', 'class': 'prism-code language-bash codeBlock_bY9V thin-scrollbar', 'style': 'color: rgb(46, 46, 44); background-color: rgb(246, 248, 250);'}"
+https://playwright.dev/python/docs/intro,code,code,content,content,False,True,True,pip install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div > div > div > pre > code,{'class': 'codeBlockLines_e6Vv'}
+https://playwright.dev/python/docs/intro,code,code,content,content,False,False,True,conda config --add channels conda-forgeconda config --add channels microsoftconda install pytest-playwright,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div > div > div:nth-of-type(2) > div > div > pre > code,{'class': 'codeBlockLines_e6Vv'}
+https://playwright.dev/python/docs/intro,code,code,content,content,False,True,True,playwright install,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(2) > div > pre > code,{'class': 'codeBlockLines_e6Vv'}
+https://playwright.dev/python/docs/intro,code,code,content,content,False,True,True,test_,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(8) > code,{}
+https://playwright.dev/python/docs/intro,code,code,content,content,False,True,True,test_example.py,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(8) > code:nth-of-type(2),{}
+https://playwright.dev/python/docs/intro,code,code,content,content,False,True,True,test_,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > p:nth-of-type(8) > code:nth-of-type(3),{}
+https://playwright.dev/python/docs/intro,code,code,content,content,False,True,True,"import re
+from playwright.sync_api import Page, expect
+
+def test_has_title(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Expect a title ""to contain"" a substring.
+    expect(page).to_have_title(re.compile(""Playwright""))
+
+def test_get_started_link(page: Page):
+    page.goto(""https://playwright.dev/"")
+
+    # Click the get started link.
+    page.get_by_role(""link"", name=""Get started"").click()
+
+    # Expects page to have a heading with the name of Installation.
+    expect(page.get_by_role(""heading"", name=""Installation"")).to_be_visible()",div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > pre > code,{'class': 'codeBlockLines_e6Vv'}
+https://playwright.dev/python/docs/intro,code,code,content,content,False,True,True,pytest,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(4) > div > pre > code,{'class': 'codeBlockLines_e6Vv'}
+https://playwright.dev/python/docs/intro,code,code,content,content,False,True,True,pip install pytest-playwright playwright -U,div#__docusaurus_skipToContent_fallback > div > div > main > div > div > div > div > article > div:nth-of-type(2) > div:nth-of-type(5) > div > pre > code,{'class': 'codeBlockLines_e6Vv'}

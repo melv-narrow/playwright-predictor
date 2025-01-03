@@ -1,0 +1,1374 @@
+url,original_tag,normalized_tag,semantic_role,element_type,is_interactive,is_visible,has_text,inner_text,selector,attributes
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#shorts-player-overlay > div > ytd-button-renderer > yt-button-shape > button,"{'class': 'yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--overlay-dark yt-spec-button-shape-next--size-l yt-spec-button-shape-next--icon-button', 'aria-disabled': 'false', 'aria-label': 'Play (k)', 'title': '', 'style': ''}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#shorts-player-overlay > div > desktop-shorts-volume-controls > button,"{'aria-label': 'Mute', 'title': 'Mute', 'class': 'ytdDesktopShortsVolumeControlsMuteIconButton'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Back'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,True,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Guide'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,True,True,Skip navigation,div#skip-navigation > ytd-button-renderer > yt-button-shape > button,"{'class': 'yt-spec-button-shape-next yt-spec-button-shape-next--tonal yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m', 'aria-disabled': 'false', 'aria-label': 'Skip navigation', 'title': '', 'style': ''}"
+https://www.youtube.com/,button,button,interactive,interactive,True,True,False,,div#center > yt-searchbox > button,"{'aria-label': 'Search', 'class': 'ytSearchboxComponentSearchButton', 'title': 'Search'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#search-clear-button > ytd-button-renderer > yt-button-shape > button,"{'class': 'yt-spec-button-shape-next yt-spec-button-shape-next--text yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-only-default', 'aria-disabled': 'false', 'aria-label': 'Clear search query', 'title': '', 'style': ''}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Search,button#search-icon-legacy,"{'id': 'search-icon-legacy', 'class': 'style-scope ytd-searchbox', 'aria-label': 'Search'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Search,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Search'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,True,False,,div#voice-search-button > ytd-button-renderer > yt-button-shape > button,"{'class': 'yt-spec-button-shape-next yt-spec-button-shape-next--text yt-spec-button-shape-next--mono yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-only-default', 'aria-disabled': 'false', 'aria-label': 'Search with your voice', 'title': '', 'style': ''}"
+https://www.youtube.com/,button,button,interactive,interactive,True,True,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Settings'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-pressed': 'true'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(3) > button,"{'class': 'ytp-playlist-menu-button ytp-button ytp-playlist-menu-button-tiny', 'aria-owns': 'ytp-id-22', 'aria-haspopup': 'true', 'aria-label': 'Playlist', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Search,div#movie_player > div:nth-of-type(3) > div:nth-of-type(3) > button,"{'class': 'ytp-button ytp-search-button', 'title': 'Search', 'data-tooltip-opaque': 'false', 'aria-label': 'Search', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,InfoShopping,div#movie_player > div:nth-of-type(3) > div:nth-of-type(3) > button:nth-of-type(2),"{'class': 'ytp-button ytp-cards-button', 'aria-label': 'Show cards', 'aria-owns': 'iv-drawer', 'aria-haspopup': 'true', 'data-tooltip-opaque': 'false', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(3) > div:nth-of-type(3) > button:nth-of-type(3),"{'class': 'ytp-button ytp-overflow-button', 'title': 'More', 'aria-haspopup': 'true', 'aria-owns': 'ytp-id-29', 'aria-label': 'More'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Tap to unmute,div#movie_player > button,"{'class': 'ytp-unmute ytp-popup ytp-button ytp-unmute-animated ytp-unmute-shrink', 'data-layer': '2', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(5) > div > div:nth-of-type(2) > a > button,{'class': 'ytp-suggested-action-badge-dismiss-button-icon ytp-button'}
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(5) > div > div:nth-of-type(2) > a > button:nth-of-type(2),"{'class': 'ytp-featured-product-overflow-icon ytp-button', 'aria-haspopup': 'true', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(6) > button,"{'class': 'ytp-large-play-button ytp-button', 'aria-label': 'Play', 'title': 'Play'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(13) > div > div:nth-of-type(2) > a > button,"{'class': 'ytp-featured-product-info-icon ytp-button', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(13) > div > div:nth-of-type(2) > a > button:nth-of-type(2),"{'class': 'ytp-suggested-action-badge-dismiss-button-icon ytp-button', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(13) > div > div:nth-of-type(2) > a > button:nth-of-type(3),"{'class': 'ytp-featured-product-overflow-icon ytp-button', 'aria-haspopup': 'true', 'style': ''}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(14) > button,"{'class': 'ytp-button ytp-suggested-action-badge ytp-suggested-action-badge-with-controls ytp-suggested-action-badge-expanded', 'aria-label': '', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(14) > button > div:nth-of-type(2) > button,"{'class': 'ytp-suggested-action-badge-dismiss-button-icon ytp-button', 'aria-label': ''}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(15) > button,"{'class': 'ytp-button ytp-suggested-action-badge ytp-suggested-action-badge-with-controls', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(15) > button > div:nth-of-type(2) > button,{'class': 'ytp-suggested-action-badge-dismiss-button-icon ytp-button'}
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Cancel,div#movie_player > div:nth-of-type(18) > div > div:nth-of-type(3) > button,{'class': 'ytp-button ytp-mdx-privacy-popup-cancel'}
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Confirm,div#movie_player > div:nth-of-type(18) > div > div:nth-of-type(3) > button:nth-of-type(2),{'class': 'ytp-button ytp-mdx-privacy-popup-confirm'}
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#ytp-id-22 > div > div > button,"{'class': 'ytp-playlist-menu-close ytp-button', 'aria-label': 'Close'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#ytp-id-25 > button,"{'class': 'ytp-share-panel-close ytp-button', 'title': 'Close', 'aria-label': 'Close'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Watch later,div#ytp-id-29 > div > div > button,"{'class': 'ytp-watch-later-button ytp-button', 'data-tooltip-opaque': 'false', 'title': 'Watch later', 'aria-label': 'Watch later', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Share,div#ytp-id-29 > div > div > button:nth-of-type(2),"{'class': 'ytp-button ytp-share-button', 'title': 'Share', 'aria-haspopup': 'true', 'aria-owns': 'ytp-id-25', 'data-tooltip-opaque': 'false', 'aria-label': 'Share', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Copy link,div#ytp-id-29 > div > div > button:nth-of-type(3),"{'class': 'ytp-button ytp-copylink-button', 'data-tooltip-opaque': 'false', 'title': 'Copy link', 'aria-label': 'Copy link', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#ytp-id-29 > button,"{'class': 'ytp-overflow-panel-close ytp-button', 'title': 'Close', 'aria-label': 'Close'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > button,"{'class': 'ytp-play-button ytp-button', 'aria-keyshortcuts': 'k', 'data-title-no-tooltip': 'Play', 'title': 'Play (k)', 'aria-label': 'Play (k)'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > span > button,"{'class': 'ytp-mute-button ytp-button', 'aria-keyshortcuts': 'm', 'title': 'Mute (m)', 'data-title-no-tooltip': 'Mute', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Live,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > div > button,{'class': 'ytp-live-badge ytp-button'}
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,•,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > div:nth-of-type(2) > button,"{'class': 'ytp-chapter-title ytp-button ytp-chapter-container-disabled', 'disabled': ''}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,•,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > div:nth-of-type(3) > button,"{'class': 'ytp-chapter-title ytp-button ytp-chapter-container-disabled', 'disabled': ''}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Scroll for details,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button,"{'class': 'ytp-fullerscreen-edu-button ytp-button', 'data-priority': '1', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(2),"{'class': 'ytp-button', 'data-priority': '2', 'data-tooltip-target-id': 'ytp-autonav-toggle-button', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(3),"{'class': 'ytp-subtitles-button ytp-button', 'aria-keyshortcuts': 'c', 'data-priority': '3', 'title': 'Subtitles/closed captions unavailable', 'data-title-no-tooltip': 'Subtitles/closed captions unavailable', 'aria-pressed': 'false', 'aria-label': 'Subtitles/closed captions unavailable', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(4),"{'class': 'ytp-button ytp-settings-button', 'aria-expanded': 'false', 'aria-haspopup': 'true', 'aria-controls': 'ytp-id-18', 'title': 'Settings', 'data-tooltip-target-id': 'ytp-settings-button', 'aria-label': 'Settings', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(5),"{'class': 'ytp-miniplayer-button ytp-button', 'aria-keyshortcuts': 'i', 'data-priority': '5', 'data-tooltip-target-id': 'ytp-miniplayer-button', 'title': 'Miniplayer (i)', 'data-title-no-tooltip': 'Miniplayer', 'aria-label': 'Miniplayer (i)'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(6),"{'class': 'ytp-pip-button ytp-button', 'data-priority': '6', 'data-tooltip-target-id': 'ytp-pip-button', 'data-title-no-tooltip': 'Picture-in-picture', 'title': 'Picture-in-picture', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(7),"{'class': 'ytp-size-button ytp-button', 'aria-keyshortcuts': 't', 'data-priority': '7', 'title': 'Theater mode (t)', 'data-title-no-tooltip': 'Theater mode', 'aria-label': 'Theater mode (t)'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(8),"{'class': 'ytp-remote-button ytp-button', 'title': 'Play on TV', 'aria-haspopup': 'true', 'data-priority': '8', 'aria-label': 'Play on TV', 'style': 'display: none;'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div:nth-of-type(2) > button:nth-of-type(9),"{'class': 'ytp-fullscreen-button ytp-button', 'aria-keyshortcuts': 'f', 'data-priority': '10', 'data-title-no-tooltip': 'Full screen', 'title': 'Full screen (f)'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#info-bar > div > h1 > a,"{'tabindex': '0', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,a#thumbnail,"{'id': 'thumbnail', 'class': 'yt-simple-endpoint inline-block style-scope ytd-thumbnail', 'aria-hidden': 'true', 'tabindex': '-1'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,False,,a#thumbnail,"{'id': 'thumbnail', 'class': 'yt-simple-endpoint inline-block style-scope ytd-thumbnail', 'aria-hidden': 'true', 'tabindex': '-1'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,False,,a#logo,"{'class': 'yt-simple-endpoint style-scope ytd-topbar-logo-renderer', 'id': 'logo', 'aria-label': '', 'href': '/', 'title': 'YouTube Home'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,False,,div#button > a,"{'class': 'yt-simple-endpoint style-scope ytd-topbar-menu-button-renderer', 'tabindex': '-1'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,Sign in,div#buttons > ytd-button-renderer > yt-button-shape > a,"{'class': 'yt-spec-button-shape-next yt-spec-button-shape-next--outline yt-spec-button-shape-next--call-to-action yt-spec-button-shape-next--size-m yt-spec-button-shape-next--icon-leading', 'aria-label': 'Sign in', 'title': '', 'href': 'https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252F&hl=en&ec=65620', 'rel': 'nofollow', 'target': '', 'force-new-state': 'true', 'style': ''}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,a#logo,"{'class': 'yt-simple-endpoint style-scope ytd-topbar-logo-renderer', 'id': 'logo', 'aria-label': '', 'href': '/', 'title': 'YouTube Home'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,Home,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'Home', 'href': '/'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,Shorts,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'Shorts'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,Subscriptions,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'Subscriptions', 'href': '/feed/subscriptions'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,You,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'You', 'href': '/feed/you'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,History,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'History', 'href': '/feed/history'}"
+https://www.youtube.com/,a,a,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(3) > div > a,"{'class': 'ytp-title-channel-logo', 'target': '_blank', 'role': 'link', 'tabindex': '0'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#movie_player > div:nth-of-type(3) > div > div:nth-of-type(2) > div > div > a,{'target': '_blank'}
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#movie_player > div:nth-of-type(3) > div:nth-of-type(2) > div > a,"{'class': 'ytp-title-link yt-uix-sessionlink ytp-title-fullerscreen-link', 'target': '_blank', 'data-sessionlink': 'feature=player-title', 'tabindex': '-1'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#movie_player > div:nth-of-type(3) > div:nth-of-type(2) > div > div > a,"{'class': 'ytp-title-channel-name', 'target': '_blank', 'href': ''}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#movie_player > div:nth-of-type(5) > div > div:nth-of-type(2) > a,{'class': 'ytp-suggested-action-container'}
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#movie_player > div:nth-of-type(8) > a,"{'class': 'ytp-paid-content-overlay-link', 'target': '_blank', 'style': 'display: none;'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#movie_player > div:nth-of-type(13) > div > div:nth-of-type(2) > a,{'class': 'ytp-featured-product-container'}
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#ytp-id-22 > div > div > a,{'class': 'ytp-playlist-menu-title-name'}
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#ytp-id-25 > div > a,"{'class': 'ytp-share-panel-link ytp-no-contextmenu', 'target': '_blank', 'title': 'Share link', 'aria-label': 'Share link'}"
+https://www.youtube.com/,a,a,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > a,"{'class': 'ytp-prev-button ytp-button', 'role': 'button', 'aria-disabled': 'true', 'style': 'display: none;'}"
+https://www.youtube.com/,a,a,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > a:nth-of-type(2),"{'class': 'ytp-next-button ytp-button', 'role': 'button', 'title': 'Next (SHIFT+n)', 'data-title-no-tooltip': 'Next', 'aria-keyshortcuts': 'SHIFT+n', 'aria-disabled': 'false', 'aria-label': 'Next (SHIFT+n)'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#owner > ytd-video-owner-renderer > a,"{'class': 'yt-simple-endpoint style-scope ytd-video-owner-renderer', 'tabindex': '-1'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#container > a,"{'class': 'yt-simple-endpoint style-scope ytd-video-primary-info-renderer', 'hidden': ''}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,a#media-container-link,"{'id': 'media-container-link', 'class': 'yt-simple-endpoint style-scope ytd-video-preview'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,a#thumbnail,"{'id': 'thumbnail', 'class': 'yt-simple-endpoint inline-block style-scope ytd-thumbnail', 'aria-hidden': 'true', 'tabindex': '-1'}"
+https://www.youtube.com/,input,input,interactive,interactive,True,False,False,,input#volume-input,"{'aria-label': 'Volume', 'title': 'Volume', 'type': 'range', 'class': 'ytdDesktopShortsVolumeControlsNativeSlider', 'id': 'volume-input'}"
+https://www.youtube.com/,input,input,interactive,interactive,True,True,False,,div#center > yt-searchbox > div > form > input,"{'name': 'search_query', 'type': 'text', 'autocomplete': 'off', 'autocorrect': 'off', 'aria-autocomplete': 'list', 'role': 'combobox', 'class': 'ytSearchboxComponentInput yt-searchbox-input title', 'placeholder': 'Search'}"
+https://www.youtube.com/,input,input,interactive,interactive,True,False,False,,input#search,"{'id': 'search', 'autocapitalize': 'none', 'autocomplete': 'off', 'autocorrect': 'off', 'name': 'search_query', 'tabindex': '0', 'type': 'text', 'spellcheck': 'false', 'placeholder': 'Search', 'aria-label': 'Search'}"
+https://www.youtube.com/,input,input,interactive,interactive,True,False,False,,div#ytp-id-25 > div > label > input,"{'class': 'ytp-share-panel-include-playlist-checkbox', 'type': 'checkbox', 'checked': 'true'}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,False,False,,div#card > ytd-miniplayer-toast > ytd-thumbnail,"{'width': '78', 'class': 'style-scope ytd-miniplayer-toast', 'size': 'small'}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,True,False,,div#modern-card > div:nth-of-type(2) > ytd-miniplayer-toast > ytd-thumbnail,"{'width': '78', 'class': 'style-scope ytd-miniplayer-toast', 'size': 'small'}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,False,False,,div#thumbnail-container > ytd-thumbnail,"{'hovered': 'false', 'no-rounded-corners': '', 'object-fit': 'COVER', 'rich-grid-thumbnail': '', 'width': '9999', 'class': 'style-scope ytd-video-preview', 'size': 'large', 'computed-object-fit': 'COVER'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#blocking-container > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'aria-label': 'Close player', 'role': 'button'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#info-bar > div:nth-of-type(2) > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'role': 'button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#modern-info-bar > div:nth-of-type(2) > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'role': 'button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#back-button,"{'id': 'back-button', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Back'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,True,False,,yt-icon-button#guide-button,"{'id': 'guide-button', 'toggleable': 'true', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Guide'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,True,Search,yt-icon-button#search-button-narrow,"{'id': 'search-button-narrow', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Search'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,True,False,,yt-icon-button#button,"{'id': 'button', 'class': 'style-scope ytd-topbar-menu-button-renderer style-default', 'role': 'button', 'aria-label': 'yt-icon-button'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#guide-button,"{'id': 'guide-button', 'pressed': 'true', 'toggleable': 'true', 'class': 'style-scope ytd-app', 'aria-label': 'Guide', 'role': 'button'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,tp-yt-paper-material#expand-button > yt-icon-button,"{'class': 'style-scope ytd-channel-legal-info-renderer', 'role': 'button', 'aria-label': 'yt-icon-button'}"
+https://www.youtube.com/,div,div,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4),"{'class': 'ytp-fine-scrubbing-play', 'title': 'Play from this position', 'role': 'button', 'aria-label': 'Play from this position'}"
+https://www.youtube.com/,div,div,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(5),"{'class': 'ytp-fine-scrubbing-dismiss', 'title': 'Exit precise seeking', 'role': 'button', 'aria-label': 'Exit precise seeking'}"
+https://www.youtube.com/,a,a,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > a,"{'class': 'ytp-prev-button ytp-button', 'role': 'button', 'aria-disabled': 'true', 'style': 'display: none;'}"
+https://www.youtube.com/,a,a,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > a:nth-of-type(2),"{'class': 'ytp-next-button ytp-button', 'role': 'button', 'title': 'Next (SHIFT+n)', 'data-title-no-tooltip': 'Next', 'aria-keyshortcuts': 'SHIFT+n', 'aria-disabled': 'false', 'aria-label': 'Next (SHIFT+n)'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#collapse-button,"{'id': 'collapse-button', 'class': 'button style-scope ytd-watch-metadata', 'hidden': '', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#expand-sizer,"{'id': 'expand-sizer', 'class': 'button style-scope ytd-text-inline-expander', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#expand,"{'id': 'expand', 'class': 'button style-scope ytd-text-inline-expander', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false', 'style': 'left: 0px;'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#collapse,"{'id': 'collapse', 'class': 'button style-scope ytd-text-inline-expander', 'hidden': '', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,Home,div#items > ytd-mini-guide-entry-renderer,"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'true', 'is-active': '', 'aria-label': 'Home'}"
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,Shorts,div#items > ytd-mini-guide-entry-renderer:nth-of-type(2),"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'false', 'aria-label': 'Shorts'}"
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,Subscriptions,div#items > ytd-mini-guide-entry-renderer:nth-of-type(3),"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'false', 'aria-label': 'Subscriptions'}"
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,You,div#items > ytd-mini-guide-entry-renderer:nth-of-type(4),"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'false', 'aria-label': 'You'}"
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,History,div#items > ytd-mini-guide-entry-renderer:nth-of-type(5),"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'false', 'aria-label': 'History'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"ZA
+Skip navigation
+Sign in
+Home
+Shorts
+Subscriptions
+You
+History
+Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#content,"{'id': 'content', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#content,"{'id': 'content', 'class': 'style-scope ytd-rich-section-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container,"{'id': 'container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container,"{'id': 'container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"ZA
+Skip navigation
+Sign in",div#container,"{'id': 'container', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-searchbox'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details",div#container,"{'id': 'container', 'class': 'style-scope ytd-player'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-channel-name'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-video-primary-info-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-sentiment-bar-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container,"{'id': 'container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-player'}"
+https://www.youtube.com/,yt-guide-manager,yt-guide-manager,unknown,container,False,False,False,,yt-guide-manager#guide-service,"{'id': 'guide-service', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,yt-mdx-manager,yt-mdx-manager,unknown,container,False,False,False,,html > body > ytd-app > yt-mdx-manager,{'class': 'style-scope ytd-app'}
+https://www.youtube.com/,yt-playlist-manager,yt-playlist-manager,unknown,container,False,False,False,,html > body > ytd-app > yt-playlist-manager,{'class': 'style-scope ytd-app'}
+https://www.youtube.com/,yt-hotkey-manager,yt-hotkey-manager,unknown,container,False,False,False,,html > body > ytd-app > yt-hotkey-manager,{'class': 'style-scope ytd-app'}
+https://www.youtube.com/,ytd-miniplayer,ytd-miniplayer,unknown,container,False,True,False,,html > body > ytd-app > ytd-miniplayer,"{'class': 'style-scope ytd-app', 'vertical-attachment': 'south', 'horizontal-attachment': 'east', 'enable-refresh-web': '', 'enable-signature-moments': '', 'modern': '', 'modern-old-sizing': '', 'permanent-info-bar': '', 'show-info-bar': '', 'style': 'width: 400px; height: 301px;'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#blocking-container,"{'id': 'blocking-container', 'class': 'style-scope ytd-miniplayer', 'hidden': ''}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#blocking-container > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'aria-label': 'Close player', 'role': 'button'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#close-icon,"{'id': 'close-icon', 'icon': 'yt-icons:close', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#close-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,html > body > ytd-app > ytd-miniplayer > div:nth-of-type(2),"{'class': 'miniplayer style-scope ytd-miniplayer', 'role': 'dialog'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"•
+              
+            
+          
+        
+        
+          
+            
+          
+        
+      
+    
+    NaN / NaN",div#card,"{'id': 'card', 'class': 'style-scope ytd-miniplayer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,True,•,div#video-container,"{'id': 'video-container', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#video-container > div,{'class': 'video style-scope ytd-miniplayer'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#player-container,"{'id': 'player-container', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,•,div#info-bar,"{'id': 'info-bar', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,•,div#info-bar > div,{'class': 'metadata style-scope ytd-miniplayer'}
+https://www.youtube.com/,h1,h1,content,content,False,False,False,,div#info-bar > div > h1,"{'class': 'title meta style-scope ytd-miniplayer', 'role': 'heading', 'hidden': ''}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#info-bar > div > h1 > a,"{'tabindex': '0', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#info-bar > div > h1 > a > yt-formatted-string,"{'class': 'miniplayer-title style-scope ytd-miniplayer', 'ellipsis-truncate': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#info-bar > div > h1 > a > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,•,div#info-bar > div > div,{'class': 'channel style-scope ytd-miniplayer'}
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#info-bar > div > div > ytd-badge-supported-renderer,"{'class': 'premium-badges style-scope ytd-miniplayer', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#owner-name,"{'id': 'owner-name', 'no-endpoints': '', 'class': 'style-scope ytd-miniplayer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-formatted-string#owner-name > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,•,div#info-bar > div > div > div,"{'class': 'index-message style-scope ytd-miniplayer', 'hidden': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,True,•,div#info-bar > div > div > div > span,{'class': 'text-divider style-scope ytd-miniplayer'}
+https://www.youtube.com/,span,span,container,container,False,False,False,,div#info-bar > div > div > div > span:nth-of-type(2),{'class': 'style-scope ytd-miniplayer'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info-bar > div:nth-of-type(2),"{'class': 'expander style-scope ytd-miniplayer', 'hidden': ''}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#info-bar > div:nth-of-type(2) > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'role': 'button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,button#button > yt-icon,{'class': 'style-scope ytd-miniplayer'}
+https://www.youtube.com/,span,span,container,container,False,False,False,,button#button > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-playlist-panel-renderer,ytd-playlist-panel-renderer,unknown,container,False,False,True,NaN / NaN,ytd-playlist-panel-renderer#playlist,"{'id': 'playlist', 'hide-header-text': '', 'within-miniplayer': '', 'class': 'style-scope ytd-miniplayer', 'modern-miniplayer': '', 'js-panel-height': '', 'modern-panels': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container,"{'id': 'container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container > div,{'class': 'header style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-contents,"{'id': 'header-contents', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-top-row,"{'id': 'header-top-row', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-description,"{'id': 'header-description', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,h3,h3,content,content,False,False,False,,div#header-description > h3,{'class': 'style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#header-description > h3 > yt-formatted-string,"{'class': 'title style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'link-inherit-color': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#header-description > h3 > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,h3,h3,content,content,False,False,False,,h3#next-video-title,"{'id': 'next-video-title', 'class': 'style-scope ytd-playlist-panel-renderer', 'hidden': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,span#next-label,"{'id': 'next-label', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,h3#next-video-title > yt-formatted-string,"{'ellipsis-truncate': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,h3#next-video-title > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#publisher-container,"{'id': 'publisher-container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string,"{'class': 'byline-title style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'hidden': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#publisher-container > ytd-badge-supported-renderer,"{'class': 'style-scope ytd-playlist-panel-renderer', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string:nth-of-type(2),"{'class': 'publisher style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'link-inherit-color': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string:nth-of-type(2) > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#publisher-container > div,{'class': 'index-message-wrapper style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,span,span,container,container,False,False,True,NaN / NaN,div#publisher-container > div > span,{'class': 'index-message style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > div > yt-formatted-string,"{'class': 'index-message style-scope ytd-playlist-panel-renderer', 'respecthtmldir': '', 'hidden': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > div > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#end-actions-in-header,"{'id': 'end-actions-in-header', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overflow-menu-top-row,"{'id': 'overflow-menu-top-row', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#top-row-buttons,"{'id': 'top-row-buttons', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#trailing-icon,"{'id': 'trailing-icon', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#trailing-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#playlist-actions,"{'id': 'playlist-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#start-actions,"{'id': 'start-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#playlist-action-menu,"{'id': 'playlist-action-menu', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#save-button,"{'id': 'save-button', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#end-actions,"{'id': 'end-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overflow-menu,"{'id': 'overflow-menu', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#content-header,"{'id': 'content-header', 'class': 'style-scope ytd-playlist-panel-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#items,"{'id': 'items', 'class': 'playlist-items style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#expander-space,"{'id': 'expander-space', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,ytd-miniplayer-toast,ytd-miniplayer-toast,unknown,container,False,False,False,,div#card > ytd-miniplayer-toast,"{'class': 'style-scope ytd-miniplayer', 'modern': ''}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,False,False,,div#card > ytd-miniplayer-toast > ytd-thumbnail,"{'width': '78', 'class': 'style-scope ytd-miniplayer-toast', 'size': 'small'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,a#thumbnail,"{'id': 'thumbnail', 'class': 'yt-simple-endpoint inline-block style-scope ytd-thumbnail', 'aria-hidden': 'true', 'tabindex': '-1'}"
+https://www.youtube.com/,yt-image,yt-image,unknown,container,False,False,False,,a#thumbnail > yt-image,"{'alt': '', 'ftl-eligible': '', 'notify-on-loaded': '', 'notify-on-unloaded': '', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overlays,"{'id': 'overlays', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#mouseover-overlay,"{'id': 'mouseover-overlay', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#hover-overlays,"{'id': 'hover-overlays', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info,"{'id': 'info', 'class': 'style-scope ytd-miniplayer-toast'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#label,"{'id': 'label', 'class': 'style-scope ytd-miniplayer-toast'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#title,"{'id': 'title', 'class': 'style-scope ytd-miniplayer-toast'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#modern-card,"{'id': 'modern-card', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#draggable,"{'id': 'draggable', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#modern-video-container,"{'id': 'modern-video-container', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#modern-player-container,"{'id': 'modern-player-container', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#modern-video-container > ytd-badge-supported-renderer,"{'class': 'premium-badges overlay style-scope ytd-miniplayer', 'overlay-premium': '', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#modern-card-owner-name,"{'id': 'modern-card-owner-name', 'class': 'owner-name style-scope ytd-miniplayer', 'no-endpoints': '', 'hidden': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-formatted-string#modern-card-owner-name > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#modern-info-bar,"{'id': 'modern-info-bar', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#modern-info-bar > div,{'class': 'metadata style-scope ytd-miniplayer'}
+https://www.youtube.com/,h1,h1,content,content,False,False,False,,div#modern-info-bar > div > h1,"{'class': 'title meta style-scope ytd-miniplayer', 'role': 'heading', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#modern-info-bar > div > h1 > yt-formatted-string,"{'class': 'miniplayer-title style-scope ytd-miniplayer', 'ellipsis-truncate': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#modern-info-bar > div > h1 > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#modern-info-bar > div > div,{'class': 'channel style-scope ytd-miniplayer'}
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#modern-info-bar > div > div > ytd-badge-supported-renderer,"{'class': 'premium-badges style-scope ytd-miniplayer', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#modern-owner-name,"{'id': 'modern-owner-name', 'no-endpoints': '', 'class': 'style-scope ytd-miniplayer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-formatted-string#modern-owner-name > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,•,div#modern-info-bar > div > div > div,"{'class': 'index-message style-scope ytd-miniplayer', 'hidden': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,True,•,div#modern-info-bar > div > div > div > span,{'class': 'text-divider style-scope ytd-miniplayer'}
+https://www.youtube.com/,span,span,container,container,False,False,False,,div#modern-info-bar > div > div > div > span:nth-of-type(2),{'class': 'style-scope ytd-miniplayer'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#modern-info-bar > div:nth-of-type(2),"{'class': 'expander style-scope ytd-miniplayer', 'hidden': ''}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#modern-info-bar > div:nth-of-type(2) > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'role': 'button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,button#button > yt-icon,{'class': 'style-scope ytd-miniplayer'}
+https://www.youtube.com/,span,span,container,container,False,False,False,,button#button > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#draggable > div:nth-of-type(3),"{'class': 'dragging-cover style-scope ytd-miniplayer', 'hidden': ''}"
+https://www.youtube.com/,ytd-playlist-panel-renderer,ytd-playlist-panel-renderer,unknown,container,False,False,True,NaN / NaN,ytd-playlist-panel-renderer#modern-playlist,"{'id': 'modern-playlist', 'hide-header-text': '', 'within-miniplayer': '', 'class': 'style-scope ytd-miniplayer', 'modern-miniplayer': '', 'js-panel-height': '', 'modern-panels': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container,"{'id': 'container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container > div,{'class': 'header style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-contents,"{'id': 'header-contents', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-top-row,"{'id': 'header-top-row', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-description,"{'id': 'header-description', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,h3,h3,content,content,False,False,False,,div#header-description > h3,{'class': 'style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#header-description > h3 > yt-formatted-string,"{'class': 'title style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'link-inherit-color': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#header-description > h3 > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,h3,h3,content,content,False,False,False,,h3#next-video-title,"{'id': 'next-video-title', 'class': 'style-scope ytd-playlist-panel-renderer', 'hidden': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,span#next-label,"{'id': 'next-label', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,h3#next-video-title > yt-formatted-string,"{'ellipsis-truncate': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,h3#next-video-title > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#publisher-container,"{'id': 'publisher-container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string,"{'class': 'byline-title style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'hidden': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#publisher-container > ytd-badge-supported-renderer,"{'class': 'style-scope ytd-playlist-panel-renderer', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string:nth-of-type(2),"{'class': 'publisher style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'link-inherit-color': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string:nth-of-type(2) > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#publisher-container > div,{'class': 'index-message-wrapper style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,span,span,container,container,False,False,True,NaN / NaN,div#publisher-container > div > span,{'class': 'index-message style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > div > yt-formatted-string,"{'class': 'index-message style-scope ytd-playlist-panel-renderer', 'respecthtmldir': '', 'hidden': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > div > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#end-actions-in-header,"{'id': 'end-actions-in-header', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overflow-menu-top-row,"{'id': 'overflow-menu-top-row', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#top-row-buttons,"{'id': 'top-row-buttons', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#trailing-icon,"{'id': 'trailing-icon', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#trailing-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#playlist-actions,"{'id': 'playlist-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#start-actions,"{'id': 'start-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#playlist-action-menu,"{'id': 'playlist-action-menu', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#save-button,"{'id': 'save-button', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#end-actions,"{'id': 'end-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overflow-menu,"{'id': 'overflow-menu', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#content-header,"{'id': 'content-header', 'class': 'style-scope ytd-playlist-panel-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#items,"{'id': 'items', 'class': 'playlist-items style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#modern-card > div:nth-of-type(2),{'class': 'toast-container style-scope ytd-miniplayer'}
+https://www.youtube.com/,ytd-miniplayer-toast,ytd-miniplayer-toast,unknown,container,False,False,False,,div#modern-card > div:nth-of-type(2) > ytd-miniplayer-toast,"{'class': 'style-scope ytd-miniplayer', 'modern': ''}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,True,False,,div#modern-card > div:nth-of-type(2) > ytd-miniplayer-toast > ytd-thumbnail,"{'width': '78', 'class': 'style-scope ytd-miniplayer-toast', 'size': 'small'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,False,,a#thumbnail,"{'id': 'thumbnail', 'class': 'yt-simple-endpoint inline-block style-scope ytd-thumbnail', 'aria-hidden': 'true', 'tabindex': '-1'}"
+https://www.youtube.com/,yt-image,yt-image,unknown,container,False,False,False,,a#thumbnail > yt-image,"{'alt': '', 'ftl-eligible': '', 'notify-on-loaded': '', 'notify-on-unloaded': '', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overlays,"{'id': 'overlays', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#mouseover-overlay,"{'id': 'mouseover-overlay', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#hover-overlays,"{'id': 'hover-overlays', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info,"{'id': 'info', 'class': 'style-scope ytd-miniplayer-toast'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#label,"{'id': 'label', 'class': 'style-scope ytd-miniplayer-toast'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#title,"{'id': 'title', 'class': 'style-scope ytd-miniplayer-toast'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container,"{'id': 'resize-container', 'aria-hidden': 'true', 'class': 'style-scope ytd-miniplayer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container > div,"{'class': 'resizer style-scope ytd-miniplayer', 'alignment': 'north'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container > div > div,{'class': 'corner style-scope ytd-miniplayer'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container > div:nth-of-type(2),"{'class': 'resizer style-scope ytd-miniplayer', 'alignment': 'east', 'disabled': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container > div:nth-of-type(2) > div,{'class': 'corner style-scope ytd-miniplayer'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container > div:nth-of-type(3),"{'class': 'resizer style-scope ytd-miniplayer', 'alignment': 'south', 'disabled': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container > div:nth-of-type(3) > div,{'class': 'corner style-scope ytd-miniplayer'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container > div:nth-of-type(4),"{'class': 'resizer style-scope ytd-miniplayer', 'alignment': 'west'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#resize-container > div:nth-of-type(4) > div,{'class': 'corner style-scope ytd-miniplayer'}
+https://www.youtube.com/,div,div,container,container,False,False,True,Play (k),div#shorts-player-overlay,"{'id': 'shorts-player-overlay', 'class': 'style-scope ytd-miniplayer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,interactive,True,False,True,Play (k),div#shorts-player-overlay > div,{'class': 'shorts-top-buttons style-scope ytd-miniplayer'}
+https://www.youtube.com/,ytd-button-renderer,ytd-button-renderer,unknown,container,False,False,True,Play (k),div#shorts-player-overlay > div > ytd-button-renderer,"{'button-tooltip-position': 'bottom', 'class': 'style-scope ytd-miniplayer', 'button-renderer': '', 'button-next': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,div#shorts-player-overlay > div > ytd-button-renderer > yt-button-shape > button > div > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,div,div,container,container,False,False,True,Play (k),div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,desktop-shorts-volume-controls,desktop-shorts-volume-controls,unknown,container,False,False,False,,div#shorts-player-overlay > div > desktop-shorts-volume-controls,{'class': 'ytdDesktopShortsVolumeControlsHost style-scope ytd-miniplayer'}
+https://www.youtube.com/,span,span,container,container,False,False,False,,div#shorts-player-overlay > div > desktop-shorts-volume-controls > button > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,div,div,container,interactive,True,False,False,,div#shorts-player-overlay > div:nth-of-type(2),{'class': 'shorts-action-buttons style-scope ytd-miniplayer'}
+https://www.youtube.com/,ytd-button-renderer,ytd-button-renderer,unknown,container,False,False,False,,div#shorts-player-overlay > div:nth-of-type(2) > ytd-button-renderer,"{'button-tooltip-position': 'left', 'class': 'style-scope ytd-miniplayer', 'button-renderer': '', 'button-next': ''}"
+https://www.youtube.com/,ytd-button-renderer,ytd-button-renderer,unknown,container,False,False,False,,div#shorts-player-overlay > div:nth-of-type(2) > ytd-button-renderer:nth-of-type(2),"{'button-tooltip-position': 'left', 'class': 'style-scope ytd-miniplayer', 'button-renderer': '', 'button-next': ''}"
+https://www.youtube.com/,ytd-like-button-renderer,ytd-like-button-renderer,unknown,container,False,False,False,,div#shorts-player-overlay > div:nth-of-type(2) > ytd-like-button-renderer,"{'button-tooltip-position': 'left', 'text-transform': 'none', 'use-shorts-icon': '', 'vertical': '', 'class': 'style-scope ytd-miniplayer', 'modern': ''}"
+https://www.youtube.com/,ytd-toggle-button-renderer,ytd-toggle-button-renderer,unknown,interactive,True,False,False,,ytd-toggle-button-renderer#like-button,"{'id': 'like-button', 'is-shorts': '', 'class': 'style-scope ytd-like-button-renderer', 'vertically-aligned': '', 'button-renderer': 'true'}"
+https://www.youtube.com/,ytd-toggle-button-renderer,ytd-toggle-button-renderer,unknown,interactive,True,False,False,,ytd-toggle-button-renderer#dislike-button,"{'id': 'dislike-button', 'is-shorts': '', 'class': 'style-scope ytd-like-button-renderer', 'vertically-aligned': '', 'button-renderer': 'true'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#shorts-player-overlay > div:nth-of-type(3),{'class': 'shorts-pip-player-controls style-scope ytd-miniplayer'}
+https://www.youtube.com/,dom-if,dom-if,unknown,container,False,False,False,,div#shorts-player-overlay > div:nth-of-type(3) > dom-if,{'class': 'style-scope ytd-miniplayer'}
+https://www.youtube.com/,div,div,container,container,False,True,True,"ZA
+Skip navigation
+Sign in
+Home
+Shorts
+Subscriptions
+You
+History
+Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#content,"{'id': 'content', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#frosted-glass,"{'id': 'frosted-glass', 'class': 'none style-scope ytd-app style-scope ytd-app'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"ZA
+Skip navigation
+Sign in",div#masthead-container,"{'id': 'masthead-container', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,iron-media-query,iron-media-query,unknown,container,False,False,False,,ytd-masthead#masthead > iron-media-query,"{'query': 'max-width: 656px', 'class': 'style-scope ytd-masthead', 'style': 'display: none;'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#ticker,"{'id': 'ticker', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#interstitial,"{'id': 'interstitial', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#background,"{'id': 'background', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"ZA
+Skip navigation
+Sign in",div#container,"{'id': 'container', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"ZA
+Skip navigation",div#start,"{'id': 'start', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#back-button,"{'id': 'back-button', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Back'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Back'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,button#button > yt-icon,"{'icon': 'yt-icons:arrow-back', 'class': 'style-scope ytd-masthead', 'disable-upgrade': ''}"
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,True,Back,tp-yt-paper-tooltip#back-button-tooltip,"{'id': 'back-button-tooltip', 'for': 'back-button', 'class': 'style-scope ytd-masthead', 'disable-upgrade': ''}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,True,False,,yt-icon-button#guide-button,"{'id': 'guide-button', 'toggleable': 'true', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Guide'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,True,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Guide'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,True,False,,yt-icon#guide-icon,"{'id': 'guide-icon', 'icon': 'yt-icons:menu', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,yt-icon#guide-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,True,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-topbar-logo-renderer,ytd-topbar-logo-renderer,unknown,container,False,True,True,ZA,ytd-topbar-logo-renderer#logo,"{'id': 'logo', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,False,,a#logo,"{'class': 'yt-simple-endpoint style-scope ytd-topbar-logo-renderer', 'id': 'logo', 'aria-label': '', 'href': '/', 'title': 'YouTube Home'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#logo > div,{'class': 'style-scope ytd-topbar-logo-renderer'}
+https://www.youtube.com/,ytd-logo,ytd-logo,unknown,container,False,True,False,,a#logo > div > ytd-logo,"{'class': 'style-scope ytd-topbar-logo-renderer', 'enable-refresh-ringo2-web': ''}"
+https://www.youtube.com/,yt-icon,img,media,media,False,True,False,,yt-icon#logo-icon,"{'id': 'logo-icon', 'class': 'style-scope ytd-logo'}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,yt-icon#logo-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,ytd-yoodle-renderer,ytd-yoodle-renderer,unknown,container,False,False,False,,a#logo > ytd-yoodle-renderer,"{'class': 'style-scope ytd-topbar-logo-renderer', 'hidden': ''}"
+https://www.youtube.com/,picture,picture,media,media,False,False,False,,a#logo > ytd-yoodle-renderer > picture,{'class': 'style-scope ytd-yoodle-renderer'}
+https://www.youtube.com/,source,source,media,media,False,False,False,,a#logo > ytd-yoodle-renderer > picture > source,"{'type': 'image/webp', 'class': 'style-scope ytd-yoodle-renderer', 'srcset': ''}"
+https://www.youtube.com/,img,img,media,media,False,False,False,,a#logo > ytd-yoodle-renderer > picture > img,"{'class': 'style-scope ytd-yoodle-renderer', 'src': ''}"
+https://www.youtube.com/,ytd-logo,ytd-logo,unknown,container,False,False,False,,a#logo > ytd-yoodle-renderer > ytd-logo,"{'class': 'style-scope ytd-yoodle-renderer', 'enable-refresh-ringo2-web': '', 'hidden': ''}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#logo-icon,"{'id': 'logo-icon', 'class': 'style-scope ytd-logo'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#logo-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,ytd-lottie-player,ytd-lottie-player,unknown,container,False,False,False,,a#logo > ytd-yoodle-renderer > ytd-lottie-player,{'class': 'style-scope ytd-yoodle-renderer'}
+https://www.youtube.com/,span,span,container,container,False,True,True,ZA,span#country-code,"{'id': 'country-code', 'class': 'style-scope ytd-topbar-logo-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,Skip navigation,div#skip-navigation,"{'id': 'skip-navigation', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,ytd-button-renderer,ytd-button-renderer,unknown,container,False,True,True,Skip navigation,div#skip-navigation > ytd-button-renderer,"{'class': 'style-scope ytd-masthead', 'button-renderer': '', 'button-next': ''}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#center,"{'id': 'center', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,div#center > yt-searchbox > button > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,dom-if,dom-if,unknown,container,False,False,False,,div#center > dom-if,{'class': 'style-scope ytd-masthead'}
+https://www.youtube.com/,ytd-searchbox,ytd-searchbox,unknown,container,False,False,True,Search,ytd-searchbox#search,"{'id': 'search', 'class': 'style-scope ytd-masthead', 'hidden': '', 'system-icons': '', 'role': 'search'}"
+https://www.youtube.com/,form,form,interactive,container,False,False,False,,form#search-form,"{'id': 'search-form', 'action': '/results', 'class': 'style-scope ytd-searchbox'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-searchbox'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#search-icon,"{'id': 'search-icon', 'class': 'style-scope ytd-searchbox'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#search-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#search-clear-button,"{'id': 'search-clear-button', 'class': 'style-scope ytd-searchbox', 'hidden': ''}"
+https://www.youtube.com/,ytd-button-renderer,ytd-button-renderer,unknown,container,False,False,False,,div#search-clear-button > ytd-button-renderer,"{'class': 'style-scope ytd-searchbox', 'button-renderer': '', 'button-next': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,div#search-clear-button > ytd-button-renderer > yt-button-shape > button > div > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Search,button#search-icon-legacy,"{'id': 'search-icon-legacy', 'class': 'style-scope ytd-searchbox', 'aria-label': 'Search'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,button#search-icon-legacy > yt-icon,{'class': 'style-scope ytd-searchbox'}
+https://www.youtube.com/,span,span,container,container,False,False,False,,button#search-icon-legacy > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,True,Search,button#search-icon-legacy > tp-yt-paper-tooltip,"{'prefix': '', 'class': 'style-scope ytd-searchbox', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,Search,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,True,Search,yt-icon-button#search-button-narrow,"{'id': 'search-button-narrow', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Search'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,True,Search,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Search'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,button#button > yt-icon,"{'class': 'topbar-icons style-scope ytd-masthead', 'icon': 'yt-icons:search', 'disable-upgrade': ''}"
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,True,Search,button#button > tp-yt-paper-tooltip,"{'for': 'search-button-narrow', 'class': 'style-scope ytd-masthead', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,div#voice-search-button,"{'id': 'voice-search-button', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,ytd-button-renderer,ytd-button-renderer,unknown,container,False,True,False,,div#voice-search-button > ytd-button-renderer,"{'class': 'style-scope ytd-masthead', 'button-renderer': '', 'button-next': ''}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,div#voice-search-button > ytd-button-renderer > yt-button-shape > button > div > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,div,div,container,container,False,False,True,Search with your voice,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,Sign in,div#end,"{'id': 'end', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,Sign in,div#buttons,"{'id': 'buttons', 'class': 'style-scope ytd-masthead'}"
+https://www.youtube.com/,ytd-topbar-menu-button-renderer,ytd-topbar-menu-button-renderer,unknown,container,False,True,False,,div#buttons > ytd-topbar-menu-button-renderer,"{'class': 'style-scope ytd-masthead style-default', 'use-keyboard-focused': '', 'is-icon-button': '', 'has-no-text': ''}"
+https://www.youtube.com/,ps-dom-if,ps-dom-if,unknown,interactive,True,False,False,,div#buttons > ytd-topbar-menu-button-renderer > ps-dom-if,{'class': 'style-scope ytd-topbar-menu-button-renderer'}
+https://www.youtube.com/,div,div,container,interactive,True,True,False,,div#button,"{'id': 'button', 'class': 'style-scope ytd-topbar-menu-button-renderer'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,False,,div#button > a,"{'class': 'yt-simple-endpoint style-scope ytd-topbar-menu-button-renderer', 'tabindex': '-1'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,True,False,,yt-icon-button#button,"{'id': 'button', 'class': 'style-scope ytd-topbar-menu-button-renderer style-default', 'role': 'button', 'aria-label': 'yt-icon-button'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,True,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Settings'}"
+https://www.youtube.com/,yt-icon,img,media,interactive,True,True,False,,button#button > yt-icon,{'class': 'style-scope ytd-topbar-menu-button-renderer'}
+https://www.youtube.com/,span,span,container,container,False,True,False,,button#button > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,True,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,True,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-button-renderer,ytd-button-renderer,unknown,container,False,True,True,Sign in,div#buttons > ytd-button-renderer,"{'class': 'style-scope ytd-masthead', 'button-renderer': '', 'button-next': ''}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,div#buttons > ytd-button-renderer > yt-button-shape > a > div > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,tp-yt-app-drawer,tp-yt-app-drawer,navigation,navigation,False,False,False,,tp-yt-app-drawer#guide,"{'id': 'guide', 'align': 'start', 'role': 'navigation', 'class': 'style-scope ytd-app', 'style': 'transition-duration: 200ms; touch-action: pan-y;', 'position': 'left', 'swipe-open': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#scrim,"{'id': 'scrim', 'class': 'style-scope tp-yt-app-drawer', 'style': 'transition-duration: 200ms;'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#contentContainer,"{'id': 'contentContainer', 'class': 'style-scope tp-yt-app-drawer', 'position': 'left', 'style': 'transition-duration: 200ms;', 'swipe-open': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#guide-wrapper,"{'id': 'guide-wrapper', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#guide-spacer,"{'id': 'guide-spacer', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#guide-content,"{'id': 'guide-content', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#header,"{'id': 'header', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#guide-button,"{'id': 'guide-button', 'pressed': 'true', 'toggleable': 'true', 'class': 'style-scope ytd-app', 'aria-label': 'Guide', 'role': 'button'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-pressed': 'true'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#guide-icon,"{'id': 'guide-icon', 'icon': 'yt-icons:menu', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#guide-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-topbar-logo-renderer,ytd-topbar-logo-renderer,unknown,container,False,False,False,,div#header > ytd-topbar-logo-renderer,{'class': 'style-scope ytd-app'}
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,a#logo,"{'class': 'yt-simple-endpoint style-scope ytd-topbar-logo-renderer', 'id': 'logo', 'aria-label': '', 'href': '/', 'title': 'YouTube Home'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,a#logo > div,{'class': 'style-scope ytd-topbar-logo-renderer'}
+https://www.youtube.com/,ytd-logo,ytd-logo,unknown,container,False,False,False,,a#logo > div > ytd-logo,"{'class': 'style-scope ytd-topbar-logo-renderer', 'enable-refresh-ringo2-web': ''}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#logo-icon,"{'id': 'logo-icon', 'class': 'style-scope ytd-logo'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#logo-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,ytd-yoodle-renderer,ytd-yoodle-renderer,unknown,container,False,False,False,,a#logo > ytd-yoodle-renderer,"{'class': 'style-scope ytd-topbar-logo-renderer', 'hidden': ''}"
+https://www.youtube.com/,picture,picture,media,media,False,False,False,,a#logo > ytd-yoodle-renderer > picture,{'class': 'style-scope ytd-yoodle-renderer'}
+https://www.youtube.com/,source,source,media,media,False,False,False,,a#logo > ytd-yoodle-renderer > picture > source,"{'type': 'image/webp', 'class': 'style-scope ytd-yoodle-renderer', 'srcset': ''}"
+https://www.youtube.com/,img,img,media,media,False,False,False,,a#logo > ytd-yoodle-renderer > picture > img,"{'class': 'style-scope ytd-yoodle-renderer', 'src': ''}"
+https://www.youtube.com/,ytd-logo,ytd-logo,unknown,container,False,False,False,,a#logo > ytd-yoodle-renderer > ytd-logo,"{'class': 'style-scope ytd-yoodle-renderer', 'enable-refresh-ringo2-web': '', 'hidden': ''}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#logo-icon,"{'id': 'logo-icon', 'class': 'style-scope ytd-logo'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#logo-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,ytd-lottie-player,ytd-lottie-player,unknown,container,False,False,False,,a#logo > ytd-yoodle-renderer > ytd-lottie-player,{'class': 'style-scope ytd-yoodle-renderer'}
+https://www.youtube.com/,span,span,container,container,False,False,False,,span#country-code,"{'id': 'country-code', 'class': 'style-scope ytd-topbar-logo-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#guide-inner-content,"{'id': 'guide-inner-content', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,dom-if,dom-if,unknown,container,False,False,False,,div#guide-inner-content > dom-if,{'class': 'style-scope ytd-app'}
+https://www.youtube.com/,ytd-mini-guide-renderer,ytd-mini-guide-renderer,navigation,navigation,False,True,True,"Home
+Shorts
+Subscriptions
+You
+History",div#content > ytd-mini-guide-renderer,"{'class': 'style-scope ytd-app', 'role': 'navigation', 'mini-guide-visible': ''}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"Home
+Shorts
+Subscriptions
+You
+History",div#items,"{'id': 'items', 'class': 'style-scope ytd-mini-guide-renderer'}"
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,Home,div#items > ytd-mini-guide-entry-renderer,"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'true', 'is-active': '', 'aria-label': 'Home'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,Home,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'Home', 'href': '/'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,True,False,,yt-icon#icon,"{'id': 'icon', 'class': 'guide-icon style-scope ytd-mini-guide-entry-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,yt-icon#icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,span,span,container,container,False,True,True,Home,a#endpoint > span,{'class': 'title style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,True,Home,a#endpoint > tp-yt-paper-tooltip,"{'animation-delay': '0', 'offset': '4', 'position': 'right', 'class': 'style-scope ytd-mini-guide-entry-renderer', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip', 'hidden': '', 'style': '--paper-tooltip-delay-in: 0ms;'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,Home,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,yt-interaction,div,container,container,False,True,False,,a#endpoint > yt-interaction,{'class': 'style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,Shorts,div#items > ytd-mini-guide-entry-renderer:nth-of-type(2),"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'false', 'aria-label': 'Shorts'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,Shorts,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'Shorts'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,True,False,,yt-icon#icon,"{'id': 'icon', 'class': 'guide-icon style-scope ytd-mini-guide-entry-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,yt-icon#icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,span,span,container,container,False,True,True,Shorts,a#endpoint > span,{'class': 'title style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,True,Shorts,a#endpoint > tp-yt-paper-tooltip,"{'animation-delay': '0', 'offset': '4', 'position': 'right', 'class': 'style-scope ytd-mini-guide-entry-renderer', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip', 'hidden': '', 'style': '--paper-tooltip-delay-in: 0ms;'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,Shorts,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,yt-interaction,div,container,container,False,True,False,,a#endpoint > yt-interaction,{'class': 'style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,Subscriptions,div#items > ytd-mini-guide-entry-renderer:nth-of-type(3),"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'false', 'aria-label': 'Subscriptions'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,Subscriptions,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'Subscriptions', 'href': '/feed/subscriptions'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,True,False,,yt-icon#icon,"{'id': 'icon', 'class': 'guide-icon style-scope ytd-mini-guide-entry-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,yt-icon#icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,span,span,container,container,False,True,True,Subscriptions,a#endpoint > span,{'class': 'title style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,True,Subscriptions,a#endpoint > tp-yt-paper-tooltip,"{'animation-delay': '0', 'offset': '4', 'position': 'right', 'class': 'style-scope ytd-mini-guide-entry-renderer', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip', 'hidden': '', 'style': '--paper-tooltip-delay-in: 0ms;'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,Subscriptions,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,yt-interaction,div,container,container,False,True,False,,a#endpoint > yt-interaction,{'class': 'style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,You,div#items > ytd-mini-guide-entry-renderer:nth-of-type(4),"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'false', 'aria-label': 'You'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,You,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'You', 'href': '/feed/you'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,True,False,,yt-icon#icon,"{'id': 'icon', 'class': 'guide-icon style-scope ytd-mini-guide-entry-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,yt-icon#icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,span,span,container,container,False,True,True,You,a#endpoint > span,{'class': 'title style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,True,You,a#endpoint > tp-yt-paper-tooltip,"{'animation-delay': '0', 'offset': '4', 'position': 'right', 'class': 'style-scope ytd-mini-guide-entry-renderer', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip', 'hidden': '', 'style': '--paper-tooltip-delay-in: 0ms;'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,You,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,yt-interaction,div,container,container,False,True,False,,a#endpoint > yt-interaction,{'class': 'style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-mini-guide-entry-renderer,ytd-mini-guide-entry-renderer,interactive,interactive,True,True,True,History,div#items > ytd-mini-guide-entry-renderer:nth-of-type(5),"{'class': 'style-scope ytd-mini-guide-renderer', 'system-icons': '', 'role': 'tab', 'tabindex': '0', 'aria-selected': 'false', 'aria-label': 'History'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,True,True,History,a#endpoint,"{'id': 'endpoint', 'tabindex': '-1', 'class': 'yt-simple-endpoint style-scope ytd-mini-guide-entry-renderer', 'title': 'History', 'href': '/feed/history'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,True,False,,yt-icon#icon,"{'id': 'icon', 'class': 'guide-icon style-scope ytd-mini-guide-entry-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,True,False,,yt-icon#icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,span,span,container,container,False,True,True,History,a#endpoint > span,{'class': 'title style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,True,History,a#endpoint > tp-yt-paper-tooltip,"{'animation-delay': '0', 'offset': '4', 'position': 'right', 'class': 'style-scope ytd-mini-guide-entry-renderer', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip', 'hidden': '', 'style': '--paper-tooltip-delay-in: 0ms;'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,History,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,yt-interaction,div,container,container,False,True,False,,a#endpoint > yt-interaction,{'class': 'style-scope ytd-mini-guide-entry-renderer'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,True,False,,a#endpoint > yt-interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-page-manager,ytd-page-manager,unknown,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",ytd-page-manager#page-manager,"{'id': 'page-manager', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,ytd-browse,ytd-browse,content,content,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",ytd-page-manager#page-manager > ytd-browse,"{'class': 'style-scope ytd-page-manager', 'rounded-container': '', 'darker-dark-theme': '', 'page-subtype': 'home', 'responsive-sizing': 'COMPACT', 'role': 'main', 'mini-guide-visible': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#alert-banner,"{'id': 'alert-banner', 'class': 'style-scope ytd-browse'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#masthead-ad,"{'id': 'masthead-ad', 'class': 'style-scope ytd-browse'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#header,"{'id': 'header', 'class': 'style-scope ytd-browse'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#alerts,"{'id': 'alerts', 'class': 'style-scope ytd-browse'}"
+https://www.youtube.com/,ytd-channel-legal-info-renderer,ytd-channel-legal-info-renderer,unknown,container,False,False,False,,ytd-page-manager#page-manager > ytd-browse > ytd-channel-legal-info-renderer,"{'class': 'style-scope ytd-browse', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#text,"{'id': 'text', 'class': 'style-scope ytd-channel-legal-info-renderer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-formatted-string#text > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,tp-yt-paper-material,tp-yt-paper-material,unknown,container,False,False,False,,tp-yt-paper-material#expand-button,"{'id': 'expand-button', 'elevation': '1', 'class': 'style-scope ytd-channel-legal-info-renderer'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,tp-yt-paper-material#expand-button > yt-icon-button,"{'class': 'style-scope ytd-channel-legal-info-renderer', 'role': 'button', 'aria-label': 'yt-icon-button'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#expander-icon,"{'id': 'expander-icon', 'class': 'style-scope ytd-channel-legal-info-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#expander-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,ytd-playlist-sidebar-renderer,ytd-playlist-sidebar-renderer,unknown,container,False,False,False,,ytd-page-manager#page-manager > ytd-browse > ytd-playlist-sidebar-renderer,"{'class': 'style-scope ytd-browse', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#items,"{'id': 'items', 'class': 'style-scope ytd-playlist-sidebar-renderer'}"
+https://www.youtube.com/,ytd-playlist-header-renderer,ytd-playlist-header-renderer,unknown,container,False,False,False,,ytd-page-manager#page-manager > ytd-browse > ytd-playlist-header-renderer,"{'class': 'style-scope ytd-browse', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,ytd-settings-sidebar-renderer,ytd-settings-sidebar-renderer,unknown,container,False,False,False,,ytd-page-manager#page-manager > ytd-browse > ytd-settings-sidebar-renderer,"{'class': 'style-scope ytd-browse', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#title,"{'id': 'title', 'class': 'style-scope ytd-settings-sidebar-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#items,"{'id': 'items', 'class': 'style-scope ytd-settings-sidebar-renderer'}"
+https://www.youtube.com/,dom-if,dom-if,unknown,container,False,False,False,,ytd-page-manager#page-manager > ytd-browse > dom-if,{'class': 'style-scope ytd-browse'}
+https://www.youtube.com/,ytd-two-column-browse-results-renderer,ytd-two-column-browse-results-renderer,unknown,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",ytd-page-manager#page-manager > ytd-browse > ytd-two-column-browse-results-renderer,"{'class': 'style-scope ytd-browse grid grid-disabled', 'page-subtype': 'home', 'disable-grid-state-aware': '', 'style': 'touch-action: pan-down;'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#primary,"{'id': 'primary', 'class': 'style-scope ytd-two-column-browse-results-renderer'}"
+https://www.youtube.com/,ytd-rich-grid-renderer,ytd-rich-grid-renderer,unknown,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#primary > ytd-rich-grid-renderer,"{'class': 'style-scope ytd-two-column-browse-results-renderer', 'elements-per-row': '3', 'is-default-grid': '', 'style': '--ytd-rich-grid-item-max-width: 500px; --ytd-rich-grid-item-min-width: 310px; --ytd-rich-grid-items-per-row: 3; --ytd-rich-grid-item-margin: 16px; --ytd-rich-grid-posts-per-row: 3; --ytd-rich-grid-slim-items-per-row: 5; --ytd-rich-grid-game-cards-per-row: 5; --ytd-rich-grid-mini-game-cards-per-row: 5; --ytd-rich-grid-content-offset-top: 56px;'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#header,"{'id': 'header', 'class': 'style-scope ytd-rich-grid-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#big-yoodle,"{'id': 'big-yoodle', 'class': 'style-scope ytd-rich-grid-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#masthead-ad,"{'id': 'masthead-ad', 'class': 'style-scope ytd-rich-grid-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#title-container,"{'id': 'title-container', 'class': 'style-scope ytd-rich-grid-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#title,"{'id': 'title', 'class': 'style-scope ytd-rich-grid-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinner-container,"{'id': 'spinner-container', 'class': 'style-scope ytd-rich-grid-renderer'}"
+https://www.youtube.com/,tp-yt-paper-spinner-lite,tp-yt-paper-spinner-lite,unknown,container,False,False,False,,div#spinner-container > tp-yt-paper-spinner-lite,"{'class': 'style-scope ytd-rich-grid-renderer', 'aria-hidden': 'true', 'aria-label': 'loading'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer,"{'id': 'spinnerContainer', 'class': '  style-scope tp-yt-paper-spinner-lite'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div,{'class': 'spinner-layer style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div > div,{'class': 'circle-clipper left style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div > div > div,{'class': 'circle style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div > div:nth-of-type(2),{'class': 'circle-clipper right style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div > div:nth-of-type(2) > div,{'class': 'circle style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#contents,"{'id': 'contents', 'class': 'style-scope ytd-rich-grid-renderer'}"
+https://www.youtube.com/,ytd-rich-section-renderer,ytd-rich-section-renderer,unknown,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#contents > ytd-rich-section-renderer,{'class': 'style-scope ytd-rich-grid-renderer'}
+https://www.youtube.com/,div,div,container,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#content,"{'id': 'content', 'class': 'style-scope ytd-rich-section-renderer'}"
+https://www.youtube.com/,ytd-feed-nudge-renderer,ytd-feed-nudge-renderer,unknown,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#content > ytd-feed-nudge-renderer,"{'class': 'style-scope ytd-rich-section-renderer', 'rounded-container': '', 'button-update': '', 'nudge-style': 'modernized-nudge', 'trim-style': 'no-trim', 'background-style': 'FEED_NUDGE_BACKGROUND_STYLE_UNKNOWN', 'contents-location': 'FEED_NUDGE_CONTENTS_LOCATION_UNKNOWN', 'no-icon': ''}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#dismissible,"{'id': 'dismissible', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#dismiss-button,"{'id': 'dismiss-button', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#content-wrapper,"{'id': 'content-wrapper', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#header-container,"{'id': 'header-container', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#image-container,"{'id': 'image-container', 'class': 'style-scope ytd-feed-nudge-renderer', 'hidden': ''}"
+https://www.youtube.com/,yt-img-shadow,yt-img-shadow,unknown,container,False,False,False,,yt-img-shadow#nudge-image,"{'id': 'nudge-image', 'height': '32', 'class': 'style-scope ytd-feed-nudge-renderer no-transition'}"
+https://www.youtube.com/,img,img,media,media,False,False,False,,img#img,"{'id': 'img', 'draggable': 'false', 'class': 'style-scope yt-img-shadow', 'alt': '', 'height': '32'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,"Try searching to get started
+Start watching videos to help us build a feed of videos you'll love.",div#text-container,"{'id': 'text-container', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,Try searching to get started,div#title-container,"{'id': 'title-container', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,True,True,Try searching to get started,yt-formatted-string#title,"{'id': 'title', 'class': 'style-scope ytd-feed-nudge-renderer', 'aria-label': 'Try searching to get started'}"
+https://www.youtube.com/,div,div,container,container,False,True,True,Start watching videos to help us build a feed of videos you'll love.,div#subtitle-container,"{'id': 'subtitle-container', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,True,True,Start watching videos to help us build a feed of videos you'll love.,yt-formatted-string#subtitle,"{'id': 'subtitle', 'split-lines': '', 'class': 'style-scope ytd-feed-nudge-renderer', 'aria-label': ""Start watching videos to help us build a feed of videos you'll love.""}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#contents,"{'id': 'contents', 'class': 'style-scope ytd-feed-nudge-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#button-container,"{'id': 'button-container', 'class': 'style-scope ytd-feed-nudge-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#primary-button,"{'id': 'primary-button', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#secondary-button,"{'id': 'secondary-button', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#dismissed,"{'id': 'dismissed', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#dismissed-content,"{'id': 'dismissed-content', 'class': 'style-scope ytd-feed-nudge-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#secondary,"{'id': 'secondary', 'class': 'style-scope ytd-two-column-browse-results-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#survey,"{'id': 'survey', 'class': 'style-scope ytd-browse'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#metadata,"{'id': 'metadata', 'class': 'style-scope ytd-browse'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#footer,"{'id': 'footer', 'class': 'style-scope ytd-browse'}"
+https://www.youtube.com/,ytd-refresh,ytd-refresh,unknown,container,False,False,False,,ytd-refresh#refresh,"{'id': 'refresh', 'class': 'style-scope ytd-browse', 'style': 'opacity: 0;'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#icon,"{'id': 'icon', 'icon': 'refresh', 'class': 'style-scope ytd-refresh', 'style': 'transform: rotate(180deg); opacity: 0.3;'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,tp-yt-paper-spinner-lite,tp-yt-paper-spinner-lite,unknown,container,False,False,False,,ytd-refresh#refresh > tp-yt-paper-spinner-lite,"{'class': 'style-scope ytd-refresh', 'hidden': '', 'aria-hidden': 'true', 'aria-label': 'loading'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer,"{'id': 'spinnerContainer', 'class': '  style-scope tp-yt-paper-spinner-lite'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div,{'class': 'spinner-layer style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div > div,{'class': 'circle-clipper left style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div > div > div,{'class': 'circle style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div > div:nth-of-type(2),{'class': 'circle-clipper right style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#spinnerContainer > div > div:nth-of-type(2) > div,{'class': 'circle style-scope tp-yt-paper-spinner-lite'}
+https://www.youtube.com/,ytd-watch-flexy,ytd-watch-flexy,unknown,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details
+
+            
+          
+        
+        
+        
+      
+      
+        
+        
+        
+        
+        
+  
+    
+    
+    
+      
+    
+    
+    
+  
+
+  
+    
+      
+  
+    
+  
+  
+  
+    
+  
+
+
+
+
+
+
+      
+    
+    
+  
+      
+        
+      
+    
+
+  
+
+  
+    
+      
+        
+  
+    
+    
+    
+  
+  
+    
+    
+    
+  
+  
+  
+
+
+  
+
+
+
+        
+        
+        
+        
+          
+          
+          
+          
+          
+          
+          
+          
+
+
+           
+
+        
+         … 
+ 
+
+            
+
+            
+
+
+           
+
+      
+      
+    
+    
+    
+    
+  
+
+
+
+
+
+
+        
+          
+            
+            
+  
+
+
+   
+
+
+
+          
+          
+            
+            
+          
+        
+        
+        
+        
+        
+        
+        
+      
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+        
+        
+      NaN / NaN",ytd-page-manager#page-manager > ytd-watch-flexy,"{'class': 'style-scope ytd-page-manager watch-root-element', 'hidden': '', 'js-panel-height_': '', 'flexy-enable-small-window-sizing': '', 'flexy-enable-large-window-sizing': '', 'cinematics-enabled': '', 'rounded-player-large': '', 'flexy': '', 'rounded-info-panel': '', 'is-four-three-to-sixteen-nine-video_': '', 'default-layout': '', 'is-two-columns_': '', 'default-two-column-layout': '', 'flexy-small-window_': '', 'watch-metadata-refresh': '', 'has-metadata': '', 'style': '--ytd-watch-flexy-scrollbar-width: 16px; --ytd-watch-flexy-max-player-width-wide-screen: 1280px; --ytd-watch-flexy-space-below-player: 136px;'}"
+https://www.youtube.com/,iron-media-query,iron-media-query,unknown,container,False,False,False,,iron-media-query#two-column-query,"{'id': 'two-column-query', 'class': 'style-scope ytd-watch-flexy', 'style': 'display: none;'}"
+https://www.youtube.com/,iron-media-query,iron-media-query,unknown,container,False,False,False,,iron-media-query#small-window-query,"{'id': 'small-window-query', 'class': 'style-scope ytd-watch-flexy', 'style': 'display: none;'}"
+https://www.youtube.com/,iron-media-query,iron-media-query,unknown,container,False,False,False,,iron-media-query#large-window-query,"{'id': 'large-window-query', 'class': 'style-scope ytd-watch-flexy', 'style': 'display: none;'}"
+https://www.youtube.com/,iron-media-query,iron-media-query,unknown,container,False,False,False,,iron-media-query#watch-while-query,"{'id': 'watch-while-query', 'class': 'style-scope ytd-watch-flexy', 'style': 'display: none;'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#microformat,"{'id': 'microformat', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#miniplayer-bar,"{'id': 'miniplayer-bar', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#full-bleed-container,"{'id': 'full-bleed-container', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#player-full-bleed-container,"{'id': 'player-full-bleed-container', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#cinematics-full-bleed-container,"{'id': 'cinematics-full-bleed-container', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#panels-full-bleed-container,"{'id': 'panels-full-bleed-container', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#single-column-container,"{'id': 'single-column-container', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details
+
+            
+          
+        
+        
+        
+      
+      
+        
+        
+        
+        
+        
+  
+    
+    
+    
+      
+    
+    
+    
+  
+
+  
+    
+      
+  
+    
+  
+  
+  
+    
+  
+
+
+
+
+
+
+      
+    
+    
+  
+      
+        
+      
+    
+
+  
+
+  
+    
+      
+        
+  
+    
+    
+    
+  
+  
+    
+    
+    
+  
+  
+  
+
+
+  
+
+
+
+        
+        
+        
+        
+          
+          
+          
+          
+          
+          
+          
+          
+
+
+           
+
+        
+         … 
+ 
+
+            
+
+            
+
+
+           
+
+      
+      
+    
+    
+    
+    
+  
+
+
+
+
+
+
+        
+          
+            
+            
+  
+
+
+   
+
+
+
+          
+          
+            
+            
+          
+        
+        
+        
+        
+        
+        
+        
+      
+    
+  
+
+  
+    
+      
+      
+      
+      
+      
+    
+        
+        
+      NaN / NaN",div#columns,"{'id': 'columns', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details
+
+            
+          
+        
+        
+        
+      
+      
+        
+        
+        
+        
+        
+  
+    
+    
+    
+      
+    
+    
+    
+  
+
+  
+    
+      
+  
+    
+  
+  
+  
+    
+  
+
+
+
+
+
+
+      
+    
+    
+  
+      
+        
+      
+    
+
+  
+
+  
+    
+      
+        
+  
+    
+    
+    
+  
+  
+    
+    
+    
+  
+  
+  
+
+
+  
+
+
+
+        
+        
+        
+        
+          
+          
+          
+          
+          
+          
+          
+          
+
+
+           
+
+        
+         …",div#primary,"{'id': 'primary', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details
+
+            
+          
+        
+        
+        
+      
+      
+        
+        
+        
+        
+        
+  
+    
+    
+    
+      
+    
+    
+    
+  
+
+  
+    
+      
+  
+    
+  
+  
+  
+    
+  
+
+
+
+
+
+
+      
+    
+    
+  
+      
+        
+      
+    
+
+  
+
+  
+    
+      
+        
+  
+    
+    
+    
+  
+  
+    
+    
+    
+  
+  
+  
+
+
+  
+
+
+
+        
+        
+        
+        
+          
+          
+          
+          
+          
+          
+          
+          
+
+
+           
+
+        
+         …",div#primary-inner,"{'id': 'primary-inner', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details",div#player,"{'id': 'player', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#cinematics-container,"{'id': 'cinematics-container', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#cinematics,"{'id': 'cinematics', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details",div#player-container-outer,"{'id': 'player-container-outer', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details",div#player-container-inner,"{'id': 'player-container-inner', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details",div#player-container,"{'id': 'player-container', 'role': 'complementary', 'class': 'style-scope ytd-watch-flexy', 'style': 'touch-action: auto;'}"
+https://www.youtube.com/,ytd-player,ytd-player,unknown,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details",ytd-player#ytd-player,"{'id': 'ytd-player', 'context': 'WEB_PLAYER_CONTEXT_CONFIG_ID_KEVLAR_WATCH', 'class': 'style-scope ytd-watch-flexy', 'style': 'touch-action: pan-down;'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details",div#container,"{'id': 'container', 'class': 'style-scope ytd-player'}"
+https://www.youtube.com/,yt-playability-error-supported-renderers,yt-playability-error-supported-renderers,unknown,container,False,False,False,,yt-playability-error-supported-renderers#error-screen,"{'id': 'error-screen', 'class': 'style-scope ytd-watch-flexy', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,True,…,div#below,"{'id': 'below', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#alerts,"{'id': 'alerts', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#messages,"{'id': 'messages', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#clarify-box,"{'id': 'clarify-box', 'class': 'attached-message style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#limited-state,"{'id': 'limited-state', 'class': 'attached-message style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,ytd-watch-metadata,ytd-watch-metadata,unknown,container,False,False,True,…,div#below > ytd-watch-metadata,"{'is-watch-flexy': '', 'class': 'watch-active-metadata style-scope ytd-watch-flexy style-scope ytd-watch-flexy', 'description-collapsed': '', 'video-id': '', 'title-headline-xs': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,True,…,div#above-the-fold,"{'id': 'above-the-fold', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#title,"{'id': 'title', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#title > ytd-badge-supported-renderer,"{'class': 'style-scope ytd-watch-metadata', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,h1,h1,content,content,False,False,False,,div#title > h1,{'class': 'style-scope ytd-watch-metadata'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#title > h1 > yt-formatted-string,"{'force-default-style': '', 'class': 'style-scope ytd-watch-metadata', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#title > h1 > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#title > ytd-badge-supported-renderer:nth-of-type(2),"{'class': 'style-scope ytd-watch-metadata', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#top-row,"{'id': 'top-row', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#owner,"{'id': 'owner', 'class': 'item style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,ytd-video-owner-renderer,ytd-video-owner-renderer,unknown,container,False,False,False,,div#owner > ytd-video-owner-renderer,"{'watch-metadata-refresh': '', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#owner > ytd-video-owner-renderer > a,"{'class': 'yt-simple-endpoint style-scope ytd-video-owner-renderer', 'tabindex': '-1'}"
+https://www.youtube.com/,yt-img-shadow,yt-img-shadow,unknown,container,False,False,False,,yt-img-shadow#avatar,"{'id': 'avatar', 'width': '40', 'class': 'style-scope ytd-video-owner-renderer no-transition'}"
+https://www.youtube.com/,img,img,media,media,False,False,False,,img#img,"{'id': 'img', 'draggable': 'false', 'class': 'style-scope yt-img-shadow', 'alt': '', 'width': '40'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#upload-info,"{'id': 'upload-info', 'class': 'style-scope ytd-video-owner-renderer'}"
+https://www.youtube.com/,ytd-channel-name,ytd-channel-name,unknown,container,False,False,False,,ytd-channel-name#channel-name,"{'id': 'channel-name', 'class': 'style-scope ytd-video-owner-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-channel-name'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#text-container,"{'id': 'text-container', 'class': 'style-scope ytd-channel-name'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#text,"{'id': 'text', 'link-inherit-color': '', 'respect-lang-dir': '', 'title': '', 'class': 'style-scope ytd-channel-name', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate': '', 'ellipsis-truncate-styling': '', 'dir': 'auto', 'style': 'text-align: left;'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-formatted-string#text > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,False,,div#container > tp-yt-paper-tooltip,"{'fit-to-visible-bounds': '', 'class': 'style-scope ytd-channel-name', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,ytd-channel-name#channel-name > ytd-badge-supported-renderer,"{'class': 'style-scope ytd-channel-name', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#owner-sub-count,"{'id': 'owner-sub-count', 'class': 'style-scope ytd-video-owner-renderer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-formatted-string#owner-sub-count > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#purchase-button,"{'id': 'purchase-button', 'class': 'style-scope ytd-video-owner-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#sponsor-button,"{'id': 'sponsor-button', 'class': 'style-scope ytd-video-owner-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#analytics-button,"{'id': 'analytics-button', 'class': 'style-scope ytd-video-owner-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#subscribe-button,"{'id': 'subscribe-button', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#actions,"{'id': 'actions', 'class': 'item style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#actions-inner,"{'id': 'actions-inner', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#menu,"{'id': 'menu', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#middle-row,"{'id': 'middle-row', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,…,div#bottom-row,"{'id': 'bottom-row', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,…,div#description,"{'id': 'description', 'class': 'item style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,…,div#description-inner,"{'id': 'description-inner', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,ytd-watch-info-text,ytd-watch-info-text,unknown,container,False,False,False,,ytd-watch-info-text#ytd-watch-info-text,"{'id': 'ytd-watch-info-text', 'class': 'style-scope ytd-watch-metadata', 'view-count-props': '{""numberText"":"""",""heightPx"":20,""shouldAnimate"":false}', 'date-text-props': '{""numberText"":"""",""heightPx"":20,""shouldAnimate"":false}'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info-container,"{'id': 'info-container', 'class': 'style-scope ytd-watch-info-text'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#view-count,"{'id': 'view-count', 'class': 'style-scope ytd-watch-info-text', 'aria-label': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#view-count > yt-formatted-string,"{'aria-hidden': 'true', 'class': 'style-scope ytd-watch-info-text', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#view-count > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,yt-animated-rolling-number,yt-animated-rolling-number,unknown,container,False,False,False,,div#view-count > yt-animated-rolling-number,"{'class': 'animated-rolling-number-wiz style-scope ytd-watch-info-text', 'dir': 'ltr', 'aria-hidden': 'true', 'style': 'height: 20px; line-height: 20px;'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#view-count > yt-formatted-string:nth-of-type(2),"{'aria-hidden': 'true', 'class': 'style-scope ytd-watch-info-text', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#view-count > yt-formatted-string:nth-of-type(2) > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#date-text,"{'id': 'date-text', 'class': 'style-scope ytd-watch-info-text', 'aria-label': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#date-text > yt-formatted-string,"{'aria-hidden': 'true', 'class': 'style-scope ytd-watch-info-text', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#date-text > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,yt-animated-rolling-number,yt-animated-rolling-number,unknown,container,False,False,False,,div#date-text > yt-animated-rolling-number,"{'class': 'animated-rolling-number-wiz style-scope ytd-watch-info-text', 'dir': 'ltr', 'aria-hidden': 'true', 'style': 'height: 20px; line-height: 20px;'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#date-text > yt-formatted-string:nth-of-type(2),"{'aria-hidden': 'true', 'class': 'style-scope ytd-watch-info-text', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#date-text > yt-formatted-string:nth-of-type(2) > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#info,"{'id': 'info', 'class': 'style-scope ytd-watch-info-text', 'is-empty': ''}"
+https://www.youtube.com/,ps-dom-if,ps-dom-if,unknown,container,False,False,False,,div#info-container > ps-dom-if,{'class': 'style-scope ytd-watch-info-text'}
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,False,,ytd-watch-info-text#ytd-watch-info-text > tp-yt-paper-tooltip,"{'class': 'style-scope ytd-watch-info-text', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,dom-if,dom-if,unknown,container,False,False,False,,dom-if#product-shelf,"{'restamp': '', 'id': 'product-shelf', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#description-placeholder,"{'id': 'description-placeholder', 'class': 'style-scope ytd-watch-metadata', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-formatted-string#description-placeholder > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#description-text-container,"{'id': 'description-text-container', 'class': 'style-scope ytd-watch-metadata', 'hidden': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-attributed-string#attributed-description-text,"{'id': 'attributed-description-text', 'user-input': '', 'class': 'style-scope ytd-watch-metadata', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#formatted-description-text,"{'id': 'formatted-description-text', 'class': 'style-scope ytd-watch-metadata', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,ytd-structured-description-content-renderer,ytd-structured-description-content-renderer,unknown,container,False,False,False,,ytd-structured-description-content-renderer#faded-structured-description,"{'id': 'faded-structured-description', 'inline-structured-description': '', 'class': 'style-scope ytd-watch-metadata', 'disable-upgrade': ''}"
+https://www.youtube.com/,ytd-metadata-row-container-renderer,ytd-metadata-row-container-renderer,unknown,container,False,False,False,,div#description-text-container > ytd-metadata-row-container-renderer,"{'class': 'style-scope ytd-watch-metadata', 'disable-upgrade': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#always-shown,"{'id': 'always-shown', 'class': 'style-scope ytd-metadata-row-container-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#collapsible,"{'id': 'collapsible', 'class': 'style-scope ytd-metadata-row-container-renderer'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#collapse-button,"{'id': 'collapse-button', 'class': 'button style-scope ytd-watch-metadata', 'hidden': '', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,ytd-text-inline-expander,ytd-text-inline-expander,unknown,container,False,False,True,…,ytd-text-inline-expander#description-inline-expander,"{'id': 'description-inline-expander', 'always-show-expand-button': '', 'class': 'style-scope ytd-watch-metadata', 'show-expand-button': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,ytd-text-inline-expander#description-inline-expander > yt-attributed-string,"{'user-input': '', 'class': 'style-scope ytd-text-inline-expander', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,ytd-text-inline-expander#description-inline-expander > yt-formatted-string,"{'disable-attributed-string': '', 'class': 'style-scope ytd-text-inline-expander', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,True,…,div#snippet,"{'id': 'snippet', 'class': 'style-scope ytd-text-inline-expander', 'style': 'overflow: hidden; max-height: 6rem;'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,span#snippet-text,"{'id': 'snippet-text', 'class': 'style-scope ytd-text-inline-expander'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,span#plain-snippet-text,"{'id': 'plain-snippet-text', 'class': 'style-scope ytd-text-inline-expander'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,yt-attributed-string#attributed-snippet-text,"{'id': 'attributed-snippet-text', 'user-input': '', 'class': 'style-scope ytd-text-inline-expander', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,yt-formatted-string#formatted-snippet-text,"{'id': 'formatted-snippet-text', 'disable-attributed-string': '', 'class': 'style-scope ytd-text-inline-expander', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,div#snippet > span:nth-of-type(2),{'class': 'style-scope ytd-text-inline-expander'}
+https://www.youtube.com/,span,span,container,container,False,False,True,…,span#ellipsis,"{'id': 'ellipsis', 'class': 'style-scope ytd-text-inline-expander', 'hidden': ''}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#expand-sizer,"{'id': 'expand-sizer', 'class': 'button style-scope ytd-text-inline-expander', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#expand,"{'id': 'expand', 'class': 'button style-scope ytd-text-inline-expander', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false', 'style': 'left: 0px;'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,ytd-text-inline-expander#description-inline-expander > div:nth-of-type(2),"{'slot': 'extra-content', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,ytd-structured-description-content-renderer,ytd-structured-description-content-renderer,unknown,container,False,False,False,,ytd-structured-description-content-renderer#structured-description,"{'id': 'structured-description', 'inline-structured-description': '', 'class': 'style-scope ytd-watch-metadata', 'modern': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#items,"{'id': 'items', 'class': 'style-scope ytd-structured-description-content-renderer'}"
+https://www.youtube.com/,ytd-metadata-row-container-renderer,ytd-metadata-row-container-renderer,unknown,container,False,False,False,,ytd-text-inline-expander#description-inline-expander > div:nth-of-type(2) > ytd-metadata-row-container-renderer,"{'class': 'style-scope ytd-watch-metadata', 'disable-upgrade': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#always-shown,"{'id': 'always-shown', 'class': 'style-scope ytd-metadata-row-container-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#collapsible,"{'id': 'collapsible', 'class': 'style-scope ytd-metadata-row-container-renderer'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#collapse,"{'id': 'collapse', 'class': 'button style-scope ytd-text-inline-expander', 'hidden': '', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,yt-interaction,div,container,container,False,False,False,,yt-interaction#description-interaction,"{'id': 'description-interaction', 'class': 'rounded-large style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#description-interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#description-interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#bottom-actions,"{'id': 'bottom-actions', 'class': 'style-scope ytd-watch-metadata'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#comment-teaser,"{'id': 'comment-teaser', 'class': 'item style-scope ytd-watch-metadata', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#teaser-carousel,"{'id': 'teaser-carousel', 'class': 'item style-scope ytd-watch-metadata', 'hidden': ''}"
+https://www.youtube.com/,ytd-metadata-row-container-renderer,ytd-metadata-row-container-renderer,unknown,container,False,False,False,,div#below > ytd-watch-metadata > ytd-metadata-row-container-renderer,{'class': 'style-scope ytd-watch-metadata'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#always-shown,"{'id': 'always-shown', 'class': 'style-scope ytd-metadata-row-container-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#collapsible,"{'id': 'collapsible', 'class': 'style-scope ytd-metadata-row-container-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#below > div:nth-of-type(5),{'class': ' style-scope ytd-watch-flexy style-scope ytd-watch-flexy'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info,"{'id': 'info', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info-skeleton,"{'id': 'info-skeleton', 'class': 'watch-skeleton style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info-contents,"{'id': 'info-contents', 'class': 'style-scope ytd-watch-flexy', 'hidden': ''}"
+https://www.youtube.com/,ytd-video-primary-info-renderer,ytd-video-primary-info-renderer,unknown,container,False,False,False,,div#info-contents > ytd-video-primary-info-renderer,{'class': 'style-scope ytd-watch-flexy'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-video-primary-info-renderer'}"
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#container > ytd-badge-supported-renderer,"{'class': 'style-scope ytd-video-primary-info-renderer', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,div#container > a,"{'class': 'yt-simple-endpoint style-scope ytd-video-primary-info-renderer', 'hidden': ''}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,div#container > a > yt-icon,"{'class': 'super-title-icon style-scope ytd-video-primary-info-renderer', 'icon': 'yt-icons:location_pin'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,div#container > a > yt-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#container > yt-formatted-string,"{'class': 'super-title style-scope ytd-video-primary-info-renderer', 'force-default-style': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#container > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,h1,h1,content,content,False,False,False,,div#container > h1,{'class': 'title style-scope ytd-video-primary-info-renderer'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#container > h1 > yt-formatted-string,"{'force-default-style': '', 'class': 'style-scope ytd-video-primary-info-renderer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#container > h1 > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#container > ytd-badge-supported-renderer:nth-of-type(2),"{'class': 'style-scope ytd-video-primary-info-renderer', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info,"{'id': 'info', 'class': 'style-scope ytd-video-primary-info-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info-text,"{'id': 'info-text', 'class': 'style-scope ytd-video-primary-info-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#count,"{'id': 'count', 'class': 'style-scope ytd-video-primary-info-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#info-strings,"{'id': 'info-strings', 'class': 'style-scope ytd-video-primary-info-renderer', 'hidden': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,span#dot,"{'id': 'dot', 'class': 'style-scope ytd-video-primary-info-renderer', 'hidden': ''}"
+https://www.youtube.com/,ps-dom-repeat,ps-dom-repeat,unknown,container,False,False,False,,div#info-strings > ps-dom-repeat,{'class': 'style-scope ytd-video-primary-info-renderer'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#flex,"{'id': 'flex', 'class': 'style-scope ytd-video-primary-info-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#menu-container,"{'id': 'menu-container', 'class': 'style-scope ytd-video-primary-info-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#menu,"{'id': 'menu', 'class': 'style-scope ytd-video-primary-info-renderer'}"
+https://www.youtube.com/,ytd-sentiment-bar-renderer,ytd-sentiment-bar-renderer,unknown,container,False,False,False,,ytd-sentiment-bar-renderer#sentiment,"{'id': 'sentiment', 'class': 'style-scope ytd-video-primary-info-renderer', 'system-icons': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-sentiment-bar-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#like-bar,"{'id': 'like-bar', 'class': 'style-scope ytd-sentiment-bar-renderer'}"
+https://www.youtube.com/,tp-yt-paper-tooltip,tp-yt-paper-tooltip,unknown,container,False,False,False,,ytd-sentiment-bar-renderer#sentiment > tp-yt-paper-tooltip,"{'position': 'top', 'class': 'style-scope ytd-sentiment-bar-renderer', 'role': 'tooltip', 'tabindex': '-1', 'aria-label': 'tooltip'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#tooltip,"{'id': 'tooltip', 'class': 'hidden style-scope tp-yt-paper-tooltip', 'style-target': 'tooltip'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#meta,"{'id': 'meta', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#meta-skeleton,"{'id': 'meta-skeleton', 'class': 'watch-skeleton style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#meta-contents,"{'id': 'meta-contents', 'class': 'style-scope ytd-watch-flexy', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#expandable-metadata,"{'id': 'expandable-metadata', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#ticket-shelf,"{'id': 'ticket-shelf', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,dom-if,dom-if,unknown,container,False,False,False,,dom-if#merch-shelf,"{'restamp': '', 'id': 'merch-shelf', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,ytd-comments,ytd-comments,unknown,container,False,False,False,,ytd-comments#comments,"{'id': 'comments', 'class': 'style-scope ytd-watch-flexy', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#secondary,"{'id': 'secondary', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#secondary-inner,"{'id': 'secondary-inner', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#panels,"{'id': 'panels', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,ytd-watch-engagement-panels,ytd-watch-engagement-panels,unknown,container,False,False,False,,div#panels > ytd-watch-engagement-panels,"{'class': 'style-scope ytd-watch-flexy', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,ytd-playlist-panel-renderer,ytd-playlist-panel-renderer,unknown,container,False,False,True,NaN / NaN,ytd-playlist-panel-renderer#playlist,"{'id': 'playlist', 'class': 'style-scope ytd-watch-flexy', 'modern-miniplayer': '', 'js-panel-height': '', 'modern-panels': '', 'hidden': '', 'collapsible': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container,"{'id': 'container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#container > div,{'class': 'header style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-contents,"{'id': 'header-contents', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-top-row,"{'id': 'header-top-row', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#header-description,"{'id': 'header-description', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,h3,h3,content,content,False,False,False,,div#header-description > h3,{'class': 'style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#header-description > h3 > yt-formatted-string,"{'class': 'title style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'link-inherit-color': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#header-description > h3 > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,h3,h3,content,content,False,False,False,,h3#next-video-title,"{'id': 'next-video-title', 'class': 'style-scope ytd-playlist-panel-renderer', 'hidden': ''}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,span#next-label,"{'id': 'next-label', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,h3#next-video-title > yt-formatted-string,"{'ellipsis-truncate': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,h3#next-video-title > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#publisher-container,"{'id': 'publisher-container', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string,"{'class': 'byline-title style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'hidden': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,ytd-badge-supported-renderer,ytd-badge-supported-renderer,unknown,container,False,False,False,,div#publisher-container > ytd-badge-supported-renderer,"{'class': 'style-scope ytd-playlist-panel-renderer', 'disable-upgrade': '', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string:nth-of-type(2),"{'class': 'publisher style-scope ytd-playlist-panel-renderer', 'ellipsis-truncate': '', 'link-inherit-color': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}', 'ellipsis-truncate-styling': '', 'title': ''}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > yt-formatted-string:nth-of-type(2) > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,True,NaN / NaN,div#publisher-container > div,{'class': 'index-message-wrapper style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,span,span,container,container,False,False,True,NaN / NaN,div#publisher-container > div > span,{'class': 'index-message style-scope ytd-playlist-panel-renderer'}
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,div#publisher-container > div > yt-formatted-string,"{'class': 'index-message style-scope ytd-playlist-panel-renderer', 'respecthtmldir': '', 'hidden': '', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,div#publisher-container > div > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#end-actions-in-header,"{'id': 'end-actions-in-header', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overflow-menu-top-row,"{'id': 'overflow-menu-top-row', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#top-row-buttons,"{'id': 'top-row-buttons', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,button,button,interactive,interactive,True,False,False,,button#button,"{'id': 'button', 'class': 'style-scope yt-icon-button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,yt-icon,img,media,media,False,False,False,,yt-icon#trailing-icon,"{'id': 'trailing-icon', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,span,span,container,container,False,False,False,,yt-icon#trailing-icon > span,{'class': 'yt-icon-shape style-scope yt-icon yt-spec-icon-shape'}
+https://www.youtube.com/,yt-interaction,div,container,interactive,True,False,False,,yt-interaction#interaction,"{'id': 'interaction', 'class': 'circular style-scope yt-icon-button'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div,{'class': 'stroke style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,yt-interaction#interaction > div:nth-of-type(2),{'class': 'fill style-scope yt-interaction'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#playlist-actions,"{'id': 'playlist-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#start-actions,"{'id': 'start-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#playlist-action-menu,"{'id': 'playlist-action-menu', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#save-button,"{'id': 'save-button', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#end-actions,"{'id': 'end-actions', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overflow-menu,"{'id': 'overflow-menu', 'class': 'style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#content-header,"{'id': 'content-header', 'class': 'style-scope ytd-playlist-panel-renderer', 'hidden': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#items,"{'id': 'items', 'class': 'playlist-items style-scope ytd-playlist-panel-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#chat-container,"{'id': 'chat-container', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,dom-if,dom-if,unknown,container,False,False,False,,dom-if#chat-template,"{'restamp': '', 'id': 'chat-template', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#donation-shelf,"{'id': 'donation-shelf', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#related,"{'id': 'related', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#player-ads,"{'id': 'player-ads', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,ytd-watch-next-secondary-results-renderer,ytd-watch-next-secondary-results-renderer,unknown,container,False,False,False,,div#related > ytd-watch-next-secondary-results-renderer,"{'class': 'style-scope ytd-watch-flexy', 'is-two-columns': '', 'style': '--yt-img-shadow-placeholder-color: var(--yt-spec-10-percent-layer); --yt-img-shadow-min-height: 100%; --yt-img-shadow-min-width: 100%;'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#offer-module,"{'id': 'offer-module', 'class': 'style-scope ytd-watch-next-secondary-results-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#items,"{'id': 'items', 'class': 'style-scope ytd-watch-next-secondary-results-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#continuations,"{'id': 'continuations', 'class': 'style-scope ytd-watch-next-secondary-results-renderer'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#related-skeleton,"{'id': 'related-skeleton', 'class': 'watch-skeleton style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#survey,"{'id': 'survey', 'class': 'style-scope ytd-watch-flexy'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#engagement-panel-scrim,"{'id': 'engagement-panel-scrim', 'class': 'style-scope ytd-watch-flexy', 'hidden': ''}"
+https://www.youtube.com/,ytd-permission-role-bottom-bar-renderer,ytd-permission-role-bottom-bar-renderer,unknown,container,False,False,False,,html > body > ytd-app > ytd-permission-role-bottom-bar-renderer,{'class': 'style-scope ytd-app'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,html > body > ytd-app > ytd-permission-role-bottom-bar-renderer > div,"{'class': 'pom-role-text style-scope ytd-permission-role-bottom-bar-renderer', 'hidden': ''}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,False,False,,html > body > ytd-app > ytd-permission-role-bottom-bar-renderer > div > yt-formatted-string,"{'class': 'style-scope ytd-permission-role-bottom-bar-renderer', 'is-empty': 'function(){var e=Ga.apply(0,arguments);a.loggingStatus.currentExternalCall=b;a.loggingStatus.bypassProxyController=!0;var g,k=((g=a.is)!=null?g:a.tagName).toLowerCase();Yy(k,b,""PROPERTY_ACCESS_CALL_EXTERNAL"");var m;g=(m=c!=null?c:d[b])==null?void 0:m.call.apply(m,[d].concat(la(e)));a.loggingStatus.currentExternalCall=void 0;a.loggingStatus.bypassProxyController=!1;return g}'}"
+https://www.youtube.com/,yt-attributed-string,span,container,container,False,False,False,,html > body > ytd-app > ytd-permission-role-bottom-bar-renderer > div > yt-formatted-string > yt-attributed-string,{'class': 'style-scope yt-formatted-string'}
+https://www.youtube.com/,ytd-popup-container,ytd-popup-container,unknown,container,False,False,False,,html > body > ytd-app > ytd-popup-container,{'class': 'style-scope ytd-app'}
+https://www.youtube.com/,ytd-third-party-manager,ytd-third-party-manager,unknown,container,False,False,False,,html > body > ytd-app > ytd-third-party-manager,{'class': 'style-scope ytd-app'}
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#video-preview,"{'id': 'video-preview', 'class': 'style-scope ytd-app'}"
+https://www.youtube.com/,ytd-video-preview,ytd-video-preview,unknown,container,False,False,False,,div#video-preview > ytd-video-preview,"{'class': 'style-scope ytd-app', 'hidden': '', 'hide-player-controls': '', 'unround-corners-for-playback': ''}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#video-preview-container,"{'id': 'video-preview-container', 'class': 'style-scope ytd-video-preview'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#endorsement,"{'id': 'endorsement', 'class': 'style-scope ytd-video-preview'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#media-container,"{'id': 'media-container', 'class': 'style-scope ytd-video-preview'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,a#media-container-link,"{'id': 'media-container-link', 'class': 'yt-simple-endpoint style-scope ytd-video-preview'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#thumbnail-container,"{'id': 'thumbnail-container', 'class': 'style-scope ytd-video-preview'}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,False,False,,div#thumbnail-container > ytd-thumbnail,"{'hovered': 'false', 'no-rounded-corners': '', 'object-fit': 'COVER', 'rich-grid-thumbnail': '', 'width': '9999', 'class': 'style-scope ytd-video-preview', 'size': 'large', 'computed-object-fit': 'COVER'}"
+https://www.youtube.com/,a,a,navigation,interactive,True,False,False,,a#thumbnail,"{'id': 'thumbnail', 'class': 'yt-simple-endpoint inline-block style-scope ytd-thumbnail', 'aria-hidden': 'true', 'tabindex': '-1'}"
+https://www.youtube.com/,yt-image,yt-image,unknown,container,False,False,False,,a#thumbnail > yt-image,"{'alt': '', 'ftl-eligible': '', 'notify-on-loaded': '', 'notify-on-unloaded': '', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overlays,"{'id': 'overlays', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#mouseover-overlay,"{'id': 'mouseover-overlay', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#hover-overlays,"{'id': 'hover-overlays', 'class': 'style-scope ytd-thumbnail'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#player-container,"{'id': 'player-container', 'class': 'style-scope ytd-video-preview'}"
+https://www.youtube.com/,ytd-player,ytd-player,unknown,container,False,False,False,,ytd-player#inline-player,"{'id': 'inline-player', 'context': 'WEB_PLAYER_CONTEXT_CONFIG_ID_KEVLAR_INLINE_PREVIEW', 'class': 'style-scope ytd-video-preview', 'style': 'touch-action: pan-down;'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#container,"{'id': 'container', 'class': 'style-scope ytd-player'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#overlays,"{'id': 'overlays', 'class': 'style-scope ytd-video-preview'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#player-controls,"{'id': 'player-controls', 'class': 'style-scope ytd-video-preview'}"
+https://www.youtube.com/,yt-inline-player-controls,yt-inline-player-controls,unknown,container,False,False,False,,div#player-controls > yt-inline-player-controls,{'class': 'style-scope ytd-video-preview'}
+https://www.youtube.com/,dom-if,dom-if,unknown,container,False,False,False,,div#player-controls > dom-if,"{'if': '[[!!playerControlsData]]', 'class': 'style-scope ytd-video-preview'}"
+https://www.youtube.com/,yt-page-navigation-progress,yt-page-navigation-progress,unknown,container,False,False,False,,html > body > ytd-app > yt-page-navigation-progress,"{'class': 'style-scope ytd-app', 'enable-refresh-signature-moments-web': '', 'hidden': '', 'aria-valuemin': '0', 'aria-valuemax': '100'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,div#progress,"{'id': 'progress', 'class': 'style-scope yt-page-navigation-progress'}"
+https://www.youtube.com/,div,div,container,container,False,False,False,,html > body > iron-a11y-announcer > div,"{'class': 'style-scope iron-a11y-announcer', 'aria-live': 'polite'}"
+https://www.youtube.com/,video,video,media,media,False,False,False,,div#movie_player > div > video,"{'tabindex': '-1', 'class': 'video-stream html5-main-video', 'controlslist': 'nodownload'}"
+https://www.youtube.com/,yt-formatted-string,span,container,container,False,True,True,Start watching videos to help us build a feed of videos you'll love.,yt-formatted-string#subtitle,"{'id': 'subtitle', 'split-lines': '', 'class': 'style-scope ytd-feed-nudge-renderer', 'aria-label': ""Start watching videos to help us build a feed of videos you'll love.""}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#blocking-container > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'aria-label': 'Close player', 'role': 'button'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#info-bar > div:nth-of-type(2) > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'role': 'button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,div#modern-info-bar > div:nth-of-type(2) > yt-icon-button,"{'class': 'style-scope ytd-miniplayer', 'role': 'button', 'aria-label': 'Expand'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#back-button,"{'id': 'back-button', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Back'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,True,False,,yt-icon-button#guide-button,"{'id': 'guide-button', 'toggleable': 'true', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Guide'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,True,Search,yt-icon-button#search-button-narrow,"{'id': 'search-button-narrow', 'class': 'style-scope ytd-masthead', 'role': 'button', 'aria-label': 'Search'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,True,False,,yt-icon-button#button,"{'id': 'button', 'class': 'style-scope ytd-topbar-menu-button-renderer style-default', 'role': 'button', 'aria-label': 'yt-icon-button'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#guide-button,"{'id': 'guide-button', 'pressed': 'true', 'toggleable': 'true', 'class': 'style-scope ytd-app', 'aria-label': 'Guide', 'role': 'button'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,tp-yt-paper-material#expand-button > yt-icon-button,"{'class': 'style-scope ytd-channel-legal-info-renderer', 'role': 'button', 'aria-label': 'yt-icon-button'}"
+https://www.youtube.com/,div,div,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4),"{'class': 'ytp-fine-scrubbing-play', 'title': 'Play from this position', 'role': 'button', 'aria-label': 'Play from this position'}"
+https://www.youtube.com/,div,div,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(5),"{'class': 'ytp-fine-scrubbing-dismiss', 'title': 'Exit precise seeking', 'role': 'button', 'aria-label': 'Exit precise seeking'}"
+https://www.youtube.com/,a,a,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > a,"{'class': 'ytp-prev-button ytp-button', 'role': 'button', 'aria-disabled': 'true', 'style': 'display: none;'}"
+https://www.youtube.com/,a,a,interactive,interactive,True,False,False,,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2) > div > a:nth-of-type(2),"{'class': 'ytp-next-button ytp-button', 'role': 'button', 'title': 'Next (SHIFT+n)', 'data-title-no-tooltip': 'Next', 'aria-keyshortcuts': 'SHIFT+n', 'aria-disabled': 'false', 'aria-label': 'Next (SHIFT+n)'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#collapse-button,"{'id': 'collapse-button', 'class': 'button style-scope ytd-watch-metadata', 'hidden': '', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#expand-sizer,"{'id': 'expand-sizer', 'class': 'button style-scope ytd-text-inline-expander', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#expand,"{'id': 'expand', 'class': 'button style-scope ytd-text-inline-expander', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false', 'style': 'left: 0px;'}"
+https://www.youtube.com/,tp-yt-paper-button,button,interactive,interactive,True,False,False,,tp-yt-paper-button#collapse,"{'id': 'collapse', 'class': 'button style-scope ytd-text-inline-expander', 'hidden': '', 'style-target': 'host', 'role': 'button', 'tabindex': '0', 'animated': '', 'elevation': '0', 'aria-disabled': 'false'}"
+https://www.youtube.com/,yt-icon-button,button,interactive,interactive,True,False,False,,yt-icon-button#trailing-button,"{'id': 'trailing-button', 'toggleable': '', 'class': 'style-scope ytd-playlist-panel-renderer', 'role': 'button', 'aria-label': 'Collapse'}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,False,False,,div#card > ytd-miniplayer-toast > ytd-thumbnail,"{'width': '78', 'class': 'style-scope ytd-miniplayer-toast', 'size': 'small'}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,True,False,,div#modern-card > div:nth-of-type(2) > ytd-miniplayer-toast > ytd-thumbnail,"{'width': '78', 'class': 'style-scope ytd-miniplayer-toast', 'size': 'small'}"
+https://www.youtube.com/,ytd-thumbnail,ytd-thumbnail,unknown,container,False,False,False,,div#thumbnail-container > ytd-thumbnail,"{'hovered': 'false', 'no-rounded-corners': '', 'object-fit': 'COVER', 'rich-grid-thumbnail': '', 'width': '9999', 'class': 'style-scope ytd-video-preview', 'size': 'large', 'computed-object-fit': 'COVER'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,"SearchInfoShoppingTap to unmute2xIf playback doesn't begin shortly, try restarting your device.•You're signed outVideos you watch may be added to the TV's watch history and influence TV recommendations. To avoid this, cancel and sign in to YouTube on your computer.CancelConfirmShareInclude playlistAn error occurred while retrieving sharing information. Please try again later.Watch laterShareCopy link0:00 / •Watch full videoLive••Scroll for details",div#movie_player,"{'class': 'html5-video-player ytp-transparent ytp-exp-bottom-control-flexbox ytp-modern-caption ytp-exp-ppp-update ytp-cairo-refresh ytp-livebadge-color-control ytp-cairo-refresh-signature-moments ytp-persistent-scrubber unstarted-mode ytp-hide-controls ytp-hide-info-bar ytp-small-mode ytp-tiny-mode', 'tabindex': '-1', 'id': 'movie_player', 'data-version': '/s/player/03dbdfab/player_ias.vflset/en_US/base.js', 'aria-label': 'YouTube Video Player'}"
+https://www.youtube.com/,div,div,container,container,False,False,True,/ •Watch full videoLive••Scroll for details,div#movie_player > div:nth-of-type(25) > div:nth-of-type(2),{'class': 'ytp-chrome-controls'}
