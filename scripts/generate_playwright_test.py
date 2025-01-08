@@ -5,52 +5,118 @@ Generate Playwright tests using the enhanced model.
 import torch
 from pathlib import Path
 import logging
-from transformers import AutoTokenizer
+from transformers import AutoModel, AutoTokenizer
 from model import ElementClassifier
 from finetune_playwright import EnhancedElementClassifier, TestGenerationHead
+from typing import List, Dict
+import torch.nn as nn
+import asyncio
+from playwright.async_api import async_playwright
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+PATTERN_TYPES = ['click', 'navigation', 'input', 'checkbox']
+TEST_PATTERNS = [
+    "await expect({locator}).toHaveAttribute('aria-expanded', 'true');",
+    "await expect({locator}).toHaveAttribute('aria-checked', 'true');",
+    "await expect({locator}).toHaveValue('');",
+    "await expect({locator}).not.toHaveValue('');"
+]
+
+class EnhancedElementClassifier(nn.Module):
+    """Enhanced model that combines element classification and test generation."""
+    def __init__(self, base_model: str, num_patterns: int, num_test_patterns: int):
+        super().__init__()
+        # Don't initialize transformer here - we'll load it from state dict
+        self.transformer = None
+        
+        # Processors for numerical features (updated dimensions)
+        self.numerical_processor = nn.Sequential(
+            nn.Linear(3, 192),  # Changed from 128 to 192
+            nn.ReLU()
+        )
+        
+        # Combined processing (updated dimensions)
+        self.combined_processor = nn.Sequential(
+            nn.Linear(960, 768),  # Adjusted to match input dimensions
+            nn.ReLU(),
+            nn.Dropout(0.1),
+            nn.Linear(768, 384)  # Changed from 256 to 384
+        )
+        
+        # Classification heads (updated dimensions)
+        self.element_type_head = nn.Linear(384, 5)  # Changed input and output sizes
+        self.semantic_role_head = nn.Linear(384, 6)  # Changed input and output sizes
+        
+        # Test generation head
+        self.test_head = TestGenerationHead()
+
+    def forward(self, input_ids=None, attention_mask=None, numerical_features=None):
+        """Forward pass through the model."""
+        if self.transformer is None:
+            raise ValueError("Transformer not initialized")
+            
+        # Get transformer embeddings
+        transformer_output = self.transformer(input_ids=input_ids, attention_mask=attention_mask)
+        text_features = transformer_output.last_hidden_state[:, 0, :]  # Use [CLS] token
+        
+        # Process numerical features
+        if numerical_features is not None:
+            num_features = self.numerical_processor(numerical_features)
+            # Concatenate text and numerical features
+            combined_features = torch.cat([text_features, num_features], dim=1)
+        else:
+            # If no numerical features, pad with zeros
+            batch_size = text_features.size(0)
+            num_features = torch.zeros(batch_size, 192, device=text_features.device)
+            combined_features = torch.cat([text_features, num_features], dim=1)
+            
+        # Process combined features
+        processed_features = self.combined_processor(combined_features)
+        
+        # Get predictions from each head
+        element_type_logits = self.element_type_head(processed_features)
+        semantic_role_logits = self.semantic_role_head(processed_features)
+        
+        # Generate test cases
+        test_output = self.test_head(processed_features)
+        
+        return {
+            'element_type': element_type_logits,
+            'semantic_role': semantic_role_logits,
+            'test_output': test_output
+        }
+
 class PlaywrightTestGenerator:
     def __init__(self, model_path: str = 'models/enhanced_model.pt', device: str = 'cuda'):
         self.device = device
-        
-        # Load checkpoint
-        logger.info("Loading model...")
-        checkpoint = torch.load(model_path, map_location=device)
-        
-        # Create base model
-        config = checkpoint['config']
-        base_model = ElementClassifier(
-            num_element_types=config['num_element_types'],
-            num_semantic_roles=config['num_semantic_roles'],
-            device=device
+        self.model = ElementClassifier(
+            num_element_types=5,
+            num_semantic_roles=6
         )
-        
-        # Create enhanced model
-        self.model = EnhancedElementClassifier(base_model)
-        self.model.load_state_dict(checkpoint['model_state_dict'])
-        self.model = self.model.to(device)
-        self.model.eval()
-        
-        # Load tokenizer
         self.tokenizer = AutoTokenizer.from_pretrained('microsoft/codebert-base')
-        
-        # Pattern mapping
-        self.pattern_map = {
-            0: 'assertion',
-            1: 'navigation',
-            2: 'fixture',
-            3: 'wait_strategy',
-            4: 'form_interaction',
-            5: 'page_object',
-            6: 'general'
+        # Update pattern maps to match model output dimensions
+        self.reverse_pattern_map = {
+            'form_interaction': 0, 
+            'navigation': 1, 
+            'wait_strategy': 2, 
+            'page_object': 3, 
+            'general': 4
         }
-        self.reverse_pattern_map = {v: k for k, v in self.pattern_map.items()}
-    
+        self.pattern_map = {
+            0: 'form_interaction',
+            1: 'navigation',
+            2: 'wait_strategy',
+            3: 'page_object',
+            4: 'general'
+        }
+        self.load_model(model_path)
+
     def generate_test(self, element_info: dict) -> dict:
         """Generate a Playwright test for a given element."""
+        logger.info(f"Generating tests from website: {element_info.get('url', 'unknown')}")
+        
         # Prepare input
         element_desc = f"""
 Element Type: {element_info.get('element_type', '')}
@@ -78,9 +144,13 @@ Visible: {element_info.get('is_visible', True)}
                 inputs['attention_mask'],
                 torch.zeros(1, 3).to(self.device)  # Dummy numerical features
             )
+            print(f"Outputs type: {type(outputs)}, Outputs: {outputs}")
+            logger.info(f"Outputs structure: {outputs}")
+            logger.info(f"Outputs: {outputs}")
             
             # Get pattern prediction
-            pattern_logits = outputs['pattern']
+            pattern_logits, test_logits = outputs
+            logger.info(f"Test logits: {test_logits}")
             pattern_probs = torch.softmax(pattern_logits, dim=1)[0]
             
             # Convert to numpy for easier manipulation
@@ -94,24 +164,16 @@ Visible: {element_info.get('is_visible', True)}
             # Boost form_interaction for interactive elements
             if is_interactive:
                 probs[self.reverse_pattern_map['form_interaction']] *= 4.0
-                
-                # For buttons and inputs, form_interaction should be even higher
                 if element_type in ['button', 'input', 'textarea', 'select']:
                     probs[self.reverse_pattern_map['form_interaction']] *= 3.0
-                    
-                    # Extra boost for input fields
                     if element_type == 'input':
                         probs[self.reverse_pattern_map['form_interaction']] *= 1.5
-                    
-                # For submit buttons specifically
                 if element_type == 'button' and attributes.get('type') == 'submit':
                     probs[self.reverse_pattern_map['form_interaction']] *= 2.0
             
             # Boost navigation for links and buttons that aren't form submissions
             if element_type in ['a', 'link'] or (element_type == 'button' and attributes.get('type') != 'submit'):
                 probs[self.reverse_pattern_map['navigation']] *= 3.0
-                
-                # Extra boost for elements with href
                 if 'href' in attributes:
                     probs[self.reverse_pattern_map['navigation']] *= 2.0
             
@@ -123,10 +185,8 @@ Visible: {element_info.get('is_visible', True)}
             if element_type in ['div', 'section', 'form', 'nav']:
                 probs[self.reverse_pattern_map['page_object']] *= 2.0
             
-            # Reduce general pattern and assertion probabilities
+            # Reduce general pattern probability
             probs[self.reverse_pattern_map['general']] *= 0.5
-            if element_type in ['input', 'textarea', 'select']:
-                probs[self.reverse_pattern_map['assertion']] *= 0.5
             
             # Normalize probabilities
             probs = probs / probs.sum()
@@ -183,6 +243,7 @@ Visible: {element_info.get('is_visible', True)}
             # Generate navigation test with URL verification
             return (
                 'test(\'should navigate to element\', async ({ page, baseUrl }) => {\n'
+                f'    logger.info("Navigating to URL: {goto_url}")\n'
                 f'    await page.goto({goto_url}){url_comment};\n'
                 f'    const element = page.locator(\'{selector}\');\n'
                 '    await expect(element).toBeVisible();\n'
@@ -304,53 +365,298 @@ Visible: {element_info.get('is_visible', True)}
                 '});'
             )
 
-def main():
-    # Example usage
-    generator = PlaywrightTestGenerator()
+    def load_model(self, model_path):
+        """Load the model from the specified path."""
+        try:
+            checkpoint = torch.load(model_path, map_location=self.device)
+            self.model.load_state_dict(checkpoint['model_state_dict'], strict=False)
+            self.model.eval()
+            logger.info("Model loaded successfully.")
+        except Exception as e:
+            logger.error(f"Error loading model: {e}")
+            raise
+
+def load_model():
+    """Load the fine-tuned model for test generation."""
+    try:
+        # Load the tokenizer
+        tokenizer = AutoTokenizer.from_pretrained('microsoft/codebert-base')
+        
+        # Initialize the model architecture
+        model = EnhancedElementClassifier(
+            base_model='microsoft/codebert-base',
+            num_patterns=5,
+            num_test_patterns=6
+        )
+        
+        # Load the trained weights
+        checkpoint = torch.load('models/enhanced_model.pt', map_location='cpu')
+        
+        # Remove 'base_model.' prefix from state dict keys
+        new_state_dict = {}
+        for key, value in checkpoint['model_state_dict'].items():
+            if key.startswith('base_model.'):
+                new_key = key.replace('base_model.', '')
+                new_state_dict[new_key] = value
+            else:
+                new_state_dict[key] = value
+                
+        # Initialize transformer from the state dict
+        model.transformer = AutoModel.from_pretrained('microsoft/codebert-base')
+        
+        # Load the state dict
+        model.load_state_dict(new_state_dict, strict=False)
+        model.eval()
+        
+        logger.info("Successfully loaded fine-tuned model")
+        return {'model': model, 'tokenizer': tokenizer}
+    except Exception as e:
+        logger.error(f"Error loading model: {e}")
+        return None  # Fall back to rule-based generation
+
+def generate_test_case(model_data, element_info: dict) -> str:
+    """Generate a test case based on element information using the fine-tuned model."""
+    if not element_info.get("is_visible", True) or not element_info.get("is_enabled", True):
+        return None
+        
+    # Prepare element info for model input
+    element_text = prepare_element_text(element_info)
     
-    # Test different element types
-    elements = [
-        {
-            'element_type': 'button',
-            'semantic_role': 'button',
-            'text': 'Submit Form',
-            'selector': '#submit-btn',
-            'attributes': {'type': 'submit', 'class': 'btn btn-primary'},
-            'is_interactive': True,
-            'is_visible': True
-        },
-        {
-            'element_type': 'input',
-            'semantic_role': 'textbox',
-            'text': '',
-            'selector': '#username',
-            'attributes': {'type': 'text', 'placeholder': 'Enter username', 'class': 'form-control'},
-            'is_interactive': True,
-            'is_visible': True
-        },
-        {
-            'element_type': 'a',
-            'semantic_role': 'link',
-            'text': 'Sign Up',
-            'selector': '.signup-link',
-            'attributes': {'href': '/signup', 'class': 'nav-link'},
-            'is_interactive': True,
-            'is_visible': True
-        }
+    # Tokenize the input
+    inputs = model_data['tokenizer'](
+        element_text,
+        padding='max_length',
+        truncation=True,
+        max_length=512,
+        return_tensors='pt'
+    )
+    
+    # Get model predictions
+    with torch.no_grad():
+        outputs = model_data['model'](
+            input_ids=inputs['input_ids'],
+            attention_mask=inputs['attention_mask']
+        )
+        print(f"Outputs type: {type(outputs)}, Outputs: {outputs}")
+        
+    # Get pattern predictions
+    pattern_logits, test_logits = outputs
+    logger.info(f"Test logits: {test_logits}")
+    pattern_probs = torch.sigmoid(pattern_logits)
+    test_probs = torch.sigmoid(test_logits)
+    
+    # Select patterns with high confidence
+    pattern_indices = torch.where(pattern_probs > 0.5)[1]
+    test_indices = torch.where(test_probs > 0.5)[1]
+    
+    # Generate test based on predicted patterns
+    test_name = generate_test_name(element_info)
+    test_content = []
+    
+    # Generate locator
+    locator = generate_locator(element_info)
+    if not locator:
+        return None
+        
+    # Add predicted test patterns
+    test_content.extend(generate_model_based_actions(
+        element_info,
+        locator,
+        pattern_indices.tolist(),
+        test_indices.tolist()
+    ))
+    
+    if not test_content:
+        return None
+        
+    # Format the test case
+    test_case = f"""
+    test('{test_name}', async ({{ page }}) => {{
+        {chr(10).join(f"        {line}" for line in test_content)}
+    }});"""
+    
+    return test_case
+
+def prepare_element_text(element_info: dict) -> str:
+    """Prepare element information as text input for the model."""
+    properties = []
+    
+    # Add tag name
+    properties.append(f"tag:{element_info.get('tag_name', '')}")
+    
+    # Add element type
+    if element_info.get('type'):
+        properties.append(f"type:{element_info['type']}")
+        
+    # Add role
+    if element_info.get('role'):
+        properties.append(f"role:{element_info['role']}")
+        
+    # Add other important attributes
+    for attr in ['id', 'class', 'name', 'placeholder', 'href', 'aria-label', 'data-testid']:
+        if element_info.get(attr):
+            properties.append(f"{attr}:{element_info[attr]}")
+            
+    # Add text content
+    if element_info.get('text'):
+        properties.append(f"text:{element_info['text']}")
+        
+    return " ".join(properties)
+
+def generate_model_based_actions(element_info: dict, locator: str, pattern_indices: List[int], test_indices: List[int]) -> List[str]:
+    """Generate test actions based on model predictions."""
+    actions = []
+    
+    # Always start with visibility check
+    actions.append(f"await expect({locator}).toBeVisible();")
+    
+    # Add actions based on predicted patterns
+    for pattern_idx in pattern_indices:
+        pattern_type = PATTERN_TYPES[pattern_idx]
+        
+        if pattern_type == "click":
+            actions.append(f"await {locator}.click();")
+        elif pattern_type == "navigation":
+            if element_info.get("href"):
+                href = element_info["href"]
+                if href.startswith("/"):
+                    href = f"https://github.com{href}"
+                actions.append(f"await Promise.all([")
+                actions.append(f"    page.waitForNavigation(),")
+                actions.append(f"    {locator}.click()")
+                actions.append(f"]);")
+                actions.append(f"await expect(page).toHaveURL('{href}');")
+        elif pattern_type == "input":
+            test_value = get_test_value(element_info)
+            actions.append(f"await {locator}.click();")
+            actions.append(f"await {locator}.fill('{test_value}');")
+            actions.append(f"await expect({locator}).toHaveValue('{test_value}');")
+        elif pattern_type == "checkbox":
+            actions.append(f"await {locator}.check();")
+            actions.append(f"await expect({locator}).toBeChecked();")
+            actions.append(f"await {locator}.uncheck();")
+            actions.append(f"await expect({locator}).not.toBeChecked();")
+            
+    # Add additional test patterns
+    for test_idx in test_indices:
+        test_pattern = TEST_PATTERNS[test_idx]
+        if test_pattern not in [a.strip() for a in actions]:
+            actions.append(test_pattern.format(locator=locator))
+            
+    return actions
+
+def generate_test_name(element_info: dict) -> str:
+    """Generate a descriptive test name based on element info."""
+    element_type = element_info.get("tag_name", "element")
+    
+    # Try to get a descriptive name from various attributes
+    descriptors = [
+        element_info.get("aria-label"),
+        element_info.get("text", "").strip(),
+        element_info.get("placeholder"),
+        element_info.get("name"),
+        element_info.get("id")
     ]
     
-    # Generate tests for each element
-    for element in elements:
-        print(f"\nTesting {element['element_type']}: {element['text'] or element['selector']}")
-        result = generator.generate_test(element)
+    descriptor = next((d for d in descriptors if d), "unknown")
+    descriptor = descriptor.replace("'", "").replace('"', "")[:30]  # Truncate long names
+    
+    return f"should handle {element_type} - {descriptor}"
+
+def generate_locator(element_info: dict) -> str:
+    """Generate the most reliable locator for the element."""
+    # Try different locator strategies in order of reliability
+    if element_info.get("data-testid"):
+        return f"page.getByTestId('{element_info['data-testid']}')"
+    elif element_info.get("aria-label"):
+        return f"page.getByRole('{element_info.get('role', 'generic')}', {{ name: '{element_info['aria-label']}' }})"
+    elif element_info.get("id"):
+        return f"page.locator('#{element_info['id']}')"
+    elif element_info.get("name"):
+        return f"page.getByRole('{element_info.get('role', 'generic')}', {{ name: '{element_info['name']}' }})"
+    elif element_info.get("text"):
+        text = element_info["text"].strip().replace("'", "\\'")
+        return f"page.getByText('{text}')"
+    else:
+        # Fallback to CSS selector
+        return f"page.locator('{element_info['selector']}')"
+
+def get_test_value(element_info: dict) -> str:
+    """Generate appropriate test value based on element type."""
+    element_type = element_info.get("type", "").lower()
+    placeholder = element_info.get("placeholder", "").lower()
+    
+    if element_type == "email":
+        return "test@example.com"
+    elif element_type == "password":
+        return "TestPassword123!"
+    elif "search" in element_type or "search" in placeholder:
+        return "test search query"
+    else:
+        return "test value"
+
+def is_interactive_element(element_info: dict) -> bool:
+    """Determine if an element is interactive and worth testing."""
+    tag_name = element_info.get("tag_name", "").lower()
+    element_type = element_info.get("type", "").lower()
+    role = element_info.get("role", "").lower()
+    
+    # Always include form elements
+    if tag_name in ["input", "select", "textarea"]:
+        return True
         
-        print(f"\nDetected Pattern: {result['pattern']} (Confidence: {result['confidence']:.2%})")
-        print("\nAll Pattern Probabilities:")
-        for pattern, prob in sorted(result['all_patterns'].items(), key=lambda x: x[1], reverse=True):
-            print(f"{pattern}: {prob:.2%}")
-        print("\nGenerated Test:")
-        print(result['test_code'])
-        print("\n" + "="*80)
+    # Include buttons and links with href
+    if tag_name == "button" or role == "button":
+        return True
+    if tag_name == "a" and element_info.get("href"):
+        return True
+        
+    # Include elements with click handlers or specific roles
+    if role in ["button", "link", "menuitem", "tab", "checkbox", "radio"]:
+        return True
+        
+    return False
+
+async def main():
+    # Launch the browser and open a new page
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
+        await page.goto('https://github.com/')
+
+        # Analyze the page and gather element information
+        elements = await page.query_selector_all('a, button, input')  # Example selectors
+        element_info_list = []
+
+        for element in elements:
+            tag_name = await element.evaluate('el => el.tagName')
+            selector = await element.evaluate('el => el.selector')
+            is_visible = await element.is_visible()
+            element_info_list.append({
+                'element_type': tag_name,
+                'selector': selector,
+                'is_visible': is_visible,
+                'text': await element.inner_text(),
+                'attributes': await element.evaluate('el => el.attributes'),
+            })
+
+        logger.info(f"Element info list: {element_info_list}")
+        
+        output_file = "generated_tests.spec.ts"
+
+        with open(output_file, "w") as file:
+            file.write("// Generated Playwright Tests\n\n")
+
+            # Generate tests for each element
+            generator = PlaywrightTestGenerator()
+            for element_info in element_info_list:
+                result = generator.generate_test(element_info)
+                logger.info(f"Generated test result: {result}")
+                file.write(result['test_code'] + "\n\n")
+
+        logger.info(f"Generated tests saved to {output_file}")
+
+        await browser.close()
 
 if __name__ == '__main__':
-    main()
+    asyncio.run(main())

@@ -171,5 +171,17 @@ def evaluate(
     logging.info(f"Macro F1: {role_report['macro avg']['f1-score']:.4f}")
     logging.info(f"Weighted F1: {role_report['weighted avg']['f1-score']:.4f}")
 
+def evaluate_model(model_path):
+    # Load the model
+    model = ElementClassifier(
+        num_element_types=5,
+        num_semantic_roles=6
+    )
+    checkpoint = torch.load(model_path, map_location='cpu')
+    model.load_state_dict(checkpoint['model_state_dict'], strict=False)
+    print(model)
+
 if __name__ == '__main__':
+    model_path = 'models/enhanced_model.pt'
+    evaluate_model(model_path)
     evaluate()

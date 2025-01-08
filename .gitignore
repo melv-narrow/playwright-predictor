@@ -4,6 +4,7 @@
 /blob-report/
 /playwright/.cache/
 .windsurfrules
+.cursorrules
 venv/
 .ai-development-prompt
 
